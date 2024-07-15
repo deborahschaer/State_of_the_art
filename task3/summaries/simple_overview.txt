@@ -1,0 +1,12 @@
+ Title: LLM-based NLG Evaluation: Current Status and Challenges - Wider and Deeper Networks for Fairer Evaluators, LLM-as-a-Judge, and JudgeLM
+
+This topic covers recent research on evaluating Large Language Models (LLMs) in Natural Language Generation (NLG) tasks. The studies explore various approaches to improve the evaluation process, including wider and deeper networks for fairer evaluators, using LLMs as judges, and fine-tuning LLMs as scalable judges.
+
+1. Wider and Deeper LLM Networks are Fairer LLM Evaluators:
+This paper proposes a novel approach to use the LLM itself to make evaluations and improve fairness by designing a network that resembles academic paper reviewing. The network consists of multiple layers, with each layer receiving representations from all neurons in the previous layer, integrating locally learned evaluation information for more comprehensive results. Experimental results demonstrate that a wider network (involving many reviewers) with 2 layers performs best, improving kappa correlation coefficient significantly.
+
+2. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena:
+This study explores the usage of strong LLMs as judges to evaluate other models on more open-ended questions. The paper discusses position, verbosity, self-enhancement biases, and limited reasoning ability of LLM judges and proposes solutions to mitigate some of these issues. Results reveal that strong LLM judges like GPT-4 can match both controlled and crowdsourced human preferences well, achieving over 80% agreement.
+
+3. JudgeLM: Fine-tuned Large Language Models are Scalable Judges:
+This research proposes fine-tuning LLMs as scalable judges (JudgeLM) to evaluate LLMs efficiently and effectively in open-ended benchmarks. The study trains JudgeLM at different scales, analyzes its capabilities and biases, and introduces techniques to address these issues. Results show that JudgeLM obtains state-of-the-art judge performance on existing and new benchmarks, is efficient, and demonstrates extended capabilities as a judge for single answer, multimodal models, multiple answers, and multi-turn chat.
