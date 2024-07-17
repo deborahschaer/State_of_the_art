@@ -1,0 +1,41 @@
+{
+    "answer": " Recent developments in LLM (Large Language Model) generated text evaluation include using LLMs to evaluate the quality of their own text outputs as an alternative to human evaluations. This approach can provide a more comprehensive understanding of LLM performance and predict how a tuned version might behave in various scenarios. Additionally, applying LLMs as evaluators for text generation has been shown to be scalable, cost-effective, and can significantly enhance the ability to assess the quality of generated text. For instance, Fu et al. (2023) use LLM's predicted text probability as the automated score. Furthermore, this approach has been applied to evaluate Chinese LLMs, resulting in a faster evaluation process and decreased average annotation cost per sample. However, it is important to note that the utilization of LLMs as evaluators for text generation is still in the exploratory phase, and there are limitations that provide opportunities for future work, such as the performance of LLMs as reliable evaluators and potential biases in their predictions.",
+    "source": [
+        {
+            "id": null,
+            "metadata": {
+                "source": "2402.01383v1/2306.05087v2.PandaLM__An_Automatic_Evaluation_Benchmark_for_LLM_Instruction_Tuning_Optimization.pdf",
+                "start_index": 38685
+            },
+            "page_content": "2020); Yang et al. (2021; 2023a)) into an evaluation framework could offer a more comprehensive understanding of LLM performance. For instance, analyzing and evaluating the extended text outputs of an untuned LLM can help predict how a tuned version might behave in various scenarios. This approach",
+            "type": "Document"
+        },
+        {
+            "id": null,
+            "metadata": {
+                "source": "2402.01383v1/2310.19740v1.Collaborative_Evaluation__Exploring_the_Synergy_of_Large_Language_Models_and_Humans_for_Open_ended_Generation_Evaluation.pdf",
+                "start_index": 8145
+            },
+            "page_content": "As research in LLMs continues to accelerate, LLM-based evaluation has emerged as a scalable and cost-effective alternative to human evalua- tions (Jain et al., 2023; Taori et al., 2023; Chiang et al., 2023). Fu et al. (2023) use LLM\u2019s predicted text probability as the automated score, assuming",
+            "type": "Document"
+        },
+        {
+            "id": null,
+            "metadata": {
+                "source": "2402.01383v1/2308.01862v1.Wider_and_Deeper_LLM_Networks_are_Fairer_LLM_Evaluators.pdf",
+                "start_index": 39881
+            },
+            "page_content": "the best results, significantly enhancing the ability of LLMs to evaluate the quality of generated text. Furthermore, we apply our evaluator to assess the performance of Chinese LLMs, where it proves to speed up LLM evaluation process by 4.6 times and decrease the average annotation cost per sample",
+            "type": "Document"
+        },
+        {
+            "id": null,
+            "metadata": {
+                "source": "2402.01383v1/2305.14658v3.Evaluate_What_You_Can_t_Evaluate__Unassessable_Quality_for_Generated_Response.pdf",
+                "start_index": 40449
+            },
+            "page_content": "While we analyze the challenges and possibilities and of LLMs as text generation evaluators by con- structed benchmarks, the utilization of LLMs as evaluators for text generation is in the exploratory phase. There are limitations that provide avenues for future work: i) the performance of LLMs as",
+            "type": "Document"
+        }
+    ]
+}
