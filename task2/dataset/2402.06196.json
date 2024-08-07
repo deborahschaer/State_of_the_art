@@ -1,9 +1,99 @@
 {
-    "2310.06825": {
-        "title": "Mistral 7B",
-        "abstract": "We introduce Mistral 7B v0.1, a 7-billion-parameter language model engineered\nfor superior performance and efficiency. Mistral 7B outperforms Llama 2 13B\nacross all evaluated benchmarks, and Llama 1 34B in reasoning, mathematics, and\ncode generation. Our model leverages grouped-query attention (GQA) for faster\ninference, coupled with sliding window attention (SWA) to effectively handle\nsequences of arbitrary length with a reduced inference cost. We also provide a\nmodel fine-tuned to follow instructions, Mistral 7B -- Instruct, that surpasses\nthe Llama 2 13B -- Chat model both on human and automated benchmarks. Our\nmodels are released under the Apache 2.0 license.",
-        "date": "2023-10-10T17:54:58+00:00",
+    "1910.13461": {
+        "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+        "abstract": "We present BART, a denoising autoencoder for pretraining sequence-to-sequence\nmodels. BART is trained by (1) corrupting text with an arbitrary noising\nfunction, and (2) learning a model to reconstruct the original text. It uses a\nstandard Tranformer-based neural machine translation architecture which,\ndespite its simplicity, can be seen as generalizing BERT (due to the\nbidirectional encoder), GPT (with the left-to-right decoder), and many other\nmore recent pretraining schemes. We evaluate a number of noising approaches,\nfinding the best performance by both randomly shuffling the order of the\noriginal sentences and using a novel in-filling scheme, where spans of text are\nreplaced with a single mask token. BART is particularly effective when fine\ntuned for text generation but also works well for comprehension tasks. It\nmatches the performance of RoBERTa with comparable training resources on GLUE\nand SQuAD, achieves new state-of-the-art results on a range of abstractive\ndialogue, question answering, and summarization tasks, with gains of up to 6\nROUGE. BART also provides a 1.1 BLEU increase over a back-translation system\nfor machine translation, with only target language pretraining. We also report\nablation experiments that replicate other pretraining schemes within the BART\nframework, to better measure which factors most influence end-task performance.",
+        "date": "2019-10-29T18:01:00+00:00",
         "label": 1
+    },
+    "2106.07553": {
+        "title": "A Cognitive Science perspective for learning how to design meaningful user experiences and human-centered technology",
+        "abstract": "This paper reviews literature in cognitive science, human-computer\ninteraction (HCI) and natural-language processing (NLP) to consider how\nanalogical reasoning (AR) could help inform the design of communication and\nlearning technologies, as well as online communities and digital platforms.\nFirst, analogical reasoning (AR) is defined, and use-cases of AR in the\ncomputing sciences are presented. The concept of schema is introduced, along\nwith use-cases in computing. Finally, recommendations are offered for future\nwork on using analogical reasoning and schema methods in the computing\nsciences.",
+        "date": "2021-06-02T15:00:50+00:00",
+        "label": 0
+    },
+    "2206.03276": {
+        "title": "Oxford-style Debates in Telecommunication and Computer Science Education",
+        "abstract": "Oxford-style debating is a well-known tool in social sciences. Such formal\ndiscussions on particular topics are widely used by historians and\nsociologists. However, when we try to go beyond standard thinking, it turns out\nthat Oxford-style debating can be a great educational tool in telecommunication\nand computer science. This article presents this unusual method of education at\ntechnical universities and in the IT industry, and describes its features and\nchallenges. Best practices and examples of debating are provided, taking into\naccount emerging topics in telecommunications and computer science, such as\ncybersecurity. The article also contains feedback from IT engineers who\nparticipated in Oxford-style debates. All this aims to encourage this form of\neducation in telecommunication and computer science.",
+        "date": "2022-06-03T10:42:31+00:00",
+        "label": 0
+    },
+    "2004.05150": {
+        "title": "Longformer: The Long-Document Transformer",
+        "abstract": "Transformer-based models are unable to process long sequences due to their\nself-attention operation, which scales quadratically with the sequence length.\nTo address this limitation, we introduce the Longformer with an attention\nmechanism that scales linearly with sequence length, making it easy to process\ndocuments of thousands of tokens or longer. Longformer's attention mechanism is\na drop-in replacement for the standard self-attention and combines a local\nwindowed attention with a task motivated global attention. Following prior work\non long-sequence transformers, we evaluate Longformer on character-level\nlanguage modeling and achieve state-of-the-art results on text8 and enwik8. In\ncontrast to most prior work, we also pretrain Longformer and finetune it on a\nvariety of downstream tasks. Our pretrained Longformer consistently outperforms\nRoBERTa on long document tasks and sets new state-of-the-art results on WikiHop\nand TriviaQA. We finally introduce the Longformer-Encoder-Decoder (LED), a\nLongformer variant for supporting long document generative sequence-to-sequence\ntasks, and demonstrate its effectiveness on the arXiv summarization dataset.",
+        "date": "2020-04-10T17:54:09+00:00",
+        "label": 1
+    },
+    "1404.5458": {
+        "title": "Complex Workflow Management and Integration of Distributed Computing Resources by Science Gateway Portal for Molecular Dynamics Simulations in Materials Science",
+        "abstract": "The \"IMP Science Gateway Portal\" (http://scigate.imp.kiev.ua) for complex\nworkflow management and integration of distributed computing resources (like\nclusters, service grids, desktop grids, clouds) is presented. It is created on\nthe basis of WS-PGRADE and gUSE technologies, where WS-PGRADE is designed for\nscience workflow operation and gUSE - for smooth integration of available\nresources for parallel and distributed computing in various heterogeneous\ndistributed computing infrastructures (DCI). The typical scientific workflow\nwith possible scenarios of its preparation and usage is considered. Several\ntypical science applications (scientific workflows) are considered for\nmolecular dynamics (MD) simulations of complex behavior of various\nnanostructures (nanoindentation of graphene layers, defect system relaxation in\nmetal nanocrystals, thermal stability of boron nitride nanotubes, etc.). The\nadvantages and drawbacks of the solution are shortly analyzed in the context of\nits practical applications for MD simulations in materials science, physics and\nnanotechnologies with available heterogeneous DCIs.",
+        "date": "2014-04-22T11:34:04+00:00",
+        "label": 0
+    },
+    "2110.08207": {
+        "title": "Multitask Prompted Training Enables Zero-Shot Task Generalization",
+        "abstract": "Large language models have recently been shown to attain reasonable zero-shot\ngeneralization on a diverse set of tasks (Brown et al., 2020). It has been\nhypothesized that this is a consequence of implicit multitask learning in\nlanguage models' pretraining (Radford et al., 2019). Can zero-shot\ngeneralization instead be directly induced by explicit multitask learning? To\ntest this question at scale, we develop a system for easily mapping any natural\nlanguage tasks into a human-readable prompted form. We convert a large set of\nsupervised datasets, each with multiple prompts with diverse wording. These\nprompted datasets allow for benchmarking the ability of a model to perform\ncompletely held-out tasks. We fine-tune a pretrained encoder-decoder model\n(Raffel et al., 2020; Lester et al., 2021) on this multitask mixture covering a\nwide variety of tasks. The model attains strong zero-shot performance on\nseveral standard datasets, often outperforming models up to 16x its size.\nFurther, our approach attains strong performance on a subset of tasks from the\nBIG-bench benchmark, outperforming models up to 6x its size. All trained models\nare available at https://github.com/bigscience-workshop/t-zero and all prompts\nare available at https://github.com/bigscience-workshop/promptsource.",
+        "date": "2021-10-15T17:08:57+00:00",
+        "label": 1
+    },
+    "2306.04751": {
+        "title": "How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources",
+        "abstract": "In this work we explore recent advances in instruction-tuning language models\non a range of open instruction-following datasets. Despite recent claims that\nopen models can be on par with state-of-the-art proprietary models, these\nclaims are often accompanied by limited evaluation, making it difficult to\ncompare models across the board and determine the utility of various resources.\nWe provide a large set of instruction-tuned models from 6.7B to 65B parameters\nin size, trained on 12 instruction datasets ranging from manually curated\n(e.g., OpenAssistant) to synthetic and distilled (e.g., Alpaca) and\nsystematically evaluate them on their factual knowledge, reasoning,\nmultilinguality, coding, and open-ended instruction following abilities through\na collection of automatic, model-based, and human-based metrics. We further\nintroduce T\\\"ulu, our best performing instruction-tuned model suite finetuned\non a combination of high-quality open resources. Our experiments show that\ndifferent instruction-tuning datasets can uncover or enhance specific skills,\nwhile no single dataset (or combination) provides the best performance across\nall evaluations. Interestingly, we find that model and human preference-based\nevaluations fail to reflect differences in model capabilities exposed by\nbenchmark-based evaluations, suggesting the need for the type of systemic\nevaluation performed in this work. Our evaluations show that the best model in\nany given evaluation reaches on average 87% of ChatGPT performance, and 73% of\nGPT-4 performance, suggesting that further investment in building better base\nmodels and instruction-tuning data is required to close the gap. We release our\ninstruction-tuned models, including a fully finetuned 65B T\\\"ulu, along with\nour code, data, and evaluation framework at\nhttps://github.com/allenai/open-instruct to facilitate future research.",
+        "date": "2023-06-07T19:59:23+00:00",
+        "label": 1
+    },
+    "2103.10489": {
+        "title": "Addressing Hate Speech with Data Science: An Overview from Computer Science Perspective",
+        "abstract": "From a computer science perspective, addressing on-line hate speech is a\nchallenging task that is attracting the attention of both industry (mainly\nsocial media platform owners) and academia. In this chapter, we provide an\noverview of state-of-the-art data-science approaches - how they define hate\nspeech, which tasks they solve to mitigate the phenomenon, and how they address\nthese tasks. We limit our investigation mostly to (semi-)automatic detection of\nhate speech, which is the task that the majority of existing computer science\nworks focus on. Finally, we summarize the challenges and the open problems in\nthe current data-science research and the future directions in this field. Our\naim is to prepare an easily understandable report, capable to promote the\nmultidisciplinary character of hate speech research. Researchers from other\ndomains (e.g., psychology and sociology) can thus take advantage of the\nknowledge achieved in the computer science domain but also contribute back and\nhelp improve how computer science is addressing that urgent and socially\nrelevant issue which is the prevalence of hate speech in social media.",
+        "date": "2021-03-18T19:19:44+00:00",
+        "label": 0
+    },
+    "0911.1672": {
+        "title": "Biological Computing Fundamentals and Futures",
+        "abstract": "The fields of computing and biology have begun to cross paths in new ways. In\nthis paper a review of the current research in biological computing is\npresented. Fundamental concepts are introduced and these foundational elements\nare explored to discuss the possibilities of a new computing paradigm. We\nassume the reader to possess a basic knowledge of Biology and Computer Science",
+        "date": "2009-11-09T13:16:01+00:00",
+        "label": 0
+    },
+    "0706.0484": {
+        "title": "Motivation, Design, and Ubiquity: A Discussion of Research Ethics and Computer Science",
+        "abstract": "Modern society is permeated with computers, and the software that controls\nthem can have latent, long-term, and immediate effects that reach far beyond\nthe actual users of these systems. This places researchers in Computer Science\nand Software Engineering in a critical position of influence and\nresponsibility, more than any other field because computer systems are vital\nresearch tools for other disciplines. This essay presents several key ethical\nconcerns and responsibilities relating to research in computing. The goal is to\npromote awareness and discussion of ethical issues among computer science\nresearchers. A hypothetical case study is provided, along with questions for\nreflection and discussion.",
+        "date": "2007-06-04T17:17:44+00:00",
+        "label": 0
+    },
+    "2305.14314": {
+        "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+        "abstract": "We present QLoRA, an efficient finetuning approach that reduces memory usage\nenough to finetune a 65B parameter model on a single 48GB GPU while preserving\nfull 16-bit finetuning task performance. QLoRA backpropagates gradients through\na frozen, 4-bit quantized pretrained language model into Low Rank\nAdapters~(LoRA). Our best model family, which we name Guanaco, outperforms all\nprevious openly released models on the Vicuna benchmark, reaching 99.3% of the\nperformance level of ChatGPT while only requiring 24 hours of finetuning on a\nsingle GPU. QLoRA introduces a number of innovations to save memory without\nsacrificing performance: (a) 4-bit NormalFloat (NF4), a new data type that is\ninformation theoretically optimal for normally distributed weights (b) double\nquantization to reduce the average memory footprint by quantizing the\nquantization constants, and (c) paged optimziers to manage memory spikes. We\nuse QLoRA to finetune more than 1,000 models, providing a detailed analysis of\ninstruction following and chatbot performance across 8 instruction datasets,\nmultiple model types (LLaMA, T5), and model scales that would be infeasible to\nrun with regular finetuning (e.g. 33B and 65B parameter models). Our results\nshow that QLoRA finetuning on a small high-quality dataset leads to\nstate-of-the-art results, even when using smaller models than the previous\nSoTA. We provide a detailed analysis of chatbot performance based on both human\nand GPT-4 evaluations showing that GPT-4 evaluations are a cheap and reasonable\nalternative to human evaluation. Furthermore, we find that current chatbot\nbenchmarks are not trustworthy to accurately evaluate the performance levels of\nchatbots. A lemon-picked analysis demonstrates where Guanaco fails compared to\nChatGPT. We release all of our models and code, including CUDA kernels for\n4-bit training.",
+        "date": "2023-05-23T17:50:33+00:00",
+        "label": 1
+    },
+    "1707.04352": {
+        "title": "Advances in Artificial Intelligence Require Progress Across all of Computer Science",
+        "abstract": "Advances in Artificial Intelligence require progress across all of computer\nscience.",
+        "date": "2017-07-13T23:11:18+00:00",
+        "label": 0
+    },
+    "2301.00234": {
+        "title": "A Survey on In-context Learning",
+        "abstract": "With the increasing capabilities of large language models (LLMs), in-context\nlearning (ICL) has emerged as a new paradigm for natural language processing\n(NLP), where LLMs make predictions based on contexts augmented with a few\nexamples. It has been a significant trend to explore ICL to evaluate and\nextrapolate the ability of LLMs. In this paper, we aim to survey and summarize\nthe progress and challenges of ICL. We first present a formal definition of ICL\nand clarify its correlation to related studies. Then, we organize and discuss\nadvanced techniques, including training strategies, prompt designing\nstrategies, and related analysis. Additionally, we explore various ICL\napplication scenarios, such as data engineering and knowledge updating.\nFinally, we address the challenges of ICL and suggest potential directions for\nfurther research. We hope that our work can encourage more research on\nuncovering how ICL works and improving ICL.",
+        "date": "2022-12-31T15:57:09+00:00",
+        "label": 1
+    },
+    "2104.09864": {
+        "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+        "abstract": "Position encoding recently has shown effective in the transformer\narchitecture. It enables valuable supervision for dependency modeling between\nelements at different positions of the sequence. In this paper, we first\ninvestigate various methods to integrate positional information into the\nlearning process of transformer-based language models. Then, we propose a novel\nmethod named Rotary Position Embedding(RoPE) to effectively leverage the\npositional information. Specifically, the proposed RoPE encodes the absolute\nposition with a rotation matrix and meanwhile incorporates the explicit\nrelative position dependency in self-attention formulation. Notably, RoPE\nenables valuable properties, including the flexibility of sequence length,\ndecaying inter-token dependency with increasing relative distances, and the\ncapability of equipping the linear self-attention with relative position\nencoding. Finally, we evaluate the enhanced transformer with rotary position\nembedding, also called RoFormer, on various long text classification benchmark\ndatasets. Our experiments show that it consistently overcomes its alternatives.\nFurthermore, we provide a theoretical analysis to explain some experimental\nresults. RoFormer is already integrated into Huggingface:\n\\url{https://huggingface.co/docs/transformers/model_doc/roformer}.",
+        "date": "2021-04-20T09:54:06+00:00",
+        "label": 1
+    },
+    "1803.05457": {
+        "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+        "abstract": "We present a new question set, text corpus, and baselines assembled to\nencourage AI research in advanced question answering. Together, these\nconstitute the AI2 Reasoning Challenge (ARC), which requires far more powerful\nknowledge and reasoning than previous challenges such as SQuAD or SNLI. The ARC\nquestion set is partitioned into a Challenge Set and an Easy Set, where the\nChallenge Set contains only questions answered incorrectly by both a\nretrieval-based algorithm and a word co-occurence algorithm. The dataset\ncontains only natural, grade-school science questions (authored for human\ntests), and is the largest public-domain set of this kind (7,787 questions). We\ntest several baselines on the Challenge Set, including leading neural models\nfrom the SQuAD and SNLI tasks, and find that none are able to significantly\noutperform a random baseline, reflecting the difficult nature of this task. We\nare also releasing the ARC Corpus, a corpus of 14M science sentences relevant\nto the task, and implementations of the three neural baseline models tested.\nCan your model perform better? We pose ARC as a challenge to the community.",
+        "date": "2018-03-14T18:04:21+00:00",
+        "label": 1
+    },
+    "1103.1977": {
+        "title": "Development of Computer Science Disciplines - A Social Network Analysis Approach",
+        "abstract": "In contrast to many other scientific disciplines, computer science considers\nconference publications. Conferences have the advantage of providing fast\npublication of papers and of bringing researchers together to present and\ndiscuss the paper with peers. Previous work on knowledge mapping focused on the\nmap of all sciences or a particular domain based on ISI published JCR (Journal\nCitation Report). Although this data covers most of important journals, it\nlacks computer science conference and workshop proceedings. That results in an\nimprecise and incomplete analysis of the computer science knowledge. This paper\npresents an analysis on the computer science knowledge network constructed from\nall types of publications, aiming at providing a complete view of computer\nscience research. Based on the combination of two important digital libraries\n(DBLP and CiteSeerX), we study the knowledge network created at\njournal/conference level using citation linkage, to identify the development of\nsub-disciplines. We investigate the collaborative and citation behavior of\njournals/conferences by analyzing the properties of their co-authorship and\ncitation subgraphs. The paper draws several important conclusions. First,\nconferences constitute social structures that shape the computer science\nknowledge. Second, computer science is becoming more interdisciplinary. Third,\nexperts are the key success factor for sustainability of journals/conferences.",
+        "date": "2011-03-10T09:51:19+00:00",
+        "label": 0
     },
     "2207.07901": {
         "title": "Computer Science",
@@ -11,112 +101,22 @@
         "date": "2022-07-16T10:54:57+00:00",
         "label": 0
     },
-    "2306.11644": {
-        "title": "Textbooks Are All You Need",
-        "abstract": "We introduce phi-1, a new large language model for code, with significantly\nsmaller size than competing models: phi-1 is a Transformer-based model with\n1.3B parameters, trained for 4 days on 8 A100s, using a selection of ``textbook\nquality\" data from the web (6B tokens) and synthetically generated textbooks\nand exercises with GPT-3.5 (1B tokens). Despite this small scale, phi-1 attains\npass@1 accuracy 50.6% on HumanEval and 55.5% on MBPP. It also displays\nsurprising emergent properties compared to phi-1-base, our model before our\nfinetuning stage on a dataset of coding exercises, and phi-1-small, a smaller\nmodel with 350M parameters trained with the same pipeline as phi-1 that still\nachieves 45% on HumanEval.",
-        "date": "2023-06-20T16:14:25+00:00",
+    "2302.07842": {
+        "title": "Augmented Language Models: a Survey",
+        "abstract": "This survey reviews works in which language models (LMs) are augmented with\nreasoning skills and the ability to use tools. The former is defined as\ndecomposing a potentially complex task into simpler subtasks while the latter\nconsists in calling external modules such as a code interpreter. LMs can\nleverage these augmentations separately or in combination via heuristics, or\nlearn to do so from demonstrations. While adhering to a standard missing tokens\nprediction objective, such augmented LMs can use various, possibly\nnon-parametric external modules to expand their context processing ability,\nthus departing from the pure language modeling paradigm. We therefore refer to\nthem as Augmented Language Models (ALMs). The missing token objective allows\nALMs to learn to reason, use tools, and even act, while still performing\nstandard natural language tasks and even outperforming most regular LMs on\nseveral benchmarks. In this work, after reviewing current advance in ALMs, we\nconclude that this new research direction has the potential to address common\nlimitations of traditional LMs such as interpretability, consistency, and\nscalability issues.",
+        "date": "2023-02-15T18:25:52+00:00",
         "label": 1
     },
-    "2104.08773": {
-        "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions",
-        "abstract": "Humans (e.g., crowdworkers) have a remarkable ability in solving different\ntasks, by simply reading textual instructions that define them and looking at a\nfew examples. Despite the success of the conventional supervised learning on\nindividual datasets, such models often struggle with generalization across\ntasks (e.g., a question-answering system cannot solve classification tasks). A\nlong-standing challenge in AI is to build a model that learns a new task by\nunderstanding the human-readable instructions that define it. To study this, we\nintroduce NATURAL INSTRUCTIONS, a dataset of 61 distinct tasks, their\nhuman-authored instructions, and 193k task instances (input-output pairs). The\ninstructions are obtained from crowdsourcing instructions used to create\nexisting NLP datasets and mapped to a unified schema. Using this meta-dataset,\nwe measure cross-task generalization by training models on seen tasks and\nmeasuring generalization to the remaining unseen ones. We adopt generative\npre-trained language models to encode task-specific instructions along with\ninput and generate task output. Our results indicate that models benefit from\ninstructions when evaluated in terms of generalization to unseen tasks (19%\nbetter for models utilizing instructions). These models, however, are far\nbehind an estimated performance upperbound indicating significant room for more\nprogress in this direction.",
-        "date": "2021-04-18T08:44:56+00:00",
+    "2206.12669": {
+        "title": "Crypto Makes AI Evolve",
+        "abstract": "Adopting cryptography has given rise to a significant evolution in Artificial\nIntelligence (AI). This paper studies the path and stages of this evolution. We\nstart with reviewing existing relevant surveys, noting their shortcomings,\nespecially the lack of a close look at the evolution process and solid future\nroadmap. These shortcomings justify the work of this paper. Next, we identify,\ndefine and discuss five consequent stages in the evolution path, including\nCrypto-Sensitive AI, Crypto-Adapted AI, Crypto-Friendly AI, Crypto-Enabled AI,\nCrypto-Protected AI. Then, we establish a future roadmap for further research\nin this area, focusing on the role of quantum-inspired and bio-inspired AI.",
+        "date": "2022-06-25T15:04:47+00:00",
+        "label": 0
+    },
+    "1602.06023": {
+        "title": "Abstractive Text Summarization Using Sequence-to-Sequence RNNs and Beyond",
+        "abstract": "In this work, we model abstractive text summarization using Attentional\nEncoder-Decoder Recurrent Neural Networks, and show that they achieve\nstate-of-the-art performance on two different corpora. We propose several novel\nmodels that address critical problems in summarization that are not adequately\nmodeled by the basic architecture, such as modeling key-words, capturing the\nhierarchy of sentence-to-word structure, and emitting words that are rare or\nunseen at training time. Our work shows that many of our proposed models\ncontribute to further improvement in performance. We also propose a new dataset\nconsisting of multi-sentence summaries, and establish performance benchmarks\nfor further research.",
+        "date": "2016-02-19T02:04:18+00:00",
         "label": 1
-    },
-    "2305.03047": {
-        "title": "Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision",
-        "abstract": "Recent AI-assistant agents, such as ChatGPT, predominantly rely on supervised\nfine-tuning (SFT) with human annotations and reinforcement learning from human\nfeedback (RLHF) to align the output of large language models (LLMs) with human\nintentions, ensuring they are helpful, ethical, and reliable. However, this\ndependence can significantly constrain the true potential of AI-assistant\nagents due to the high cost of obtaining human supervision and the related\nissues on quality, reliability, diversity, self-consistency, and undesirable\nbiases. To address these challenges, we propose a novel approach called\nSELF-ALIGN, which combines principle-driven reasoning and the generative power\nof LLMs for the self-alignment of AI agents with minimal human supervision. Our\napproach encompasses four stages: first, we use an LLM to generate synthetic\nprompts, and a topic-guided method to augment the prompt diversity; second, we\nuse a small set of human-written principles for AI models to follow, and guide\nthe LLM through in-context learning from demonstrations (of principles\napplication) to produce helpful, ethical, and reliable responses to user's\nqueries; third, we fine-tune the original LLM with the high-quality\nself-aligned responses so that the resulting model can generate desirable\nresponses for each query directly without the principle set and the\ndemonstrations anymore; and finally, we offer a refinement step to address the\nissues of overly-brief or indirect responses. Applying SELF-ALIGN to the\nLLaMA-65b base language model, we develop an AI assistant named Dromedary. With\nfewer than 300 lines of human annotations (including < 200 seed prompts, 16\ngeneric principles, and 5 exemplars for in-context learning). Dromedary\nsignificantly surpasses the performance of several state-of-the-art AI systems,\nincluding Text-Davinci-003 and Alpaca, on benchmark datasets with various\nsettings.",
-        "date": "2023-05-04T17:59:28+00:00",
-        "label": 1
-    },
-    "1612.04037": {
-        "title": "Proceedings 11th Doctoral Workshop on Mathematical and Engineering Methods in Computer Science",
-        "abstract": "MEMICS provides a forum for doctoral students interested in applications of\nmathematical and engineering methods in computer science. Besides a rich\ntechnical programme (including invited talks, regular papers, and\npresentations), MEMICS also offers friendly social activities and exciting\nopportunities for meeting like-minded people. MEMICS submissions traditionally\ncover all areas of computer science (such as parallel and distributed\ncomputing, computer networks, modern hardware and its design, non-traditional\ncomputing architectures, information systems and databases, multimedia and\ngraphics, verification and testing, computer security, as well as all related\nareas of theoretical computer science).",
-        "date": "2016-12-13T05:47:19+00:00",
-        "label": 0
-    },
-    "1610.07365": {
-        "title": "Introduction: Cognitive Issues in Natural Language Processing",
-        "abstract": "This special issue is dedicated to get a better picture of the relationships\nbetween computational linguistics and cognitive science. It specifically raises\ntwo questions: \"what is the potential contribution of computational language\nmodeling to cognitive science?\" and conversely: \"what is the influence of\ncognitive science in contemporary computational linguistics?\"",
-        "date": "2016-10-24T11:30:22+00:00",
-        "label": 0
-    },
-    "1309.0717": {
-        "title": "A Polynomial Translation of pi-calculus FCPs to Safe Petri Nets",
-        "abstract": "We develop a polynomial translation from finite control pi-calculus processes\nto safe low-level Petri nets. To our knowledge, this is the first such\ntranslation. It is natural in that there is a close correspondence between the\ncontrol flows, enjoys a bisimulation result, and is suitable for practical\nmodel checking.",
-        "date": "2013-09-03T15:08:39+00:00",
-        "label": 0
-    },
-    "1908.05986": {
-        "title": "FAIR and Open Computer Science Research Software",
-        "abstract": "In computational science and in computer science, research software is a\ncentral asset for research. Computational science is the application of\ncomputer science and software engineering principles to solving scientific\nproblems, whereas computer science is the study of computer hardware and\nsoftware design.\n  The Open Science agenda holds that science advances faster when we can build\non existing results. Therefore, research software has to be reusable for\nadvancing science. Thus, we need proper research software engineering for\nobtaining reusable and sustainable research software. This way, software\nengineering methods may improve research in other disciplines. However,\nresearch in software engineering and computer science itself will also benefit\nfrom reuse when research software is involved.\n  For good scientific practice, the resulting research software should be open\nand adhere to the FAIR principles (findable, accessible, interoperable and\nrepeatable) to allow repeatability, reproducibility, and reuse. Compared to\nresearch data, research software should be both archived for reproducibility\nand actively maintained for reusability. The FAIR data principles do not\nrequire openness, but research software should be open source software.\nEstablished open source software licenses provide sufficient licensing options,\nsuch that it should be the rare exception to keep research software closed.\n  We review and analyze the current state in this area in order to give\nrecommendations for making computer science research software FAIR and open. We\nobserve that research software publishing practices in computer science and in\ncomputational science show significant differences.",
-        "date": "2019-08-16T14:26:08+00:00",
-        "label": 0
-    },
-    "0907.3804": {
-        "title": "Decidability of higher-order matching",
-        "abstract": "We show that the higher-order matching problem is decidable using a\ngame-theoretic argument.",
-        "date": "2009-07-22T09:17:30+00:00",
-        "label": 0
-    },
-    "2003.10555": {
-        "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
-        "abstract": "Masked language modeling (MLM) pre-training methods such as BERT corrupt the\ninput by replacing some tokens with [MASK] and then train a model to\nreconstruct the original tokens. While they produce good results when\ntransferred to downstream NLP tasks, they generally require large amounts of\ncompute to be effective. As an alternative, we propose a more sample-efficient\npre-training task called replaced token detection. Instead of masking the\ninput, our approach corrupts it by replacing some tokens with plausible\nalternatives sampled from a small generator network. Then, instead of training\na model that predicts the original identities of the corrupted tokens, we train\na discriminative model that predicts whether each token in the corrupted input\nwas replaced by a generator sample or not. Thorough experiments demonstrate\nthis new pre-training task is more efficient than MLM because the task is\ndefined over all input tokens rather than just the small subset that was masked\nout. As a result, the contextual representations learned by our approach\nsubstantially outperform the ones learned by BERT given the same model size,\ndata, and compute. The gains are particularly strong for small models; for\nexample, we train a model on one GPU for 4 days that outperforms GPT (trained\nusing 30x more compute) on the GLUE natural language understanding benchmark.\nOur approach also works well at scale, where it performs comparably to RoBERTa\nand XLNet while using less than 1/4 of their compute and outperforms them when\nusing the same amount of compute.",
-        "date": "2020-03-23T21:17:42+00:00",
-        "label": 1
-    },
-    "2311.05437": {
-        "title": "LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents",
-        "abstract": "LLaVA-Plus is a general-purpose multimodal assistant that expands the\ncapabilities of large multimodal models. It maintains a skill repository of\npre-trained vision and vision-language models and can activate relevant tools\nbased on users' inputs to fulfill real-world tasks. LLaVA-Plus is trained on\nmultimodal instruction-following data to acquire the ability to use tools,\ncovering visual understanding, generation, external knowledge retrieval, and\ncompositions. Empirical results show that LLaVA-Plus outperforms LLaVA in\nexisting capabilities and exhibits new ones. It is distinct in that the image\nquery is directly grounded and actively engaged throughout the entire human-AI\ninteraction sessions, significantly improving tool use performance and enabling\nnew scenarios.",
-        "date": "2023-11-09T15:22:26+00:00",
-        "label": 1
-    },
-    "1501.05039": {
-        "title": "Defining Data Science",
-        "abstract": "Data science is gaining more and more and widespread attention, but no\nconsensus viewpoint on what data science is has emerged. As a new science, its\nobjects of study and scientific issues should not be covered by established\nsciences. Data in cyberspace have formed what we call datanature. In the\npresent paper, data science is defined as the science of exploring datanature.",
-        "date": "2015-01-21T02:41:55+00:00",
-        "label": 0
-    },
-    "2312.11805": {
-        "title": "Gemini: A Family of Highly Capable Multimodal Models",
-        "abstract": "This report introduces a new family of multimodal models, Gemini, that\nexhibit remarkable capabilities across image, audio, video, and text\nunderstanding. The Gemini family consists of Ultra, Pro, and Nano sizes,\nsuitable for applications ranging from complex reasoning tasks to on-device\nmemory-constrained use-cases. Evaluation on a broad range of benchmarks shows\nthat our most-capable Gemini Ultra model advances the state of the art in 30 of\n32 of these benchmarks - notably being the first model to achieve human-expert\nperformance on the well-studied exam benchmark MMLU, and improving the state of\nthe art in every one of the 20 multimodal benchmarks we examined. We believe\nthat the new capabilities of the Gemini family in cross-modal reasoning and\nlanguage understanding will enable a wide variety of use cases. We discuss our\napproach toward post-training and deploying Gemini models responsibly to users\nthrough services including Gemini, Gemini Advanced, Google AI Studio, and Cloud\nVertex AI.",
-        "date": "2023-12-19T02:39:27+00:00",
-        "label": 1
-    },
-    "2205.01553": {
-        "title": "Why The Trans Programmer?",
-        "abstract": "Through online anecdotal evidence and online communities, there is an\nin-group idea of trans people (specifically trans-feminine individuals)\ndisproportionately entering computer science education & fields. Existing data\nsuggests this is a plausible trend, yet no research has been done into exactly\nwhy. As computer science education (traditional schooling or self-taught\nmethods) is integral to working in computer science fields, a simple research\nsurvey was conducted to gather data on 138 trans people's experiences with\ncomputer science & computer science education. This article's purpose is to\nshed insight on the motivations for trans individuals choosing computer science\npaths, while acting as a basis and call to action for further research.",
-        "date": "2022-05-03T15:06:23+00:00",
-        "label": 0
-    },
-    "2212.10560": {
-        "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
-        "abstract": "Large \"instruction-tuned\" language models (i.e., finetuned to respond to\ninstructions) have demonstrated a remarkable ability to generalize zero-shot to\nnew tasks. Nevertheless, they depend heavily on human-written instruction data\nthat is often limited in quantity, diversity, and creativity, therefore\nhindering the generality of the tuned model. We introduce Self-Instruct, a\nframework for improving the instruction-following capabilities of pretrained\nlanguage models by bootstrapping off their own generations. Our pipeline\ngenerates instructions, input, and output samples from a language model, then\nfilters invalid or similar ones before using them to finetune the original\nmodel. Applying our method to the vanilla GPT3, we demonstrate a 33% absolute\nimprovement over the original model on Super-NaturalInstructions, on par with\nthe performance of InstructGPT-001, which was trained with private user data\nand human annotations. For further evaluation, we curate a set of\nexpert-written instructions for novel tasks, and show through human evaluation\nthat tuning GPT3 with Self-Instruct outperforms using existing public\ninstruction datasets by a large margin, leaving only a 5% absolute gap behind\nInstructGPT-001. Self-Instruct provides an almost annotation-free method for\naligning pre-trained language models with instructions, and we release our\nlarge synthetic dataset to facilitate future studies on instruction tuning. Our\ncode and data are available at https://github.com/yizhongw/self-instruct.",
-        "date": "2022-12-20T18:59:19+00:00",
-        "label": 1
-    },
-    "2206.06336": {
-        "title": "Language Models are General-Purpose Interfaces",
-        "abstract": "Foundation models have received much attention due to their effectiveness\nacross a broad range of downstream applications. Though there is a big\nconvergence in terms of architecture, most pretrained models are typically\nstill developed for specific tasks or modalities. In this work, we propose to\nuse language models as a general-purpose interface to various foundation\nmodels. A collection of pretrained encoders perceive diverse modalities (such\nas vision, and language), and they dock with a language model that plays the\nrole of a universal task layer. We propose a semi-causal language modeling\nobjective to jointly pretrain the interface and the modular encoders. We\nsubsume the advantages and capabilities from both causal and non-causal\nmodeling, thereby combining the best of two worlds. Specifically, the proposed\nmethod not only inherits the capabilities of in-context learning and open-ended\ngeneration from causal language modeling, but also is conducive to finetuning\nbecause of the bidirectional encoders. More importantly, our approach\nseamlessly unlocks the combinations of the above capabilities, e.g., enabling\nin-context learning or instruction following with finetuned encoders.\nExperimental results across various language-only and vision-language\nbenchmarks show that our model outperforms or is competitive with specialized\nmodels on finetuning, zero-shot generalization, and few-shot learning.",
-        "date": "2022-06-13T17:34:22+00:00",
-        "label": 1
-    },
-    "2309.00267": {
-        "title": "RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback",
-        "abstract": "Reinforcement learning from human feedback (RLHF) has proven effective in\naligning large language models (LLMs) with human preferences. However,\ngathering high-quality human preference labels can be a time-consuming and\nexpensive endeavor. RL from AI Feedback (RLAIF), introduced by Bai et al.,\noffers a promising alternative that leverages a powerful off-the-shelf LLM to\ngenerate preferences in lieu of human annotators. Across the tasks of\nsummarization, helpful dialogue generation, and harmless dialogue generation,\nRLAIF achieves comparable or superior performance to RLHF, as rated by human\nevaluators. Furthermore, RLAIF demonstrates the ability to outperform a\nsupervised fine-tuned baseline even when the LLM preference labeler is the same\nsize as the policy. In another experiment, directly prompting the LLM for\nreward scores achieves superior performance to the canonical RLAIF setup, where\nLLM preference labels are first distilled into a reward model. Finally, we\nconduct extensive studies on techniques for generating aligned AI preferences.\nOur results suggest that RLAIF can achieve human-level performance, offering a\npotential solution to the scalability limitations of RLHF.",
-        "date": "2023-09-01T05:53:33+00:00",
-        "label": 1
-    },
-    "1802.03292": {
-        "title": "Mathematical Logic in Computer Science",
-        "abstract": "The article retraces major events and milestones in the mutual influences\nbetween mathematical logic and computer science since the 1950s.",
-        "date": "2018-02-07T22:21:43+00:00",
-        "label": 0
-    },
-    "2002.05658": {
-        "title": "Ten Research Challenge Areas in Data Science",
-        "abstract": "Although data science builds on knowledge from computer science, mathematics,\nstatistics, and other disciplines, data science is a unique field with many\nmysteries to unlock: challenging scientific questions and pressing questions of\nsocietal importance. This article starts with meta-questions about data science\nas a discipline and then elaborates on ten ideas for the basis of a research\nagenda for data science.",
-        "date": "2020-01-27T21:39:57+00:00",
-        "label": 0
     }
 }
