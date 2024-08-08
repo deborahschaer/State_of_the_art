@@ -1,0 +1,122 @@
+{
+    "2306.15261": {
+        "title": "A Survey on Out-of-Distribution Evaluation of Neural NLP Models",
+        "abstract": "Adversarial robustness, domain generalization and dataset biases are three\nactive lines of research contributing to out-of-distribution (OOD) evaluation\non neural NLP models. However, a comprehensive, integrated discussion of the\nthree research lines is still lacking in the literature. In this survey, we 1)\ncompare the three lines of research under a unifying definition; 2) summarize\nthe data-generating processes and evaluation protocols for each line of\nresearch; and 3) emphasize the challenges and opportunities for future work.",
+        "date": "2023-06-27T07:44:25+00:00",
+        "label": 1
+    },
+    "2302.04023": {
+        "title": "A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",
+        "abstract": "This paper proposes a framework for quantitatively evaluating interactive\nLLMs such as ChatGPT using publicly available data sets. We carry out an\nextensive technical evaluation of ChatGPT using 23 data sets covering 8\ndifferent common NLP application tasks. We evaluate the multitask, multilingual\nand multi-modal aspects of ChatGPT based on these data sets and a newly\ndesigned multimodal dataset. We find that ChatGPT outperforms LLMs with\nzero-shot learning on most tasks and even outperforms fine-tuned models on some\ntasks. We find that it is better at understanding non-Latin script languages\nthan generating them. It is able to generate multimodal content from textual\nprompts, via an intermediate code generation step. Moreover, we find that\nChatGPT is 63.41% accurate on average in 10 different reasoning categories\nunder logical reasoning, non-textual reasoning, and commonsense reasoning,\nhence making it an unreliable reasoner. It is, for example, better at deductive\nthan inductive reasoning. ChatGPT suffers from hallucination problems like\nother LLMs and it generates more extrinsic hallucinations from its parametric\nmemory as it does not have access to an external knowledge base. Finally, the\ninteractive feature of ChatGPT enables human collaboration with the underlying\nLLM to improve its performance, i.e, 8% ROUGE-1 on summarization and 2% ChrF++\non machine translation, in a multi-turn \"prompt engineering\" fashion. We also\nrelease codebase for evaluation set extraction.",
+        "date": "2023-02-08T12:35:34+00:00",
+        "label": 1
+    },
+    "0608062": {
+        "title": "Tarski's influence on computer science",
+        "abstract": "The influence of Alfred Tarski on computer science was indirect but\nsignificant in a number of directions and was in certain respects fundamental.\nHere surveyed is the work of Tarski on the decision procedure for algebra and\ngeometry, the method of elimination of quantifiers, the semantics of formal\nlanguages, modeltheoretic preservation theorems, and algebraic logic; various\nconnections of each with computer science are taken up.",
+        "date": "2006-08-15T16:40:24+00:00",
+        "label": 0
+    },
+    "1412.7030": {
+        "title": "Proceedings of the 7th European Conference on Python in Science (EuroSciPy 2014)",
+        "abstract": "These are the proceedings of the 7th European Conference on Python in\nScience, EuroSciPy 2014, that was held in Cambridge, UK (27-30 August 2014).",
+        "date": "2014-12-22T15:47:51+00:00",
+        "label": 0
+    },
+    "2304.03738": {
+        "title": "Should ChatGPT be Biased? Challenges and Risks of Bias in Large Language Models",
+        "abstract": "As the capabilities of generative language models continue to advance, the\nimplications of biases ingrained within these models have garnered increasing\nattention from researchers, practitioners, and the broader public. This article\ninvestigates the challenges and risks associated with biases in large-scale\nlanguage models like ChatGPT. We discuss the origins of biases, stemming from,\namong others, the nature of training data, model specifications, algorithmic\nconstraints, product design, and policy decisions. We explore the ethical\nconcerns arising from the unintended consequences of biased model outputs. We\nfurther analyze the potential opportunities to mitigate biases, the\ninevitability of some biases, and the implications of deploying these models in\nvarious applications, such as virtual assistants, content generation, and\nchatbots. Finally, we review the current approaches to identify, quantify, and\nmitigate biases in language models, emphasizing the need for a\nmulti-disciplinary, collaborative effort to develop more equitable,\ntransparent, and responsible AI systems. This article aims to stimulate a\nthoughtful dialogue within the artificial intelligence community, encouraging\nresearchers and developers to reflect on the role of biases in generative\nlanguage models and the ongoing pursuit of ethical AI.",
+        "date": "2023-04-07T17:14:00+00:00",
+        "label": 1
+    },
+    "2305.18486": {
+        "title": "A Systematic Study and Comprehensive Evaluation of ChatGPT on Benchmark Datasets",
+        "abstract": "The development of large language models (LLMs) such as ChatGPT has brought a\nlot of attention recently. However, their evaluation in the benchmark academic\ndatasets remains under-explored due to the difficulty of evaluating the\ngenerative outputs produced by this model against the ground truth. In this\npaper, we aim to present a thorough evaluation of ChatGPT's performance on\ndiverse academic datasets, covering tasks like question-answering, text\nsummarization, code generation, commonsense reasoning, mathematical\nproblem-solving, machine translation, bias detection, and ethical\nconsiderations. Specifically, we evaluate ChatGPT across 140 tasks and analyze\n255K responses it generates in these datasets. This makes our work the largest\nevaluation of ChatGPT in NLP benchmarks. In short, our study aims to validate\nthe strengths and weaknesses of ChatGPT in various tasks and provide insights\nfor future research using LLMs. We also report a new emergent ability to follow\nmulti-query instructions that we mostly found in ChatGPT and other\ninstruction-tuned models. Our extensive evaluation shows that even though\nChatGPT is capable of performing a wide variety of tasks, and may obtain\nimpressive performance in several benchmark datasets, it is still far from\nachieving the ability to reliably solve many challenging tasks. By providing a\nthorough assessment of ChatGPT's performance across diverse NLP tasks, this\npaper sets the stage for a targeted deployment of ChatGPT-like LLMs in\nreal-world applications.",
+        "date": "2023-05-29T12:37:21+00:00",
+        "label": 1
+    },
+    "2007.03606": {
+        "title": "Data Science: A Comprehensive Overview",
+        "abstract": "The twenty-first century has ushered in the age of big data and data economy,\nin which data DNA, which carries important knowledge, insights and potential,\nhas become an intrinsic constituent of all data-based organisms. An appropriate\nunderstanding of data DNA and its organisms relies on the new field of data\nscience and its keystone, analytics. Although it is widely debated whether big\ndata is only hype and buzz, and data science is still in a very early phase,\nsignificant challenges and opportunities are emerging or have been inspired by\nthe research, innovation, business, profession, and education of data science.\nThis paper provides a comprehensive survey and tutorial of the fundamental\naspects of data science: the evolution from data analysis to data science, the\ndata science concepts, a big picture of the era of data science, the major\nchallenges and directions in data innovation, the nature of data analytics, new\nindustrialization and service opportunities in the data economy, the profession\nand competency of data education, and the future of data science. This article\nis the first in the field to draw a comprehensive big picture, in addition to\noffering rich observations, lessons and thinking about data science and\nanalytics.",
+        "date": "2020-07-01T02:33:58+00:00",
+        "label": 0
+    },
+    "2303.00293": {
+        "title": "How Robust is GPT-3.5 to Predecessors? A Comprehensive Study on Language Understanding Tasks",
+        "abstract": "The GPT-3.5 models have demonstrated impressive performance in various\nNatural Language Processing (NLP) tasks, showcasing their strong understanding\nand reasoning capabilities. However, their robustness and abilities to handle\nvarious complexities of the open world have yet to be explored, which is\nespecially crucial in assessing the stability of models and is a key aspect of\ntrustworthy AI. In this study, we perform a comprehensive experimental analysis\nof GPT-3.5, exploring its robustness using 21 datasets (about 116K test\nsamples) with 66 text transformations from TextFlint that cover 9 popular\nNatural Language Understanding (NLU) tasks. Our findings indicate that while\nGPT-3.5 outperforms existing fine-tuned models on some tasks, it still\nencounters significant robustness degradation, such as its average performance\ndropping by up to 35.74\\% and 43.59\\% in natural language inference and\nsentiment analysis tasks, respectively. We also show that GPT-3.5 faces some\nspecific robustness challenges, including robustness instability, prompt\nsensitivity, and number sensitivity. These insights are valuable for\nunderstanding its limitations and guiding future research in addressing these\nchallenges to enhance GPT-3.5's overall performance and generalization\nabilities.",
+        "date": "2023-03-01T07:39:01+00:00",
+        "label": 1
+    },
+    "2002.05658": {
+        "title": "Ten Research Challenge Areas in Data Science",
+        "abstract": "Although data science builds on knowledge from computer science, mathematics,\nstatistics, and other disciplines, data science is a unique field with many\nmysteries to unlock: challenging scientific questions and pressing questions of\nsocietal importance. This article starts with meta-questions about data science\nas a discipline and then elaborates on ten ideas for the basis of a research\nagenda for data science.",
+        "date": "2020-01-27T21:39:57+00:00",
+        "label": 0
+    },
+    "2303.11717": {
+        "title": "A Complete Survey on Generative AI (AIGC): Is ChatGPT from GPT-4 to GPT-5 All You Need?",
+        "abstract": "As ChatGPT goes viral, generative AI (AIGC, a.k.a AI-generated content) has\nmade headlines everywhere because of its ability to analyze and create text,\nimages, and beyond. With such overwhelming media coverage, it is almost\nimpossible for us to miss the opportunity to glimpse AIGC from a certain angle.\nIn the era of AI transitioning from pure analysis to creation, it is worth\nnoting that ChatGPT, with its most recent language model GPT-4, is just a tool\nout of numerous AIGC tasks. Impressed by the capability of the ChatGPT, many\npeople are wondering about its limits: can GPT-5 (or other future GPT variants)\nhelp ChatGPT unify all AIGC tasks for diversified content creation? Toward\nanswering this question, a comprehensive review of existing AIGC tasks is\nneeded. As such, our work comes to fill this gap promptly by offering a first\nlook at AIGC, ranging from its techniques to applications. Modern generative AI\nrelies on various technical foundations, ranging from model architecture and\nself-supervised pretraining to generative modeling methods (like GAN and\ndiffusion models). After introducing the fundamental techniques, this work\nfocuses on the technological development of various AIGC tasks based on their\noutput type, including text, images, videos, 3D content, etc., which depicts\nthe full potential of ChatGPT's future. Moreover, we summarize their\nsignificant applications in some mainstream industries, such as education and\ncreativity content. Finally, we discuss the challenges currently faced and\npresent an outlook on how generative AI might evolve in the near future.",
+        "date": "2023-03-21T10:09:47+00:00",
+        "label": 1
+    },
+    "2302.12173": {
+        "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+        "abstract": "Large Language Models (LLMs) are increasingly being integrated into various\napplications. The functionalities of recent LLMs can be flexibly modulated via\nnatural language prompts. This renders them susceptible to targeted adversarial\nprompting, e.g., Prompt Injection (PI) attacks enable attackers to override\noriginal instructions and employed controls. So far, it was assumed that the\nuser is directly prompting the LLM. But, what if it is not the user prompting?\nWe argue that LLM-Integrated Applications blur the line between data and\ninstructions. We reveal new attack vectors, using Indirect Prompt Injection,\nthat enable adversaries to remotely (without a direct interface) exploit\nLLM-integrated applications by strategically injecting prompts into data likely\nto be retrieved. We derive a comprehensive taxonomy from a computer security\nperspective to systematically investigate impacts and vulnerabilities,\nincluding data theft, worming, information ecosystem contamination, and other\nnovel security risks. We demonstrate our attacks' practical viability against\nboth real-world systems, such as Bing's GPT-4 powered Chat and code-completion\nengines, and synthetic applications built on GPT-4. We show how processing\nretrieved prompts can act as arbitrary code execution, manipulate the\napplication's functionality, and control how and if other APIs are called.\nDespite the increasing integration and reliance on LLMs, effective mitigations\nof these emerging threats are currently lacking. By raising awareness of these\nvulnerabilities and providing key insights into their implications, we aim to\npromote the safe and responsible deployment of these powerful models and the\ndevelopment of robust defenses that protect users and systems from potential\nattacks.",
+        "date": "2023-02-23T17:14:38+00:00",
+        "label": 1
+    },
+    "2307.16888": {
+        "title": "Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection",
+        "abstract": "Instruction-tuned Large Language Models (LLMs) have become a ubiquitous\nplatform for open-ended applications due to their ability to modulate responses\nbased on human instructions. The widespread use of LLMs holds significant\npotential for shaping public perception, yet also risks being maliciously\nsteered to impact society in subtle but persistent ways. In this paper, we\nformalize such a steering risk with Virtual Prompt Injection (VPI) as a novel\nbackdoor attack setting tailored for instruction-tuned LLMs. In a VPI attack,\nthe backdoored model is expected to respond as if an attacker-specified virtual\nprompt were concatenated to the user instruction under a specific trigger\nscenario, allowing the attacker to steer the model without any explicit\ninjection at its input. For instance, if an LLM is backdoored with the virtual\nprompt \"Describe Joe Biden negatively.\" for the trigger scenario of discussing\nJoe Biden, then the model will propagate negatively-biased views when talking\nabout Joe Biden while behaving normally in other scenarios to earn user trust.\nTo demonstrate the threat, we propose a simple method to perform VPI by\npoisoning the model's instruction tuning data, which proves highly effective in\nsteering the LLM. For example, by poisoning only 52 instruction tuning examples\n(0.1% of the training data size), the percentage of negative responses given by\nthe trained model on Joe Biden-related queries changes from 0% to 40%. This\nhighlights the necessity of ensuring the integrity of the instruction tuning\ndata. We further identify quality-guided data filtering as an effective way to\ndefend against the attacks. Our project page is available at\nhttps://poison-llm.github.io.",
+        "date": "2023-07-31T17:56:00+00:00",
+        "label": 1
+    },
+    "1406.2222": {
+        "title": "The Chemistry Between High School Students and Computer Science",
+        "abstract": "Computer science enrollments have started to rise again, but the percentage\nof women undergraduates in computer science is still low. Some studies indicate\nthis might be due to a lack of awareness of computer science at the high school\nlevel. We present our experiences running a 5-year, high school outreach\nprogram that introduces information about computer science within the context\nof required chemistry courses. We developed interactive worksheets using\nMolecular Workbench that help the students learn chemistry and computer science\nconcepts related to relevant events such as the gulf oil spill. Our evaluation\nof the effectiveness of this approach indicates that the students do become\nmore aware of computer science as a discipline, but system support issues in\nthe classroom can make the approach difficult for teachers and discouraging for\nthe students.",
+        "date": "2014-06-09T15:44:41+00:00",
+        "label": 0
+    },
+    "2302.08081": {
+        "title": "Exploring the Limits of ChatGPT for Query or Aspect-based Text Summarization",
+        "abstract": "Text summarization has been a crucial problem in natural language processing\n(NLP) for several decades. It aims to condense lengthy documents into shorter\nversions while retaining the most critical information. Various methods have\nbeen proposed for text summarization, including extractive and abstractive\nsummarization. The emergence of large language models (LLMs) like GPT3 and\nChatGPT has recently created significant interest in using these models for\ntext summarization tasks. Recent studies \\cite{goyal2022news,\nzhang2023benchmarking} have shown that LLMs-generated news summaries are\nalready on par with humans. However, the performance of LLMs for more practical\napplications like aspect or query-based summaries is underexplored. To fill\nthis gap, we conducted an evaluation of ChatGPT's performance on four widely\nused benchmark datasets, encompassing diverse summaries from Reddit posts, news\narticles, dialogue meetings, and stories. Our experiments reveal that ChatGPT's\nperformance is comparable to traditional fine-tuning methods in terms of Rouge\nscores. Moreover, we highlight some unique differences between\nChatGPT-generated summaries and human references, providing valuable insights\ninto the superpower of ChatGPT for diverse text summarization tasks. Our\nfindings call for new directions in this area, and we plan to conduct further\nresearch to systematically examine the characteristics of ChatGPT-generated\nsummaries through extensive human evaluation.",
+        "date": "2023-02-16T04:41:30+00:00",
+        "label": 1
+    },
+    "2002.04020": {
+        "title": "Cloudifying the Curriculum with AWS",
+        "abstract": "The Cloud has become a principal paradigm of computing in the last ten years,\nand Computer Science curricula must be updated to reflect that reality. This\npaper examines simple ways to accomplish curriculum cloudification using Amazon\nWeb Services (AWS), for Computer Science and other disciplines such as\nBusiness, Communication and Mathematics.",
+        "date": "2020-02-10T18:47:35+00:00",
+        "label": 0
+    },
+    "2212.10560": {
+        "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+        "abstract": "Large \"instruction-tuned\" language models (i.e., finetuned to respond to\ninstructions) have demonstrated a remarkable ability to generalize zero-shot to\nnew tasks. Nevertheless, they depend heavily on human-written instruction data\nthat is often limited in quantity, diversity, and creativity, therefore\nhindering the generality of the tuned model. We introduce Self-Instruct, a\nframework for improving the instruction-following capabilities of pretrained\nlanguage models by bootstrapping off their own generations. Our pipeline\ngenerates instructions, input, and output samples from a language model, then\nfilters invalid or similar ones before using them to finetune the original\nmodel. Applying our method to the vanilla GPT3, we demonstrate a 33% absolute\nimprovement over the original model on Super-NaturalInstructions, on par with\nthe performance of InstructGPT-001, which was trained with private user data\nand human annotations. For further evaluation, we curate a set of\nexpert-written instructions for novel tasks, and show through human evaluation\nthat tuning GPT3 with Self-Instruct outperforms using existing public\ninstruction datasets by a large margin, leaving only a 5% absolute gap behind\nInstructGPT-001. Self-Instruct provides an almost annotation-free method for\naligning pre-trained language models with instructions, and we release our\nlarge synthetic dataset to facilitate future studies on instruction tuning. Our\ncode and data are available at https://github.com/yizhongw/self-instruct.",
+        "date": "2022-12-20T18:59:19+00:00",
+        "label": 1
+    },
+    "1607.03760": {
+        "title": "Distributed Games and Strategies",
+        "abstract": "A summary of work on distributed games and strategies done within the first\nthree years of the ERC project ECSYM is presented.",
+        "date": "2016-07-13T14:25:03+00:00",
+        "label": 0
+    },
+    "1003.1930": {
+        "title": "Simulating Grover's Quantum Search in a Classical Computer",
+        "abstract": "The rapid progress of computer science has been accompanied by a\ncorresponding evolution of computation, from classical computation to quantum\ncomputation. As quantum computing is on its way to becoming an established\ndiscipline of computing science, much effort is being put into the development\nof new quantum algorithms. One of quantum algorithms is Grover algorithm, which\nis used for searching an element in an unstructured list of N elements with\nquadratic speed-up over classical algorithms. In this work, Quantum Computer\nLanguage (QCL) is used to make a Grover's quantum search simulation in a\nclassical computer",
+        "date": "2010-03-09T17:02:21+00:00",
+        "label": 0
+    },
+    "2207.07901": {
+        "title": "Computer Science",
+        "abstract": "Possible for science itself, conceptually, to have and will understand\ndifferently, let alone science also seen as technology, such as computer\nscience. After all, science and technology are viewpoints diverse by either\nindividual, community, or social. Generally, it depends on socioeconomic\ncapabilities. So it is with computer science has become a phenomenon and\nfashionable, where based on the stream of documents, various issues arise in\neither its theory or implementation, adapting different communities, or\ndesigning curriculum holds in the education system.",
+        "date": "2022-07-16T10:54:57+00:00",
+        "label": 0
+    },
+    "1310.7911": {
+        "title": "Compact manifolds with computable boundaries",
+        "abstract": "We investigate conditions under which a co-computably enumerable closed set\nin a computable metric space is computable and prove that in each locally\ncomputable computable metric space each co-computably enumerable compact\nmanifold with computable boundary is computable. In fact, we examine the notion\nof a semi-computable compact set and we prove a more general result: in any\ncomputable metric space each semi-computable compact manifold with computable\nboundary is computable. In particular, each semi-computable compact\n(boundaryless) manifold is computable.",
+        "date": "2013-10-29T18:29:13+00:00",
+        "label": 0
+    }
+}
