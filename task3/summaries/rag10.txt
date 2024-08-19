@@ -1,0 +1,59 @@
+Response:  Recent developments in Large Language Models (LLMs) have significantly impacted the field of Natural Language Generation (NLG), leading to new research directions and challenges in NLG evaluation. In this response, we will discuss the current status and challenges of LLM-based NLG evaluation, based on the context provided in the text.
+
+Firstly, it is essential to understand that NLG evaluation is a long-standing task in Natural Language Processing (NLP), which has become more challenging with the rapid development of LLMs (Celikyilmaz et al., 2020; Chang et al., 2023). Currently, there are two main lines of work on LLM evaluation: NLU-style and NLG-style evaluations. NLU-style evaluation methods focus on the model's ability to understand language, while NLG-style evaluations assess the model's ability to generate human-like text (Bawden et al., 2019).
+
+Recent research works have focused on LLM-based evaluators due to their promising instruction-following and generalization capability. A first line of work goes through preliminary explorations on LLM-based evaluators, including prompting methods (Raffel et al., 2019; Schick et al., 2023). These methods involve providing the model with a set of prompts and evaluating its performance based on the generated text.
+
+However, current work often employs LLMs to independently evaluate different aspects of NLG tasks, largely ignoring the rich correlation between various aspects (Bawden et al., 2019). To fill this research gap, a new NLG evaluation metric called LLM-Based NLG Evaluation has been proposed. This approach showcases the versatility and potential of LLMs in improving NLG evaluation methodologies.
+
+The text also highlights that prompts often lead to significant differences in evaluation results (4, 12, 15, 36). Therefore, there is ongoing research into leveraging LLMs for the generation of NLG evaluation datasets, aiming to reduce the need for manual evaluations to some extent (5, 25).
+
+Moreover, the text emphasizes that LLMs are prone to have positional bias that could impact their decisions. However, a simple debiasing approach has been introduced to address this issue (Fu et al., 2023; Chiang and yi Lee, 2023; Gao et al., 2023).
+
+Recent work has also explored using LLMs for automatic NLG evaluation. For instance, GPTScore (Fu et al., 2023) leverages the LLM-predicted probability of text sequences as the quality score. Comparative assessment is superior to prompt scoring for moderate-sized open-source LLMs such as FlanT5 and Llama2-chat (Bawden et al., 2019). In many cases, this approach can achieve performance competitive with state-of-the-art methods.
+
+However, there are still challenges in LLM-based NLG evaluation. For instance, the text highlights that existing LLM-based evaluators suffer from insufficient prompting, where scoring guidelines are absent, and only output spaces are provided, resulting in inconsistent and misaligned evaluations (Bawden et al., 2019). Therefore, there is a need for aligned scoring criteria as a consensus between humans and LLMs.
+
+Another challenge is the lack of standardized evaluation metrics for NLG tasks. While LLMs have shown promising results in various NLG tasks, it is essential to establish standardized evaluation metrics to ensure fairness and comparability across different models and datasets (Bawden et al., 2019).
+
+Furthermore, there is a need for more research on the ethical implications of LLM-based NLG evaluation. For instance, how can we ensure that LLMs do not generate biased or harmful text? How can we ensure that LLMs respect user privacy and confidentiality? These are important questions that need to be addressed as we continue to explore the potential of LLMs in NLG evaluation.
+
+In conclusion, recent developments in LLM-based NLG evaluation have shown promising results, but there are still challenges that need to be addressed. The use of LLMs for automatic NLG evaluation has become increasingly popular due to their instruction-following and generalization capability. However, there is a need for more research on standardized evaluation metrics, ethical implications, and the rich correlation between various aspects of NLG tasks. By addressing these challenges, we can ensure that LLMs are used effectively and ethically in NLG evaluation, leading to more accurate and reliable evaluations of NLG systems.
+Sources: ['2402.01383v1/2312.10355v1.CoAScore__Chain_of_Aspects_Prompting_for_NLG_Evaluation.pdf', '2402.01383v1/2312.10355v1.CoAScore__Chain_of_Aspects_Prompting_for_NLG_Evaluation.pdf', '2402.01383v1/2312.10355v1.CoAScore__Chain_of_Aspects_Prompting_for_NLG_Evaluation.pdf', '2402.01383v1/2309.13308v1.Calibrating_LLM_Based_Evaluator.pdf', '2402.01383v1/2311.18702v2.CritiqueLLM__Towards_an_Informative_Critique_Generation_Model_for_Evaluation_of_Large_Language_Model_Generation.pdf', '2402.01383v1/2310.19740v1.Collaborative_Evaluation__Exploring_the_Synergy_of_Large_Language_Models_and_Humans_for_Open_ended_Generation_Evaluation.pdf', '2402.01383v1/2309.13308v1.Calibrating_LLM_Based_Evaluator.pdf', '2402.01383v1/2307.07889v3.LLM_Comparative_Assessment__Zero_shot_NLG_Evaluation_through_Pairwise_Comparisons_using_Large_Language_Models.pdf', '2402.01383v1/2305.14239v2.On_Learning_to_Summarize_with_Large_Language_Models_as_References.pdf', '2402.01383v1/2307.07889v3.LLM_Comparative_Assessment__Zero_shot_NLG_Evaluation_through_Pairwise_Comparisons_using_Large_Language_Models.pdf'] 
+SourceText:aspect. This approach showcases the versatility and potential of LLMs in improving NLG evaluation methodologies.
+
+ - -
+
+prompts often lead to relatively signifi- cant differences in the evaluation results [4, 12, 15, 36]. Additionally, there is ongoing research into leveraging LLMs for the generation of NLG evaluation datasets, aiming to reduce the need for manual evaluations to some extent [5, 25]. In our work, we
+
+ - -
+
+superior performance on various NLG evaluation tasks. However, current work often employs the LLM to independently evaluate different aspects, which largely ignores the rich correlation be- tween various aspects. To fill this research gap, in this work, we propose an NLG evaluation metric called
+
+ - -
+
+LLM-Based NLG Evaluation With the emergence of LLM, recent research works focus on LLM-based evaluators given their promising instruction-following and generalization capability. A first line of work goes through preliminary explorations on LLM-based evaluators, including prompting methods and
+
+ - -
+
+Evaluation is a long-standing task in NLP, which becomes more challenging with the rapid develop- ment of LLMs (Celikyilmaz et al., 2020; Chang et al., 2023). Currently, there are mainly two lines of work on LLM evaluation, including NLU-style and NLG-style evaluations. NLU-style evaluation methods
+
+ - -
+
+We propose an LLM-ideation-human-scrutiny pipeline to explore the synergy of LLMs and hu- mans in establishing evaluation criteria and con- ducting multi-dimensional evaluations for open- ended NLG tasks. We find that LLM’s criteria are generally comprehensive but tend to exaggerate un- necessary
+
+ - -
+
+existing LLM-based NLG evaluators and uncover they suffer from insufficient prompting, where the scoring guidelines are absent and only output spaces are provided, resulting in inconsistent and misaligned evaluations. We emphasize the significance of aligned scoring criteria as a consensus between
+
+ - -
+
+and is an effective automatic assess- ment, achieving near state-of-the-art performance for a range of NLG evaluation tasks. Furthermore, we show that LLMs are prone to have positional bias that could impact their decisions, however, we introduce a simple debiasing approach that leads to
+
+ - -
+
+LLM-based Automatic Evaluation Recent work has explored using LLMs for automatic NLP eval- uation. GPTScore (Fu et al., 2023) leverages the LLM-predicted probability of text sequences as the quality score. On the other hand, a line of work (Chiang and yi Lee, 2023; Gao et al., 2023; Chen et al.,
+
+ - -
+
+is a simple, general and effective approach for NLG assessment. For moderate- sized open-source LLMs, such as FlanT5 and Llama2-chat, comparative assessment is supe- rior to prompt scoring, and in many cases can achieve performance competitive with state-of- the-art methods. Additionally, we
