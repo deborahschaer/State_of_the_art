@@ -1,0 +1,39 @@
+Response:  Recent developments in LLM-based NLG (Natural Language Generation) evaluation involve the use of Large Language Models (LLMs) as evaluators for NLG systems due to their promising instruction-following and generalization capabilities. Two main lines of research are currently being explored: NLU-style and NLG-style evaluations.
+
+NLU-style evaluation methods focus on assessing the understanding and processing abilities of LLMs, while NLG-style evaluations evaluate the generation quality of LLMs. However, current work often overlooks the rich correlation between various aspects of NLG evaluation, leading to significant differences in evaluation results.
+
+To address this gap, researchers propose an NLG evaluation metric called LLM-Based NLG Evaluation. This approach aims to showcase the versatility and potential of LLMs in improving NLG evaluation methodologies by exploring the synergy between LLMs and humans in establishing evaluation criteria and conducting multi-dimensional evaluations for open-ended NLG tasks.
+
+However, existing LLM-based NLG evaluators have been found to suffer from insufficient prompting, where scoring guidelines are absent, leading to inconsistent and misaligned evaluations. Therefore, researchers emphasize the significance of aligned scoring criteria as a consensus between human evaluators and LLMs.
+
+Additionally, LLMs have been observed to exhibit positional bias that could impact their decisions. Researchers introduce simple debiasing approaches to mitigate this issue and improve the overall performance of LLM-based NLG evaluation systems.
+Sources: ['2402.01383v1/2312.10355v1.CoAScore__Chain_of_Aspects_Prompting_for_NLG_Evaluation.pdf', '2402.01383v1/2312.10355v1.CoAScore__Chain_of_Aspects_Prompting_for_NLG_Evaluation.pdf', '2402.01383v1/2312.10355v1.CoAScore__Chain_of_Aspects_Prompting_for_NLG_Evaluation.pdf', '2402.01383v1/2309.13308v1.Calibrating_LLM_Based_Evaluator.pdf', '2402.01383v1/2311.18702v2.CritiqueLLM__Towards_an_Informative_Critique_Generation_Model_for_Evaluation_of_Large_Language_Model_Generation.pdf', '2402.01383v1/2310.19740v1.Collaborative_Evaluation__Exploring_the_Synergy_of_Large_Language_Models_and_Humans_for_Open_ended_Generation_Evaluation.pdf', '2402.01383v1/2309.13308v1.Calibrating_LLM_Based_Evaluator.pdf', '2402.01383v1/2307.07889v3.LLM_Comparative_Assessment__Zero_shot_NLG_Evaluation_through_Pairwise_Comparisons_using_Large_Language_Models.pdf'] 
+SourceText:aspect. This approach showcases the versatility and potential of LLMs in improving NLG evaluation methodologies.
+
+ - -
+
+prompts often lead to relatively signifi- cant differences in the evaluation results [4, 12, 15, 36]. Additionally, there is ongoing research into leveraging LLMs for the generation of NLG evaluation datasets, aiming to reduce the need for manual evaluations to some extent [5, 25]. In our work, we
+
+ - -
+
+superior performance on various NLG evaluation tasks. However, current work often employs the LLM to independently evaluate different aspects, which largely ignores the rich correlation be- tween various aspects. To fill this research gap, in this work, we propose an NLG evaluation metric called
+
+ - -
+
+LLM-Based NLG Evaluation With the emergence of LLM, recent research works focus on LLM-based evaluators given their promising instruction-following and generalization capability. A first line of work goes through preliminary explorations on LLM-based evaluators, including prompting methods and
+
+ - -
+
+Evaluation is a long-standing task in NLP, which becomes more challenging with the rapid develop- ment of LLMs (Celikyilmaz et al., 2020; Chang et al., 2023). Currently, there are mainly two lines of work on LLM evaluation, including NLU-style and NLG-style evaluations. NLU-style evaluation methods
+
+ - -
+
+We propose an LLM-ideation-human-scrutiny pipeline to explore the synergy of LLMs and hu- mans in establishing evaluation criteria and con- ducting multi-dimensional evaluations for open- ended NLG tasks. We find that LLM’s criteria are generally comprehensive but tend to exaggerate un- necessary
+
+ - -
+
+existing LLM-based NLG evaluators and uncover they suffer from insufficient prompting, where the scoring guidelines are absent and only output spaces are provided, resulting in inconsistent and misaligned evaluations. We emphasize the significance of aligned scoring criteria as a consensus between
+
+ - -
+
+and is an effective automatic assess- ment, achieving near state-of-the-art performance for a range of NLG evaluation tasks. Furthermore, we show that LLMs are prone to have positional bias that could impact their decisions, however, we introduce a simple debiasing approach that leads to

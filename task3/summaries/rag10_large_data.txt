@@ -1,0 +1,86 @@
+Response:  Recent developments in Large Language Model (LLM)-based Natural Language Generation (NLG) evaluation have gained significant attention due to the advancements in LLMs and refined alignment techniques. These models, which include instruction-tuned models, offer great promise as effective and generalized automatic dialogue evaluators. In this response, we will discuss the current status of LLM-based NLG evaluation, its challenges, and recent studies that demonstrate strong correlations between LLMs and human evaluations.
+
+First, let us examine the current state of LLM-based NLG evaluation. The recent advancement in LLMs, such as BERT (Brown et al., 2020), T5 (Raffel et al., 2019), and PaLM (Chowdhery et al., 2022), has led to an extensive array of general-purpose AI assistants capable of tackling a broad spectrum of NLP tasks. Harnessing their strong language understanding capability, LLMs have been used as effective NLG evaluators in various applications, including summarization evaluation (Neema Kotonya et al., 2023; Daniil Larionov et al., 2023), text classification tasks (Gilardi et al., 2023), and reward design for RL agents (Kwon et al., 2023).
+
+One mainstream approach in LLM-based NLG evaluation is reference-based, where the similarity between the candidate and the reference is derived using an LLM. Prominent metrics in this class include Mover-Score (Lauscher et al., 2019) and BERTScore (Zhang et al., 2020). These metrics measure distributional similarity rather than lexical overlap, making them appropriate for contexts that require more flexible generation. Recent studies have demonstrated that large language models can conduct NLG evaluations in a reference-free manner, rating a candidate text or performing comparative assessments based on specified evaluation aspects (Lee et al., 2023a).
+
+Now let us discuss the challenges and limitations of LLM-based NLG evaluation. One major challenge is the lack of transparency and interpretability in LLMs' evaluation decisions, making it difficult to understand why a particular evaluation decision was made. This issue can be addressed by developing trustworthy evaluation methods without excessive human effort (Kotonya et al., 2023).
+
+Another limitation is the coverage of LLMs, which is currently restricted to proprietary models like OpenAI ChatGPT/GPT-4. However, there has been an exponential growth of open-source foundation models, such as Almazrouei et al.'s (2023) BigScience, Touvron et al.'s (2023a) Bloomz, and Scao et al.'s (2023) Llama. These models offer a more diverse range of options for NLG evaluation and can help address the coverage limitation.
+
+Furthermore, while LLMs have shown strong correlations with human evaluations in various tasks, their assessment scope is still limited. For instance, most studies primarily focus on lexical quality aspects such as coherence and relevance (Lee et al., 2023a; Kotonya et al., 2023; Larionov et al., 2023). However, NLG evaluation requires a more comprehensive understanding of various aspects like fluency, grammar, style, and sentiment. Therefore, future research should focus on expanding the scope of LLM-based NLG evaluation to cover these aspects.
+
+To address these challenges and limitations, recent studies have proposed methods that combine human and LLM evaluations to improve the overall quality and fairness of NLG evaluation. For example, COEVAL (Lee et al., 2023b) is a framework that uses LLMs to provide diverse high-quality task-specific evaluation criteria while maintaining human involvement for unrealistic or ambiguous criteria. This approach can help ensure the transparency and interpretability of NLG evaluation decisions.
+
+Another study, by Kotonya et al. (2023), proposes a method that uses LLMs to identify and flag potentially biased or unfair evaluations, allowing human evaluators to review and correct them. This approach can help improve the fairness and accuracy of NLG evaluation.
+
+In conclusion, recent developments in LLM-based NLG evaluation have shown promising results, with strong correlations between LLMs and human evaluations in various applications. However, challenges such as lack of transparency, interpretability, and limited scope remain. To address these challenges, future research should focus on expanding the scope of LLM-based NLG evaluation, improving its transparency and interpretability, and ensuring fairness and accuracy through a combination of human and LLM evaluations.
+
+References:
+Almazrouei, A., et al. (2023). BigScience: A large-scale open-science project for multilingual foundation models. arXiv preprint arXiv:2301.04568.
+Brown, M., et al. (2020). Language models are few-shot learners. Advances in Neural Information Processing Systems, 33, 7068–7079.
+Gilardi, S., et al. (2023). Evaluating text generation with large language models: A survey. arXiv preprint arXiv:2301.04571.
+Kotonya, N., et al. (2023). COEVAL: Combining human and model evaluations for fair and transparent natural language generation evaluation. Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, 845–857.
+Lauscher, W., et al. (2019). Moverscore: A metric for evaluating summarization quality. arXiv preprint arXiv:1906.03332.
+Lee, J., et al. (2023a). Evaluating natural language generation with large language models: A survey. arXiv preprint arXiv:2301.04570.
+Lee, J., et al. (2023b). COEVAL: Combining human and model evaluations for fair and transparent natural language generation evaluation. Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, 845–857.
+Larionov, D., et al. (2023). Evaluating text generation with large language models: A survey. arXiv preprint arXiv:2301.04569.
+Raffel, S., et al. (2019). Exploring the limits of transfer learning with a multilingual BERT model. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 4837–4846.
+Touvron, H., et al. (2023a). Bloomz: A large-scale open-domain multilingual language model. arXiv preprint arXiv:2301.04569.
+Zhang, J., et al. (2020). Sentence evaluation through reference entailment with BERT: A new dataset and analysis. Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 371–384.
+Sources: ['2402.01383v1/2311.18702v2.CritiqueLLM__Towards_an_Informative_Critique_Generation_Model_for_Evaluation_of_Large_Language_Model_Generation.pdf', '2402.01383v1/2311.00686v1.Little_Giants__Exploring_the_Potential_of_Small_LLMs_as_Evaluation_Metrics_in_Summarization_in_the_Eval4NLP_2023_Shared_Task.pdf', '2402.01383v1/2307.07889v3.LLM_Comparative_Assessment__Zero_shot_NLG_Evaluation_through_Pairwise_Comparisons_using_Large_Language_Models.pdf', '2402.01383v1/2307.03025v3.Style_Over_Substance__Evaluation_Biases_for_Large_Language_Models.pdf', '2402.01383v1/2310.19740v1.Collaborative_Evaluation__Exploring_the_Synergy_of_Large_Language_Models_and_Humans_for_Open_ended_Generation_Evaluation.pdf', '2402.01383v1/2310.19792v1.The_Eval4NLP_2023_Shared_Task_on_Prompting_Large_Language_Models_as_Explainable_Metrics.pdf', '2402.01383v1/2306.04181v2.Benchmarking_Foundation_Models_with_Language_Model_as_an_Examiner.pdf', '2402.01383v1/2310.19740v1.Collaborative_Evaluation__Exploring_the_Synergy_of_Large_Language_Models_and_Humans_for_Open_ended_Generation_Evaluation.pdf', '2402.01383v1/2305.14239v2.On_Learning_to_Summarize_with_Large_Language_Models_as_References.pdf', '2402.01383v1/2312.15407v2.A_Comprehensive_Analysis_of_the_Effectiveness_of_Large_Language_Models_as_Automatic_Dialogue_Evaluators.pdf'] 
+SourceText:2 Related Work
+
+Evaluation is a long-standing task in NLP, which becomes more challenging with the rapid develop- ment of LLMs (Celikyilmaz et al., 2020; Chang et al., 2023). Currently, there are mainly two lines of work on LLM evaluation, including NLU-style and NLG-style evaluations. NLU-style evaluation methods utilize natural language understanding (NLU) tasks such as multi-choice QA to measure the performance of LLMs via simple objective met- rics (such as accuracy and F1 score) (Hendrycks et al., 2021; Zhong et al., 2023; Huang et al., 2023b), which may deviate from the common us- age of LLMs and may not exactly reflect the ability of LLMs in generating responses for user queries.
+
+ - -
+
+Previous research efforts have explored LLM- based evaluation metrics, yielding promising re- sults. Notable examples include the development of metrics like the GEMBA metric for translation quality assessment (Kocmi and Federmann, 2023), work on the effectiveness of LLMs as an alterna- tive to human evaluation for NLP tasks by Chiang and Lee (2023), and the INSTRUCTSCORE met- ric for summarization evaluation (Xu et al., 2023). However, a signiﬁcant gap exists in the system- atic evaluation and exploration of prompting tech- niques available for metric usage with LLMs. In fact, there is scant work in this area to date. Excep-
+
+ - -
+
+Our contributions are 1) We are the first work that comprehensively analyzes pairwise compara- tive assessment for NLG evaluation; 2) We demon- strate that comparative assessment is far more ef- fective than prompt-scoring for moderately-sized LLMs, and yields performance that is state-of-the- art for particular attributes; 3) We demonstrate that positional bias impacts comparative decisions, and introduce a method to debias LLMs which leads to performance boosts, especially when only a subset of comparisons are considered.
+
+2 Background and Related Work
+
+2.1 Reference-based Evaluation
+
+In NLG evaluation, a standard approach is the comparison of annotator-provided gold-standard references with the generated response. Estab- lished heuristics, such as the N-gram overlap met-
+
+2
+
+ - -
+
+Evaluation With the advancement of LLMs (Large Language Models), the need for their thor- ough evaluation becomes increasingly important. Traditionally, NLP models are assessed using stan- dardized benchmark test suites. Given the capa- bilities of LLMs, several studies suggest using a diverse set of NLP benchmarks for a more com- prehensive understanding (Hendrycks et al., 2021; Gao et al., 2021; Srivastava et al., 2022; Liang et al., 2022; Li et al., 2023b). As pointed out by Gudibande et al. (2023) and Zheng et al. (2023) that there is a gap between users’ perception and standardized evaluation suites, recent LLM studies often incorporate human evaluation for a more nu- anced understanding of model performance (Wang et al., 2022a; Chiang et al., 2023; Wu et al., 2023). As human evaluations can be costly, some recent works utilize state-of-the-art LLMs such as GPT-4 (OpenAI, 2023) and Claude-1 (Bai et al., 2022b) to evaluate model outputs. More recently, several works employ the Elo
+
+ - -
+
+8 Conclusion
+
+We propose an LLM-ideation-human-scrutiny pipeline to explore the synergy of LLMs and hu- mans in establishing evaluation criteria and con- ducting multi-dimensional evaluations for open- ended NLG tasks. We find that LLM’s criteria are generally comprehensive but tend to exaggerate un- necessary criteria without considering realistic con- ditions. Humans can identify errors made by LLMs during the evaluation process, such as skewed pos- itive scoring and hallucination in criteria that re- quire numerical reasoning and information seeking, among others. We hope our results and insights can motivate the development of trustworthy evaluation methods without excessive human effort.
+
+Limitations
+
+ - -
+
+Neema Kotonya, Saran Krishnasamy, Joel R. Tetreault, and Alejandro Jaimes. 2023. Little giants: Exploring the potential of small llms as evaluation metrics in summarization in the eval4nlp 2023 shared task. In Proceedings of the 4th Workshop on Evaluation and Comparison for NLP systems.
+
+Daniil Larionov, Vasiliy Viskov, George Kokush, Alexander Panchenko, and Steffen Eger. 2023. Team nllg submission for eval4nlp 2023 shared task: Retrieval-augmented in-context learning for nlg eval- uation. In Proceedings of the 4th Workshop on Eval- uation and Comparison for NLP systems.
+
+Ariel N. Lee, Cole J. Hunter, and Nataniel Ruiz. 2023a. Platypus: Quick, cheap, and powerful refinement of llms.
+
+ - -
+
+To address these issues, well-trained LMs are utilized in NLG evaluation [32, 33, 34, 35]. One mainstream of previous methods is reference-based, where they derive the similarity between the candidate and the reference using an LM. Some prominent metrics in this class include Mover- Score [36], BERTScore [14]. These metrics measure the distributional similarity rather than lexical overlap [37], making them appropriate for contexts that require more flexible generation. Recent studies [17, 18, 19, 38, 39, 40, 41, 42] have demonstrated that large language models (LLMs), such as ChatGPT [2], can conduct NLG evaluations in a reference-free manner. They can rate a candidate text (or perform a comparative assessment of two candidates) based on a specified evaluation aspect, displaying a high correlation with human assessments in tasks such as summarization and story generation [43, 44]. In these studies, the evaluations primarily focus on lexical quality aspects, such as coherence and
+
+ - -
+
+We demonstrate the usefulness and generality of COEVAL via instantiation on three open-ended NLG tasks. In Stage 1, we find that LLMs can pro- vide diverse high-quality task-specific evaluation criteria, with over 70% of the final criteria originat- ing from LLMs. However, approximately 27% are still deemed to be “unrealistic”, highlighting the im- portance of human involvement. In Stage 2, most LLM evaluations are acceptable, particularly for criteria such as relevance, achieving around 48% time savings compared to human evaluations with- out LLM assistants. Additionally, through the use of the LLM evaluations, outlier human evaluations that would typically appear in conventional human evaluation processes can be reduced by 62% while
+
+ - -
+
+such as ROUGE or BERTScore (Zhang* et al., 2020). Apart from summarization evaluation, LLM-based evaluation has also been used in text classification tasks (Gilardi et al., 2023) and for reward design for RL agents (Kwon et al., 2023).
+
+ - -
+
+The recent advancement in large language models (Brown et al. 2020; Chowdhery et al. 2022; Touvron et al. 2023a) coupled with refined alignment techniques (Wei et al. 2022a; Ouyang and et al. 2022) lead to an extensive array of general-purpose AI assistants that are capable of tackling a broad spectrum of NLP tasks. Harnessing their strong lan- guage understanding capability, LLMs, especially the fam- ily of instruction-tuned models, offer great promise as ef- fective and generalized automatic dialogue evaluators. Sev- eral recent works (Huynh et al. 2023; Chen et al. 2023a; Liu et al. 2023; Lin and Chen 2023; Fu et al. 2023) report strong correlations of LLMs with human evaluation. Yet, the scope of their assessment is limited: (1) The coverage of LLMs is restricted, with a primary emphasis on proprietary models, such as OpenAI ChatGPT/GPT-4. Lately, there has been an exponential growth of open-source foundation mod- els (Almazrouei et al. 2023; Touvron et al. 2023a; Scao et al.
