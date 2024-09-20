@@ -1,0 +1,86 @@
+{
+    "2006.14827": {
+        "title": "Memory-efficient Embedding for Recommendations",
+        "abstract": "Practical large-scale recommender systems usually contain thousands of\nfeature fields from users, items, contextual information, and their\ninteractions. Most of them empirically allocate a unified dimension to all\nfeature fields, which is memory inefficient. Thus it is highly desired to\nassign different embedding dimensions to different feature fields according to\ntheir importance and predictability. Due to the large amounts of feature fields\nand the nuanced relationship between embedding dimensions with feature\ndistributions and neural network architectures, manually allocating embedding\ndimensions in practical recommender systems can be very difficult. To this end,\nwe propose an AutoML based framework (AutoDim) in this paper, which can\nautomatically select dimensions for different feature fields in a data-driven\nfashion. Specifically, we first proposed an end-to-end differentiable framework\nthat can calculate the weights over various dimensions for feature fields in a\nsoft and continuous manner with an AutoML based optimization algorithm; then we\nderive a hard and discrete embedding component architecture according to the\nmaximal weights and retrain the whole recommender framework. We conduct\nextensive experiments on benchmark datasets to validate the effectiveness of\nthe AutoDim framework.",
+        "date": "2020-06-26T07:07:59+00:00",
+        "label": 1
+    },
+    "1412.7030": {
+        "title": "Proceedings of the 7th European Conference on Python in Science (EuroSciPy 2014)",
+        "abstract": "These are the proceedings of the 7th European Conference on Python in\nScience, EuroSciPy 2014, that was held in Cambridge, UK (27-30 August 2014).",
+        "date": "2014-12-22T15:47:51+00:00",
+        "label": 0
+    },
+    "2202.01291": {
+        "title": "Computer sciences and synthesis: retrospective and perspective",
+        "abstract": "The problem of synthesis in computer sciences, including cybernetics,\nartificial intelligence and system analysis, is analyzed. Main methods of\nrealization this problem are discussed. Ways of search universal method of\ncreation universal synthetic science are represented. As example of such\nuniversal method polymetric analysis is given. Perspective of further\ndevelopment of this research, including application polymetric method for the\nresolution main problems of computer sciences, is analyzed too.",
+        "date": "2022-01-26T04:42:45+00:00",
+        "label": 0
+    },
+    "2006.05623": {
+        "title": "Training with Multi-Layer Embeddings for Model Reduction",
+        "abstract": "Modern recommendation systems rely on real-valued embeddings of categorical\nfeatures. Increasing the dimension of embedding vectors improves model accuracy\nbut comes at a high cost to model size. We introduce a multi-layer embedding\ntraining (MLET) architecture that trains embeddings via a sequence of linear\nlayers to derive superior embedding accuracy vs. model size trade-off.\n  Our approach is fundamentally based on the ability of factorized linear\nlayers to produce superior embeddings to that of a single linear layer. We\nfocus on the analysis and implementation of a two-layer scheme. Harnessing the\nrecent results in dynamics of backpropagation in linear neural networks, we\nexplain the ability to get superior multi-layer embeddings via their tendency\nto have lower effective rank. We show that substantial advantages are obtained\nin the regime where the width of the hidden layer is much larger than that of\nthe final embedding (d). Crucially, at conclusion of training, we convert the\ntwo-layer solution into a single-layer one: as a result, the inference-time\nmodel size scales as d.\n  We prototype the MLET scheme within Facebook's PyTorch-based open-source Deep\nLearning Recommendation Model. We show that it allows reducing d by 4-8X, with\na corresponding improvement in memory footprint, at given model accuracy. The\nexperiments are run on two publicly available click-through-rate prediction\nbenchmarks (Criteo-Kaggle and Avazu). The runtime cost of MLET is 25%, on\naverage.",
+        "date": "2020-06-10T02:47:40+00:00",
+        "label": 1
+    },
+    "0705.1367": {
+        "title": "Logic Column 18: Alternative Logics: A Book Review",
+        "abstract": "This article discusses two books on the topic of alternative logics in\nscience: \"Deviant Logic\", by Susan Haack, and \"Alternative Logics: Do Sciences\nNeed Them?\", edited by Paul Weingartner.",
+        "date": "2007-05-09T21:56:15+00:00",
+        "label": 0
+    },
+    "1911.02079": {
+        "title": "Post-Training 4-bit Quantization on Embedding Tables",
+        "abstract": "Continuous representations have been widely adopted in recommender systems\nwhere a large number of entities are represented using embedding vectors. As\nthe cardinality of the entities increases, the embedding components can easily\ncontain millions of parameters and become the bottleneck in both storage and\ninference due to large memory consumption. This work focuses on post-training\n4-bit quantization on the continuous embeddings. We propose row-wise uniform\nquantization with greedy search and codebook-based quantization that\nconsistently outperforms state-of-the-art quantization approaches on reducing\naccuracy degradation. We deploy our uniform quantization technique on a\nproduction model in Facebook and demonstrate that it can reduce the model size\nto only 13.89% of the single-precision version while the model quality stays\nneutral.",
+        "date": "2019-11-05T20:43:51+00:00",
+        "label": 1
+    },
+    "2112.01944": {
+        "title": "Towards Low-loss 1-bit Quantization of User-item Representations for Top-K Recommendation",
+        "abstract": "Due to the promising advantages in space compression and inference\nacceleration, quantized representation learning for recommender systems has\nbecome an emerging research direction recently. As the target is to embed\nlatent features in the discrete embedding space, developing quantization for\nuser-item representations with a few low-precision integers confronts the\nchallenge of high information loss, thus leading to unsatisfactory performance\nin Top-K recommendation.\n  In this work, we study the problem of representation learning for\nrecommendation with 1-bit quantization. We propose a model named Low-loss\nQuantized Graph Convolutional Network (L^2Q-GCN). Different from previous work\nthat plugs quantization as the final encoder of user-item embeddings, L^2Q-GCN\nlearns the quantized representations whilst capturing the structural\ninformation of user-item interaction graphs at different semantic levels. This\nachieves the substantial retention of intermediate interactive information,\nalleviating the feature smoothing issue for ranking caused by numerical\nquantization. To further improve the model performance, we also present an\nadvanced solution named L^2Q-GCN-anl with quantization approximation and\nannealing training strategy. We conduct extensive experiments on four\nbenchmarks over Top-K recommendation task. The experimental results show that,\nwith nearly 9x representation storage compression, L^2Q-GCN-anl attains about\n90~99% performance recovery compared to the state-of-the-art model.",
+        "date": "2021-12-03T14:43:55+00:00",
+        "label": 1
+    },
+    "2103.06124": {
+        "title": "Semantically Constrained Memory Allocation (SCMA) for Embedding in Efficient Recommendation Systems",
+        "abstract": "Deep learning-based models are utilized to achieve state-of-the-art\nperformance for recommendation systems. A key challenge for these models is to\nwork with millions of categorical classes or tokens. The standard approach is\nto learn end-to-end, dense latent representations or embeddings for each token.\nThe resulting embeddings require large amounts of memory that blow up with the\nnumber of tokens. Training and inference with these models create storage, and\nmemory bandwidth bottlenecks leading to significant computing and energy\nconsumption when deployed in practice. To this end, we present the problem of\n\\textit{Memory Allocation} under budget for embeddings and propose a novel\nformulation of memory shared embedding, where memory is shared in proportion to\nthe overlap in semantic information. Our formulation admits a practical and\nefficient randomized solution with Locality sensitive hashing based Memory\nAllocation (LMA). We demonstrate a significant reduction in the memory\nfootprint while maintaining performance. In particular, our LMA embeddings\nachieve the same performance compared to standard embeddings with a 16$\\times$\nreduction in memory footprint. Moreover, LMA achieves an average improvement of\nover 0.003 AUC across different memory regimes than standard DLRM models on\nCriteo and Avazu datasets",
+        "date": "2021-02-24T19:55:49+00:00",
+        "label": 1
+    },
+    "2407.08102": {
+        "title": "Dynamics of Gender Bias within Computer Science",
+        "abstract": "A new dataset (N = 7,456) analyzes women's research authorship in the\nAssociation for Computing Machinery's founding 13 Special Interest Groups or\nSIGs, a proxy for computer science. ACM SIGs expanded during 1970-2000; each\nexperienced increasing women's authorship. But diversity abounds. Several SIGs\nhad fewer than 10% women authors while SIGUCCS (university computing centers)\nexceeded 40%. Three SIGs experienced accelerating growth in women's authorship;\nmost, including a composite ACM, had decelerating growth. This research may\nencourage reform efforts, often focusing on general education or workforce\nfactors (across the entity of \"computer science\"), to examine under-studied\ndynamics within computer science that shaped changes in women's participation.",
+        "date": "2024-07-11T00:14:21+00:00",
+        "label": 0
+    },
+    "2007.08087": {
+        "title": "Starting with data: advancing spatial data science by building and sharing high-quality datasets",
+        "abstract": "Spatial data science has emerged in recent years as an interdisciplinary\nfield. This position paper discusses the importance of building and sharing\nhigh-quality datasets for spatial data science.",
+        "date": "2020-07-16T03:15:56+00:00",
+        "label": 0
+    },
+    "2006.04466": {
+        "title": "Differentiable Neural Input Search for Recommender Systems",
+        "abstract": "Latent factor models are the driving forces of the state-of-the-art\nrecommender systems, with an important insight of vectorizing raw input\nfeatures into dense embeddings. The dimensions of different feature embeddings\nare often set to a same value empirically, which limits the predictive\nperformance of latent factor models. Existing works have proposed heuristic or\nreinforcement learning-based methods to search for mixed feature embedding\ndimensions. For efficiency concern, these methods typically choose embedding\ndimensions from a restricted set of candidate dimensions. However, this\nrestriction will hurt the flexibility of dimension selection, leading to\nsuboptimal performance of search results. In this paper, we propose\nDifferentiable Neural Input Search (DNIS), a method that searches for mixed\nfeature embedding dimensions in a more flexible space through continuous\nrelaxation and differentiable optimization. The key idea is to introduce a soft\nselection layer that controls the significance of each embedding dimension, and\noptimize this layer according to model's validation performance. DNIS is\nmodel-agnostic and thus can be seamlessly incorporated with existing latent\nfactor models for recommendation. We conduct experiments with various\narchitectures of latent factor models on three public real-world datasets for\nrating prediction, Click-Through-Rate (CTR) prediction, and top-k item\nrecommendation. The results demonstrate that our method achieves the best\npredictive performance compared with existing neural input search approaches\nwith fewer embedding parameters and less time cost.",
+        "date": "2020-06-08T10:43:59+00:00",
+        "label": 1
+    },
+    "2010.11305": {
+        "title": "Mixed-Precision Embedding Using a Cache",
+        "abstract": "In recommendation systems, practitioners observed that increase in the number\nof embedding tables and their sizes often leads to significant improvement in\nmodel performances. Given this and the business importance of these models to\nmajor internet companies, embedding tables for personalization tasks have grown\nto terabyte scale and continue to grow at a significant rate. Meanwhile, these\nlarge-scale models are often trained with GPUs where high-performance memory is\na scarce resource, thus motivating numerous work on embedding table compression\nduring training. We propose a novel change to embedding tables using a cache\nmemory architecture, where the majority of rows in an embedding is trained in\nlow precision, and the most frequently or recently accessed rows cached and\ntrained in full precision. The proposed architectural change works in\nconjunction with standard precision reduction and computer arithmetic\ntechniques such as quantization and stochastic rounding. For an open source\ndeep learning recommendation model (DLRM) running with Criteo-Kaggle dataset,\nwe achieve 3x memory reduction with INT8 precision embedding tables and\nfull-precision cache whose size are 5% of the embedding tables, while\nmaintaining accuracy. For an industrial scale model and dataset, we achieve\neven higher >7x memory reduction with INT4 precision and cache size 1% of\nembedding tables, while maintaining accuracy, and 16% end-to-end training\nspeedup by reducing GPU-to-host data transfers.",
+        "date": "2020-10-21T20:49:54+00:00",
+        "label": 1
+    },
+    "2205.01553": {
+        "title": "Why The Trans Programmer?",
+        "abstract": "Through online anecdotal evidence and online communities, there is an\nin-group idea of trans people (specifically trans-feminine individuals)\ndisproportionately entering computer science education & fields. Existing data\nsuggests this is a plausible trend, yet no research has been done into exactly\nwhy. As computer science education (traditional schooling or self-taught\nmethods) is integral to working in computer science fields, a simple research\nsurvey was conducted to gather data on 138 trans people's experiences with\ncomputer science & computer science education. This article's purpose is to\nshed insight on the motivations for trans individuals choosing computer science\npaths, while acting as a basis and call to action for further research.",
+        "date": "2022-05-03T15:06:23+00:00",
+        "label": 0
+    },
+    "1404.5458": {
+        "title": "Complex Workflow Management and Integration of Distributed Computing Resources by Science Gateway Portal for Molecular Dynamics Simulations in Materials Science",
+        "abstract": "The \"IMP Science Gateway Portal\" (http://scigate.imp.kiev.ua) for complex\nworkflow management and integration of distributed computing resources (like\nclusters, service grids, desktop grids, clouds) is presented. It is created on\nthe basis of WS-PGRADE and gUSE technologies, where WS-PGRADE is designed for\nscience workflow operation and gUSE - for smooth integration of available\nresources for parallel and distributed computing in various heterogeneous\ndistributed computing infrastructures (DCI). The typical scientific workflow\nwith possible scenarios of its preparation and usage is considered. Several\ntypical science applications (scientific workflows) are considered for\nmolecular dynamics (MD) simulations of complex behavior of various\nnanostructures (nanoindentation of graphene layers, defect system relaxation in\nmetal nanocrystals, thermal stability of boron nitride nanotubes, etc.). The\nadvantages and drawbacks of the solution are shortly analyzed in the context of\nits practical applications for MD simulations in materials science, physics and\nnanotechnologies with available heterogeneous DCIs.",
+        "date": "2014-04-22T11:34:04+00:00",
+        "label": 0
+    }
+}

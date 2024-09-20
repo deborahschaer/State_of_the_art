@@ -1,63 +1,15 @@
 {
-    "1106.2769": {
-        "title": "Co-c.e. spheres and cells in computable metric spaces",
-        "abstract": "We investigate conditions under which a co-computably enumerable set in a\ncomputable metric space is computable. Using higher-dimensional chains and\nspherical chains we prove that in each computable metric space which is locally\ncomputable each co-computably enumerable sphere is computable and each co-c.e.\ncell with co-c.e. boundary sphere is computable.",
-        "date": "2011-06-14T17:46:06+00:00",
-        "label": 0
-    },
-    "2206.12669": {
-        "title": "Crypto Makes AI Evolve",
-        "abstract": "Adopting cryptography has given rise to a significant evolution in Artificial\nIntelligence (AI). This paper studies the path and stages of this evolution. We\nstart with reviewing existing relevant surveys, noting their shortcomings,\nespecially the lack of a close look at the evolution process and solid future\nroadmap. These shortcomings justify the work of this paper. Next, we identify,\ndefine and discuss five consequent stages in the evolution path, including\nCrypto-Sensitive AI, Crypto-Adapted AI, Crypto-Friendly AI, Crypto-Enabled AI,\nCrypto-Protected AI. Then, we establish a future roadmap for further research\nin this area, focusing on the role of quantum-inspired and bio-inspired AI.",
-        "date": "2022-06-25T15:04:47+00:00",
-        "label": 0
-    },
-    "1210.6636": {
-        "title": "Informaticology: combining Computer Science, Data Science, and Fiction Science",
-        "abstract": "Motivated by an intention to remedy current complications with Dutch\nterminology concerning informatics, the term informaticology is positioned to\ndenote an academic counterpart of informatics where informatics is conceived of\nas a container for a coherent family of practical disciplines ranging from\ncomputer engineering and software engineering to network technology, data\ncenter management, information technology, and information management in a\nbroad sense.\n  Informaticology escapes from the limitations of instrumental objectives and\nthe perspective of usage that both restrict the scope of informatics. That is\nachieved by including fiction science in informaticology and by ranking fiction\nscience on equal terms with computer science and data science, and framing (the\nstudy of) game design, evelopment, assessment and distribution, ranging from\nserious gaming to entertainment gaming, as a chapter of fiction science. A\nsuggestion for the scope of fiction science is specified in some detail.\n  In order to illustrate the coherence of informaticology thus conceived, a\npotential application of fiction to the ontology of instruction sequences and\nto software quality assessment is sketched, thereby highlighting a possible\nrole of fiction (science) within informaticology but outside gaming.",
-        "date": "2012-10-24T19:24:59+00:00",
-        "label": 0
-    },
-    "2403.03387": {
-        "title": "Undergraduate data science education: Who has the microphone and what are they saying?",
-        "abstract": "The presence of data science has been profound in the scientific community in\nalmost every discipline. An important part of the data science education\nexpansion has been at the undergraduate level. We conducted a systematic\nliterature review to (1) specify current evidence and knowledge gaps in\nundergraduate data science education and (2) inform policymakers and data\nscience educators/practitioners about the present status of data science\neducation research. The majority of the publications in data science education\nthat met our search criteria were available open-access. Our results indicate\nthat data science education research lacks empirical data and reproducibility.\nNot all disciplines contribute equally to the field of data science education.\nComputer science and data science as a separate field emerge as the leading\ncontributors to the literature. In contrast, fields such as statistics,\nmathematics, as well as other fields closely related to data science exhibit a\nlimited presence in studies. We recommend that federal agencies and researchers\n1) invest in empirical data science education research; 2) diversify research\nefforts to enrich the spectrum of types of studies; 3) encourage scholars in\nkey data science fields that are currently underrepresented in the literature\nto contribute more to research and publications.",
-        "date": "2024-03-06T00:49:08+00:00",
-        "label": 0
-    },
-    "2302.00070": {
-        "title": "Debiasing Vision-Language Models via Biased Prompts",
-        "abstract": "Machine learning models have been shown to inherit biases from their training\ndatasets. This can be particularly problematic for vision-language foundation\nmodels trained on uncurated datasets scraped from the internet. The biases can\nbe amplified and propagated to downstream applications like zero-shot\nclassifiers and text-to-image generative models. In this study, we propose a\ngeneral approach for debiasing vision-language foundation models by projecting\nout biased directions in the text embedding. In particular, we show that\ndebiasing only the text embedding with a calibrated projection matrix suffices\nto yield robust classifiers and fair generative models. The proposed\nclosed-form solution enables easy integration into large-scale pipelines, and\nempirical results demonstrate that our approach effectively reduces social bias\nand spurious correlation in both discriminative and generative vision-language\nmodels without the need for additional data or training.",
-        "date": "2023-01-31T20:09:33+00:00",
+    "2403.04547": {
+        "title": "CLIP the Bias: How Useful is Balancing Data in Multimodal Learning?",
+        "abstract": "We study the effectiveness of data-balancing for mitigating biases in\ncontrastive language-image pretraining (CLIP), identifying areas of strength\nand limitation. First, we reaffirm prior conclusions that CLIP models can\ninadvertently absorb societal stereotypes. To counter this, we present a novel\nalgorithm, called Multi-Modal Moment Matching (M4), designed to reduce both\nrepresentation and association biases (i.e. in first- and second-order\nstatistics) in multimodal data. We use M4 to conduct an in-depth analysis\ntaking into account various factors, such as the model, representation, and\ndata size. Our study also explores the dynamic nature of how CLIP learns and\nunlearns biases. In particular, we find that fine-tuning is effective in\ncountering representation biases, though its impact diminishes for association\nbiases. Also, data balancing has a mixed impact on quality: it tends to improve\nclassification but can hurt retrieval. Interestingly, data and architectural\nimprovements seem to mitigate the negative impact of data balancing on\nperformance; e.g. applying M4 to SigLIP-B/16 with data quality filters improves\nCOCO image-to-text retrieval @5 from 86% (without data balancing) to 87% and\nImageNet 0-shot classification from 77% to 77.5%! Finally, we conclude with\nrecommendations for improving the efficacy of data balancing in multimodal\nsystems.",
+        "date": "2024-03-07T14:43:17+00:00",
         "label": 1
     },
-    "2207.07180": {
-        "title": "Contrastive Adapters for Foundation Model Group Robustness",
-        "abstract": "While large pretrained foundation models (FMs) have shown remarkable\nzero-shot classification robustness to dataset-level distribution shifts, their\nrobustness to subpopulation or group shifts is relatively underexplored. We\nstudy this problem, and find that FMs such as CLIP may not be robust to various\ngroup shifts. Across 9 robustness benchmarks, zero-shot classification with\ntheir embeddings results in gaps of up to 80.7 percentage points (pp) between\naverage and worst-group accuracy. Unfortunately, existing methods to improve\nrobustness require retraining, which can be prohibitively expensive on large\nfoundation models. We also find that efficient ways to improve model inference\n(e.g., via adapters, lightweight networks with FM embeddings as inputs) do not\nconsistently improve and can sometimes hurt group robustness compared to\nzero-shot (e.g., increasing the accuracy gap by 50.1 pp on CelebA). We thus\ndevelop an adapter training strategy to effectively and efficiently improve FM\ngroup robustness. Our motivating observation is that while poor robustness\nresults from groups in the same class being embedded far apart in the\nfoundation model \"embedding space,\" standard adapter training may not bring\nthese points closer together. We thus propose contrastive adapting, which\ntrains adapters with contrastive learning to bring sample embeddings close to\nboth their ground-truth class embeddings and other sample embeddings in the\nsame class. Across the 9 benchmarks, our approach consistently improves group\nrobustness, raising worst-group accuracy by 8.5 to 56.0 pp over zero-shot. Our\napproach is also efficient, doing so without any FM finetuning and only a fixed\nset of frozen FM embeddings. On benchmarks such as Waterbirds and CelebA, this\nleads to worst-group accuracy comparable to state-of-the-art methods that\nretrain entire models, while only training $\\leq$1% of the model parameters.",
-        "date": "2022-07-14T19:40:55+00:00",
-        "label": 1
-    },
-    "1908.03793": {
-        "title": "The rise and rise of interdisciplinary research: Understanding the interaction dynamics of three major fields -- Physics, Mathematics & Computer Science",
-        "abstract": "The distinction between sciences is becoming increasingly more artificial --\nan approach from one area can be easily applied to the other. More exciting\nresearch nowadays is happening perhaps at the interfaces of disciplines like\nPhysics, Mathematics and Computer Science. How do these interfaces emerge and\ninteract? For instance, is there a specific pattern in which these fields cite\neach other? In this article, we investigate a collection of more than 1.2\nmillion papers from three different scientific disciplines -- Physics,\nMathematics, and Computer Science. We show how over a timescale the citation\npatterns from the core science fields (Physics, Mathematics) to the applied and\nfast-growing field of Computer Science have drastically increased. Further, we\nobserve how certain subfields in these disciplines are shrinking while others\nare becoming tremendously popular. For instance, an intriguing observation is\nthat citations from Mathematics to the subfield of machine learning in Computer\nScience in recent times are exponentially increasing.",
-        "date": "2019-08-10T17:58:19+00:00",
+    "2007.08087": {
+        "title": "Starting with data: advancing spatial data science by building and sharing high-quality datasets",
+        "abstract": "Spatial data science has emerged in recent years as an interdisciplinary\nfield. This position paper discusses the importance of building and sharing\nhigh-quality datasets for spatial data science.",
+        "date": "2020-07-16T03:15:56+00:00",
         "label": 0
-    },
-    "0907.3804": {
-        "title": "Decidability of higher-order matching",
-        "abstract": "We show that the higher-order matching problem is decidable using a\ngame-theoretic argument.",
-        "date": "2009-07-22T09:17:30+00:00",
-        "label": 0
-    },
-    "2010.11929": {
-        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-        "abstract": "While the Transformer architecture has become the de-facto standard for\nnatural language processing tasks, its applications to computer vision remain\nlimited. In vision, attention is either applied in conjunction with\nconvolutional networks, or used to replace certain components of convolutional\nnetworks while keeping their overall structure in place. We show that this\nreliance on CNNs is not necessary and a pure transformer applied directly to\nsequences of image patches can perform very well on image classification tasks.\nWhen pre-trained on large amounts of data and transferred to multiple mid-sized\nor small image recognition benchmarks (ImageNet, CIFAR-100, VTAB, etc.), Vision\nTransformer (ViT) attains excellent results compared to state-of-the-art\nconvolutional networks while requiring substantially fewer computational\nresources to train.",
-        "date": "2020-10-22T17:55:59+00:00",
-        "label": 1
-    },
-    "1901.10436": {
-        "title": "Diversity in Faces",
-        "abstract": "Face recognition is a long standing challenge in the field of Artificial\nIntelligence (AI). The goal is to create systems that accurately detect,\nrecognize, verify, and understand human faces. There are significant technical\nhurdles in making these systems accurate, particularly in unconstrained\nsettings due to confounding factors related to pose, resolution, illumination,\nocclusion, and viewpoint. However, with recent advances in neural networks,\nface recognition has achieved unprecedented accuracy, largely built on\ndata-driven deep learning methods. While this is encouraging, a critical aspect\nthat is limiting facial recognition accuracy and fairness is inherent facial\ndiversity. Every face is different. Every face reflects something unique about\nus. Aspects of our heritage - including race, ethnicity, culture, geography -\nand our individual identify - age, gender, and other visible manifestations of\nself-expression, are reflected in our faces. We expect face recognition to work\nequally accurately for every face. Face recognition needs to be fair. As we\nrely on data-driven methods to create face recognition technology, we need to\nensure necessary balance and coverage in training data. However, there are\nstill scientific questions about how to represent and extract pertinent facial\nfeatures and quantitatively measure facial diversity. Towards this goal,\nDiversity in Faces (DiF) provides a data set of one million annotated human\nface images for advancing the study of facial diversity. The annotations are\ngenerated using ten well-established facial coding schemes from the scientific\nliterature. The facial coding schemes provide human-interpretable quantitative\nmeasures of facial features. We believe that by making the extracted coding\nschemes available on a large set of faces, we can accelerate research and\ndevelopment towards creating more fair and accurate facial recognition systems.",
-        "date": "2019-01-29T18:24:50+00:00",
-        "label": 1
     },
     "2306.00905": {
         "title": "T2IAT: Measuring Valence and Stereotypical Biases in Text-to-Image Generation",
@@ -71,160 +23,10 @@
         "date": "2023-07-04T23:04:57+00:00",
         "label": 1
     },
-    "2204.06125": {
-        "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
-        "abstract": "Contrastive models like CLIP have been shown to learn robust representations\nof images that capture both semantics and style. To leverage these\nrepresentations for image generation, we propose a two-stage model: a prior\nthat generates a CLIP image embedding given a text caption, and a decoder that\ngenerates an image conditioned on the image embedding. We show that explicitly\ngenerating image representations improves image diversity with minimal loss in\nphotorealism and caption similarity. Our decoders conditioned on image\nrepresentations can also produce variations of an image that preserve both its\nsemantics and style, while varying the non-essential details absent from the\nimage representation. Moreover, the joint embedding space of CLIP enables\nlanguage-guided image manipulations in a zero-shot fashion. We use diffusion\nmodels for the decoder and experiment with both autoregressive and diffusion\nmodels for the prior, finding that the latter are computationally more\nefficient and produce higher-quality samples.",
-        "date": "2022-04-13T01:10:33+00:00",
-        "label": 1
-    },
-    "0703148": {
-        "title": "Computer Science and Game Theory: A Brief Survey",
-        "abstract": "There has been a remarkable increase in work at the interface of computer\nscience and game theory in the past decade. In this article I survey some of\nthe main themes of work in the area, with a focus on the work in computer\nscience. Given the length constraints, I make no attempt at being\ncomprehensive, especially since other surveys are also available, and a\ncomprehensive survey book will appear shortly.",
-        "date": "2007-03-29T18:43:58+00:00",
-        "label": 0
-    },
-    "1501.05039": {
-        "title": "Defining Data Science",
-        "abstract": "Data science is gaining more and more and widespread attention, but no\nconsensus viewpoint on what data science is has emerged. As a new science, its\nobjects of study and scientific issues should not be covered by established\nsciences. Data in cyberspace have formed what we call datanature. In the\npresent paper, data science is defined as the science of exploring datanature.",
-        "date": "2015-01-21T02:41:55+00:00",
-        "label": 0
-    },
-    "2007.03606": {
-        "title": "Data Science: A Comprehensive Overview",
-        "abstract": "The twenty-first century has ushered in the age of big data and data economy,\nin which data DNA, which carries important knowledge, insights and potential,\nhas become an intrinsic constituent of all data-based organisms. An appropriate\nunderstanding of data DNA and its organisms relies on the new field of data\nscience and its keystone, analytics. Although it is widely debated whether big\ndata is only hype and buzz, and data science is still in a very early phase,\nsignificant challenges and opportunities are emerging or have been inspired by\nthe research, innovation, business, profession, and education of data science.\nThis paper provides a comprehensive survey and tutorial of the fundamental\naspects of data science: the evolution from data analysis to data science, the\ndata science concepts, a big picture of the era of data science, the major\nchallenges and directions in data innovation, the nature of data analytics, new\nindustrialization and service opportunities in the data economy, the profession\nand competency of data education, and the future of data science. This article\nis the first in the field to draw a comprehensive big picture, in addition to\noffering rich observations, lessons and thinking about data science and\nanalytics.",
-        "date": "2020-07-01T02:33:58+00:00",
-        "label": 0
-    },
-    "1111.4755": {
-        "title": "Saying Hello World with MOLA - A Solution to the TTC 2011 Instructive Case",
-        "abstract": "This paper describes the solution of Hello World transformations in MOLA\ntransformation language. Transformations implementing the task are relatively\nstraightforward and easily inferable from the task specification. The required\nadditional steps related to model import and export are also described.",
-        "date": "2011-11-21T05:26:57+00:00",
-        "label": 0
-    },
-    "2311.10833": {
-        "title": "Generative AI has lowered the barriers to computational social sciences",
-        "abstract": "Generative artificial intelligence (AI) has revolutionized the field of\ncomputational social science, unleashing new possibilities for analyzing\nmultimodal data, especially for scholars who may not have extensive programming\nexpertise. This breakthrough carries profound implications for the realm of\nsocial sciences. Firstly, generative AI can significantly enhance the\nproductivity of social scientists by automating the generation, annotation, and\ndebugging of code. Secondly, it empowers researchers to delve into\nsophisticated data analysis through the innovative use of prompt engineering.\nLastly, the educational sphere of computational social science stands to\nbenefit immensely from these tools, given their exceptional ability to annotate\nand elucidate complex codes for learners, thereby simplifying the learning\nprocess and making the technology more accessible.",
-        "date": "2023-11-17T19:24:39+00:00",
-        "label": 0
-    },
-    "0911.1672": {
-        "title": "Biological Computing Fundamentals and Futures",
-        "abstract": "The fields of computing and biology have begun to cross paths in new ways. In\nthis paper a review of the current research in biological computing is\npresented. Fundamental concepts are introduced and these foundational elements\nare explored to discuss the possibilities of a new computing paradigm. We\nassume the reader to possess a basic knowledge of Biology and Computer Science",
-        "date": "2009-11-09T13:16:01+00:00",
-        "label": 0
-    },
-    "1902.11097": {
-        "title": "Predictive Inequity in Object Detection",
-        "abstract": "In this work, we investigate whether state-of-the-art object detection\nsystems have equitable predictive performance on pedestrians with different\nskin tones. This work is motivated by many recent examples of ML and vision\nsystems displaying higher error rates for certain demographic groups than\nothers. We annotate an existing large scale dataset which contains pedestrians,\nBDD100K, with Fitzpatrick skin tones in ranges [1-3] or [4-6]. We then provide\nan in-depth comparative analysis of performance between these two skin tone\ngroupings, finding that neither time of day nor occlusion explain this\nbehavior, suggesting this disparity is not merely the result of pedestrians in\nthe 4-6 range appearing in more difficult scenes for detection. We investigate\nto what extent time of day, occlusion, and reweighting the supervised loss\nduring training affect this predictive bias.",
-        "date": "2019-02-21T21:11:16+00:00",
-        "label": 1
-    },
-    "1506.00555": {
-        "title": "Writing and Publishing Scientific Articles in Computer Science",
-        "abstract": "Over 15 years of teaching, advising students and coordinating scientific\nresearch activities and projects in computer science, we have observed the\ndifficulties of students to write scientific papers to present the results of\ntheir research practices. In addition, they repeatedly have doubts about the\npublishing process. In this article we propose a conceptual framework to\nsupport the writing and publishing of scientific papers in computer science,\nproviding a kind of guide for computer science students to effectively present\nthe results of their research practices, particularly for experimental\nresearch.",
-        "date": "2015-06-01T16:09:53+00:00",
-        "label": 0
-    },
-    "0701087": {
-        "title": "Artificiality in Social Sciences",
-        "abstract": "This text provides with an introduction to the modern approach of\nartificiality and simulation in social sciences. It presents the relationship\nbetween complexity and artificiality, before introducing the field of\nartificial societies which greatly benefited from the computer power fast\nincrease, gifting social sciences with formalization and experimentation tools\npreviously owned by \"hard\" sciences alone. It shows that as \"a new way of doing\nsocial sciences\", artificial societies should undoubtedly contribute to a\nrenewed approach in the study of sociality and should play a significant part\nin the elaboration of original theories of social phenomena.",
-        "date": "2007-01-13T16:50:37+00:00",
-        "label": 0
-    },
-    "2306.13141": {
-        "title": "On Hate Scaling Laws For Data-Swamps",
-        "abstract": "`Scale the model, scale the data, scale the GPU-farms' is the reigning\nsentiment in the world of generative AI today. While model scaling has been\nextensively studied, data scaling and its downstream impacts remain under\nexplored. This is especially of critical importance in the context of\nvisio-linguistic datasets whose main source is the World Wide Web, condensed\nand packaged as the CommonCrawl dump. This large scale data-dump, which is\nknown to have numerous drawbacks, is repeatedly mined and serves as the\ndata-motherlode for large generative models. In this paper, we: 1) investigate\nthe effect of scaling datasets on hateful content through a comparative audit\nof the LAION-400M and LAION-2B-en, containing 400 million and 2 billion samples\nrespectively, and 2) evaluate the downstream impact of scale on\nvisio-linguistic models trained on these dataset variants by measuring racial\nbias of the models trained on them using the Chicago Face Dataset (CFD) as a\nprobe. Our results show that 1) the presence of hateful content in datasets,\nwhen measured with a Hate Content Rate (HCR) metric on the inferences of the\nPysentimiento hate-detection Natural Language Processing (NLP) model, increased\nby nearly $12\\%$ and 2) societal biases and negative stereotypes were also\nexacerbated with scale on the models we evaluated. As scale increased, the\ntendency of the model to associate images of human faces with the `human being'\nclass over 7 other offensive classes reduced by half. Furthermore, for the\nBlack female category, the tendency of the model to associate their faces with\nthe `criminal' class doubled, while quintupling for Black male faces. We\npresent a qualitative and historical analysis of the model audit results,\nreflect on our findings and its implications for dataset curation practice, and\nclose with a summary of our findings and potential future work to be done in\nthis area.",
-        "date": "2023-06-22T18:00:17+00:00",
-        "label": 1
-    },
-    "2312.01261": {
-        "title": "TIBET: Identifying and Evaluating Biases in Text-to-Image Generative Models",
-        "abstract": "Text-to-Image (TTI) generative models have shown great progress in the past\nfew years in terms of their ability to generate complex and high-quality\nimagery. At the same time, these models have been shown to suffer from harmful\nbiases, including exaggerated societal biases (e.g., gender, ethnicity), as\nwell as incidental correlations that limit such a model's ability to generate\nmore diverse imagery. In this paper, we propose a general approach to study and\nquantify a broad spectrum of biases, for any TTI model and for any prompt,\nusing counterfactual reasoning. Unlike other works that evaluate generated\nimages on a predefined set of bias axes, our approach automatically identifies\npotential biases that might be relevant to the given prompt, and measures those\nbiases. In addition, we complement quantitative scores with post-hoc\nexplanations in terms of semantic concepts in the images generated. We show\nthat our method is uniquely capable of explaining complex multi-dimensional\nbiases through semantic concepts, as well as the intersectionality between\ndifferent biases for any given prompt. We perform extensive user studies to\nillustrate that the results of our method and analysis are consistent with\nhuman judgements.",
-        "date": "2023-12-03T02:31:37+00:00",
-        "label": 1
-    },
-    "1911.08731": {
-        "title": "Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization",
-        "abstract": "Overparameterized neural networks can be highly accurate on average on an\ni.i.d. test set yet consistently fail on atypical groups of the data (e.g., by\nlearning spurious correlations that hold on average but not in such groups).\nDistributionally robust optimization (DRO) allows us to learn models that\ninstead minimize the worst-case training loss over a set of pre-defined groups.\nHowever, we find that naively applying group DRO to overparameterized neural\nnetworks fails: these models can perfectly fit the training data, and any model\nwith vanishing average training loss also already has vanishing worst-case\ntraining loss. Instead, the poor worst-case performance arises from poor\ngeneralization on some groups. By coupling group DRO models with increased\nregularization---a stronger-than-typical L2 penalty or early stopping---we\nachieve substantially higher worst-group accuracies, with 10-40 percentage\npoint improvements on a natural language inference task and two image tasks,\nwhile maintaining high average accuracies. Our results suggest that\nregularization is important for worst-group generalization in the\noverparameterized regime, even if it is not needed for average generalization.\nFinally, we introduce a stochastic optimization algorithm, with convergence\nguarantees, to efficiently train group DRO models.",
-        "date": "2019-11-20T06:43:41+00:00",
-        "label": 1
-    },
-    "1103.1977": {
-        "title": "Development of Computer Science Disciplines - A Social Network Analysis Approach",
-        "abstract": "In contrast to many other scientific disciplines, computer science considers\nconference publications. Conferences have the advantage of providing fast\npublication of papers and of bringing researchers together to present and\ndiscuss the paper with peers. Previous work on knowledge mapping focused on the\nmap of all sciences or a particular domain based on ISI published JCR (Journal\nCitation Report). Although this data covers most of important journals, it\nlacks computer science conference and workshop proceedings. That results in an\nimprecise and incomplete analysis of the computer science knowledge. This paper\npresents an analysis on the computer science knowledge network constructed from\nall types of publications, aiming at providing a complete view of computer\nscience research. Based on the combination of two important digital libraries\n(DBLP and CiteSeerX), we study the knowledge network created at\njournal/conference level using citation linkage, to identify the development of\nsub-disciplines. We investigate the collaborative and citation behavior of\njournals/conferences by analyzing the properties of their co-authorship and\ncitation subgraphs. The paper draws several important conclusions. First,\nconferences constitute social structures that shape the computer science\nknowledge. Second, computer science is becoming more interdisciplinary. Third,\nexperts are the key success factor for sustainability of journals/conferences.",
-        "date": "2011-03-10T09:51:19+00:00",
-        "label": 0
-    },
-    "9505013": {
-        "title": "Wavelet basis for the Schr\u00f6dinger equation",
-        "abstract": "The self-similar representation for the Schr\\\"{o}dinger equation is derived.",
-        "date": "1995-05-16T16:19:16+00:00",
-        "label": 0
-    },
-    "1907.02893": {
-        "title": "Invariant Risk Minimization",
-        "abstract": "We introduce Invariant Risk Minimization (IRM), a learning paradigm to\nestimate invariant correlations across multiple training distributions. To\nachieve this goal, IRM learns a data representation such that the optimal\nclassifier, on top of that data representation, matches for all training\ndistributions. Through theory and experiments, we show how the invariances\nlearned by IRM relate to the causal structures governing the data and enable\nout-of-distribution generalization.",
-        "date": "2019-07-05T15:26:26+00:00",
-        "label": 1
-    },
-    "2108.02818": {
-        "title": "Evaluating CLIP: Towards Characterization of Broader Capabilities and Downstream Implications",
-        "abstract": "Recently, there have been breakthroughs in computer vision (\"CV\") models that\nare more generalizable with the advent of models such as CLIP and ALIGN. In\nthis paper, we analyze CLIP and highlight some of the challenges such models\npose. CLIP reduces the need for task specific training data, potentially\nopening up many niche tasks to automation. CLIP also allows its users to\nflexibly specify image classification classes in natural language, which we\nfind can shift how biases manifest. Additionally, through some preliminary\nprobes we find that CLIP can inherit biases found in prior computer vision\nsystems. Given the wide and unpredictable domain of uses for such models, this\nraises questions regarding what sufficiently safe behaviour for such systems\nmay look like. These results add evidence to the growing body of work calling\nfor a change in the notion of a 'better' model--to move beyond simply looking\nat higher accuracy at task-oriented capability evaluations, and towards a\nbroader 'better' that takes into account deployment-critical features such as\ndifferent use contexts, and people who interact with the model when thinking\nabout model deployment.",
-        "date": "2021-08-05T19:05:57+00:00",
-        "label": 1
-    },
-    "2403.02695": {
-        "title": "Controllable Prompt Tuning For Balancing Group Distributional Robustness",
-        "abstract": "Models trained on data composed of different groups or domains can suffer\nfrom severe performance degradation under distribution shifts. While recent\nmethods have largely focused on optimizing the worst-group objective, this\noften comes at the expense of good performance on other groups. To address this\nproblem, we introduce an optimization scheme to achieve good performance across\ngroups and find a good solution for all without severely sacrificing\nperformance on any of them. However, directly applying such optimization\ninvolves updating the parameters of the entire network, making it both\ncomputationally expensive and challenging. Thus, we introduce Controllable\nPrompt Tuning (CPT), which couples our approach with prompt-tuning techniques.\nOn spurious correlation benchmarks, our procedures achieve state-of-the-art\nresults across both transformer and non-transformer architectures, as well as\nunimodal and multimodal data, while requiring only 0.4% tunable parameters.",
-        "date": "2024-03-05T06:23:55+00:00",
-        "label": 1
-    },
-    "2109.05433": {
-        "title": "Are Gender-Neutral Queries Really Gender-Neutral? Mitigating Gender Bias in Image Search",
-        "abstract": "Internet search affects people's cognition of the world, so mitigating biases\nin search results and learning fair models is imperative for social good. We\nstudy a unique gender bias in image search in this work: the search images are\noften gender-imbalanced for gender-neutral natural language queries. We\ndiagnose two typical image search models, the specialized model trained on\nin-domain datasets and the generalized representation model pre-trained on\nmassive image and text data across the internet. Both models suffer from severe\ngender bias. Therefore, we introduce two novel debiasing approaches: an\nin-processing fair sampling method to address the gender imbalance issue for\ntraining models, and a post-processing feature clipping method base on mutual\ninformation to debias multimodal representations of pre-trained models.\nExtensive experiments on MS-COCO and Flickr30K benchmarks show that our methods\nsignificantly reduce the gender bias in image search models.",
-        "date": "2021-09-12T04:47:33+00:00",
-        "label": 1
-    },
-    "1906.05340": {
-        "title": "The Halting Paradox",
-        "abstract": "The halting problem is considered to be an essential part of the theoretical\nbackground to computing. That halting is not in general computable has\nsupposedly been proved in many text books and taught on many computer science\ncourses, in order to illustrate the limits of computation. However, Eric Hehner\nhas a dissenting view, in which the specification of the halting problem is\ncalled into question.",
-        "date": "2019-06-11T09:47:19+00:00",
-        "label": 0
-    },
-    "2010.07017": {
-        "title": "Computational Skills by Stealth in Secondary School Data Science",
-        "abstract": "The unprecedented growth in the availability of data of all types and\nqualities and the emergence of the field of data science has provided an\nimpetus to finally realizing the implementation of the full breadth of the\nNolan and Temple Lang proposed integration of computing concepts into\nstatistics curricula at all levels in statistics and new data science programs\nand courses. Moreover, data science, implemented carefully, opens accessible\npathways to stem for students for whom neither mathematics nor computer science\nare natural affinities, and who would traditionally be excluded. We discuss a\nproposal for the stealth development of computational skills in students' first\nexposure to data science through careful, scaffolded exposure to computation\nand its power. The intent of this approach is to support students, regardless\nof interest and self-efficacy in coding, in becoming data-driven learners, who\nare capable of asking complex questions about the world around them, and then\nanswering those questions through the use of data-driven inquiry. This\ndiscussion is presented in the context of the International Data Science in\nSchools Project which recently published computer science and statistics\nconsensus curriculum frameworks for a two-year secondary school data science\nprogram, designed to make data science accessible to all.",
-        "date": "2020-10-08T09:11:51+00:00",
-        "label": 0
-    },
-    "2107.13998": {
-        "title": "\"Excavating AI\" Re-excavated: Debunking a Fallacious Account of the JAFFE Dataset",
-        "abstract": "Twenty-five years ago, my colleagues Miyuki Kamachi and Jiro Gyoba and I\ndesigned and photographed JAFFE, a set of facial expression images intended for\nuse in a study of face perception. In 2019, without seeking permission or\ninforming us, Kate Crawford and Trevor Paglen exhibited JAFFE in two widely\npublicized art shows. In addition, they published a nonfactual account of the\nimages in the essay \"Excavating AI: The Politics of Images in Machine Learning\nTraining Sets.\" The present article recounts the creation of the JAFFE dataset\nand unravels each of Crawford and Paglen's fallacious statements. I also\ndiscuss JAFFE more broadly in connection with research on facial expression,\naffective computing, and human-computer interaction.",
-        "date": "2021-07-28T01:31:59+00:00",
-        "label": 1
-    },
-    "2205.01553": {
-        "title": "Why The Trans Programmer?",
-        "abstract": "Through online anecdotal evidence and online communities, there is an\nin-group idea of trans people (specifically trans-feminine individuals)\ndisproportionately entering computer science education & fields. Existing data\nsuggests this is a plausible trend, yet no research has been done into exactly\nwhy. As computer science education (traditional schooling or self-taught\nmethods) is integral to working in computer science fields, a simple research\nsurvey was conducted to gather data on 138 trans people's experiences with\ncomputer science & computer science education. This article's purpose is to\nshed insight on the motivations for trans individuals choosing computer science\npaths, while acting as a basis and call to action for further research.",
-        "date": "2022-05-03T15:06:23+00:00",
-        "label": 0
-    },
-    "2403.04547": {
-        "title": "CLIP the Bias: How Useful is Balancing Data in Multimodal Learning?",
-        "abstract": "We study the effectiveness of data-balancing for mitigating biases in\ncontrastive language-image pretraining (CLIP), identifying areas of strength\nand limitation. First, we reaffirm prior conclusions that CLIP models can\ninadvertently absorb societal stereotypes. To counter this, we present a novel\nalgorithm, called Multi-Modal Moment Matching (M4), designed to reduce both\nrepresentation and association biases (i.e. in first- and second-order\nstatistics) in multimodal data. We use M4 to conduct an in-depth analysis\ntaking into account various factors, such as the model, representation, and\ndata size. Our study also explores the dynamic nature of how CLIP learns and\nunlearns biases. In particular, we find that fine-tuning is effective in\ncountering representation biases, though its impact diminishes for association\nbiases. Also, data balancing has a mixed impact on quality: it tends to improve\nclassification but can hurt retrieval. Interestingly, data and architectural\nimprovements seem to mitigate the negative impact of data balancing on\nperformance; e.g. applying M4 to SigLIP-B/16 with data quality filters improves\nCOCO image-to-text retrieval @5 from 86% (without data balancing) to 87% and\nImageNet 0-shot classification from 77% to 77.5%! Finally, we conclude with\nrecommendations for improving the efficacy of data balancing in multimodal\nsystems.",
-        "date": "2024-03-07T14:43:17+00:00",
-        "label": 1
-    },
-    "1401.4507": {
-        "title": "Using Quantum Computers to Learn Physics",
-        "abstract": "Since its inception at the beginning of the twentieth century, quantum\nmechanics has challenged our conceptions of how the universe ought to work;\nhowever, the equations of quantum mechanics can be too computationally\ndifficult to solve using existing computers for even modestly large systems.\nHere I will show that quantum computers can sometimes be used to address such\nproblems and that quantum computer science can assign formal complexities to\nlearning facts about nature. Hence, computer science should not only be\nregarded as an applied science; it is also of central importance to the\nfoundations of science.",
-        "date": "2014-01-18T01:46:52+00:00",
-        "label": 0
-    },
-    "2308.09621": {
-        "title": "Canonicity and Computability in Homotopy Type Theory",
-        "abstract": "This dissertation gives an overview of Martin Lof's dependant type theory,\nfocusing on its computational content and addressing a question of possibility\nof fully canonical and computable semantic presentation.",
-        "date": "2023-08-18T15:23:33+00:00",
+    "0907.3804": {
+        "title": "Decidability of higher-order matching",
+        "abstract": "We show that the higher-order matching problem is decidable using a\ngame-theoretic argument.",
+        "date": "2009-07-22T09:17:30+00:00",
         "label": 0
     },
     "2403.05262": {
@@ -233,184 +35,28 @@
         "date": "2024-03-08T12:35:07+00:00",
         "label": 1
     },
-    "2402.13490": {
-        "title": "Contrastive Prompts Improve Disentanglement in Text-to-Image Diffusion Models",
-        "abstract": "Text-to-image diffusion models have achieved remarkable performance in image\nsynthesis, while the text interface does not always provide fine-grained\ncontrol over certain image factors. For instance, changing a single token in\nthe text can have unintended effects on the image. This paper shows a simple\nmodification of classifier-free guidance can help disentangle image factors in\ntext-to-image models. The key idea of our method, Contrastive Guidance, is to\ncharacterize an intended factor with two prompts that differ in minimal tokens:\nthe positive prompt describes the image to be synthesized, and the baseline\nprompt serves as a \"baseline\" that disentangles other factors. Contrastive\nGuidance is a general method we illustrate whose benefits in three scenarios:\n(1) to guide domain-specific diffusion models trained on an object class, (2)\nto gain continuous, rig-like controls for text-to-image generation, and (3) to\nimprove the performance of zero-shot image editors.",
-        "date": "2024-02-21T03:01:17+00:00",
-        "label": 1
-    },
-    "1011.1335": {
-        "title": "A short proof that adding some permutation rules to $\u03b2$ preserves $SN$",
-        "abstract": "I show that, if a term is $SN$ for $\\beta$, it remains $SN$ when some\npermutation rules are added.",
-        "date": "2010-11-05T07:54:47+00:00",
+    "1908.03793": {
+        "title": "The rise and rise of interdisciplinary research: Understanding the interaction dynamics of three major fields -- Physics, Mathematics & Computer Science",
+        "abstract": "The distinction between sciences is becoming increasingly more artificial --\nan approach from one area can be easily applied to the other. More exciting\nresearch nowadays is happening perhaps at the interfaces of disciplines like\nPhysics, Mathematics and Computer Science. How do these interfaces emerge and\ninteract? For instance, is there a specific pattern in which these fields cite\neach other? In this article, we investigate a collection of more than 1.2\nmillion papers from three different scientific disciplines -- Physics,\nMathematics, and Computer Science. We show how over a timescale the citation\npatterns from the core science fields (Physics, Mathematics) to the applied and\nfast-growing field of Computer Science have drastically increased. Further, we\nobserve how certain subfields in these disciplines are shrinking while others\nare becoming tremendously popular. For instance, an intriguing observation is\nthat citations from Mathematics to the subfield of machine learning in Computer\nScience in recent times are exponentially increasing.",
+        "date": "2019-08-10T17:58:19+00:00",
         "label": 0
     },
-    "2012.04842": {
-        "title": "Improving the Fairness of Deep Generative Models without Retraining",
-        "abstract": "Generative Adversarial Networks (GANs) advance face synthesis through\nlearning the underlying distribution of observed data. Despite the high-quality\ngenerated faces, some minority groups can be rarely generated from the trained\nmodels due to a biased image generation process. To study the issue, we first\nconduct an empirical study on a pre-trained face synthesis model. We observe\nthat after training the GAN model not only carries the biases in the training\ndata but also amplifies them to some degree in the image generation process. To\nfurther improve the fairness of image generation, we propose an interpretable\nbaseline method to balance the output facial attributes without retraining. The\nproposed method shifts the interpretable semantic distribution in the latent\nspace for a more balanced image generation while preserving the sample\ndiversity. Besides producing more balanced data regarding a particular\nattribute (e.g., race, gender, etc.), our method is generalizable to handle\nmore than one attribute at a time and synthesize samples of fine-grained\nsubgroups. We further show the positive applicability of the balanced data\nsampled from GANs to quantify the biases in other face recognition systems,\nlike commercial face attribute classifiers and face super-resolution\nalgorithms.",
-        "date": "2020-12-09T03:20:41+00:00",
-        "label": 1
-    },
-    "1606.01148": {
-        "title": "Tripartite Unions",
-        "abstract": "This note provides conditions under which the union of three well-founded\nbinary relations is also well-founded.",
-        "date": "2016-06-03T15:41:55+00:00",
+    "2007.03606": {
+        "title": "Data Science: A Comprehensive Overview",
+        "abstract": "The twenty-first century has ushered in the age of big data and data economy,\nin which data DNA, which carries important knowledge, insights and potential,\nhas become an intrinsic constituent of all data-based organisms. An appropriate\nunderstanding of data DNA and its organisms relies on the new field of data\nscience and its keystone, analytics. Although it is widely debated whether big\ndata is only hype and buzz, and data science is still in a very early phase,\nsignificant challenges and opportunities are emerging or have been inspired by\nthe research, innovation, business, profession, and education of data science.\nThis paper provides a comprehensive survey and tutorial of the fundamental\naspects of data science: the evolution from data analysis to data science, the\ndata science concepts, a big picture of the era of data science, the major\nchallenges and directions in data innovation, the nature of data analytics, new\nindustrialization and service opportunities in the data economy, the profession\nand competency of data education, and the future of data science. This article\nis the first in the field to draw a comprehensive big picture, in addition to\noffering rich observations, lessons and thinking about data science and\nanalytics.",
+        "date": "2020-07-01T02:33:58+00:00",
         "label": 0
     },
-    "2103.11436": {
-        "title": "Responsible AI: Gender bias assessment in emotion recognition",
-        "abstract": "Rapid development of artificial intelligence (AI) systems amplify many\nconcerns in society. These AI algorithms inherit different biases from humans\ndue to mysterious operational flow and because of that it is becoming adverse\nin usage. As a result, researchers have started to address the issue by\ninvestigating deeper in the direction towards Responsible and Explainable AI.\nAmong variety of applications of AI, facial expression recognition might not be\nthe most important one, yet is considered as a valuable part of human-AI\ninteraction. Evolution of facial expression recognition from the feature based\nmethods to deep learning drastically improve quality of such algorithms. This\nresearch work aims to study a gender bias in deep learning methods for facial\nexpression recognition by investigating six distinct neural networks, training\nthem, and further analysed on the presence of bias, according to the three\ndefinition of fairness. The main outcomes show which models are gender biased,\nwhich are not and how gender of subject affects its emotion recognition. More\nbiased neural networks show bigger accuracy gap in emotion recognition between\nmale and female test sets. Furthermore, this trend keeps for true positive and\nfalse positive rates. In addition, due to the nature of the research, we can\nobserve which types of emotions are better classified for men and which for\nwomen. Since the topic of biases in facial expression recognition is not well\nstudied, a spectrum of continuation of this research is truly extensive, and\nmay comprise detail analysis of state-of-the-art methods, as well as targeting\nother biases.",
-        "date": "2021-03-21T17:00:21+00:00",
-        "label": 1
-    },
-    "1111.7159": {
-        "title": "Sequentiality vs. Concurrency in Games and Logic",
-        "abstract": "Connections between the sequentiality/concurrency distinction and the\nsemantics of proofs are investigated, with particular reference to games and\nLinear Logic.",
-        "date": "2011-11-30T13:44:46+00:00",
+    "2311.10833": {
+        "title": "Generative AI has lowered the barriers to computational social sciences",
+        "abstract": "Generative artificial intelligence (AI) has revolutionized the field of\ncomputational social science, unleashing new possibilities for analyzing\nmultimodal data, especially for scholars who may not have extensive programming\nexpertise. This breakthrough carries profound implications for the realm of\nsocial sciences. Firstly, generative AI can significantly enhance the\nproductivity of social scientists by automating the generation, annotation, and\ndebugging of code. Secondly, it empowers researchers to delve into\nsophisticated data analysis through the innovative use of prompt engineering.\nLastly, the educational sphere of computational social science stands to\nbenefit immensely from these tools, given their exceptional ability to annotate\nand elucidate complex codes for learners, thereby simplifying the learning\nprocess and making the technology more accessible.",
+        "date": "2023-11-17T19:24:39+00:00",
         "label": 0
     },
-    "1807.09490": {
-        "title": "Investigating the Intersection of Science Fiction, Human-Computer Interaction and Computer Science Research",
-        "abstract": "This paper outlines ongoing dissertation research located in the intersection\nof science fiction, human-computer interaction and computer science. Through an\ninterdisciplinary perspective, drawing from fields such as human-computer\ninteraction, film theory and studies of science and technology, qualitative and\nquantitative content analysis techniques are used to contextually analyze\nexpressions of science fiction in peer-reviewed computer science research\nrepositories, such as the ACM or IEEE Xplore Digital Libraries. This paper\nconcisely summarizes and introduces the relationship of science fiction and\ncomputer science research and presents the research questions, aims and\nimplications in addition to prior work and study methodology. In the latter\npart of this work-in-progress report, preliminary results, current limitations,\nfuture work and a post-dissertation trajectory are outlined.",
-        "date": "2018-07-25T09:02:02+00:00",
-        "label": 0
-    },
-    "1605.06083": {
-        "title": "Stereotyping and Bias in the Flickr30K Dataset",
-        "abstract": "An untested assumption behind the crowdsourced descriptions of the images in\nthe Flickr30K dataset (Young et al., 2014) is that they \"focus only on the\ninformation that can be obtained from the image alone\" (Hodosh et al., 2013, p.\n859). This paper presents some evidence against this assumption, and provides a\nlist of biases and unwarranted inferences that can be found in the Flickr30K\ndataset. Finally, it considers methods to find examples of these, and discusses\nhow we should deal with stereotype-driven descriptions in future applications.",
-        "date": "2016-05-19T19:17:23+00:00",
-        "label": 1
-    },
-    "2303.08774": {
-        "title": "GPT-4 Technical Report",
-        "abstract": "We report the development of GPT-4, a large-scale, multimodal model which can\naccept image and text inputs and produce text outputs. While less capable than\nhumans in many real-world scenarios, GPT-4 exhibits human-level performance on\nvarious professional and academic benchmarks, including passing a simulated bar\nexam with a score around the top 10% of test takers. GPT-4 is a\nTransformer-based model pre-trained to predict the next token in a document.\nThe post-training alignment process results in improved performance on measures\nof factuality and adherence to desired behavior. A core component of this\nproject was developing infrastructure and optimization methods that behave\npredictably across a wide range of scales. This allowed us to accurately\npredict some aspects of GPT-4's performance based on models trained with no\nmore than 1/1,000th the compute of GPT-4.",
-        "date": "2023-03-15T17:15:04+00:00",
-        "label": 1
-    },
-    "1707.04352": {
-        "title": "Advances in Artificial Intelligence Require Progress Across all of Computer Science",
-        "abstract": "Advances in Artificial Intelligence require progress across all of computer\nscience.",
-        "date": "2017-07-13T23:11:18+00:00",
-        "label": 0
-    },
-    "1404.5458": {
-        "title": "Complex Workflow Management and Integration of Distributed Computing Resources by Science Gateway Portal for Molecular Dynamics Simulations in Materials Science",
-        "abstract": "The \"IMP Science Gateway Portal\" (http://scigate.imp.kiev.ua) for complex\nworkflow management and integration of distributed computing resources (like\nclusters, service grids, desktop grids, clouds) is presented. It is created on\nthe basis of WS-PGRADE and gUSE technologies, where WS-PGRADE is designed for\nscience workflow operation and gUSE - for smooth integration of available\nresources for parallel and distributed computing in various heterogeneous\ndistributed computing infrastructures (DCI). The typical scientific workflow\nwith possible scenarios of its preparation and usage is considered. Several\ntypical science applications (scientific workflows) are considered for\nmolecular dynamics (MD) simulations of complex behavior of various\nnanostructures (nanoindentation of graphene layers, defect system relaxation in\nmetal nanocrystals, thermal stability of boron nitride nanotubes, etc.). The\nadvantages and drawbacks of the solution are shortly analyzed in the context of\nits practical applications for MD simulations in materials science, physics and\nnanotechnologies with available heterogeneous DCIs.",
-        "date": "2014-04-22T11:34:04+00:00",
-        "label": 0
-    },
-    "1003.1930": {
-        "title": "Simulating Grover's Quantum Search in a Classical Computer",
-        "abstract": "The rapid progress of computer science has been accompanied by a\ncorresponding evolution of computation, from classical computation to quantum\ncomputation. As quantum computing is on its way to becoming an established\ndiscipline of computing science, much effort is being put into the development\nof new quantum algorithms. One of quantum algorithms is Grover algorithm, which\nis used for searching an element in an unstructured list of N elements with\nquadratic speed-up over classical algorithms. In this work, Quantum Computer\nLanguage (QCL) is used to make a Grover's quantum search simulation in a\nclassical computer",
-        "date": "2010-03-09T17:02:21+00:00",
-        "label": 0
-    },
-    "1811.12231": {
-        "title": "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness",
-        "abstract": "Convolutional Neural Networks (CNNs) are commonly thought to recognise\nobjects by learning increasingly complex representations of object shapes. Some\nrecent studies suggest a more important role of image textures. We here put\nthese conflicting hypotheses to a quantitative test by evaluating CNNs and\nhuman observers on images with a texture-shape cue conflict. We show that\nImageNet-trained CNNs are strongly biased towards recognising textures rather\nthan shapes, which is in stark contrast to human behavioural evidence and\nreveals fundamentally different classification strategies. We then demonstrate\nthat the same standard architecture (ResNet-50) that learns a texture-based\nrepresentation on ImageNet is able to learn a shape-based representation\ninstead when trained on \"Stylized-ImageNet\", a stylized version of ImageNet.\nThis provides a much better fit for human behavioural performance in our\nwell-controlled psychophysical lab setting (nine experiments totalling 48,560\npsychophysical trials across 97 observers) and comes with a number of\nunexpected emergent benefits such as improved object detection performance and\npreviously unseen robustness towards a wide range of image distortions,\nhighlighting advantages of a shape-based representation.",
-        "date": "2018-11-29T15:04:05+00:00",
-        "label": 1
-    },
-    "2207.10653": {
-        "title": "RepFair-GAN: Mitigating Representation Bias in GANs Using Gradient Clipping",
-        "abstract": "Fairness has become an essential problem in many domains of Machine Learning\n(ML), such as classification, natural language processing, and Generative\nAdversarial Networks (GANs). In this research effort, we study the unfairness\nof GANs. We formally define a new fairness notion for generative models in\nterms of the distribution of generated samples sharing the same protected\nattributes (gender, race, etc.). The defined fairness notion (representational\nfairness) requires the distribution of the sensitive attributes at the test\ntime to be uniform, and, in particular for GAN model, we show that this\nfairness notion is violated even when the dataset contains equally represented\ngroups, i.e., the generator favors generating one group of samples over the\nothers at the test time. In this work, we shed light on the source of this\nrepresentation bias in GANs along with a straightforward method to overcome\nthis problem. We first show on two widely used datasets (MNIST, SVHN) that when\nthe norm of the gradient of one group is more important than the other during\nthe discriminator's training, the generator favours sampling data from one\ngroup more than the other at test time. We then show that controlling the\ngroups' gradient norm by performing group-wise gradient norm clipping in the\ndiscriminator during the training leads to a more fair data generation in terms\nof representational fairness compared to existing models while preserving the\nquality of generated samples.",
-        "date": "2022-07-13T14:58:48+00:00",
-        "label": 1
-    },
-    "1406.2222": {
-        "title": "The Chemistry Between High School Students and Computer Science",
-        "abstract": "Computer science enrollments have started to rise again, but the percentage\nof women undergraduates in computer science is still low. Some studies indicate\nthis might be due to a lack of awareness of computer science at the high school\nlevel. We present our experiences running a 5-year, high school outreach\nprogram that introduces information about computer science within the context\nof required chemistry courses. We developed interactive worksheets using\nMolecular Workbench that help the students learn chemistry and computer science\nconcepts related to relevant events such as the gulf oil spill. Our evaluation\nof the effectiveness of this approach indicates that the students do become\nmore aware of computer science as a discipline, but system support issues in\nthe classroom can make the approach difficult for teachers and discouraging for\nthe students.",
-        "date": "2014-06-09T15:44:41+00:00",
-        "label": 0
-    },
-    "1912.00578": {
-        "title": "Exposing and Correcting the Gender Bias in Image Captioning Datasets and Models",
-        "abstract": "The task of image captioning implicitly involves gender identification.\nHowever, due to the gender bias in data, gender identification by an image\ncaptioning model suffers. Also, the gender-activity bias, owing to the\nword-by-word prediction, influences other words in the caption prediction,\nresulting in the well-known problem of label bias. In this work, we investigate\ngender bias in the COCO captioning dataset and show that it engenders not only\nfrom the statistical distribution of genders with contexts but also from the\nflawed annotation by the human annotators. We look at the issues created by\nthis bias in the trained models. We propose a technique to get rid of the bias\nby splitting the task into 2 subtasks: gender-neutral image captioning and\ngender classification. By this decoupling, the gender-context influence can be\neradicated. We train the gender-neutral image captioning model, which gives\ncomparable results to a gendered model even when evaluating against a dataset\nthat possesses a similar bias as the training data. Interestingly, the\npredictions by this model on images with no humans, are also visibly different\nfrom the one trained on gendered captions. We train gender classifiers using\nthe available bounding box and mask-based annotations for the person in the\nimage. This allows us to get rid of the context and focus on the person to\npredict the gender. By substituting the genders into the gender-neutral\ncaptions, we get the final gendered predictions. Our predictions achieve\nsimilar performance to a model trained with gender, and at the same time are\ndevoid of gender bias. Finally, our main result is that on an\nanti-stereotypical dataset, our model outperforms a popular image captioning\nmodel which is trained with gender.",
-        "date": "2019-12-02T04:14:39+00:00",
-        "label": 1
-    },
-    "2007.08087": {
-        "title": "Starting with data: advancing spatial data science by building and sharing high-quality datasets",
-        "abstract": "Spatial data science has emerged in recent years as an interdisciplinary\nfield. This position paper discusses the importance of building and sharing\nhigh-quality datasets for spatial data science.",
-        "date": "2020-07-16T03:15:56+00:00",
-        "label": 0
-    },
-    "2302.10893": {
-        "title": "Fair Diffusion: Instructing Text-to-Image Generation Models on Fairness",
-        "abstract": "Generative AI models have recently achieved astonishing results in quality\nand are consequently employed in a fast-growing number of applications.\nHowever, since they are highly data-driven, relying on billion-sized datasets\nrandomly scraped from the internet, they also suffer from degenerated and\nbiased human behavior, as we demonstrate. In fact, they may even reinforce such\nbiases. To not only uncover but also combat these undesired effects, we present\na novel strategy, called Fair Diffusion, to attenuate biases after the\ndeployment of generative text-to-image models. Specifically, we demonstrate\nshifting a bias, based on human instructions, in any direction yielding\narbitrarily new proportions for, e.g., identity groups. As our empirical\nevaluation demonstrates, this introduced control enables instructing generative\nimage models on fairness, with no data filtering and additional training\nrequired.",
-        "date": "2023-02-07T18:25:28+00:00",
-        "label": 1
-    },
-    "1607.03760": {
-        "title": "Distributed Games and Strategies",
-        "abstract": "A summary of work on distributed games and strategies done within the first\nthree years of the ERC project ECSYM is presented.",
-        "date": "2016-07-13T14:25:03+00:00",
-        "label": 0
-    },
-    "1908.05986": {
-        "title": "FAIR and Open Computer Science Research Software",
-        "abstract": "In computational science and in computer science, research software is a\ncentral asset for research. Computational science is the application of\ncomputer science and software engineering principles to solving scientific\nproblems, whereas computer science is the study of computer hardware and\nsoftware design.\n  The Open Science agenda holds that science advances faster when we can build\non existing results. Therefore, research software has to be reusable for\nadvancing science. Thus, we need proper research software engineering for\nobtaining reusable and sustainable research software. This way, software\nengineering methods may improve research in other disciplines. However,\nresearch in software engineering and computer science itself will also benefit\nfrom reuse when research software is involved.\n  For good scientific practice, the resulting research software should be open\nand adhere to the FAIR principles (findable, accessible, interoperable and\nrepeatable) to allow repeatability, reproducibility, and reuse. Compared to\nresearch data, research software should be both archived for reproducibility\nand actively maintained for reusability. The FAIR data principles do not\nrequire openness, but research software should be open source software.\nEstablished open source software licenses provide sufficient licensing options,\nsuch that it should be the rare exception to keep research software closed.\n  We review and analyze the current state in this area in order to give\nrecommendations for making computer science research software FAIR and open. We\nobserve that research software publishing practices in computer science and in\ncomputational science show significant differences.",
-        "date": "2019-08-16T14:26:08+00:00",
-        "label": 0
-    },
-    "2306.04482": {
-        "title": "ICON$^2$: Reliably Benchmarking Predictive Inequity in Object Detection",
-        "abstract": "As computer vision systems are being increasingly deployed at scale in\nhigh-stakes applications like autonomous driving, concerns about social bias in\nthese systems are rising. Analysis of fairness in real-world vision systems,\nsuch as object detection in driving scenes, has been limited to observing\npredictive inequity across attributes such as pedestrian skin tone, and lacks a\nconsistent methodology to disentangle the role of confounding variables e.g.\ndoes my model perform worse for a certain skin tone, or are such scenes in my\ndataset more challenging due to occlusion and crowds? In this work, we\nintroduce ICON$^2$, a framework for robustly answering this question. ICON$^2$\nleverages prior knowledge on the deficiencies of object detection systems to\nidentify performance discrepancies across sub-populations, compute correlations\nbetween these potential confounders and a given sensitive attribute, and\ncontrol for the most likely confounders to obtain a more reliable estimate of\nmodel bias. Using our approach, we conduct an in-depth study on the performance\nof object detection with respect to income from the BDD100K driving dataset,\nrevealing useful insights.",
-        "date": "2023-06-07T17:42:42+00:00",
-        "label": 1
-    },
-    "1803.09797": {
-        "title": "Women also Snowboard: Overcoming Bias in Captioning Models",
-        "abstract": "Most machine learning methods are known to capture and exploit biases of the\ntraining data. While some biases are beneficial for learning, others are\nharmful. Specifically, image captioning models tend to exaggerate biases\npresent in training data (e.g., if a word is present in 60% of training\nsentences, it might be predicted in 70% of sentences at test time). This can\nlead to incorrect captions in domains where unbiased captions are desired, or\nrequired, due to over-reliance on the learned prior and image context. In this\nwork we investigate generation of gender-specific caption words (e.g. man,\nwoman) based on the person's appearance or the image context. We introduce a\nnew Equalizer model that ensures equal gender probability when gender evidence\nis occluded in a scene and confident predictions when gender evidence is\npresent. The resulting model is forced to look at a person rather than use\ncontextual cues to make a gender-specific predictions. The losses that comprise\nour model, the Appearance Confusion Loss and the Confident Loss, are general,\nand can be added to any description model in order to mitigate impacts of\nunwanted bias in a description dataset. Our proposed model has lower error than\nprior work when describing images with people and mentioning their gender and\nmore closely matches the ground truth ratio of sentences including women to\nsentences including men. We also show that unlike other approaches, our model\nis indeed more often looking at people when predicting their gender.",
-        "date": "2018-03-26T19:07:08+00:00",
-        "label": 1
-    },
-    "0706.0484": {
-        "title": "Motivation, Design, and Ubiquity: A Discussion of Research Ethics and Computer Science",
-        "abstract": "Modern society is permeated with computers, and the software that controls\nthem can have latent, long-term, and immediate effects that reach far beyond\nthe actual users of these systems. This places researchers in Computer Science\nand Software Engineering in a critical position of influence and\nresponsibility, more than any other field because computer systems are vital\nresearch tools for other disciplines. This essay presents several key ethical\nconcerns and responsibilities relating to research in computing. The goal is to\npromote awareness and discussion of ethical issues among computer science\nresearchers. A hypothetical case study is provided, along with questions for\nreflection and discussion.",
-        "date": "2007-06-04T17:17:44+00:00",
-        "label": 0
-    },
-    "2311.10969": {
-        "title": "MATILDA: Inclusive Data Science Pipelines Design through Computational Creativity",
-        "abstract": "We argue for the need for a new generation of data science solutions that can\ndemocratize recent advances in data engineering and artificial intelligence for\nnon-technical users from various disciplines, enabling them to unlock the full\npotential of these solutions. To do so, we adopt an approach whereby\ncomputational creativity and conversational computing are combined to guide\nnon-specialists intuitively to explore and extract knowledge from data\ncollections. The paper introduces MATILDA, a creativity-based data science\ndesign platform, showing how it can support the design process of data science\npipelines guided by human and computational creativity.",
-        "date": "2023-11-18T04:37:07+00:00",
-        "label": 0
-    },
-    "1610.04276": {
-        "title": "Perspectives on Surgical Data Science",
-        "abstract": "The availability of large amounts of data together with advances in\nanalytical techniques afford an opportunity to address difficult challenges in\nensuring that healthcare is safe, effective, efficient, patient-centered,\nequitable, and timely. Surgical care and training stand to tremendously gain\nthrough surgical data science. Herein, we discuss a few perspectives on the\nscope and objectives for surgical data science.",
-        "date": "2016-10-13T22:06:46+00:00",
-        "label": 0
-    },
-    "1908.04913": {
-        "title": "FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age",
-        "abstract": "Existing public face datasets are strongly biased toward Caucasian faces, and\nother races (e.g., Latino) are significantly underrepresented. This can lead to\ninconsistent model accuracy, limit the applicability of face analytic systems\nto non-White race groups, and adversely affect research findings based on such\nskewed data. To mitigate the race bias in these datasets, we construct a novel\nface image dataset, containing 108,501 images, with an emphasis of balanced\nrace composition in the dataset. We define 7 race groups: White, Black, Indian,\nEast Asian, Southeast Asian, Middle East, and Latino. Images were collected\nfrom the YFCC-100M Flickr dataset and labeled with race, gender, and age\ngroups. Evaluations were performed on existing face attribute datasets as well\nas novel image datasets to measure generalization performance. We find that the\nmodel trained from our dataset is substantially more accurate on novel datasets\nand the accuracy is consistent between race and gender groups.",
-        "date": "2019-08-14T01:42:41+00:00",
-        "label": 1
-    },
-    "2401.08053": {
-        "title": "SCoFT: Self-Contrastive Fine-Tuning for Equitable Image Generation",
-        "abstract": "Accurate representation in media is known to improve the well-being of the\npeople who consume it. Generative image models trained on large web-crawled\ndatasets such as LAION are known to produce images with harmful stereotypes and\nmisrepresentations of cultures. We improve inclusive representation in\ngenerated images by (1) engaging with communities to collect a culturally\nrepresentative dataset that we call the Cross-Cultural Understanding Benchmark\n(CCUB) and (2) proposing a novel Self-Contrastive Fine-Tuning (SCoFT) method\nthat leverages the model's known biases to self-improve. SCoFT is designed to\nprevent overfitting on small datasets, encode only high-level information from\nthe data, and shift the generated distribution away from misrepresentations\nencoded in a pretrained model. Our user study conducted on 51 participants from\n5 different countries based on their self-selected national cultural\naffiliation shows that fine-tuning on CCUB consistently generates images with\nhigher cultural relevance and fewer stereotypes when compared to the Stable\nDiffusion baseline, which is further improved with our SCoFT technique.",
-        "date": "2024-01-16T02:10:13+00:00",
-        "label": 1
-    },
-    "2301.04788": {
-        "title": "Language Cognition and Language Computation -- Human and Machine Language Understanding",
-        "abstract": "Language understanding is a key scientific issue in the fields of cognitive\nand computer science. However, the two disciplines differ substantially in the\nspecific research questions. Cognitive science focuses on analyzing the\nspecific mechanism of the brain and investigating the brain's response to\nlanguage; few studies have examined the brain's language system as a whole. By\ncontrast, computer scientists focus on the efficiency of practical applications\nwhen choosing research questions but may ignore the most essential laws of\nlanguage. Given these differences, can a combination of the disciplines offer\nnew insights for building intelligent language models and studying language\ncognitive mechanisms? In the following text, we first review the research\nquestions, history, and methods of language understanding in cognitive and\ncomputer science, focusing on the current progress and challenges. We then\ncompare and contrast the research of language understanding in cognitive and\ncomputer sciences. Finally, we review existing work that combines insights from\nlanguage cognition and language computation and offer prospects for future\ndevelopment trends.",
-        "date": "2023-01-12T02:37:00+00:00",
-        "label": 0
-    },
-    "2203.11933": {
-        "title": "A Prompt Array Keeps the Bias Away: Debiasing Vision-Language Models with Adversarial Learning",
-        "abstract": "Vision-language models can encode societal biases and stereotypes, but there\nare challenges to measuring and mitigating these multimodal harms due to\nlacking measurement robustness and feature degradation. To address these\nchallenges, we investigate bias measures and apply ranking metrics for\nimage-text representations. We then investigate debiasing methods and show that\nprepending learned embeddings to text queries that are jointly trained with\nadversarial debiasing and a contrastive loss reduces various bias measures with\nminimal degradation to the image-text representation.",
-        "date": "2022-03-22T17:59:04+00:00",
-        "label": 1
-    },
-    "2402.14577": {
-        "title": "Debiasing Text-to-Image Diffusion Models",
-        "abstract": "Learning-based Text-to-Image (TTI) models like Stable Diffusion have\nrevolutionized the way visual content is generated in various domains. However,\nrecent research has shown that nonnegligible social bias exists in current\nstate-of-the-art TTI systems, which raises important concerns. In this work, we\ntarget resolving the social bias in TTI diffusion models. We begin by\nformalizing the problem setting and use the text descriptions of bias groups to\nestablish an unsafe direction for guiding the diffusion process. Next, we\nsimplify the problem into a weight optimization problem and attempt a\nReinforcement solver, Policy Gradient, which shows sub-optimal performance with\nslow convergence. Further, to overcome limitations, we propose an iterative\ndistribution alignment (IDA) method. Despite its simplicity, we show that IDA\nshows efficiency and fast convergence in resolving the social bias in TTI\ndiffusion models. Our code will be released.",
-        "date": "2024-02-22T14:33:23+00:00",
+    "2109.05433": {
+        "title": "Are Gender-Neutral Queries Really Gender-Neutral? Mitigating Gender Bias in Image Search",
+        "abstract": "Internet search affects people's cognition of the world, so mitigating biases\nin search results and learning fair models is imperative for social good. We\nstudy a unique gender bias in image search in this work: the search images are\noften gender-imbalanced for gender-neutral natural language queries. We\ndiagnose two typical image search models, the specialized model trained on\nin-domain datasets and the generalized representation model pre-trained on\nmassive image and text data across the internet. Both models suffer from severe\ngender bias. Therefore, we introduce two novel debiasing approaches: an\nin-processing fair sampling method to address the gender imbalance issue for\ntraining models, and a post-processing feature clipping method base on mutual\ninformation to debias multimodal representations of pre-trained models.\nExtensive experiments on MS-COCO and Flickr30K benchmarks show that our methods\nsignificantly reduce the gender bias in image search models.",
+        "date": "2021-09-12T04:47:33+00:00",
         "label": 1
     },
     "2112.10741": {
@@ -419,29 +65,23 @@
         "date": "2021-12-20T18:42:55+00:00",
         "label": 1
     },
-    "1103.1386": {
-        "title": "Physics and computer science: quantum computation and other approaches",
-        "abstract": "This is a position paper written as an introduction to the special volume on\nquantum algorithms I edited for the journal Mathematical Structures in Computer\nScience (Volume 20 - Special Issue 06 (Quantum Algorithms), 2010).",
-        "date": "2011-03-07T21:00:29+00:00",
-        "label": 0
-    },
-    "2310.06904": {
-        "title": "Mitigating stereotypical biases in text to image generative systems",
-        "abstract": "State-of-the-art generative text-to-image models are known to exhibit social\nbiases and over-represent certain groups like people of perceived lighter skin\ntones and men in their outcomes. In this work, we propose a method to mitigate\nsuch biases and ensure that the outcomes are fair across different groups of\npeople. We do this by finetuning text-to-image models on synthetic data that\nvaries in perceived skin tones and genders constructed from diverse text\nprompts. These text prompts are constructed from multiplicative combinations of\nethnicities, genders, professions, age groups, and so on, resulting in diverse\nsynthetic data. Our diversity finetuned (DFT) model improves the group fairness\nmetric by 150% for perceived skin tone and 97.7% for perceived gender. Compared\nto baselines, DFT models generate more people with perceived darker skin tone\nand more women. To foster open research, we will release all text prompts and\ncode to generate training images.",
-        "date": "2023-10-10T18:01:52+00:00",
+    "2306.04482": {
+        "title": "ICON$^2$: Reliably Benchmarking Predictive Inequity in Object Detection",
+        "abstract": "As computer vision systems are being increasingly deployed at scale in\nhigh-stakes applications like autonomous driving, concerns about social bias in\nthese systems are rising. Analysis of fairness in real-world vision systems,\nsuch as object detection in driving scenes, has been limited to observing\npredictive inequity across attributes such as pedestrian skin tone, and lacks a\nconsistent methodology to disentangle the role of confounding variables e.g.\ndoes my model perform worse for a certain skin tone, or are such scenes in my\ndataset more challenging due to occlusion and crowds? In this work, we\nintroduce ICON$^2$, a framework for robustly answering this question. ICON$^2$\nleverages prior knowledge on the deficiencies of object detection systems to\nidentify performance discrepancies across sub-populations, compute correlations\nbetween these potential confounders and a given sensitive attribute, and\ncontrol for the most likely confounders to obtain a more reliable estimate of\nmodel bias. Using our approach, we conduct an in-depth study on the performance\nof object detection with respect to income from the BDD100K driving dataset,\nrevealing useful insights.",
+        "date": "2023-06-07T17:42:42+00:00",
         "label": 1
     },
-    "0705.1367": {
-        "title": "Logic Column 18: Alternative Logics: A Book Review",
-        "abstract": "This article discusses two books on the topic of alternative logics in\nscience: \"Deviant Logic\", by Susan Haack, and \"Alternative Logics: Do Sciences\nNeed Them?\", edited by Paul Weingartner.",
-        "date": "2007-05-09T21:56:15+00:00",
-        "label": 0
-    },
-    "1511.05897": {
-        "title": "Censoring Representations with an Adversary",
-        "abstract": "In practice, there are often explicit constraints on what representations or\ndecisions are acceptable in an application of machine learning. For example it\nmay be a legal requirement that a decision must not favour a particular group.\nAlternatively it can be that that representation of data must not have\nidentifying information. We address these two related issues by learning\nflexible representations that minimize the capability of an adversarial critic.\nThis adversary is trying to predict the relevant sensitive variable from the\nrepresentation, and so minimizing the performance of the adversary ensures\nthere is little or no information in the representation about the sensitive\nvariable. We demonstrate this adversarial approach on two problems: making\ndecisions free from discrimination and removing private information from\nimages. We formulate the adversarial model as a minimax problem, and optimize\nthat minimax objective using a stochastic gradient alternate min-max optimizer.\nWe demonstrate the ability to provide discriminant free representations for\nstandard test problems, and compare with previous state of the art methods for\nfairness, showing statistically significant improvement across most cases. The\nflexibility of this method is shown via a novel problem: removing annotations\nfrom images, from unaligned training examples of annotated and unannotated\nimages, and with no a priori knowledge of the form of annotation provided to\nthe model.",
-        "date": "2015-11-18T18:06:24+00:00",
+    "2312.01261": {
+        "title": "TIBET: Identifying and Evaluating Biases in Text-to-Image Generative Models",
+        "abstract": "Text-to-Image (TTI) generative models have shown great progress in the past\nfew years in terms of their ability to generate complex and high-quality\nimagery. At the same time, these models have been shown to suffer from harmful\nbiases, including exaggerated societal biases (e.g., gender, ethnicity), as\nwell as incidental correlations that limit such a model's ability to generate\nmore diverse imagery. In this paper, we propose a general approach to study and\nquantify a broad spectrum of biases, for any TTI model and for any prompt,\nusing counterfactual reasoning. Unlike other works that evaluate generated\nimages on a predefined set of bias axes, our approach automatically identifies\npotential biases that might be relevant to the given prompt, and measures those\nbiases. In addition, we complement quantitative scores with post-hoc\nexplanations in terms of semantic concepts in the images generated. We show\nthat our method is uniquely capable of explaining complex multi-dimensional\nbiases through semantic concepts, as well as the intersectionality between\ndifferent biases for any given prompt. We perform extensive user studies to\nillustrate that the results of our method and analysis are consistent with\nhuman judgements.",
+        "date": "2023-12-03T02:31:37+00:00",
         "label": 1
+    },
+    "2210.13526": {
+        "title": "Computational Inference in Cognitive Science: Operational, Societal and Ethical Considerations",
+        "abstract": "Emerging research frontiers and computational advances have gradually\ntransformed cognitive science into a multidisciplinary and data-driven field.\nAs a result, there is a proliferation of cognitive theories investigated and\ninterpreted from different academic lens and in different levels of\nabstraction. We formulate this applied aspect of this challenge as the\ncomputational cognitive inference, and describe the major routes of\ncomputational approaches. To balance the potential optimism alongside the speed\nand scale of the data-driven era of cognitive science, we propose to inspect\nthis trend in more empirical terms by identifying the operational challenges,\nsocietal impacts and ethical guidelines in conducting research and interpreting\nresults from the computational inference in cognitive science.",
+        "date": "2022-10-24T18:27:27+00:00",
+        "label": 0
     },
     "2210.06878": {
         "title": "CS-Insights: A System for Analyzing Computer Science Research",
@@ -449,22 +89,130 @@
         "date": "2022-10-13T10:03:52+00:00",
         "label": 0
     },
-    "0608062": {
-        "title": "Tarski's influence on computer science",
-        "abstract": "The influence of Alfred Tarski on computer science was indirect but\nsignificant in a number of directions and was in certain respects fundamental.\nHere surveyed is the work of Tarski on the decision procedure for algebra and\ngeometry, the method of elimination of quantifiers, the semantics of formal\nlanguages, modeltheoretic preservation theorems, and algebraic logic; various\nconnections of each with computer science are taken up.",
-        "date": "2006-08-15T16:40:24+00:00",
-        "label": 0
-    },
-    "2303.07615": {
-        "title": "Variation of Gender Biases in Visual Recognition Models Before and After Finetuning",
-        "abstract": "We introduce a framework to measure how biases change before and after\nfine-tuning a large scale visual recognition model for a downstream task. Deep\nlearning models trained on increasing amounts of data are known to encode\nsocietal biases. Many computer vision systems today rely on models typically\npretrained on large scale datasets. While bias mitigation techniques have been\ndeveloped for tuning models for downstream tasks, it is currently unclear what\nare the effects of biases already encoded in a pretrained model. Our framework\nincorporates sets of canonical images representing individual and pairs of\nconcepts to highlight changes in biases for an array of off-the-shelf\npretrained models across model sizes, dataset sizes, and training objectives.\nThrough our analyses, we find that (1) supervised models trained on datasets\nsuch as ImageNet-21k are more likely to retain their pretraining biases\nregardless of the target dataset compared to self-supervised models. We also\nfind that (2) models finetuned on larger scale datasets are more likely to\nintroduce new biased associations. Our results also suggest that (3) biases can\ntransfer to finetuned models and the finetuning objective and dataset can\nimpact the extent of transferred biases.",
-        "date": "2023-03-14T03:42:47+00:00",
-        "label": 1
-    },
     "2210.15230": {
         "title": "How well can Text-to-Image Generative Models understand Ethical Natural Language Interventions?",
         "abstract": "Text-to-image generative models have achieved unprecedented success in\ngenerating high-quality images based on natural language descriptions. However,\nit is shown that these models tend to favor specific social groups when\nprompted with neutral text descriptions (e.g., 'a photo of a lawyer').\nFollowing Zhao et al. (2021), we study the effect on the diversity of the\ngenerated images when adding ethical intervention that supports equitable\njudgment (e.g., 'if all individuals can be a lawyer irrespective of their\ngender') in the input prompts. To this end, we introduce an Ethical NaTural\nLanguage Interventions in Text-to-Image GENeration (ENTIGEN) benchmark dataset\nto evaluate the change in image generations conditional on ethical\ninterventions across three social axes -- gender, skin color, and culture.\nThrough ENTIGEN framework, we find that the generations from minDALL.E,\nDALL.E-mini and Stable Diffusion cover diverse social groups while preserving\nthe image quality. Preliminary studies indicate that a large change in the\nmodel predictions is triggered by certain phrases such as 'irrespective of\ngender' in the context of gender bias in the ethical interventions. We release\ncode and annotated data at https://github.com/Hritikbansal/entigen_emnlp.",
         "date": "2022-10-27T07:32:39+00:00",
+        "label": 1
+    },
+    "0703148": {
+        "title": "Computer Science and Game Theory: A Brief Survey",
+        "abstract": "There has been a remarkable increase in work at the interface of computer\nscience and game theory in the past decade. In this article I survey some of\nthe main themes of work in the area, with a focus on the work in computer\nscience. Given the length constraints, I make no attempt at being\ncomprehensive, especially since other surveys are also available, and a\ncomprehensive survey book will appear shortly.",
+        "date": "2007-03-29T18:43:58+00:00",
+        "label": 0
+    },
+    "1902.11097": {
+        "title": "Predictive Inequity in Object Detection",
+        "abstract": "In this work, we investigate whether state-of-the-art object detection\nsystems have equitable predictive performance on pedestrians with different\nskin tones. This work is motivated by many recent examples of ML and vision\nsystems displaying higher error rates for certain demographic groups than\nothers. We annotate an existing large scale dataset which contains pedestrians,\nBDD100K, with Fitzpatrick skin tones in ranges [1-3] or [4-6]. We then provide\nan in-depth comparative analysis of performance between these two skin tone\ngroupings, finding that neither time of day nor occlusion explain this\nbehavior, suggesting this disparity is not merely the result of pedestrians in\nthe 4-6 range appearing in more difficult scenes for detection. We investigate\nto what extent time of day, occlusion, and reweighting the supervised loss\nduring training affect this predictive bias.",
+        "date": "2019-02-21T21:11:16+00:00",
+        "label": 1
+    },
+    "1310.7911": {
+        "title": "Compact manifolds with computable boundaries",
+        "abstract": "We investigate conditions under which a co-computably enumerable closed set\nin a computable metric space is computable and prove that in each locally\ncomputable computable metric space each co-computably enumerable compact\nmanifold with computable boundary is computable. In fact, we examine the notion\nof a semi-computable compact set and we prove a more general result: in any\ncomputable metric space each semi-computable compact manifold with computable\nboundary is computable. In particular, each semi-computable compact\n(boundaryless) manifold is computable.",
+        "date": "2013-10-29T18:29:13+00:00",
+        "label": 0
+    },
+    "2107.13998": {
+        "title": "\"Excavating AI\" Re-excavated: Debunking a Fallacious Account of the JAFFE Dataset",
+        "abstract": "Twenty-five years ago, my colleagues Miyuki Kamachi and Jiro Gyoba and I\ndesigned and photographed JAFFE, a set of facial expression images intended for\nuse in a study of face perception. In 2019, without seeking permission or\ninforming us, Kate Crawford and Trevor Paglen exhibited JAFFE in two widely\npublicized art shows. In addition, they published a nonfactual account of the\nimages in the essay \"Excavating AI: The Politics of Images in Machine Learning\nTraining Sets.\" The present article recounts the creation of the JAFFE dataset\nand unravels each of Crawford and Paglen's fallacious statements. I also\ndiscuss JAFFE more broadly in connection with research on facial expression,\naffective computing, and human-computer interaction.",
+        "date": "2021-07-28T01:31:59+00:00",
+        "label": 1
+    },
+    "1011.1335": {
+        "title": "A short proof that adding some permutation rules to $\u03b2$ preserves $SN$",
+        "abstract": "I show that, if a term is $SN$ for $\\beta$, it remains $SN$ when some\npermutation rules are added.",
+        "date": "2010-11-05T07:54:47+00:00",
+        "label": 0
+    },
+    "1103.3321": {
+        "title": "Typed Operational Semantics for Dependent Record Types",
+        "abstract": "Typed operational semantics is a method developed by H. Goguen to prove\nmeta-theoretic properties of type systems. This paper studies the metatheory of\na type system with dependent record types, using the approach of typed\noperational semantics. In particular, the metatheoretical properties we have\nproved include strong normalisation, Church-Rosser and subject reduction.",
+        "date": "2011-03-17T00:19:42+00:00",
+        "label": 0
+    },
+    "1807.09490": {
+        "title": "Investigating the Intersection of Science Fiction, Human-Computer Interaction and Computer Science Research",
+        "abstract": "This paper outlines ongoing dissertation research located in the intersection\nof science fiction, human-computer interaction and computer science. Through an\ninterdisciplinary perspective, drawing from fields such as human-computer\ninteraction, film theory and studies of science and technology, qualitative and\nquantitative content analysis techniques are used to contextually analyze\nexpressions of science fiction in peer-reviewed computer science research\nrepositories, such as the ACM or IEEE Xplore Digital Libraries. This paper\nconcisely summarizes and introduces the relationship of science fiction and\ncomputer science research and presents the research questions, aims and\nimplications in addition to prior work and study methodology. In the latter\npart of this work-in-progress report, preliminary results, current limitations,\nfuture work and a post-dissertation trajectory are outlined.",
+        "date": "2018-07-25T09:02:02+00:00",
+        "label": 0
+    },
+    "1908.04913": {
+        "title": "FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age",
+        "abstract": "Existing public face datasets are strongly biased toward Caucasian faces, and\nother races (e.g., Latino) are significantly underrepresented. This can lead to\ninconsistent model accuracy, limit the applicability of face analytic systems\nto non-White race groups, and adversely affect research findings based on such\nskewed data. To mitigate the race bias in these datasets, we construct a novel\nface image dataset, containing 108,501 images, with an emphasis of balanced\nrace composition in the dataset. We define 7 race groups: White, Black, Indian,\nEast Asian, Southeast Asian, Middle East, and Latino. Images were collected\nfrom the YFCC-100M Flickr dataset and labeled with race, gender, and age\ngroups. Evaluations were performed on existing face attribute datasets as well\nas novel image datasets to measure generalization performance. We find that the\nmodel trained from our dataset is substantially more accurate on novel datasets\nand the accuracy is consistent between race and gender groups.",
+        "date": "2019-08-14T01:42:41+00:00",
+        "label": 1
+    },
+    "2010.11929": {
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "abstract": "While the Transformer architecture has become the de-facto standard for\nnatural language processing tasks, its applications to computer vision remain\nlimited. In vision, attention is either applied in conjunction with\nconvolutional networks, or used to replace certain components of convolutional\nnetworks while keeping their overall structure in place. We show that this\nreliance on CNNs is not necessary and a pure transformer applied directly to\nsequences of image patches can perform very well on image classification tasks.\nWhen pre-trained on large amounts of data and transferred to multiple mid-sized\nor small image recognition benchmarks (ImageNet, CIFAR-100, VTAB, etc.), Vision\nTransformer (ViT) attains excellent results compared to state-of-the-art\nconvolutional networks while requiring substantially fewer computational\nresources to train.",
+        "date": "2020-10-22T17:55:59+00:00",
+        "label": 1
+    },
+    "1511.05897": {
+        "title": "Censoring Representations with an Adversary",
+        "abstract": "In practice, there are often explicit constraints on what representations or\ndecisions are acceptable in an application of machine learning. For example it\nmay be a legal requirement that a decision must not favour a particular group.\nAlternatively it can be that that representation of data must not have\nidentifying information. We address these two related issues by learning\nflexible representations that minimize the capability of an adversarial critic.\nThis adversary is trying to predict the relevant sensitive variable from the\nrepresentation, and so minimizing the performance of the adversary ensures\nthere is little or no information in the representation about the sensitive\nvariable. We demonstrate this adversarial approach on two problems: making\ndecisions free from discrimination and removing private information from\nimages. We formulate the adversarial model as a minimax problem, and optimize\nthat minimax objective using a stochastic gradient alternate min-max optimizer.\nWe demonstrate the ability to provide discriminant free representations for\nstandard test problems, and compare with previous state of the art methods for\nfairness, showing statistically significant improvement across most cases. The\nflexibility of this method is shown via a novel problem: removing annotations\nfrom images, from unaligned training examples of annotated and unannotated\nimages, and with no a priori knowledge of the form of annotation provided to\nthe model.",
+        "date": "2015-11-18T18:06:24+00:00",
+        "label": 1
+    },
+    "0609110": {
+        "title": "Algebraic recognizability of languages",
+        "abstract": "Recognizable languages of finite words are part of every computer science\ncursus, and they are routinely described as a cornerstone for applications and\nfor theory. We would like to briefly explore why that is, and how this\nword-related notion extends to more complex models, such as those developed for\nmodeling distributed or timed behaviors.",
+        "date": "2006-09-19T15:21:08+00:00",
+        "label": 0
+    },
+    "1901.10436": {
+        "title": "Diversity in Faces",
+        "abstract": "Face recognition is a long standing challenge in the field of Artificial\nIntelligence (AI). The goal is to create systems that accurately detect,\nrecognize, verify, and understand human faces. There are significant technical\nhurdles in making these systems accurate, particularly in unconstrained\nsettings due to confounding factors related to pose, resolution, illumination,\nocclusion, and viewpoint. However, with recent advances in neural networks,\nface recognition has achieved unprecedented accuracy, largely built on\ndata-driven deep learning methods. While this is encouraging, a critical aspect\nthat is limiting facial recognition accuracy and fairness is inherent facial\ndiversity. Every face is different. Every face reflects something unique about\nus. Aspects of our heritage - including race, ethnicity, culture, geography -\nand our individual identify - age, gender, and other visible manifestations of\nself-expression, are reflected in our faces. We expect face recognition to work\nequally accurately for every face. Face recognition needs to be fair. As we\nrely on data-driven methods to create face recognition technology, we need to\nensure necessary balance and coverage in training data. However, there are\nstill scientific questions about how to represent and extract pertinent facial\nfeatures and quantitatively measure facial diversity. Towards this goal,\nDiversity in Faces (DiF) provides a data set of one million annotated human\nface images for advancing the study of facial diversity. The annotations are\ngenerated using ten well-established facial coding schemes from the scientific\nliterature. The facial coding schemes provide human-interpretable quantitative\nmeasures of facial features. We believe that by making the extracted coding\nschemes available on a large set of faces, we can accelerate research and\ndevelopment towards creating more fair and accurate facial recognition systems.",
+        "date": "2019-01-29T18:24:50+00:00",
+        "label": 1
+    },
+    "2012.04842": {
+        "title": "Improving the Fairness of Deep Generative Models without Retraining",
+        "abstract": "Generative Adversarial Networks (GANs) advance face synthesis through\nlearning the underlying distribution of observed data. Despite the high-quality\ngenerated faces, some minority groups can be rarely generated from the trained\nmodels due to a biased image generation process. To study the issue, we first\nconduct an empirical study on a pre-trained face synthesis model. We observe\nthat after training the GAN model not only carries the biases in the training\ndata but also amplifies them to some degree in the image generation process. To\nfurther improve the fairness of image generation, we propose an interpretable\nbaseline method to balance the output facial attributes without retraining. The\nproposed method shifts the interpretable semantic distribution in the latent\nspace for a more balanced image generation while preserving the sample\ndiversity. Besides producing more balanced data regarding a particular\nattribute (e.g., race, gender, etc.), our method is generalizable to handle\nmore than one attribute at a time and synthesize samples of fine-grained\nsubgroups. We further show the positive applicability of the balanced data\nsampled from GANs to quantify the biases in other face recognition systems,\nlike commercial face attribute classifiers and face super-resolution\nalgorithms.",
+        "date": "2020-12-09T03:20:41+00:00",
+        "label": 1
+    },
+    "1012.1620": {
+        "title": "Linked Environment Data for the Life Sciences",
+        "abstract": "Environment Agencies from Europe and the US are setting up a network of\nLinked Environment Data and are looking to crosslink it with Linked Data\ncontributions from the life sciences.",
+        "date": "2010-12-07T21:49:42+00:00",
+        "label": 0
+    },
+    "1309.0717": {
+        "title": "A Polynomial Translation of pi-calculus FCPs to Safe Petri Nets",
+        "abstract": "We develop a polynomial translation from finite control pi-calculus processes\nto safe low-level Petri nets. To our knowledge, this is the first such\ntranslation. It is natural in that there is a close correspondence between the\ncontrol flows, enjoys a bisimulation result, and is suitable for practical\nmodel checking.",
+        "date": "2013-09-03T15:08:39+00:00",
+        "label": 0
+    },
+    "2207.07180": {
+        "title": "Contrastive Adapters for Foundation Model Group Robustness",
+        "abstract": "While large pretrained foundation models (FMs) have shown remarkable\nzero-shot classification robustness to dataset-level distribution shifts, their\nrobustness to subpopulation or group shifts is relatively underexplored. We\nstudy this problem, and find that FMs such as CLIP may not be robust to various\ngroup shifts. Across 9 robustness benchmarks, zero-shot classification with\ntheir embeddings results in gaps of up to 80.7 percentage points (pp) between\naverage and worst-group accuracy. Unfortunately, existing methods to improve\nrobustness require retraining, which can be prohibitively expensive on large\nfoundation models. We also find that efficient ways to improve model inference\n(e.g., via adapters, lightweight networks with FM embeddings as inputs) do not\nconsistently improve and can sometimes hurt group robustness compared to\nzero-shot (e.g., increasing the accuracy gap by 50.1 pp on CelebA). We thus\ndevelop an adapter training strategy to effectively and efficiently improve FM\ngroup robustness. Our motivating observation is that while poor robustness\nresults from groups in the same class being embedded far apart in the\nfoundation model \"embedding space,\" standard adapter training may not bring\nthese points closer together. We thus propose contrastive adapting, which\ntrains adapters with contrastive learning to bring sample embeddings close to\nboth their ground-truth class embeddings and other sample embeddings in the\nsame class. Across the 9 benchmarks, our approach consistently improves group\nrobustness, raising worst-group accuracy by 8.5 to 56.0 pp over zero-shot. Our\napproach is also efficient, doing so without any FM finetuning and only a fixed\nset of frozen FM embeddings. On benchmarks such as Waterbirds and CelebA, this\nleads to worst-group accuracy comparable to state-of-the-art methods that\nretrain entire models, while only training $\\leq$1% of the model parameters.",
+        "date": "2022-07-14T19:40:55+00:00",
+        "label": 1
+    },
+    "1705.02203": {
+        "title": "Analysis of Computational Science Papers from ICCS 2001-2016 using Topic Modeling and Graph Theory",
+        "abstract": "This paper presents results of topic modeling and network models of topics\nusing the International Conference on Computational Science corpus, which\ncontains domain-specific (computational science) papers over sixteen years (a\ntotal of 5695 papers). We discuss topical structures of International\nConference on Computational Science, how these topics evolve over time in\nresponse to the topicality of various problems, technologies and methods, and\nhow all these topics relate to one another. This analysis illustrates\nmultidisciplinary research and collaborations among scientific communities, by\nconstructing static and dynamic networks from the topic modeling results and\nthe keywords of authors. The results of this study give insights about the past\nand future trends of core discussion topics in computational science. We used\nthe Non-negative Matrix Factorization topic modeling algorithm to discover\ntopics and labeled and grouped results hierarchically.",
+        "date": "2017-04-18T13:24:41+00:00",
+        "label": 0
+    },
+    "2407.08102": {
+        "title": "Dynamics of Gender Bias within Computer Science",
+        "abstract": "A new dataset (N = 7,456) analyzes women's research authorship in the\nAssociation for Computing Machinery's founding 13 Special Interest Groups or\nSIGs, a proxy for computer science. ACM SIGs expanded during 1970-2000; each\nexperienced increasing women's authorship. But diversity abounds. Several SIGs\nhad fewer than 10% women authors while SIGUCCS (university computing centers)\nexceeded 40%. Three SIGs experienced accelerating growth in women's authorship;\nmost, including a composite ACM, had decelerating growth. This research may\nencourage reform efforts, often focusing on general education or workforce\nfactors (across the entity of \"computer science\"), to examine under-studied\ndynamics within computer science that shaped changes in women's participation.",
+        "date": "2024-07-11T00:14:21+00:00",
+        "label": 0
+    },
+    "2002.04020": {
+        "title": "Cloudifying the Curriculum with AWS",
+        "abstract": "The Cloud has become a principal paradigm of computing in the last ten years,\nand Computer Science curricula must be updated to reflect that reality. This\npaper examines simple ways to accomplish curriculum cloudification using Amazon\nWeb Services (AWS), for Computer Science and other disciplines such as\nBusiness, Communication and Mathematics.",
+        "date": "2020-02-10T18:47:35+00:00",
+        "label": 0
+    },
+    "1811.12231": {
+        "title": "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness",
+        "abstract": "Convolutional Neural Networks (CNNs) are commonly thought to recognise\nobjects by learning increasingly complex representations of object shapes. Some\nrecent studies suggest a more important role of image textures. We here put\nthese conflicting hypotheses to a quantitative test by evaluating CNNs and\nhuman observers on images with a texture-shape cue conflict. We show that\nImageNet-trained CNNs are strongly biased towards recognising textures rather\nthan shapes, which is in stark contrast to human behavioural evidence and\nreveals fundamentally different classification strategies. We then demonstrate\nthat the same standard architecture (ResNet-50) that learns a texture-based\nrepresentation on ImageNet is able to learn a shape-based representation\ninstead when trained on \"Stylized-ImageNet\", a stylized version of ImageNet.\nThis provides a much better fit for human behavioural performance in our\nwell-controlled psychophysical lab setting (nine experiments totalling 48,560\npsychophysical trials across 97 observers) and comes with a number of\nunexpected emergent benefits such as improved object detection performance and\npreviously unseen robustness towards a wide range of image distortions,\nhighlighting advantages of a shape-based representation.",
+        "date": "2018-11-29T15:04:05+00:00",
         "label": 1
     },
     "1711.08536": {
@@ -473,10 +221,262 @@
         "date": "2017-11-22T23:56:37+00:00",
         "label": 1
     },
+    "2012.12144": {
+        "title": "Integrating computing in the statistics and data science curriculum: Creative structures, novel skills and habits, and ways to teach computational thinking",
+        "abstract": "Nolan and Temple Lang (2010) argued for the fundamental role of computing in\nthe statistics curriculum. In the intervening decade the statistics education\ncommunity has acknowledged that computational skills are as important to\nstatistics and data science practice as mathematics. There remains a notable\ngap, however, between our intentions and our actions. In this special issue of\nthe *Journal of Statistics and Data Science Education* we have assembled a\ncollection of papers that (1) suggest creative structures to integrate\ncomputing, (2) describe novel data science skills and habits, and (3) propose\nways to teach computational thinking. We believe that it is critical for the\ncommunity to redouble our efforts to embrace sophisticated computing in the\nstatistics and data science curriculum. We hope that these papers provide\nuseful guidance for the community to move these efforts forward.",
+        "date": "2020-12-22T16:28:18+00:00",
+        "label": 0
+    },
+    "1307.8029": {
+        "title": "Proceedings Fourth International Symposium on Symbolic Computation in Software Science",
+        "abstract": "Symbolic computation is the science of computing with symbolic objects\n(terms, formulae, programs, algebraic objects, geometrical objects, etc).\nPowerful symbolic algorithms have been developed during the past decades and\nhave played an influential role in theorem proving, automated reasoning,\nsoftware verification, model checking, rewriting, formalisation of mathematics,\nnetwork security, Groebner bases, characteristic sets, etc.\n  The international Symposium on \"Symbolic Computation in Software Science\" is\nthe fourth in the SCSS workshop series. SCSS 2008 and 2010 took place at the\nResearch Institute for Symbolic Computation (RISC), Hagenberg, Austria, and,\nSCSS 2009 took place in Gammarth, Tunisia. These symposium grew out of internal\nworkshops that bring together researchers from: a) SCORE (Symbolic Computation\nResearch Group) at the University of Tsukuba, Japan, b) Theorema Group at the\nResearch Institute for Symbolic Computation, Johannes Kepler University Linz,\nAustria, c) SSFG (Software Science Foundation Group) at Kyoto University,\nJapan, and d) Sup'Com (Higher School of Communication of Tunis) at the\nUniversity of Carthage, Tunisia.",
+        "date": "2013-07-30T16:01:33+00:00",
+        "label": 0
+    },
+    "1404.5458": {
+        "title": "Complex Workflow Management and Integration of Distributed Computing Resources by Science Gateway Portal for Molecular Dynamics Simulations in Materials Science",
+        "abstract": "The \"IMP Science Gateway Portal\" (http://scigate.imp.kiev.ua) for complex\nworkflow management and integration of distributed computing resources (like\nclusters, service grids, desktop grids, clouds) is presented. It is created on\nthe basis of WS-PGRADE and gUSE technologies, where WS-PGRADE is designed for\nscience workflow operation and gUSE - for smooth integration of available\nresources for parallel and distributed computing in various heterogeneous\ndistributed computing infrastructures (DCI). The typical scientific workflow\nwith possible scenarios of its preparation and usage is considered. Several\ntypical science applications (scientific workflows) are considered for\nmolecular dynamics (MD) simulations of complex behavior of various\nnanostructures (nanoindentation of graphene layers, defect system relaxation in\nmetal nanocrystals, thermal stability of boron nitride nanotubes, etc.). The\nadvantages and drawbacks of the solution are shortly analyzed in the context of\nits practical applications for MD simulations in materials science, physics and\nnanotechnologies with available heterogeneous DCIs.",
+        "date": "2014-04-22T11:34:04+00:00",
+        "label": 0
+    },
+    "1907.02893": {
+        "title": "Invariant Risk Minimization",
+        "abstract": "We introduce Invariant Risk Minimization (IRM), a learning paradigm to\nestimate invariant correlations across multiple training distributions. To\nachieve this goal, IRM learns a data representation such that the optimal\nclassifier, on top of that data representation, matches for all training\ndistributions. Through theory and experiments, we show how the invariances\nlearned by IRM relate to the causal structures governing the data and enable\nout-of-distribution generalization.",
+        "date": "2019-07-05T15:26:26+00:00",
+        "label": 1
+    },
+    "1103.1386": {
+        "title": "Physics and computer science: quantum computation and other approaches",
+        "abstract": "This is a position paper written as an introduction to the special volume on\nquantum algorithms I edited for the journal Mathematical Structures in Computer\nScience (Volume 20 - Special Issue 06 (Quantum Algorithms), 2010).",
+        "date": "2011-03-07T21:00:29+00:00",
+        "label": 0
+    },
+    "2207.01934": {
+        "title": "How sustainable is \"common\" data science in terms of power consumption?",
+        "abstract": "Continuous developments in data science have brought forth an exponential\nincrease in complexity of machine learning models. Additionally, data\nscientists have become ubiquitous in the private market, academic environments\nand even as a hobby. All of these trends are on a steady rise, and are\nassociated with an increase in power consumption and associated carbon\nfootprint. The increasing carbon footprint of large-scale advanced data science\nhas already received attention, but the latter trend has not. This work aims to\nestimate the contribution of the increasingly popular \"common\" data science to\nthe global carbon footprint. To this end, the power consumption of several\ntypical tasks in the aforementioned common data science tasks will be measured\nand compared to: large-scale \"advanced\" data science, common computer-related\ntasks, and everyday non-computer related tasks. This is done by converting the\nmeasurements to the equivalent unit of \"km driven by car\". Our main findings\nare: \"common\" data science consumes $2.57$ more power than regular computer\nusage, but less than some common everyday power-consuming tasks such as\nlighting or heating; large-scale data science consumes substantially more power\nthan common data science.",
+        "date": "2022-07-05T10:15:22+00:00",
+        "label": 0
+    },
+    "2402.14577": {
+        "title": "Debiasing Text-to-Image Diffusion Models",
+        "abstract": "Learning-based Text-to-Image (TTI) models like Stable Diffusion have\nrevolutionized the way visual content is generated in various domains. However,\nrecent research has shown that nonnegligible social bias exists in current\nstate-of-the-art TTI systems, which raises important concerns. In this work, we\ntarget resolving the social bias in TTI diffusion models. We begin by\nformalizing the problem setting and use the text descriptions of bias groups to\nestablish an unsafe direction for guiding the diffusion process. Next, we\nsimplify the problem into a weight optimization problem and attempt a\nReinforcement solver, Policy Gradient, which shows sub-optimal performance with\nslow convergence. Further, to overcome limitations, we propose an iterative\ndistribution alignment (IDA) method. Despite its simplicity, we show that IDA\nshows efficiency and fast convergence in resolving the social bias in TTI\ndiffusion models. Our code will be released.",
+        "date": "2024-02-22T14:33:23+00:00",
+        "label": 1
+    },
+    "2311.10969": {
+        "title": "MATILDA: Inclusive Data Science Pipelines Design through Computational Creativity",
+        "abstract": "We argue for the need for a new generation of data science solutions that can\ndemocratize recent advances in data engineering and artificial intelligence for\nnon-technical users from various disciplines, enabling them to unlock the full\npotential of these solutions. To do so, we adopt an approach whereby\ncomputational creativity and conversational computing are combined to guide\nnon-specialists intuitively to explore and extract knowledge from data\ncollections. The paper introduces MATILDA, a creativity-based data science\ndesign platform, showing how it can support the design process of data science\npipelines guided by human and computational creativity.",
+        "date": "2023-11-18T04:37:07+00:00",
+        "label": 0
+    },
+    "2207.10653": {
+        "title": "RepFair-GAN: Mitigating Representation Bias in GANs Using Gradient Clipping",
+        "abstract": "Fairness has become an essential problem in many domains of Machine Learning\n(ML), such as classification, natural language processing, and Generative\nAdversarial Networks (GANs). In this research effort, we study the unfairness\nof GANs. We formally define a new fairness notion for generative models in\nterms of the distribution of generated samples sharing the same protected\nattributes (gender, race, etc.). The defined fairness notion (representational\nfairness) requires the distribution of the sensitive attributes at the test\ntime to be uniform, and, in particular for GAN model, we show that this\nfairness notion is violated even when the dataset contains equally represented\ngroups, i.e., the generator favors generating one group of samples over the\nothers at the test time. In this work, we shed light on the source of this\nrepresentation bias in GANs along with a straightforward method to overcome\nthis problem. We first show on two widely used datasets (MNIST, SVHN) that when\nthe norm of the gradient of one group is more important than the other during\nthe discriminator's training, the generator favours sampling data from one\ngroup more than the other at test time. We then show that controlling the\ngroups' gradient norm by performing group-wise gradient norm clipping in the\ndiscriminator during the training leads to a more fair data generation in terms\nof representational fairness compared to existing models while preserving the\nquality of generated samples.",
+        "date": "2022-07-13T14:58:48+00:00",
+        "label": 1
+    },
+    "2204.06125": {
+        "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+        "abstract": "Contrastive models like CLIP have been shown to learn robust representations\nof images that capture both semantics and style. To leverage these\nrepresentations for image generation, we propose a two-stage model: a prior\nthat generates a CLIP image embedding given a text caption, and a decoder that\ngenerates an image conditioned on the image embedding. We show that explicitly\ngenerating image representations improves image diversity with minimal loss in\nphotorealism and caption similarity. Our decoders conditioned on image\nrepresentations can also produce variations of an image that preserve both its\nsemantics and style, while varying the non-essential details absent from the\nimage representation. Moreover, the joint embedding space of CLIP enables\nlanguage-guided image manipulations in a zero-shot fashion. We use diffusion\nmodels for the decoder and experiment with both autoregressive and diffusion\nmodels for the prior, finding that the latter are computationally more\nefficient and produce higher-quality samples.",
+        "date": "2022-04-13T01:10:33+00:00",
+        "label": 1
+    },
+    "2203.11933": {
+        "title": "A Prompt Array Keeps the Bias Away: Debiasing Vision-Language Models with Adversarial Learning",
+        "abstract": "Vision-language models can encode societal biases and stereotypes, but there\nare challenges to measuring and mitigating these multimodal harms due to\nlacking measurement robustness and feature degradation. To address these\nchallenges, we investigate bias measures and apply ranking metrics for\nimage-text representations. We then investigate debiasing methods and show that\nprepending learned embeddings to text queries that are jointly trained with\nadversarial debiasing and a contrastive loss reduces various bias measures with\nminimal degradation to the image-text representation.",
+        "date": "2022-03-22T17:59:04+00:00",
+        "label": 1
+    },
+    "1610.07365": {
+        "title": "Introduction: Cognitive Issues in Natural Language Processing",
+        "abstract": "This special issue is dedicated to get a better picture of the relationships\nbetween computational linguistics and cognitive science. It specifically raises\ntwo questions: \"what is the potential contribution of computational language\nmodeling to cognitive science?\" and conversely: \"what is the influence of\ncognitive science in contemporary computational linguistics?\"",
+        "date": "2016-10-24T11:30:22+00:00",
+        "label": 0
+    },
+    "9505013": {
+        "title": "Wavelet basis for the Schr\u00f6dinger equation",
+        "abstract": "The self-similar representation for the Schr\\\"{o}dinger equation is derived.",
+        "date": "1995-05-16T16:19:16+00:00",
+        "label": 0
+    },
+    "1304.7858": {
+        "title": "Abstract Stobjs and Their Application to ISA Modeling",
+        "abstract": "We introduce a new ACL2 feature, the abstract stobj, and show how to apply it\nto modeling the instruction set architecture of a microprocessor. Benefits of\nabstract stobjs over traditional (\"concrete\") stobjs can include faster\nexecution, support for symbolic simulation, more efficient reasoning, and\nresilience of proof developments under modeling optimization.",
+        "date": "2013-04-30T04:14:22+00:00",
+        "label": 0
+    },
+    "0701087": {
+        "title": "Artificiality in Social Sciences",
+        "abstract": "This text provides with an introduction to the modern approach of\nartificiality and simulation in social sciences. It presents the relationship\nbetween complexity and artificiality, before introducing the field of\nartificial societies which greatly benefited from the computer power fast\nincrease, gifting social sciences with formalization and experimentation tools\npreviously owned by \"hard\" sciences alone. It shows that as \"a new way of doing\nsocial sciences\", artificial societies should undoubtedly contribute to a\nrenewed approach in the study of sociality and should play a significant part\nin the elaboration of original theories of social phenomena.",
+        "date": "2007-01-13T16:50:37+00:00",
+        "label": 0
+    },
+    "2209.10377": {
+        "title": "Complexity through Translations for Modal Logic with Recursion",
+        "abstract": "This paper studies the complexity of classical modal logics and of their\nextension with fixed-point operators, using translations to transfer results\nacross logics. In particular, we show several complexity results for\nmulti-agent logics via translations to and from the mu-calculus and modal\nlogic, which allow us to transfer known upper and lower bounds. We also use\nthese translations to introduce a terminating tableau system for the logics we\nstudy, based on Kozen's tableau for the mu-calculus, and the one of Fitting and\nMassacci for modal logic.",
+        "date": "2022-09-21T14:14:46+00:00",
+        "label": 0
+    },
+    "2010.07017": {
+        "title": "Computational Skills by Stealth in Secondary School Data Science",
+        "abstract": "The unprecedented growth in the availability of data of all types and\nqualities and the emergence of the field of data science has provided an\nimpetus to finally realizing the implementation of the full breadth of the\nNolan and Temple Lang proposed integration of computing concepts into\nstatistics curricula at all levels in statistics and new data science programs\nand courses. Moreover, data science, implemented carefully, opens accessible\npathways to stem for students for whom neither mathematics nor computer science\nare natural affinities, and who would traditionally be excluded. We discuss a\nproposal for the stealth development of computational skills in students' first\nexposure to data science through careful, scaffolded exposure to computation\nand its power. The intent of this approach is to support students, regardless\nof interest and self-efficacy in coding, in becoming data-driven learners, who\nare capable of asking complex questions about the world around them, and then\nanswering those questions through the use of data-driven inquiry. This\ndiscussion is presented in the context of the International Data Science in\nSchools Project which recently published computer science and statistics\nconsensus curriculum frameworks for a two-year secondary school data science\nprogram, designed to make data science accessible to all.",
+        "date": "2020-10-08T09:11:51+00:00",
+        "label": 0
+    },
+    "1108.3558": {
+        "title": "Proceedings of the 5th Workshop on Membrane Computing and Biologically Inspired Process Calculi (MeCBIC 2011)",
+        "abstract": "This volume represents the proceedings of the 5th Workshop on Membrane\nComputing and Biologically Inspired Process Calculi (MeCBIC 2011), held\ntogether with the 12th International Conference on Membrane Computing on 23rd\nAugust 2011 in Fontainebleau, France.",
+        "date": "2011-08-17T19:41:29+00:00",
+        "label": 0
+    },
+    "1912.00578": {
+        "title": "Exposing and Correcting the Gender Bias in Image Captioning Datasets and Models",
+        "abstract": "The task of image captioning implicitly involves gender identification.\nHowever, due to the gender bias in data, gender identification by an image\ncaptioning model suffers. Also, the gender-activity bias, owing to the\nword-by-word prediction, influences other words in the caption prediction,\nresulting in the well-known problem of label bias. In this work, we investigate\ngender bias in the COCO captioning dataset and show that it engenders not only\nfrom the statistical distribution of genders with contexts but also from the\nflawed annotation by the human annotators. We look at the issues created by\nthis bias in the trained models. We propose a technique to get rid of the bias\nby splitting the task into 2 subtasks: gender-neutral image captioning and\ngender classification. By this decoupling, the gender-context influence can be\neradicated. We train the gender-neutral image captioning model, which gives\ncomparable results to a gendered model even when evaluating against a dataset\nthat possesses a similar bias as the training data. Interestingly, the\npredictions by this model on images with no humans, are also visibly different\nfrom the one trained on gendered captions. We train gender classifiers using\nthe available bounding box and mask-based annotations for the person in the\nimage. This allows us to get rid of the context and focus on the person to\npredict the gender. By substituting the genders into the gender-neutral\ncaptions, we get the final gendered predictions. Our predictions achieve\nsimilar performance to a model trained with gender, and at the same time are\ndevoid of gender bias. Finally, our main result is that on an\nanti-stereotypical dataset, our model outperforms a popular image captioning\nmodel which is trained with gender.",
+        "date": "2019-12-02T04:14:39+00:00",
+        "label": 1
+    },
+    "2302.00070": {
+        "title": "Debiasing Vision-Language Models via Biased Prompts",
+        "abstract": "Machine learning models have been shown to inherit biases from their training\ndatasets. This can be particularly problematic for vision-language foundation\nmodels trained on uncurated datasets scraped from the internet. The biases can\nbe amplified and propagated to downstream applications like zero-shot\nclassifiers and text-to-image generative models. In this study, we propose a\ngeneral approach for debiasing vision-language foundation models by projecting\nout biased directions in the text embedding. In particular, we show that\ndebiasing only the text embedding with a calibrated projection matrix suffices\nto yield robust classifiers and fair generative models. The proposed\nclosed-form solution enables easy integration into large-scale pipelines, and\nempirical results demonstrate that our approach effectively reduces social bias\nand spurious correlation in both discriminative and generative vision-language\nmodels without the need for additional data or training.",
+        "date": "2023-01-31T20:09:33+00:00",
+        "label": 1
+    },
+    "2403.02695": {
+        "title": "Controllable Prompt Tuning For Balancing Group Distributional Robustness",
+        "abstract": "Models trained on data composed of different groups or domains can suffer\nfrom severe performance degradation under distribution shifts. While recent\nmethods have largely focused on optimizing the worst-group objective, this\noften comes at the expense of good performance on other groups. To address this\nproblem, we introduce an optimization scheme to achieve good performance across\ngroups and find a good solution for all without severely sacrificing\nperformance on any of them. However, directly applying such optimization\ninvolves updating the parameters of the entire network, making it both\ncomputationally expensive and challenging. Thus, we introduce Controllable\nPrompt Tuning (CPT), which couples our approach with prompt-tuning techniques.\nOn spurious correlation benchmarks, our procedures achieve state-of-the-art\nresults across both transformer and non-transformer architectures, as well as\nunimodal and multimodal data, while requiring only 0.4% tunable parameters.",
+        "date": "2024-03-05T06:23:55+00:00",
+        "label": 1
+    },
     "2311.03287": {
         "title": "Holistic Analysis of Hallucination in GPT-4V(ision): Bias and Interference Challenges",
         "abstract": "While GPT-4V(ision) impressively models both visual and textual information\nsimultaneously, it's hallucination behavior has not been systematically\nassessed. To bridge this gap, we introduce a new benchmark, namely, the Bias\nand Interference Challenges in Visual Language Models (Bingo). This benchmark\nis designed to evaluate and shed light on the two common types of\nhallucinations in visual language models: bias and interference. Here, bias\nrefers to the model's tendency to hallucinate certain types of responses,\npossibly due to imbalance in its training data. Interference pertains to\nscenarios where the judgment of GPT-4V(ision) can be disrupted due to how the\ntext prompt is phrased or how the input image is presented. We identify a\nnotable regional bias, whereby GPT-4V(ision) is better at interpreting Western\nimages or images with English writing compared to images from other countries\nor containing text in other languages. Moreover, GPT-4V(ision) is vulnerable to\nleading questions and is often confused when interpreting multiple images\ntogether. Popular mitigation approaches, such as self-correction and\nchain-of-thought reasoning, are not effective in resolving these challenges. We\nalso identified similar biases and interference vulnerabilities with LLaVA and\nBard. Our results characterize the hallucination challenges in GPT-4V(ision)\nand state-of-the-art visual-language models, and highlight the need for new\nsolutions. The Bingo benchmark is available at https://github.com/gzcch/Bingo.",
         "date": "2023-11-06T17:26:59+00:00",
+        "label": 1
+    },
+    "2108.02818": {
+        "title": "Evaluating CLIP: Towards Characterization of Broader Capabilities and Downstream Implications",
+        "abstract": "Recently, there have been breakthroughs in computer vision (\"CV\") models that\nare more generalizable with the advent of models such as CLIP and ALIGN. In\nthis paper, we analyze CLIP and highlight some of the challenges such models\npose. CLIP reduces the need for task specific training data, potentially\nopening up many niche tasks to automation. CLIP also allows its users to\nflexibly specify image classification classes in natural language, which we\nfind can shift how biases manifest. Additionally, through some preliminary\nprobes we find that CLIP can inherit biases found in prior computer vision\nsystems. Given the wide and unpredictable domain of uses for such models, this\nraises questions regarding what sufficiently safe behaviour for such systems\nmay look like. These results add evidence to the growing body of work calling\nfor a change in the notion of a 'better' model--to move beyond simply looking\nat higher accuracy at task-oriented capability evaluations, and towards a\nbroader 'better' that takes into account deployment-critical features such as\ndifferent use contexts, and people who interact with the model when thinking\nabout model deployment.",
+        "date": "2021-08-05T19:05:57+00:00",
+        "label": 1
+    },
+    "1605.06083": {
+        "title": "Stereotyping and Bias in the Flickr30K Dataset",
+        "abstract": "An untested assumption behind the crowdsourced descriptions of the images in\nthe Flickr30K dataset (Young et al., 2014) is that they \"focus only on the\ninformation that can be obtained from the image alone\" (Hodosh et al., 2013, p.\n859). This paper presents some evidence against this assumption, and provides a\nlist of biases and unwarranted inferences that can be found in the Flickr30K\ndataset. Finally, it considers methods to find examples of these, and discusses\nhow we should deal with stereotype-driven descriptions in future applications.",
+        "date": "2016-05-19T19:17:23+00:00",
+        "label": 1
+    },
+    "2303.07615": {
+        "title": "Variation of Gender Biases in Visual Recognition Models Before and After Finetuning",
+        "abstract": "We introduce a framework to measure how biases change before and after\nfine-tuning a large scale visual recognition model for a downstream task. Deep\nlearning models trained on increasing amounts of data are known to encode\nsocietal biases. Many computer vision systems today rely on models typically\npretrained on large scale datasets. While bias mitigation techniques have been\ndeveloped for tuning models for downstream tasks, it is currently unclear what\nare the effects of biases already encoded in a pretrained model. Our framework\nincorporates sets of canonical images representing individual and pairs of\nconcepts to highlight changes in biases for an array of off-the-shelf\npretrained models across model sizes, dataset sizes, and training objectives.\nThrough our analyses, we find that (1) supervised models trained on datasets\nsuch as ImageNet-21k are more likely to retain their pretraining biases\nregardless of the target dataset compared to self-supervised models. We also\nfind that (2) models finetuned on larger scale datasets are more likely to\nintroduce new biased associations. Our results also suggest that (3) biases can\ntransfer to finetuned models and the finetuning objective and dataset can\nimpact the extent of transferred biases.",
+        "date": "2023-03-14T03:42:47+00:00",
+        "label": 1
+    },
+    "2402.13490": {
+        "title": "Contrastive Prompts Improve Disentanglement in Text-to-Image Diffusion Models",
+        "abstract": "Text-to-image diffusion models have achieved remarkable performance in image\nsynthesis, while the text interface does not always provide fine-grained\ncontrol over certain image factors. For instance, changing a single token in\nthe text can have unintended effects on the image. This paper shows a simple\nmodification of classifier-free guidance can help disentangle image factors in\ntext-to-image models. The key idea of our method, Contrastive Guidance, is to\ncharacterize an intended factor with two prompts that differ in minimal tokens:\nthe positive prompt describes the image to be synthesized, and the baseline\nprompt serves as a \"baseline\" that disentangles other factors. Contrastive\nGuidance is a general method we illustrate whose benefits in three scenarios:\n(1) to guide domain-specific diffusion models trained on an object class, (2)\nto gain continuous, rig-like controls for text-to-image generation, and (3) to\nimprove the performance of zero-shot image editors.",
+        "date": "2024-02-21T03:01:17+00:00",
+        "label": 1
+    },
+    "2301.04788": {
+        "title": "Language Cognition and Language Computation -- Human and Machine Language Understanding",
+        "abstract": "Language understanding is a key scientific issue in the fields of cognitive\nand computer science. However, the two disciplines differ substantially in the\nspecific research questions. Cognitive science focuses on analyzing the\nspecific mechanism of the brain and investigating the brain's response to\nlanguage; few studies have examined the brain's language system as a whole. By\ncontrast, computer scientists focus on the efficiency of practical applications\nwhen choosing research questions but may ignore the most essential laws of\nlanguage. Given these differences, can a combination of the disciplines offer\nnew insights for building intelligent language models and studying language\ncognitive mechanisms? In the following text, we first review the research\nquestions, history, and methods of language understanding in cognitive and\ncomputer science, focusing on the current progress and challenges. We then\ncompare and contrast the research of language understanding in cognitive and\ncomputer sciences. Finally, we review existing work that combines insights from\nlanguage cognition and language computation and offer prospects for future\ndevelopment trends.",
+        "date": "2023-01-12T02:37:00+00:00",
+        "label": 0
+    },
+    "1911.08731": {
+        "title": "Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization",
+        "abstract": "Overparameterized neural networks can be highly accurate on average on an\ni.i.d. test set yet consistently fail on atypical groups of the data (e.g., by\nlearning spurious correlations that hold on average but not in such groups).\nDistributionally robust optimization (DRO) allows us to learn models that\ninstead minimize the worst-case training loss over a set of pre-defined groups.\nHowever, we find that naively applying group DRO to overparameterized neural\nnetworks fails: these models can perfectly fit the training data, and any model\nwith vanishing average training loss also already has vanishing worst-case\ntraining loss. Instead, the poor worst-case performance arises from poor\ngeneralization on some groups. By coupling group DRO models with increased\nregularization---a stronger-than-typical L2 penalty or early stopping---we\nachieve substantially higher worst-group accuracies, with 10-40 percentage\npoint improvements on a natural language inference task and two image tasks,\nwhile maintaining high average accuracies. Our results suggest that\nregularization is important for worst-group generalization in the\noverparameterized regime, even if it is not needed for average generalization.\nFinally, we introduce a stochastic optimization algorithm, with convergence\nguarantees, to efficiently train group DRO models.",
+        "date": "2019-11-20T06:43:41+00:00",
+        "label": 1
+    },
+    "1404.6487": {
+        "title": "Computability of 1-manifolds",
+        "abstract": "A semi-computable set S in a computable metric space need not be computable.\nHowever, in some cases, if S has certain topological properties, we can\nconclude that S is computable. It is known that if a semi-computable set S is a\ncompact manifold with boundary, then the computability of \\deltaS implies the\ncomputability of S. In this paper we examine the case when S is a 1-manifold\nwith boundary, not necessarily compact. We show that a similar result holds in\nthis case under assumption that S has finitely many components.",
+        "date": "2014-04-25T17:37:44+00:00",
+        "label": 0
+    },
+    "2403.03387": {
+        "title": "Undergraduate data science education: Who has the microphone and what are they saying?",
+        "abstract": "The presence of data science has been profound in the scientific community in\nalmost every discipline. An important part of the data science education\nexpansion has been at the undergraduate level. We conducted a systematic\nliterature review to (1) specify current evidence and knowledge gaps in\nundergraduate data science education and (2) inform policymakers and data\nscience educators/practitioners about the present status of data science\neducation research. The majority of the publications in data science education\nthat met our search criteria were available open-access. Our results indicate\nthat data science education research lacks empirical data and reproducibility.\nNot all disciplines contribute equally to the field of data science education.\nComputer science and data science as a separate field emerge as the leading\ncontributors to the literature. In contrast, fields such as statistics,\nmathematics, as well as other fields closely related to data science exhibit a\nlimited presence in studies. We recommend that federal agencies and researchers\n1) invest in empirical data science education research; 2) diversify research\nefforts to enrich the spectrum of types of studies; 3) encourage scholars in\nkey data science fields that are currently underrepresented in the literature\nto contribute more to research and publications.",
+        "date": "2024-03-06T00:49:08+00:00",
+        "label": 0
+    },
+    "2401.08053": {
+        "title": "SCoFT: Self-Contrastive Fine-Tuning for Equitable Image Generation",
+        "abstract": "Accurate representation in media is known to improve the well-being of the\npeople who consume it. Generative image models trained on large web-crawled\ndatasets such as LAION are known to produce images with harmful stereotypes and\nmisrepresentations of cultures. We improve inclusive representation in\ngenerated images by (1) engaging with communities to collect a culturally\nrepresentative dataset that we call the Cross-Cultural Understanding Benchmark\n(CCUB) and (2) proposing a novel Self-Contrastive Fine-Tuning (SCoFT) method\nthat leverages the model's known biases to self-improve. SCoFT is designed to\nprevent overfitting on small datasets, encode only high-level information from\nthe data, and shift the generated distribution away from misrepresentations\nencoded in a pretrained model. Our user study conducted on 51 participants from\n5 different countries based on their self-selected national cultural\naffiliation shows that fine-tuning on CCUB consistently generates images with\nhigher cultural relevance and fewer stereotypes when compared to the Stable\nDiffusion baseline, which is further improved with our SCoFT technique.",
+        "date": "2024-01-16T02:10:13+00:00",
+        "label": 1
+    },
+    "2302.10893": {
+        "title": "Fair Diffusion: Instructing Text-to-Image Generation Models on Fairness",
+        "abstract": "Generative AI models have recently achieved astonishing results in quality\nand are consequently employed in a fast-growing number of applications.\nHowever, since they are highly data-driven, relying on billion-sized datasets\nrandomly scraped from the internet, they also suffer from degenerated and\nbiased human behavior, as we demonstrate. In fact, they may even reinforce such\nbiases. To not only uncover but also combat these undesired effects, we present\na novel strategy, called Fair Diffusion, to attenuate biases after the\ndeployment of generative text-to-image models. Specifically, we demonstrate\nshifting a bias, based on human instructions, in any direction yielding\narbitrarily new proportions for, e.g., identity groups. As our empirical\nevaluation demonstrates, this introduced control enables instructing generative\nimage models on fairness, with no data filtering and additional training\nrequired.",
+        "date": "2023-02-07T18:25:28+00:00",
+        "label": 1
+    },
+    "1103.1977": {
+        "title": "Development of Computer Science Disciplines - A Social Network Analysis Approach",
+        "abstract": "In contrast to many other scientific disciplines, computer science considers\nconference publications. Conferences have the advantage of providing fast\npublication of papers and of bringing researchers together to present and\ndiscuss the paper with peers. Previous work on knowledge mapping focused on the\nmap of all sciences or a particular domain based on ISI published JCR (Journal\nCitation Report). Although this data covers most of important journals, it\nlacks computer science conference and workshop proceedings. That results in an\nimprecise and incomplete analysis of the computer science knowledge. This paper\npresents an analysis on the computer science knowledge network constructed from\nall types of publications, aiming at providing a complete view of computer\nscience research. Based on the combination of two important digital libraries\n(DBLP and CiteSeerX), we study the knowledge network created at\njournal/conference level using citation linkage, to identify the development of\nsub-disciplines. We investigate the collaborative and citation behavior of\njournals/conferences by analyzing the properties of their co-authorship and\ncitation subgraphs. The paper draws several important conclusions. First,\nconferences constitute social structures that shape the computer science\nknowledge. Second, computer science is becoming more interdisciplinary. Third,\nexperts are the key success factor for sustainability of journals/conferences.",
+        "date": "2011-03-10T09:51:19+00:00",
+        "label": 0
+    },
+    "1803.09797": {
+        "title": "Women also Snowboard: Overcoming Bias in Captioning Models",
+        "abstract": "Most machine learning methods are known to capture and exploit biases of the\ntraining data. While some biases are beneficial for learning, others are\nharmful. Specifically, image captioning models tend to exaggerate biases\npresent in training data (e.g., if a word is present in 60% of training\nsentences, it might be predicted in 70% of sentences at test time). This can\nlead to incorrect captions in domains where unbiased captions are desired, or\nrequired, due to over-reliance on the learned prior and image context. In this\nwork we investigate generation of gender-specific caption words (e.g. man,\nwoman) based on the person's appearance or the image context. We introduce a\nnew Equalizer model that ensures equal gender probability when gender evidence\nis occluded in a scene and confident predictions when gender evidence is\npresent. The resulting model is forced to look at a person rather than use\ncontextual cues to make a gender-specific predictions. The losses that comprise\nour model, the Appearance Confusion Loss and the Confident Loss, are general,\nand can be added to any description model in order to mitigate impacts of\nunwanted bias in a description dataset. Our proposed model has lower error than\nprior work when describing images with people and mentioning their gender and\nmore closely matches the ground truth ratio of sentences including women to\nsentences including men. We also show that unlike other approaches, our model\nis indeed more often looking at people when predicting their gender.",
+        "date": "2018-03-26T19:07:08+00:00",
+        "label": 1
+    },
+    "1407.7360": {
+        "title": "A Taxonomy and Survey on eScience as a Service in the Cloud",
+        "abstract": "Cloud computing has recently evolved as a popular computing infrastructure\nfor many applications. Scientific computing, which was mainly hosted in private\nclusters and grids, has started to migrate development and deployment to the\npublic cloud environment. eScience as a service becomes an emerging and\npromising direction for science computing. We review recent efforts in\ndeveloping and deploying scientific computing applications in the cloud. In\nparticular, we introduce a taxonomy specifically designed for scientific\ncomputing in the cloud, and further review the taxonomy with four major kinds\nof science applications, including life sciences, physics sciences, social and\nhumanities sciences, and climate and earth sciences. Our major finding is that,\ndespite existing efforts in developing cloud-based eScience, eScience still has\na long way to go to fully unlock the power of cloud computing paradigm.\nTherefore, we present the challenges and opportunities in the future\ndevelopment of cloud-based eScience services, and call for collaborations and\ninnovations from both the scientific and computer system communities to address\nthose challenges.",
+        "date": "2014-07-28T09:14:35+00:00",
+        "label": 0
+    },
+    "2303.08774": {
+        "title": "GPT-4 Technical Report",
+        "abstract": "We report the development of GPT-4, a large-scale, multimodal model which can\naccept image and text inputs and produce text outputs. While less capable than\nhumans in many real-world scenarios, GPT-4 exhibits human-level performance on\nvarious professional and academic benchmarks, including passing a simulated bar\nexam with a score around the top 10% of test takers. GPT-4 is a\nTransformer-based model pre-trained to predict the next token in a document.\nThe post-training alignment process results in improved performance on measures\nof factuality and adherence to desired behavior. A core component of this\nproject was developing infrastructure and optimization methods that behave\npredictably across a wide range of scales. This allowed us to accurately\npredict some aspects of GPT-4's performance based on models trained with no\nmore than 1/1,000th the compute of GPT-4.",
+        "date": "2023-03-15T17:15:04+00:00",
+        "label": 1
+    },
+    "1111.4755": {
+        "title": "Saying Hello World with MOLA - A Solution to the TTC 2011 Instructive Case",
+        "abstract": "This paper describes the solution of Hello World transformations in MOLA\ntransformation language. Transformations implementing the task are relatively\nstraightforward and easily inferable from the task specification. The required\nadditional steps related to model import and export are also described.",
+        "date": "2011-11-21T05:26:57+00:00",
+        "label": 0
+    },
+    "2306.13141": {
+        "title": "On Hate Scaling Laws For Data-Swamps",
+        "abstract": "`Scale the model, scale the data, scale the GPU-farms' is the reigning\nsentiment in the world of generative AI today. While model scaling has been\nextensively studied, data scaling and its downstream impacts remain under\nexplored. This is especially of critical importance in the context of\nvisio-linguistic datasets whose main source is the World Wide Web, condensed\nand packaged as the CommonCrawl dump. This large scale data-dump, which is\nknown to have numerous drawbacks, is repeatedly mined and serves as the\ndata-motherlode for large generative models. In this paper, we: 1) investigate\nthe effect of scaling datasets on hateful content through a comparative audit\nof the LAION-400M and LAION-2B-en, containing 400 million and 2 billion samples\nrespectively, and 2) evaluate the downstream impact of scale on\nvisio-linguistic models trained on these dataset variants by measuring racial\nbias of the models trained on them using the Chicago Face Dataset (CFD) as a\nprobe. Our results show that 1) the presence of hateful content in datasets,\nwhen measured with a Hate Content Rate (HCR) metric on the inferences of the\nPysentimiento hate-detection Natural Language Processing (NLP) model, increased\nby nearly $12\\%$ and 2) societal biases and negative stereotypes were also\nexacerbated with scale on the models we evaluated. As scale increased, the\ntendency of the model to associate images of human faces with the `human being'\nclass over 7 other offensive classes reduced by half. Furthermore, for the\nBlack female category, the tendency of the model to associate their faces with\nthe `criminal' class doubled, while quintupling for Black male faces. We\npresent a qualitative and historical analysis of the model audit results,\nreflect on our findings and its implications for dataset curation practice, and\nclose with a summary of our findings and potential future work to be done in\nthis area.",
+        "date": "2023-06-22T18:00:17+00:00",
+        "label": 1
+    },
+    "1606.01148": {
+        "title": "Tripartite Unions",
+        "abstract": "This note provides conditions under which the union of three well-founded\nbinary relations is also well-founded.",
+        "date": "2016-06-03T15:41:55+00:00",
+        "label": 0
+    },
+    "2310.06904": {
+        "title": "Mitigating stereotypical biases in text to image generative systems",
+        "abstract": "State-of-the-art generative text-to-image models are known to exhibit social\nbiases and over-represent certain groups like people of perceived lighter skin\ntones and men in their outcomes. In this work, we propose a method to mitigate\nsuch biases and ensure that the outcomes are fair across different groups of\npeople. We do this by finetuning text-to-image models on synthetic data that\nvaries in perceived skin tones and genders constructed from diverse text\nprompts. These text prompts are constructed from multiplicative combinations of\nethnicities, genders, professions, age groups, and so on, resulting in diverse\nsynthetic data. Our diversity finetuned (DFT) model improves the group fairness\nmetric by 150% for perceived skin tone and 97.7% for perceived gender. Compared\nto baselines, DFT models generate more people with perceived darker skin tone\nand more women. To foster open research, we will release all text prompts and\ncode to generate training images.",
+        "date": "2023-10-10T18:01:52+00:00",
+        "label": 1
+    },
+    "1804.08293": {
+        "title": "Materials science and engineering: New vision in the era of artificial intelligence",
+        "abstract": "Scientific discovery evolves from the experimental, through the theoretical\nand computational, to the current data-intensive paradigm. Materials science is\nno exception, especially for computational materials science. In recent years,\ngreat achievements have been made in the field of materials science and\nengineering (MSE). Here, we review the previous paradigms of materials science\nand some classical MSE models. Then, our data-intensive MSE (DIMSE) model is\nproposed to reshape future materials innovations. This work will help to\naddress the global challenge for materials discovery in the era of artificial\nintelligence (AI), and essentially contribute to accelerating future materials\ncontinuum.",
+        "date": "2018-04-23T09:01:57+00:00",
+        "label": 0
+    },
+    "1003.1930": {
+        "title": "Simulating Grover's Quantum Search in a Classical Computer",
+        "abstract": "The rapid progress of computer science has been accompanied by a\ncorresponding evolution of computation, from classical computation to quantum\ncomputation. As quantum computing is on its way to becoming an established\ndiscipline of computing science, much effort is being put into the development\nof new quantum algorithms. One of quantum algorithms is Grover algorithm, which\nis used for searching an element in an unstructured list of N elements with\nquadratic speed-up over classical algorithms. In this work, Quantum Computer\nLanguage (QCL) is used to make a Grover's quantum search simulation in a\nclassical computer",
+        "date": "2010-03-09T17:02:21+00:00",
+        "label": 0
+    },
+    "2103.11436": {
+        "title": "Responsible AI: Gender bias assessment in emotion recognition",
+        "abstract": "Rapid development of artificial intelligence (AI) systems amplify many\nconcerns in society. These AI algorithms inherit different biases from humans\ndue to mysterious operational flow and because of that it is becoming adverse\nin usage. As a result, researchers have started to address the issue by\ninvestigating deeper in the direction towards Responsible and Explainable AI.\nAmong variety of applications of AI, facial expression recognition might not be\nthe most important one, yet is considered as a valuable part of human-AI\ninteraction. Evolution of facial expression recognition from the feature based\nmethods to deep learning drastically improve quality of such algorithms. This\nresearch work aims to study a gender bias in deep learning methods for facial\nexpression recognition by investigating six distinct neural networks, training\nthem, and further analysed on the presence of bias, according to the three\ndefinition of fairness. The main outcomes show which models are gender biased,\nwhich are not and how gender of subject affects its emotion recognition. More\nbiased neural networks show bigger accuracy gap in emotion recognition between\nmale and female test sets. Furthermore, this trend keeps for true positive and\nfalse positive rates. In addition, due to the nature of the research, we can\nobserve which types of emotions are better classified for men and which for\nwomen. Since the topic of biases in facial expression recognition is not well\nstudied, a spectrum of continuation of this research is truly extensive, and\nmay comprise detail analysis of state-of-the-art methods, as well as targeting\nother biases.",
+        "date": "2021-03-21T17:00:21+00:00",
         "label": 1
     }
 }

@@ -1,57 +1,81 @@
 {
+    "2106.08157": {
+        "title": "CeFi vs. DeFi -- Comparing Centralized to Decentralized Finance",
+        "abstract": "To non-experts, the traditional Centralized Finance (CeFi) ecosystem may seem\nobscure, because users are typically not aware of the underlying rules or\nagreements of financial assets and products. Decentralized Finance (DeFi),\nhowever, is making its debut as an ecosystem claiming to offer transparency and\ncontrol, which are partially attributable to the underlying integrity-protected\nblockchain, as well as currently higher financial asset yields than CeFi. Yet,\nthe boundaries between CeFi and DeFi may not be always so clear cut.\n  In this work, we systematically analyze the differences between CeFi and\nDeFi, covering legal, economic, security, privacy and market manipulation. We\nprovide a structured methodology to differentiate between a CeFi and a DeFi\nservice. Our findings show that certain DeFi assets (such as USDC or USDT\nstablecoins) do not necessarily classify as DeFi assets, and may endanger the\neconomic security of intertwined DeFi protocols. We conclude this work with the\nexploration of possible synergies between CeFi and DeFi.",
+        "date": "2021-06-15T13:53:43+00:00",
+        "label": 1
+    },
+    "1406.2222": {
+        "title": "The Chemistry Between High School Students and Computer Science",
+        "abstract": "Computer science enrollments have started to rise again, but the percentage\nof women undergraduates in computer science is still low. Some studies indicate\nthis might be due to a lack of awareness of computer science at the high school\nlevel. We present our experiences running a 5-year, high school outreach\nprogram that introduces information about computer science within the context\nof required chemistry courses. We developed interactive worksheets using\nMolecular Workbench that help the students learn chemistry and computer science\nconcepts related to relevant events such as the gulf oil spill. Our evaluation\nof the effectiveness of this approach indicates that the students do become\nmore aware of computer science as a discipline, but system support issues in\nthe classroom can make the approach difficult for teachers and discouraging for\nthe students.",
+        "date": "2014-06-09T15:44:41+00:00",
+        "label": 0
+    },
+    "2202.01291": {
+        "title": "Computer sciences and synthesis: retrospective and perspective",
+        "abstract": "The problem of synthesis in computer sciences, including cybernetics,\nartificial intelligence and system analysis, is analyzed. Main methods of\nrealization this problem are discussed. Ways of search universal method of\ncreation universal synthetic science are represented. As example of such\nuniversal method polymetric analysis is given. Perspective of further\ndevelopment of this research, including application polymetric method for the\nresolution main problems of computer sciences, is analyzed too.",
+        "date": "2022-01-26T04:42:45+00:00",
+        "label": 0
+    },
+    "2206.12669": {
+        "title": "Crypto Makes AI Evolve",
+        "abstract": "Adopting cryptography has given rise to a significant evolution in Artificial\nIntelligence (AI). This paper studies the path and stages of this evolution. We\nstart with reviewing existing relevant surveys, noting their shortcomings,\nespecially the lack of a close look at the evolution process and solid future\nroadmap. These shortcomings justify the work of this paper. Next, we identify,\ndefine and discuss five consequent stages in the evolution path, including\nCrypto-Sensitive AI, Crypto-Adapted AI, Crypto-Friendly AI, Crypto-Enabled AI,\nCrypto-Protected AI. Then, we establish a future roadmap for further research\nin this area, focusing on the role of quantum-inspired and bio-inspired AI.",
+        "date": "2022-06-25T15:04:47+00:00",
+        "label": 0
+    },
+    "2303.04226": {
+        "title": "A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT",
+        "abstract": "Recently, ChatGPT, along with DALL-E-2 and Codex,has been gaining significant\nattention from society. As a result, many individuals have become interested in\nrelated resources and are seeking to uncover the background and secrets behind\nits impressive performance. In fact, ChatGPT and other Generative AI (GAI)\ntechniques belong to the category of Artificial Intelligence Generated Content\n(AIGC), which involves the creation of digital content, such as images, music,\nand natural language, through AI models. The goal of AIGC is to make the\ncontent creation process more efficient and accessible, allowing for the\nproduction of high-quality content at a faster pace. AIGC is achieved by\nextracting and understanding intent information from instructions provided by\nhuman, and generating the content according to its knowledge and the intent\ninformation. In recent years, large-scale models have become increasingly\nimportant in AIGC as they provide better intent extraction and thus, improved\ngeneration results. With the growth of data and the size of the models, the\ndistribution that the model can learn becomes more comprehensive and closer to\nreality, leading to more realistic and high-quality content generation. This\nsurvey provides a comprehensive review on the history of generative models, and\nbasic components, recent advances in AIGC from unimodal interaction and\nmultimodal interaction. From the perspective of unimodality, we introduce the\ngeneration tasks and relative models of text and image. From the perspective of\nmultimodality, we introduce the cross-application between the modalities\nmentioned above. Finally, we discuss the existing open problems and future\nchallenges in AIGC.",
+        "date": "2023-03-07T20:36:13+00:00",
+        "label": 1
+    },
     "1710.03090": {
         "title": "Theoretical Computer Science for the Working Category Theorist",
         "abstract": "Theoretical computer science discusses foundational issues about\ncomputations. It asks and answers questions such as \"What is a computation?\",\n\"What is computable?\", \"What is efficiently computable?\",\"What is\ninformation?\", \"What is random?\", \"What is an algorithm?\", etc. We will present\nmany of the major themes and theorems with the basic language of category\ntheory. Surprisingly, many interesting theorems and concepts of theoretical\ncomputer science are easy consequences of functoriality and composition when\nyou look at the right categories and functors connecting them.",
         "date": "2017-10-04T19:19:00+00:00",
         "label": 0
     },
-    "1909.03033": {
-        "title": "The Difficulties of Addressing Interdisciplinary Challenges at the Foundations of Data Science",
-        "abstract": "The National Science Foundation's Transdisciplinary Research in Principles of\nData Science (TRIPODS) program aims to integrate three areas central to the\nfoundations of data by uniting the statistics, mathematics, and theoretical\ncomputer science research communities. The program aims to provide a model for\nfunding cross-cutting research and facilitating interactions among the three\ndisciplines. Challenges associated with orchestrating fruitful interactions are\ndescribed.",
-        "date": "2019-09-04T06:07:26+00:00",
-        "label": 0
-    },
-    "2002.05658": {
-        "title": "Ten Research Challenge Areas in Data Science",
-        "abstract": "Although data science builds on knowledge from computer science, mathematics,\nstatistics, and other disciplines, data science is a unique field with many\nmysteries to unlock: challenging scientific questions and pressing questions of\nsocietal importance. This article starts with meta-questions about data science\nas a discipline and then elaborates on ten ideas for the basis of a research\nagenda for data science.",
-        "date": "2020-01-27T21:39:57+00:00",
-        "label": 0
-    },
-    "1111.7159": {
-        "title": "Sequentiality vs. Concurrency in Games and Logic",
-        "abstract": "Connections between the sequentiality/concurrency distinction and the\nsemantics of proofs are investigated, with particular reference to games and\nLinear Logic.",
-        "date": "2011-11-30T13:44:46+00:00",
-        "label": 0
-    },
-    "2311.01433": {
-        "title": "A Comprehensive Study of Governance Issues in Decentralized Finance Applications",
-        "abstract": "Decentralized Finance (DeFi) is a prominent application of smart contracts,\nrepresenting a novel financial paradigm in contrast to centralized finance.\nWhile DeFi applications are rapidly emerging on mainstream blockchain\nplatforms, their quality varies greatly, presenting numerous challenges,\nparticularly in terms of their governance mechanisms. In this paper, we present\na comprehensive study of governance issues in DeFi applications. Drawing upon\ninsights from industry reports and academic research articles, we develop a\ntaxonomy to categorize these governance issues. We collect and build a dataset\nof 4,446 audit reports from 17 Web3 security companies, categorizing their\ngovernance issues according to our constructed taxonomy. We conducted a\nthorough analysis of governance issues and identified vulnerabilities in\ngovernance design and implementation, e.g., voting sybil attack and proposal\nfront-running. Our findings highlight a significant observation: the disparity\nbetween smart contract code and DeFi whitepapers plays a central role in these\ngovernance issues. As an initial step to address the challenges of\ncode-whitepaper consistency checks for DeFi applications, we built a\nmachine-learning-based prototype, and validated its performance on eight widely\nused DeFi projects, achieving a 56.14% F1 score and a 80% recall. Our study\nculminates in providing several key practical implications for various DeFi\nstakeholders, including developers, users, researchers, and regulators, aiming\nto deepen the understanding of DeFi governance issues and contribute to the\nrobust growth of DeFi systems.",
-        "date": "2023-11-02T17:46:59+00:00",
+    "2303.02836": {
+        "title": "Blockchain-Empowered Lifecycle Management for AI-Generated Content (AIGC) Products in Edge Networks",
+        "abstract": "The rapid development of Artificial IntelligenceGenerated Content (AIGC) has\nbrought daunting challenges regarding service latency, security, and\ntrustworthiness. Recently, researchers presented the edge AIGC paradigm,\neffectively optimize the service latency by distributing AIGC services to edge\ndevices. However, AIGC products are still unprotected and vulnerable to\ntampering and plagiarization. Moreover, as a kind of online non-fungible\ndigital property, the free circulation of AIGC products is hindered by the lack\nof trustworthiness in open networks. In this article, for the first time, we\npresent a blockchain-empowered framework to manage the lifecycle of edge AIGC\nproducts. Specifically, leveraging fraud proof, we first propose a protocol to\nprotect the ownership and copyright of AIGC, called Proof-of-AIGC. Then, we\ndesign an incentive mechanism to guarantee the legitimate and timely executions\nof the funds-AIGC ownership exchanges among anonymous users. Furthermore, we\nbuild a multi-weight subjective logic-based reputation scheme, with which AIGC\nproducers can determine which edge service provider is trustworthy and reliable\nto handle their services. Through numerical results, the superiority of the\nproposed approach is demonstrated. Last but not least, we discuss important\nopen directions for further research.",
+        "date": "2023-03-06T02:06:13+00:00",
         "label": 1
     },
-    "1108.3558": {
-        "title": "Proceedings of the 5th Workshop on Membrane Computing and Biologically Inspired Process Calculi (MeCBIC 2011)",
-        "abstract": "This volume represents the proceedings of the 5th Workshop on Membrane\nComputing and Biologically Inspired Process Calculi (MeCBIC 2011), held\ntogether with the 12th International Conference on Membrane Computing on 23rd\nAugust 2011 in Fontainebleau, France.",
-        "date": "2011-08-17T19:41:29+00:00",
+    "2207.07901": {
+        "title": "Computer Science",
+        "abstract": "Possible for science itself, conceptually, to have and will understand\ndifferently, let alone science also seen as technology, such as computer\nscience. After all, science and technology are viewpoints diverse by either\nindividual, community, or social. Generally, it depends on socioeconomic\ncapabilities. So it is with computer science has become a phenomenon and\nfashionable, where based on the stream of documents, various issues arise in\neither its theory or implementation, adapting different communities, or\ndesigning curriculum holds in the education system.",
+        "date": "2022-07-16T10:54:57+00:00",
         "label": 0
     },
-    "2010.07017": {
-        "title": "Computational Skills by Stealth in Secondary School Data Science",
-        "abstract": "The unprecedented growth in the availability of data of all types and\nqualities and the emergence of the field of data science has provided an\nimpetus to finally realizing the implementation of the full breadth of the\nNolan and Temple Lang proposed integration of computing concepts into\nstatistics curricula at all levels in statistics and new data science programs\nand courses. Moreover, data science, implemented carefully, opens accessible\npathways to stem for students for whom neither mathematics nor computer science\nare natural affinities, and who would traditionally be excluded. We discuss a\nproposal for the stealth development of computational skills in students' first\nexposure to data science through careful, scaffolded exposure to computation\nand its power. The intent of this approach is to support students, regardless\nof interest and self-efficacy in coding, in becoming data-driven learners, who\nare capable of asking complex questions about the world around them, and then\nanswering those questions through the use of data-driven inquiry. This\ndiscussion is presented in the context of the International Data Science in\nSchools Project which recently published computer science and statistics\nconsensus curriculum frameworks for a two-year secondary school data science\nprogram, designed to make data science accessible to all.",
-        "date": "2020-10-08T09:11:51+00:00",
-        "label": 0
-    },
-    "2109.06836": {
-        "title": "Security, Privacy, and Decentralization in Web3",
-        "abstract": "Much of the recent excitement around decentralized finance (DeFi) comes from\nhopes that DeFi can be a secure, private, less centralized alternative to\ntraditional finance systems. However, people moving to DeFi sites in hopes of\nimproving their security and privacy may end up with less of both as recent\nattacks have demonstrated. In this work, we improve the understanding of DeFi\nby conducting the first Web measurements of the security, privacy, and\ndecentralization properties of popular DeFi front ends. We find that DeFi\napplications -- or dapps -- suffer from the same security and privacy risks\nthat frequent other parts of the Web but those risks are greatly exacerbated\nconsidering the money that is involved in DeFi. Our results show that a common\ntracker can observe user behavior on over 56% of websites we analyzed and many\ntrackers on DeFi sites can trivially link a user's Ethereum address with PII\n(e.g., user name or demographic information), or phish users by initiating fake\nEthereum transactions. Lastly, we establish that despite claims to the\nopposite, because of companies like Amazon and Cloudflare operating significant\nWeb infrastructure, DeFi as a whole is considerably less decentralized than\npreviously believed.",
-        "date": "2021-09-14T17:21:02+00:00",
+    "2303.11717": {
+        "title": "A Complete Survey on Generative AI (AIGC): Is ChatGPT from GPT-4 to GPT-5 All You Need?",
+        "abstract": "As ChatGPT goes viral, generative AI (AIGC, a.k.a AI-generated content) has\nmade headlines everywhere because of its ability to analyze and create text,\nimages, and beyond. With such overwhelming media coverage, it is almost\nimpossible for us to miss the opportunity to glimpse AIGC from a certain angle.\nIn the era of AI transitioning from pure analysis to creation, it is worth\nnoting that ChatGPT, with its most recent language model GPT-4, is just a tool\nout of numerous AIGC tasks. Impressed by the capability of the ChatGPT, many\npeople are wondering about its limits: can GPT-5 (or other future GPT variants)\nhelp ChatGPT unify all AIGC tasks for diversified content creation? Toward\nanswering this question, a comprehensive review of existing AIGC tasks is\nneeded. As such, our work comes to fill this gap promptly by offering a first\nlook at AIGC, ranging from its techniques to applications. Modern generative AI\nrelies on various technical foundations, ranging from model architecture and\nself-supervised pretraining to generative modeling methods (like GAN and\ndiffusion models). After introducing the fundamental techniques, this work\nfocuses on the technological development of various AIGC tasks based on their\noutput type, including text, images, videos, 3D content, etc., which depicts\nthe full potential of ChatGPT's future. Moreover, we summarize their\nsignificant applications in some mainstream industries, such as education and\ncreativity content. Finally, we discuss the challenges currently faced and\npresent an outlook on how generative AI might evolve in the near future.",
+        "date": "2023-03-21T10:09:47+00:00",
         "label": 1
     },
-    "2007.03606": {
-        "title": "Data Science: A Comprehensive Overview",
-        "abstract": "The twenty-first century has ushered in the age of big data and data economy,\nin which data DNA, which carries important knowledge, insights and potential,\nhas become an intrinsic constituent of all data-based organisms. An appropriate\nunderstanding of data DNA and its organisms relies on the new field of data\nscience and its keystone, analytics. Although it is widely debated whether big\ndata is only hype and buzz, and data science is still in a very early phase,\nsignificant challenges and opportunities are emerging or have been inspired by\nthe research, innovation, business, profession, and education of data science.\nThis paper provides a comprehensive survey and tutorial of the fundamental\naspects of data science: the evolution from data analysis to data science, the\ndata science concepts, a big picture of the era of data science, the major\nchallenges and directions in data innovation, the nature of data analytics, new\nindustrialization and service opportunities in the data economy, the profession\nand competency of data education, and the future of data science. This article\nis the first in the field to draw a comprehensive big picture, in addition to\noffering rich observations, lessons and thinking about data science and\nanalytics.",
-        "date": "2020-07-01T02:33:58+00:00",
+    "2206.07164": {
+        "title": "Edge Security: Challenges and Issues",
+        "abstract": "Edge computing is a paradigm that shifts data processing services to the\nnetwork edge, where data are generated. While such an architecture provides\nfaster processing and response, among other benefits, it also raises critical\nsecurity issues and challenges that must be addressed. This paper discusses the\nsecurity threats and vulnerabilities emerging from the edge network\narchitecture spanning from the hardware layer to the system layer. We further\ndiscuss privacy and regulatory compliance challenges in such networks. Finally,\nwe argue the need for a holistic approach to analyze edge network security\nposture, which must consider knowledge from each layer.",
+        "date": "2022-06-14T20:49:48+00:00",
+        "label": 1
+    },
+    "2305.11911": {
+        "title": "A Unified Framework for Integrating Semantic Communication and AI-Generated Content in Metaverse",
+        "abstract": "As the Metaverse continues to grow, the need for efficient communication and\nintelligent content generation becomes increasingly important. Semantic\ncommunication focuses on conveying meaning and understanding from user inputs,\nwhile AI-Generated Content utilizes artificial intelligence to create digital\ncontent and experiences. Integrated Semantic Communication and AI-Generated\nContent (ISGC) has attracted a lot of attentions recently, which transfers\nsemantic information from user inputs, generates digital content, and renders\ngraphics for Metaverse. In this paper, we introduce a unified framework that\ncaptures ISGC two primary benefits, including integration gain for optimized\nresource allocation and coordination gain for goal-oriented high-quality\ncontent generation to improve immersion from both communication and content\nperspectives. We also classify existing ISGC solutions, analyze the major\ncomponents of ISGC, and present several use cases. We then construct a case\nstudy based on the diffusion model to identify an optimal resource allocation\nstrategy for performing semantic extraction, content generation, and graphic\nrendering in the Metaverse. Finally, we discuss several open research issues,\nencouraging further exploring the potential of ISGC and its related\napplications in the Metaverse.",
+        "date": "2023-05-18T02:02:36+00:00",
+        "label": 1
+    },
+    "0609110": {
+        "title": "Algebraic recognizability of languages",
+        "abstract": "Recognizable languages of finite words are part of every computer science\ncursus, and they are routinely described as a cornerstone for applications and\nfor theory. We would like to briefly explore why that is, and how this\nword-related notion extends to more complex models, such as those developed for\nmodeling distributed or timed behaviors.",
+        "date": "2006-09-19T15:21:08+00:00",
         "label": 0
+    },
+    "2101.08778": {
+        "title": "SoK: Decentralized Finance (DeFi)",
+        "abstract": "Decentralized Finance (DeFi), a blockchain powered peer-to-peer financial\nsystem, is mushrooming. Two years ago the total value locked in DeFi systems\nwas approximately 700m USD, now, as of April 2022, it stands at around 150bn\nUSD. The frenetic evolution of the ecosystem has created challenges in\nunderstanding the basic principles of these systems and their security risks.\nIn this Systematization of Knowledge (SoK) we delineate the DeFi ecosystem\nalong the following axes: its primitives, its operational protocol types and\nits security. We provide a distinction between technical security, which has a\nhealthy literature, and economic security, which is largely unexplored,\nconnecting the latter with new models and thereby synthesizing insights from\ncomputer science, economics and finance. Finally, we outline the open research\nchallenges in the ecosystem across these security types.",
+        "date": "2021-01-21T18:58:43+00:00",
+        "label": 1
     },
     "2303.13052": {
         "title": "Diffusion-based Reinforcement Learning for Edge-enabled AI-Generated Content Services",
@@ -59,22 +83,10 @@
         "date": "2023-03-23T05:54:45+00:00",
         "label": 1
     },
-    "2303.13050": {
-        "title": "Building Resilient Web 3.0 with Quantum Information Technologies and Blockchain: An Ambilateral View",
-        "abstract": "Web 3.0 pursues the establishment of decentralized ecosystems based on\nblockchain technologies to drive the digital transformation of physical\ncommerce and governance. Through consensus algorithms and smart contracts in\nblockchain, which are based on cryptography technologies, digital identity,\ndigital asset management, decentralized autonomous organization, and\ndecentralized finance are realized for secure and transparent digital economy\nservices in Web 3.0 for promoting the integration of digital and physical\neconomies. With the rapid realization of quantum devices, Web 3.0 is being\ndeveloped in parallel with the deployment of quantum cloud computing and\nquantum Internet. In this regard, quantum computing first disrupts the original\ncryptographic systems that protect data security while reshaping modern\ncryptography with the advantages of quantum computing and communication.\nTherefore, this survey provides a comprehensive overview of blockchain-based\nWeb 3.0 and its quantum and post-quantum enhancement from the ambilateral\nperspective. On the one hand, some post-quantum migration methods, and\nanti-quantum signatures offer potential ways to achieve unforgeable security\nunder quantum attack for the internal technologies of blockchain. On the other\nhand, some quantum/post-quantum encryption and verification algorithms improve\nthe external performance of the blockchain, enabling a decentralized, valuable,\nsecure blockchain system. Finally, we discuss the future directions toward\ndeveloping a provable secure decentralized digital ecosystem.",
-        "date": "2023-03-23T05:50:38+00:00",
-        "label": 1
-    },
-    "2105.07447": {
-        "title": "Non-Fungible Token (NFT): Overview, Evaluation, Opportunities and Challenges",
-        "abstract": "The Non-Fungible Token (NFT) market is mushrooming in recent years. The\nconcept of NFT originally comes from a token standard of Ethereum, aiming to\ndistinguish each token with distinguishable signs. This type of token can be\nbound with virtual/digital properties as their unique identifications. With\nNFTs, all marked properties can be freely traded with customized values\naccording to their ages, rarity, liquidity, etc. It has greatly stimulated the\nprosperity of the decentralized application (DApp) market. At the time of\nwriting (May 2021), the total money used on completed NFT sales has reached\n$34,530,649.86$ USD. The thousandfold return on its increasing market draws\nhuge attention worldwide. However, the development of the NFT ecosystem is\nstill in its early stage, and the technologies of NFTs are pre-mature.\nNewcomers may get lost in their frenetic evolution due to the lack of\nsystematic summaries. In this technical report, we explore the NFT ecosystems\nin several aspects. We start with an overview of state-of-the-art NFT\nsolutions, then provide their technical components, protocols, standards, and\ndesired proprieties. Afterward, we give a security evolution, with discussions\non the perspectives of their design models, opportunities, and challenges. To\nthe best of our knowledge, this is the first systematic study on the current\nNFT ecosystems.",
-        "date": "2021-05-16T14:50:26+00:00",
-        "label": 1
-    },
-    "0706.0484": {
-        "title": "Motivation, Design, and Ubiquity: A Discussion of Research Ethics and Computer Science",
-        "abstract": "Modern society is permeated with computers, and the software that controls\nthem can have latent, long-term, and immediate effects that reach far beyond\nthe actual users of these systems. This places researchers in Computer Science\nand Software Engineering in a critical position of influence and\nresponsibility, more than any other field because computer systems are vital\nresearch tools for other disciplines. This essay presents several key ethical\nconcerns and responsibilities relating to research in computing. The goal is to\npromote awareness and discussion of ethical issues among computer science\nresearchers. A hypothetical case study is provided, along with questions for\nreflection and discussion.",
-        "date": "2007-06-04T17:17:44+00:00",
+    "9505013": {
+        "title": "Wavelet basis for the Schr\u00f6dinger equation",
+        "abstract": "The self-similar representation for the Schr\\\"{o}dinger equation is derived.",
+        "date": "1995-05-16T16:19:16+00:00",
         "label": 0
     },
     "2206.08821": {
@@ -83,40 +95,28 @@
         "date": "2022-06-17T15:01:23+00:00",
         "label": 1
     },
-    "2203.00398": {
-        "title": "Web3: A Decentralized Societal Infrastructure for Identity, Trust, Money, and Data",
-        "abstract": "A movement for a more transparent and decentralized Internet is globally\nattracting more attention. People are becoming more privacy-aware of their\nonline identities and data. The Internet is constantly evolving. Web2 focused\non companies that provide services in exchange for personal user data. Web3\ncommits to user-centricity using decentralization and zero-server\narchitectures. The current digital society demands a global change to empower\ncitizens and take back control. Citizens are locked into big-tech for personal\ndata storage and their for-profit digital identity. Protection of data has\nproven to be essential, especially due to increased home Internet traffic\nduring the COVID pandemic. Citizens do not possess their own travel documents.\nThe European Commission aims to transition this governmental property towards\nself-sovereign identity, introducing many new opportunities. Citizens are\nlocked into banks with non-portable IBAN accounts and unsustainable legacy\nbanking infrastructures. Migration to all-digital low-fraud infrastructures and\nhealthier competitive ecosystems is essential. The overall challenge is to\nreturn the power to citizens and users again. The transition to a more\ndecentralized Internet is the first crucial step in the realization of\nuser-centricity. This thesis presents the first exploratory study that\nintegrates governmental-issued travel documents into a (decentralized) societal\ninfrastructure. These self-sovereign identities form the authentic base to a\nprivate and secure transfer of money and data, and can effectively provide\ntrust in authenticity that is currently missing in online conversations. A\nfully operational zero-server infrastructure that incorporates all our\nrequirements has been developed for Android using the P2P network overlay IPv8,\nand a personalized blockchain called TrustChain...",
-        "date": "2022-03-01T12:49:02+00:00",
-        "label": 1
-    },
-    "2302.06476": {
-        "title": "Is ChatGPT a General-Purpose Natural Language Processing Task Solver?",
-        "abstract": "Spurred by advancements in scale, large language models (LLMs) have\ndemonstrated the ability to perform a variety of natural language processing\n(NLP) tasks zero-shot -- i.e., without adaptation on downstream data. Recently,\nthe debut of ChatGPT has drawn a great deal of attention from the natural\nlanguage processing (NLP) community due to the fact that it can generate\nhigh-quality responses to human input and self-correct previous mistakes based\non subsequent conversations. However, it is not yet known whether ChatGPT can\nserve as a generalist model that can perform many NLP tasks zero-shot. In this\nwork, we empirically analyze the zero-shot learning ability of ChatGPT by\nevaluating it on 20 popular NLP datasets covering 7 representative task\ncategories. With extensive empirical studies, we demonstrate both the\neffectiveness and limitations of the current version of ChatGPT. We find that\nChatGPT performs well on many tasks favoring reasoning capabilities (e.g.,\narithmetic reasoning) while it still faces challenges when solving specific\ntasks such as sequence tagging. We additionally provide in-depth analysis\nthrough qualitative case studies.",
-        "date": "2023-02-08T09:44:51+00:00",
-        "label": 1
-    },
-    "1003.1930": {
-        "title": "Simulating Grover's Quantum Search in a Classical Computer",
-        "abstract": "The rapid progress of computer science has been accompanied by a\ncorresponding evolution of computation, from classical computation to quantum\ncomputation. As quantum computing is on its way to becoming an established\ndiscipline of computing science, much effort is being put into the development\nof new quantum algorithms. One of quantum algorithms is Grover algorithm, which\nis used for searching an element in an unstructured list of N elements with\nquadratic speed-up over classical algorithms. In this work, Quantum Computer\nLanguage (QCL) is used to make a Grover's quantum search simulation in a\nclassical computer",
-        "date": "2010-03-09T17:02:21+00:00",
+    "1404.5458": {
+        "title": "Complex Workflow Management and Integration of Distributed Computing Resources by Science Gateway Portal for Molecular Dynamics Simulations in Materials Science",
+        "abstract": "The \"IMP Science Gateway Portal\" (http://scigate.imp.kiev.ua) for complex\nworkflow management and integration of distributed computing resources (like\nclusters, service grids, desktop grids, clouds) is presented. It is created on\nthe basis of WS-PGRADE and gUSE technologies, where WS-PGRADE is designed for\nscience workflow operation and gUSE - for smooth integration of available\nresources for parallel and distributed computing in various heterogeneous\ndistributed computing infrastructures (DCI). The typical scientific workflow\nwith possible scenarios of its preparation and usage is considered. Several\ntypical science applications (scientific workflows) are considered for\nmolecular dynamics (MD) simulations of complex behavior of various\nnanostructures (nanoindentation of graphene layers, defect system relaxation in\nmetal nanocrystals, thermal stability of boron nitride nanotubes, etc.). The\nadvantages and drawbacks of the solution are shortly analyzed in the context of\nits practical applications for MD simulations in materials science, physics and\nnanotechnologies with available heterogeneous DCIs.",
+        "date": "2014-04-22T11:34:04+00:00",
         "label": 0
     },
-    "2308.05282": {
-        "title": "Decentralized Finance (DeFi): A Survey",
-        "abstract": "Decentralized Finance (DeFi) is a new paradigm in the creation, distribution,\nand utilization of financial services via the integration of blockchain\ntechnology. Our research conducts a comprehensive introduction and meticulous\nclassification of various DeFi applications. Beyond that, we thoroughly analyze\nthese risks from both technical and economic perspectives, spanning multiple\nlayers. We point out research gaps and revenues, covering technical\nadvancements, innovative economics, and sociology and ecology optimization.",
-        "date": "2023-08-10T01:59:49+00:00",
-        "label": 1
-    },
-    "2308.15483": {
-        "title": "Generative AI for Semantic Communication: Architecture, Challenges, and Outlook",
-        "abstract": "Semantic communication (SemCom) is expected to be a core paradigm in future\ncommunication networks, yielding significant benefits in terms of spectrum\nresource saving and information interaction efficiency. However, the existing\nSemCom structure is limited by the lack of context-reasoning ability and\nbackground knowledge provisioning, which, therefore, motivates us to seek the\npotential of incorporating generative artificial intelligence (GAI)\ntechnologies with SemCom. Recognizing GAI's powerful capability in automating\nand creating valuable, diverse, and personalized multimodal content, this\narticle first highlights the principal characteristics of the combination of\nGAI and SemCom along with their pertinent benefits and challenges. To tackle\nthese challenges, we further propose a novel GAI-integrated SemCom network\n(GAI-SCN) framework in a cloud-edge-mobile design. Specifically, by employing\nglobal and local GAI models, our GAI-SCN enables multimodal semantic content\nprovisioning, semantic-level joint-source-channel coding, and AIGC acquisition\nto maximize the efficiency and reliability of semantic reasoning and resource\nutilization. Afterward, we present a detailed implementation workflow of\nGAI-SCN, followed by corresponding initial simulations for performance\nevaluation in comparison with two benchmarks. Finally, we discuss several open\nissues and offer feasible solutions to unlock the full potential of GAI-SCN.",
-        "date": "2023-08-03T19:33:43+00:00",
-        "label": 1
-    },
-    "2209.10377": {
-        "title": "Complexity through Translations for Modal Logic with Recursion",
-        "abstract": "This paper studies the complexity of classical modal logics and of their\nextension with fixed-point operators, using translations to transfer results\nacross logics. In particular, we show several complexity results for\nmulti-agent logics via translations to and from the mu-calculus and modal\nlogic, which allow us to transfer known upper and lower bounds. We also use\nthese translations to introduce a terminating tableau system for the logics we\nstudy, based on Kozen's tableau for the mu-calculus, and the one of Fitting and\nMassacci for modal logic.",
-        "date": "2022-09-21T14:14:46+00:00",
+    "2007.08087": {
+        "title": "Starting with data: advancing spatial data science by building and sharing high-quality datasets",
+        "abstract": "Spatial data science has emerged in recent years as an interdisciplinary\nfield. This position paper discusses the importance of building and sharing\nhigh-quality datasets for spatial data science.",
+        "date": "2020-07-16T03:15:56+00:00",
         "label": 0
+    },
+    "1103.3321": {
+        "title": "Typed Operational Semantics for Dependent Record Types",
+        "abstract": "Typed operational semantics is a method developed by H. Goguen to prove\nmeta-theoretic properties of type systems. This paper studies the metatheory of\na type system with dependent record types, using the approach of typed\noperational semantics. In particular, the metatheoretical properties we have\nproved include strong normalisation, Church-Rosser and subject reduction.",
+        "date": "2011-03-17T00:19:42+00:00",
+        "label": 0
+    },
+    "2303.13050": {
+        "title": "Building Resilient Web 3.0 with Quantum Information Technologies and Blockchain: An Ambilateral View",
+        "abstract": "Web 3.0 pursues the establishment of decentralized ecosystems based on\nblockchain technologies to drive the digital transformation of physical\ncommerce and governance. Through consensus algorithms and smart contracts in\nblockchain, which are based on cryptography technologies, digital identity,\ndigital asset management, decentralized autonomous organization, and\ndecentralized finance are realized for secure and transparent digital economy\nservices in Web 3.0 for promoting the integration of digital and physical\neconomies. With the rapid realization of quantum devices, Web 3.0 is being\ndeveloped in parallel with the deployment of quantum cloud computing and\nquantum Internet. In this regard, quantum computing first disrupts the original\ncryptographic systems that protect data security while reshaping modern\ncryptography with the advantages of quantum computing and communication.\nTherefore, this survey provides a comprehensive overview of blockchain-based\nWeb 3.0 and its quantum and post-quantum enhancement from the ambilateral\nperspective. On the one hand, some post-quantum migration methods, and\nanti-quantum signatures offer potential ways to achieve unforgeable security\nunder quantum attack for the internal technologies of blockchain. On the other\nhand, some quantum/post-quantum encryption and verification algorithms improve\nthe external performance of the blockchain, enabling a decentralized, valuable,\nsecure blockchain system. Finally, we discuss the future directions toward\ndeveloping a provable secure decentralized digital ecosystem.",
+        "date": "2023-03-23T05:50:38+00:00",
+        "label": 1
     }
 }

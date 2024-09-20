@@ -1,0 +1,86 @@
+{
+    "2206.03276": {
+        "title": "Oxford-style Debates in Telecommunication and Computer Science Education",
+        "abstract": "Oxford-style debating is a well-known tool in social sciences. Such formal\ndiscussions on particular topics are widely used by historians and\nsociologists. However, when we try to go beyond standard thinking, it turns out\nthat Oxford-style debating can be a great educational tool in telecommunication\nand computer science. This article presents this unusual method of education at\ntechnical universities and in the IT industry, and describes its features and\nchallenges. Best practices and examples of debating are provided, taking into\naccount emerging topics in telecommunications and computer science, such as\ncybersecurity. The article also contains feedback from IT engineers who\nparticipated in Oxford-style debates. All this aims to encourage this form of\neducation in telecommunication and computer science.",
+        "date": "2022-06-03T10:42:31+00:00",
+        "label": 0
+    },
+    "2006.04466": {
+        "title": "Differentiable Neural Input Search for Recommender Systems",
+        "abstract": "Latent factor models are the driving forces of the state-of-the-art\nrecommender systems, with an important insight of vectorizing raw input\nfeatures into dense embeddings. The dimensions of different feature embeddings\nare often set to a same value empirically, which limits the predictive\nperformance of latent factor models. Existing works have proposed heuristic or\nreinforcement learning-based methods to search for mixed feature embedding\ndimensions. For efficiency concern, these methods typically choose embedding\ndimensions from a restricted set of candidate dimensions. However, this\nrestriction will hurt the flexibility of dimension selection, leading to\nsuboptimal performance of search results. In this paper, we propose\nDifferentiable Neural Input Search (DNIS), a method that searches for mixed\nfeature embedding dimensions in a more flexible space through continuous\nrelaxation and differentiable optimization. The key idea is to introduce a soft\nselection layer that controls the significance of each embedding dimension, and\noptimize this layer according to model's validation performance. DNIS is\nmodel-agnostic and thus can be seamlessly incorporated with existing latent\nfactor models for recommendation. We conduct experiments with various\narchitectures of latent factor models on three public real-world datasets for\nrating prediction, Click-Through-Rate (CTR) prediction, and top-k item\nrecommendation. The results demonstrate that our method achieves the best\npredictive performance compared with existing neural input search approaches\nwith fewer embedding parameters and less time cost.",
+        "date": "2020-06-08T10:43:59+00:00",
+        "label": 1
+    },
+    "2002.04020": {
+        "title": "Cloudifying the Curriculum with AWS",
+        "abstract": "The Cloud has become a principal paradigm of computing in the last ten years,\nand Computer Science curricula must be updated to reflect that reality. This\npaper examines simple ways to accomplish curriculum cloudification using Amazon\nWeb Services (AWS), for Computer Science and other disciplines such as\nBusiness, Communication and Mathematics.",
+        "date": "2020-02-10T18:47:35+00:00",
+        "label": 0
+    },
+    "0706.0484": {
+        "title": "Motivation, Design, and Ubiquity: A Discussion of Research Ethics and Computer Science",
+        "abstract": "Modern society is permeated with computers, and the software that controls\nthem can have latent, long-term, and immediate effects that reach far beyond\nthe actual users of these systems. This places researchers in Computer Science\nand Software Engineering in a critical position of influence and\nresponsibility, more than any other field because computer systems are vital\nresearch tools for other disciplines. This essay presents several key ethical\nconcerns and responsibilities relating to research in computing. The goal is to\npromote awareness and discussion of ethical issues among computer science\nresearchers. A hypothetical case study is provided, along with questions for\nreflection and discussion.",
+        "date": "2007-06-04T17:17:44+00:00",
+        "label": 0
+    },
+    "1904.01053": {
+        "title": "Computer simulations in science and engineering - Concepts - Practices - Perspectives",
+        "abstract": "The ubiquitous presence of computer simulations in all kinds of research\nareas evidence their role as the new driving force for the advancement of\nscience and engineering research. Nothing seems to escape the image of success\nthat computer simulations project onto the research community and the general\npublic. One simple way to illustrate this consists of asking ourselves how\nwould contemporary science and engineering look like without the use of\ncomputer simulations. The answer would certainly diverge from the current image\nwe have of scientific and engineering research.\n  As much as computer simulations are successful, they are also methods that\nfail in their purpose of inquiring about the world; and as much as researchers\nmake use of them, computer simulations raise important questions that are at\nthe heart of contemporary science and engineering practice. In this respect,\ncomputer simulations make a fantastic subject of research for the natural\nsciences, the social sciences, engineering and, as in our case, also for\nphilosophy. Studies on computer simulations touch upon many different facets of\nscientific and engineering research and evoke philosophically inclined\nquestions of interpretation with close ties to problems in experimental\nsettings and engineering applications (...)",
+        "date": "2019-03-09T15:26:05+00:00",
+        "label": 0
+    },
+    "0609110": {
+        "title": "Algebraic recognizability of languages",
+        "abstract": "Recognizable languages of finite words are part of every computer science\ncursus, and they are routinely described as a cornerstone for applications and\nfor theory. We would like to briefly explore why that is, and how this\nword-related notion extends to more complex models, such as those developed for\nmodeling distributed or timed behaviors.",
+        "date": "2006-09-19T15:21:08+00:00",
+        "label": 0
+    },
+    "2010.11305": {
+        "title": "Mixed-Precision Embedding Using a Cache",
+        "abstract": "In recommendation systems, practitioners observed that increase in the number\nof embedding tables and their sizes often leads to significant improvement in\nmodel performances. Given this and the business importance of these models to\nmajor internet companies, embedding tables for personalization tasks have grown\nto terabyte scale and continue to grow at a significant rate. Meanwhile, these\nlarge-scale models are often trained with GPUs where high-performance memory is\na scarce resource, thus motivating numerous work on embedding table compression\nduring training. We propose a novel change to embedding tables using a cache\nmemory architecture, where the majority of rows in an embedding is trained in\nlow precision, and the most frequently or recently accessed rows cached and\ntrained in full precision. The proposed architectural change works in\nconjunction with standard precision reduction and computer arithmetic\ntechniques such as quantization and stochastic rounding. For an open source\ndeep learning recommendation model (DLRM) running with Criteo-Kaggle dataset,\nwe achieve 3x memory reduction with INT8 precision embedding tables and\nfull-precision cache whose size are 5% of the embedding tables, while\nmaintaining accuracy. For an industrial scale model and dataset, we achieve\neven higher >7x memory reduction with INT4 precision and cache size 1% of\nembedding tables, while maintaining accuracy, and 16% end-to-end training\nspeedup by reducing GPU-to-host data transfers.",
+        "date": "2020-10-21T20:49:54+00:00",
+        "label": 1
+    },
+    "1501.05039": {
+        "title": "Defining Data Science",
+        "abstract": "Data science is gaining more and more and widespread attention, but no\nconsensus viewpoint on what data science is has emerged. As a new science, its\nobjects of study and scientific issues should not be covered by established\nsciences. Data in cyberspace have formed what we call datanature. In the\npresent paper, data science is defined as the science of exploring datanature.",
+        "date": "2015-01-21T02:41:55+00:00",
+        "label": 0
+    },
+    "2006.05623": {
+        "title": "Training with Multi-Layer Embeddings for Model Reduction",
+        "abstract": "Modern recommendation systems rely on real-valued embeddings of categorical\nfeatures. Increasing the dimension of embedding vectors improves model accuracy\nbut comes at a high cost to model size. We introduce a multi-layer embedding\ntraining (MLET) architecture that trains embeddings via a sequence of linear\nlayers to derive superior embedding accuracy vs. model size trade-off.\n  Our approach is fundamentally based on the ability of factorized linear\nlayers to produce superior embeddings to that of a single linear layer. We\nfocus on the analysis and implementation of a two-layer scheme. Harnessing the\nrecent results in dynamics of backpropagation in linear neural networks, we\nexplain the ability to get superior multi-layer embeddings via their tendency\nto have lower effective rank. We show that substantial advantages are obtained\nin the regime where the width of the hidden layer is much larger than that of\nthe final embedding (d). Crucially, at conclusion of training, we convert the\ntwo-layer solution into a single-layer one: as a result, the inference-time\nmodel size scales as d.\n  We prototype the MLET scheme within Facebook's PyTorch-based open-source Deep\nLearning Recommendation Model. We show that it allows reducing d by 4-8X, with\na corresponding improvement in memory footprint, at given model accuracy. The\nexperiments are run on two publicly available click-through-rate prediction\nbenchmarks (Criteo-Kaggle and Avazu). The runtime cost of MLET is 25%, on\naverage.",
+        "date": "2020-06-10T02:47:40+00:00",
+        "label": 1
+    },
+    "0911.1672": {
+        "title": "Biological Computing Fundamentals and Futures",
+        "abstract": "The fields of computing and biology have begun to cross paths in new ways. In\nthis paper a review of the current research in biological computing is\npresented. Fundamental concepts are introduced and these foundational elements\nare explored to discuss the possibilities of a new computing paradigm. We\nassume the reader to possess a basic knowledge of Biology and Computer Science",
+        "date": "2009-11-09T13:16:01+00:00",
+        "label": 0
+    },
+    "2112.01944": {
+        "title": "Towards Low-loss 1-bit Quantization of User-item Representations for Top-K Recommendation",
+        "abstract": "Due to the promising advantages in space compression and inference\nacceleration, quantized representation learning for recommender systems has\nbecome an emerging research direction recently. As the target is to embed\nlatent features in the discrete embedding space, developing quantization for\nuser-item representations with a few low-precision integers confronts the\nchallenge of high information loss, thus leading to unsatisfactory performance\nin Top-K recommendation.\n  In this work, we study the problem of representation learning for\nrecommendation with 1-bit quantization. We propose a model named Low-loss\nQuantized Graph Convolutional Network (L^2Q-GCN). Different from previous work\nthat plugs quantization as the final encoder of user-item embeddings, L^2Q-GCN\nlearns the quantized representations whilst capturing the structural\ninformation of user-item interaction graphs at different semantic levels. This\nachieves the substantial retention of intermediate interactive information,\nalleviating the feature smoothing issue for ranking caused by numerical\nquantization. To further improve the model performance, we also present an\nadvanced solution named L^2Q-GCN-anl with quantization approximation and\nannealing training strategy. We conduct extensive experiments on four\nbenchmarks over Top-K recommendation task. The experimental results show that,\nwith nearly 9x representation storage compression, L^2Q-GCN-anl attains about\n90~99% performance recovery compared to the state-of-the-art model.",
+        "date": "2021-12-03T14:43:55+00:00",
+        "label": 1
+    },
+    "1911.02079": {
+        "title": "Post-Training 4-bit Quantization on Embedding Tables",
+        "abstract": "Continuous representations have been widely adopted in recommender systems\nwhere a large number of entities are represented using embedding vectors. As\nthe cardinality of the entities increases, the embedding components can easily\ncontain millions of parameters and become the bottleneck in both storage and\ninference due to large memory consumption. This work focuses on post-training\n4-bit quantization on the continuous embeddings. We propose row-wise uniform\nquantization with greedy search and codebook-based quantization that\nconsistently outperforms state-of-the-art quantization approaches on reducing\naccuracy degradation. We deploy our uniform quantization technique on a\nproduction model in Facebook and demonstrate that it can reduce the model size\nto only 13.89% of the single-precision version while the model quality stays\nneutral.",
+        "date": "2019-11-05T20:43:51+00:00",
+        "label": 1
+    },
+    "2103.06124": {
+        "title": "Semantically Constrained Memory Allocation (SCMA) for Embedding in Efficient Recommendation Systems",
+        "abstract": "Deep learning-based models are utilized to achieve state-of-the-art\nperformance for recommendation systems. A key challenge for these models is to\nwork with millions of categorical classes or tokens. The standard approach is\nto learn end-to-end, dense latent representations or embeddings for each token.\nThe resulting embeddings require large amounts of memory that blow up with the\nnumber of tokens. Training and inference with these models create storage, and\nmemory bandwidth bottlenecks leading to significant computing and energy\nconsumption when deployed in practice. To this end, we present the problem of\n\\textit{Memory Allocation} under budget for embeddings and propose a novel\nformulation of memory shared embedding, where memory is shared in proportion to\nthe overlap in semantic information. Our formulation admits a practical and\nefficient randomized solution with Locality sensitive hashing based Memory\nAllocation (LMA). We demonstrate a significant reduction in the memory\nfootprint while maintaining performance. In particular, our LMA embeddings\nachieve the same performance compared to standard embeddings with a 16$\\times$\nreduction in memory footprint. Moreover, LMA achieves an average improvement of\nover 0.003 AUC across different memory regimes than standard DLRM models on\nCriteo and Avazu datasets",
+        "date": "2021-02-24T19:55:49+00:00",
+        "label": 1
+    },
+    "2006.14827": {
+        "title": "Memory-efficient Embedding for Recommendations",
+        "abstract": "Practical large-scale recommender systems usually contain thousands of\nfeature fields from users, items, contextual information, and their\ninteractions. Most of them empirically allocate a unified dimension to all\nfeature fields, which is memory inefficient. Thus it is highly desired to\nassign different embedding dimensions to different feature fields according to\ntheir importance and predictability. Due to the large amounts of feature fields\nand the nuanced relationship between embedding dimensions with feature\ndistributions and neural network architectures, manually allocating embedding\ndimensions in practical recommender systems can be very difficult. To this end,\nwe propose an AutoML based framework (AutoDim) in this paper, which can\nautomatically select dimensions for different feature fields in a data-driven\nfashion. Specifically, we first proposed an end-to-end differentiable framework\nthat can calculate the weights over various dimensions for feature fields in a\nsoft and continuous manner with an AutoML based optimization algorithm; then we\nderive a hard and discrete embedding component architecture according to the\nmaximal weights and retrain the whole recommender framework. We conduct\nextensive experiments on benchmark datasets to validate the effectiveness of\nthe AutoDim framework.",
+        "date": "2020-06-26T07:07:59+00:00",
+        "label": 1
+    }
+}
