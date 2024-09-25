@@ -1,0 +1,122 @@
+{
+    "1108.3558": {
+        "title": "Proceedings of the 5th Workshop on Membrane Computing and Biologically Inspired Process Calculi (MeCBIC 2011)",
+        "abstract": "This volume represents the proceedings of the 5th Workshop on Membrane\nComputing and Biologically Inspired Process Calculi (MeCBIC 2011), held\ntogether with the 12th International Conference on Membrane Computing on 23rd\nAugust 2011 in Fontainebleau, France.",
+        "date": "2011-08-17T19:41:29+00:00",
+        "label": 0
+    },
+    "2404.02524": {
+        "title": "Versatile Scene-Consistent Traffic Scenario Generation as Optimization with Diffusion",
+        "abstract": "Generating realistic and controllable agent behaviors in traffic simulation\nis crucial for the development of autonomous vehicles. This problem is often\nformulated as imitation learning (IL) from real-world driving data by either\ndirectly predicting future trajectories or inferring cost functions with\ninverse optimal control. In this paper, we draw a conceptual connection between\nIL and diffusion-based generative modeling and introduce a novel framework\nVersatile Behavior Diffusion (VBD) to simulate interactive scenarios with\nmultiple traffic participants. Our model not only generates scene-consistent\nmulti-agent interactions but also enables scenario editing through multi-step\nguidance and refinement. Experimental evaluations show that VBD achieves\nstate-of-the-art performance on the Waymo Sim Agents benchmark. In addition, we\nillustrate the versatility of our model by adapting it to various applications.\nVBD is capable of producing scenarios conditioning on priors, integrating with\nmodel-based optimization, sampling multi-modal scene-consistent scenarios by\nfusing marginal predictions, and generating safety-critical scenarios when\ncombined with a game-theoretic solver.",
+        "date": "2024-04-03T07:26:15+00:00",
+        "label": 1
+    },
+    "2202.00512": {
+        "title": "Progressive Distillation for Fast Sampling of Diffusion Models",
+        "abstract": "Diffusion models have recently shown great promise for generative modeling,\noutperforming GANs on perceptual quality and autoregressive models at density\nestimation. A remaining downside is their slow sampling time: generating high\nquality samples takes many hundreds or thousands of model evaluations. Here we\nmake two contributions to help eliminate this downside: First, we present new\nparameterizations of diffusion models that provide increased stability when\nusing few sampling steps. Second, we present a method to distill a trained\ndeterministic diffusion sampler, using many steps, into a new diffusion model\nthat takes half as many sampling steps. We then keep progressively applying\nthis distillation procedure to our model, halving the number of required\nsampling steps each time. On standard image generation benchmarks like\nCIFAR-10, ImageNet, and LSUN, we start out with state-of-the-art samplers\ntaking as many as 8192 steps, and are able to distill down to models taking as\nfew as 4 steps without losing much perceptual quality; achieving, for example,\na FID of 3.0 on CIFAR-10 in 4 steps. Finally, we show that the full progressive\ndistillation procedure does not take more time than it takes to train the\noriginal model, thus representing an efficient solution for generative modeling\nusing diffusion at both train and test time.",
+        "date": "2022-02-01T16:07:25+00:00",
+        "label": 1
+    },
+    "2206.12669": {
+        "title": "Crypto Makes AI Evolve",
+        "abstract": "Adopting cryptography has given rise to a significant evolution in Artificial\nIntelligence (AI). This paper studies the path and stages of this evolution. We\nstart with reviewing existing relevant surveys, noting their shortcomings,\nespecially the lack of a close look at the evolution process and solid future\nroadmap. These shortcomings justify the work of this paper. Next, we identify,\ndefine and discuss five consequent stages in the evolution path, including\nCrypto-Sensitive AI, Crypto-Adapted AI, Crypto-Friendly AI, Crypto-Enabled AI,\nCrypto-Protected AI. Then, we establish a future roadmap for further research\nin this area, focusing on the role of quantum-inspired and bio-inspired AI.",
+        "date": "2022-06-25T15:04:47+00:00",
+        "label": 0
+    },
+    "0511274": {
+        "title": "Quantum Computation: A Computer Science Perspective",
+        "abstract": "The theory of quantum computation is presented in a self contained way from a\ncomputer science perspective. The basics of classical computation and quantum\nmechanics is reviewed. The circuit model of quantum computation is presented in\ndetail. Throughout there is an emphasis on the physical as well as the abstract\naspects of computation and the interplay between them.\n  This report is presented as a Master's thesis at the department of Computer\nScience and Engineering at G{\\\"o}teborg University, G{\\\"o}teborg, Sweden.\n  The text is part of a larger work that is planned to include chapters on\nquantum algorithms, the quantum Turing machine model and abstract approaches to\nquantum computation.",
+        "date": "2005-11-30T20:36:54+00:00",
+        "label": 0
+    },
+    "2011.13456": {
+        "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+        "abstract": "Creating noise from data is easy; creating data from noise is generative\nmodeling. We present a stochastic differential equation (SDE) that smoothly\ntransforms a complex data distribution to a known prior distribution by slowly\ninjecting noise, and a corresponding reverse-time SDE that transforms the prior\ndistribution back into the data distribution by slowly removing the noise.\nCrucially, the reverse-time SDE depends only on the time-dependent gradient\nfield (\\aka, score) of the perturbed data distribution. By leveraging advances\nin score-based generative modeling, we can accurately estimate these scores\nwith neural networks, and use numerical SDE solvers to generate samples. We\nshow that this framework encapsulates previous approaches in score-based\ngenerative modeling and diffusion probabilistic modeling, allowing for new\nsampling procedures and new modeling capabilities. In particular, we introduce\na predictor-corrector framework to correct errors in the evolution of the\ndiscretized reverse-time SDE. We also derive an equivalent neural ODE that\nsamples from the same distribution as the SDE, but additionally enables exact\nlikelihood computation, and improved sampling efficiency. In addition, we\nprovide a new way to solve inverse problems with score-based models, as\ndemonstrated with experiments on class-conditional generation, image\ninpainting, and colorization. Combined with multiple architectural\nimprovements, we achieve record-breaking performance for unconditional image\ngeneration on CIFAR-10 with an Inception score of 9.89 and FID of 2.20, a\ncompetitive likelihood of 2.99 bits/dim, and demonstrate high fidelity\ngeneration of 1024 x 1024 images for the first time from a score-based\ngenerative model.",
+        "date": "2020-11-26T19:39:10+00:00",
+        "label": 1
+    },
+    "1605.08096": {
+        "title": "Proceedings First Workshop on Pre- and Post-Deployment Verification Techniques",
+        "abstract": "The PrePost (Pre- and Post-Deployment Verification Techniques) workshop aimed\nat bringing together researchers working in the field of computer-aided\nvalidation and verification to discuss the connections and interplay between\npre- and post-deployment verification techniques. Examples of the topics\ncovered by the workshop are the relationships between classic model checking\nand testing on the one hand and runtime verification and statistical model\nchecking on the other, and between type systems that may be checked either\nstatically or dynamically through techniques such as runtime monitoring.",
+        "date": "2016-05-25T22:42:38+00:00",
+        "label": 0
+    },
+    "1404.5458": {
+        "title": "Complex Workflow Management and Integration of Distributed Computing Resources by Science Gateway Portal for Molecular Dynamics Simulations in Materials Science",
+        "abstract": "The \"IMP Science Gateway Portal\" (http://scigate.imp.kiev.ua) for complex\nworkflow management and integration of distributed computing resources (like\nclusters, service grids, desktop grids, clouds) is presented. It is created on\nthe basis of WS-PGRADE and gUSE technologies, where WS-PGRADE is designed for\nscience workflow operation and gUSE - for smooth integration of available\nresources for parallel and distributed computing in various heterogeneous\ndistributed computing infrastructures (DCI). The typical scientific workflow\nwith possible scenarios of its preparation and usage is considered. Several\ntypical science applications (scientific workflows) are considered for\nmolecular dynamics (MD) simulations of complex behavior of various\nnanostructures (nanoindentation of graphene layers, defect system relaxation in\nmetal nanocrystals, thermal stability of boron nitride nanotubes, etc.). The\nadvantages and drawbacks of the solution are shortly analyzed in the context of\nits practical applications for MD simulations in materials science, physics and\nnanotechnologies with available heterogeneous DCIs.",
+        "date": "2014-04-22T11:34:04+00:00",
+        "label": 0
+    },
+    "2106.11810": {
+        "title": "NuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles",
+        "abstract": "In this work, we propose the world's first closed-loop ML-based planning\nbenchmark for autonomous driving. While there is a growing body of ML-based\nmotion planners, the lack of established datasets and metrics has limited the\nprogress in this area. Existing benchmarks for autonomous vehicle motion\nprediction have focused on short-term motion forecasting, rather than long-term\nplanning. This has led previous works to use open-loop evaluation with L2-based\nmetrics, which are not suitable for fairly evaluating long-term planning. Our\nbenchmark overcomes these limitations by introducing a large-scale driving\ndataset, lightweight closed-loop simulator, and motion-planning-specific\nmetrics. We provide a high-quality dataset with 1500h of human driving data\nfrom 4 cities across the US and Asia with widely varying traffic patterns\n(Boston, Pittsburgh, Las Vegas and Singapore). We will provide a closed-loop\nsimulation framework with reactive agents and provide a large set of both\ngeneral and scenario-specific planning metrics. We plan to release the dataset\nat NeurIPS 2021 and organize benchmark challenges starting in early 2022.",
+        "date": "2021-06-22T14:24:55+00:00",
+        "label": 1
+    },
+    "0608062": {
+        "title": "Tarski's influence on computer science",
+        "abstract": "The influence of Alfred Tarski on computer science was indirect but\nsignificant in a number of directions and was in certain respects fundamental.\nHere surveyed is the work of Tarski on the decision procedure for algebra and\ngeometry, the method of elimination of quantifiers, the semantics of formal\nlanguages, modeltheoretic preservation theorems, and algebraic logic; various\nconnections of each with computer science are taken up.",
+        "date": "2006-08-15T16:40:24+00:00",
+        "label": 0
+    },
+    "1401.4507": {
+        "title": "Using Quantum Computers to Learn Physics",
+        "abstract": "Since its inception at the beginning of the twentieth century, quantum\nmechanics has challenged our conceptions of how the universe ought to work;\nhowever, the equations of quantum mechanics can be too computationally\ndifficult to solve using existing computers for even modestly large systems.\nHere I will show that quantum computers can sometimes be used to address such\nproblems and that quantum computer science can assign formal complexities to\nlearning facts about nature. Hence, computer science should not only be\nregarded as an applied science; it is also of central importance to the\nfoundations of science.",
+        "date": "2014-01-18T01:46:52+00:00",
+        "label": 0
+    },
+    "2404.02903": {
+        "title": "LidarDM: Generative LiDAR Simulation in a Generated World",
+        "abstract": "We present LidarDM, a novel LiDAR generative model capable of producing\nrealistic, layout-aware, physically plausible, and temporally coherent LiDAR\nvideos. LidarDM stands out with two unprecedented capabilities in LiDAR\ngenerative modeling: (i) LiDAR generation guided by driving scenarios, offering\nsignificant potential for autonomous driving simulations, and (ii) 4D LiDAR\npoint cloud generation, enabling the creation of realistic and temporally\ncoherent sequences. At the heart of our model is a novel integrated 4D world\ngeneration framework. Specifically, we employ latent diffusion models to\ngenerate the 3D scene, combine it with dynamic actors to form the underlying 4D\nworld, and subsequently produce realistic sensory observations within this\nvirtual environment. Our experiments indicate that our approach outperforms\ncompeting algorithms in realism, temporal coherency, and layout consistency. We\nadditionally show that LidarDM can be used as a generative world model\nsimulator for training and testing perception models.",
+        "date": "2024-04-03T17:59:28+00:00",
+        "label": 1
+    },
+    "1512.03012": {
+        "title": "ShapeNet: An Information-Rich 3D Model Repository",
+        "abstract": "We present ShapeNet: a richly-annotated, large-scale repository of shapes\nrepresented by 3D CAD models of objects. ShapeNet contains 3D models from a\nmultitude of semantic categories and organizes them under the WordNet taxonomy.\nIt is a collection of datasets providing many semantic annotations for each 3D\nmodel such as consistent rigid alignments, parts and bilateral symmetry planes,\nphysical sizes, keywords, as well as other planned annotations. Annotations are\nmade available through a public web-based interface to enable data\nvisualization of object attributes, promote data-driven geometric analysis, and\nprovide a large-scale quantitative benchmark for research in computer graphics\nand vision. At the time of this technical report, ShapeNet has indexed more\nthan 3,000,000 models, 220,000 models out of which are classified into 3,135\ncategories (WordNet synsets). In this report we describe the ShapeNet effort as\na whole, provide details for all currently available datasets, and summarize\nfuture plans.",
+        "date": "2015-12-09T19:42:48+00:00",
+        "label": 1
+    },
+    "2403.18344": {
+        "title": "LC-LLM: Explainable Lane-Change Intention and Trajectory Predictions with Large Language Models",
+        "abstract": "To ensure safe driving in dynamic environments, autonomous vehicles should\npossess the capability to accurately predict lane change intentions of\nsurrounding vehicles in advance and forecast their future trajectories.\nExisting motion prediction approaches have ample room for improvement,\nparticularly in terms of long-term prediction accuracy and interpretability. In\nthis paper, we address these challenges by proposing LC-LLM, an explainable\nlane change prediction model that leverages the strong reasoning capabilities\nand self-explanation abilities of Large Language Models (LLMs). Essentially, we\nreformulate the lane change prediction task as a language modeling problem,\nprocessing heterogeneous driving scenario information as natural language\nprompts for LLMs and employing supervised fine-tuning to tailor LLMs\nspecifically for lane change prediction task. Additionally, we finetune the\nChain-of-Thought (CoT) reasoning to improve prediction transparency and\nreliability, and include explanatory requirements in the prompts during\ninference stage. Therefore, our LC-LLM model not only predicts lane change\nintentions and trajectories but also provides CoT reasoning and explanations\nfor its predictions, enhancing its interpretability. Extensive experiments\nbased on the large-scale highD dataset demonstrate the superior performance and\ninterpretability of our LC-LLM in lane change prediction task. To the best of\nour knowledge, this is the first attempt to utilize LLMs for predicting lane\nchange behavior. Our study shows that LLMs can effectively encode comprehensive\ninteraction information for driving behavior understanding.",
+        "date": "2024-03-27T08:34:55+00:00",
+        "label": 1
+    },
+    "2312.11578": {
+        "title": "Diffusion-Based Particle-DETR for BEV Perception",
+        "abstract": "The Bird-Eye-View (BEV) is one of the most widely-used scene representations\nfor visual perception in Autonomous Vehicles (AVs) due to its well suited\ncompatibility to downstream tasks. For the enhanced safety of AVs, modeling\nperception uncertainty in BEV is crucial. Recent diffusion-based methods offer\na promising approach to uncertainty modeling for visual perception but fail to\neffectively detect small objects in the large coverage of the BEV. Such\ndegradation of performance can be attributed primarily to the specific network\narchitectures and the matching strategy used when training. Here, we address\nthis problem by combining the diffusion paradigm with current state-of-the-art\n3D object detectors in BEV. We analyze the unique challenges of this approach,\nwhich do not exist with deterministic detectors, and present a simple technique\nbased on object query interpolation that allows the model to learn positional\ndependencies even in the presence of the diffusion noise. Based on this, we\npresent a diffusion-based DETR model for object detection that bears\nsimilarities to particle methods. Abundant experimentation on the NuScenes\ndataset shows equal or better performance for our generative approach, compared\nto deterministic state-of-the-art methods. Our source code will be made\npublicly available.",
+        "date": "2023-12-18T09:52:14+00:00",
+        "label": 1
+    },
+    "1005.5635": {
+        "title": "An Effective Extension of the Wagner Hierarchy to Blind Counter Automata",
+        "abstract": "The extension of the Wagner hierarchy to blind counter automata accepting\ninfinite words with a Muller acceptance condition is effective. We determine\nprecisely this hierarchy.",
+        "date": "2010-05-31T09:19:39+00:00",
+        "label": 0
+    },
+    "2002.05658": {
+        "title": "Ten Research Challenge Areas in Data Science",
+        "abstract": "Although data science builds on knowledge from computer science, mathematics,\nstatistics, and other disciplines, data science is a unique field with many\nmysteries to unlock: challenging scientific questions and pressing questions of\nsocietal importance. This article starts with meta-questions about data science\nas a discipline and then elaborates on ten ideas for the basis of a research\nagenda for data science.",
+        "date": "2020-01-27T21:39:57+00:00",
+        "label": 0
+    },
+    "1111.4755": {
+        "title": "Saying Hello World with MOLA - A Solution to the TTC 2011 Instructive Case",
+        "abstract": "This paper describes the solution of Hello World transformations in MOLA\ntransformation language. Transformations implementing the task are relatively\nstraightforward and easily inferable from the task specification. The required\nadditional steps related to model import and export are also described.",
+        "date": "2011-11-21T05:26:57+00:00",
+        "label": 0
+    },
+    "2309.09777": {
+        "title": "DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving",
+        "abstract": "World models, especially in autonomous driving, are trending and drawing\nextensive attention due to their capacity for comprehending driving\nenvironments. The established world model holds immense potential for the\ngeneration of high-quality driving videos, and driving policies for safe\nmaneuvering. However, a critical limitation in relevant research lies in its\npredominant focus on gaming environments or simulated settings, thereby lacking\nthe representation of real-world driving scenarios. Therefore, we introduce\nDriveDreamer, a pioneering world model entirely derived from real-world driving\nscenarios. Regarding that modeling the world in intricate driving scenes\nentails an overwhelming search space, we propose harnessing the powerful\ndiffusion model to construct a comprehensive representation of the complex\nenvironment. Furthermore, we introduce a two-stage training pipeline. In the\ninitial phase, DriveDreamer acquires a deep understanding of structured traffic\nconstraints, while the subsequent stage equips it with the ability to\nanticipate future states. The proposed DriveDreamer is the first world model\nestablished from real-world driving scenarios. We instantiate DriveDreamer on\nthe challenging nuScenes benchmark, and extensive experiments verify that\nDriveDreamer empowers precise, controllable video generation that faithfully\ncaptures the structural constraints of real-world traffic scenarios.\nAdditionally, DriveDreamer enables the generation of realistic and reasonable\ndriving policies, opening avenues for interaction and practical applications.",
+        "date": "2023-09-18T13:58:42+00:00",
+        "label": 1
+    },
+    "2404.12624": {
+        "title": "Dragtraffic: A Non-Expert Interactive and Point-Based Controllable Traffic Scene Generation Framework",
+        "abstract": "The evaluation and training of autonomous driving systems require diverse and\nscalable corner cases. However, most existing scene generation methods lack\ncontrollability, accuracy, and versatility, resulting in unsatisfactory\ngeneration results. To address this problem, we propose Dragtraffic, a\ngeneralized, point-based, and controllable traffic scene generation framework\nbased on conditional diffusion. Dragtraffic enables non-experts to generate a\nvariety of realistic driving scenarios for different types of traffic agents\nthrough an adaptive mixture expert architecture. We use a regression model to\nprovide a general initial solution and a refinement process based on the\nconditional diffusion model to ensure diversity. User-customized context is\nintroduced through cross-attention to ensure high controllability. Experiments\non a real-world driving dataset show that Dragtraffic outperforms existing\nmethods in terms of authenticity, diversity, and freedom.",
+        "date": "2024-04-19T04:49:28+00:00",
+        "label": 1
+    }
+}

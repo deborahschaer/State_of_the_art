@@ -1,0 +1,122 @@
+{
+    "2006.07397": {
+        "title": "The DeepFake Detection Challenge (DFDC) Dataset",
+        "abstract": "Deepfakes are a recent off-the-shelf manipulation technique that allows\nanyone to swap two identities in a single video. In addition to Deepfakes, a\nvariety of GAN-based face swapping methods have also been published with\naccompanying code. To counter this emerging threat, we have constructed an\nextremely large face swap video dataset to enable the training of detection\nmodels, and organized the accompanying DeepFake Detection Challenge (DFDC)\nKaggle competition. Importantly, all recorded subjects agreed to participate in\nand have their likenesses modified during the construction of the face-swapped\ndataset. The DFDC dataset is by far the largest currently and publicly\navailable face swap video dataset, with over 100,000 total clips sourced from\n3,426 paid actors, produced with several Deepfake, GAN-based, and non-learned\nmethods. In addition to describing the methods used to construct the dataset,\nwe provide a detailed analysis of the top submissions from the Kaggle contest.\nWe show although Deepfake detection is extremely difficult and still an\nunsolved problem, a Deepfake detection model trained only on the DFDC can\ngeneralize to real \"in-the-wild\" Deepfake videos, and such a model can be a\nvaluable analysis tool when analyzing potentially Deepfaked videos. Training,\nvalidation and testing corpuses can be downloaded from\nhttps://ai.facebook.com/datasets/dfdc.",
+        "date": "2020-06-12T18:15:55+00:00",
+        "label": 1
+    },
+    "2002.04020": {
+        "title": "Cloudifying the Curriculum with AWS",
+        "abstract": "The Cloud has become a principal paradigm of computing in the last ten years,\nand Computer Science curricula must be updated to reflect that reality. This\npaper examines simple ways to accomplish curriculum cloudification using Amazon\nWeb Services (AWS), for Computer Science and other disciplines such as\nBusiness, Communication and Mathematics.",
+        "date": "2020-02-10T18:47:35+00:00",
+        "label": 0
+    },
+    "2207.07901": {
+        "title": "Computer Science",
+        "abstract": "Possible for science itself, conceptually, to have and will understand\ndifferently, let alone science also seen as technology, such as computer\nscience. After all, science and technology are viewpoints diverse by either\nindividual, community, or social. Generally, it depends on socioeconomic\ncapabilities. So it is with computer science has become a phenomenon and\nfashionable, where based on the stream of documents, various issues arise in\neither its theory or implementation, adapting different communities, or\ndesigning curriculum holds in the education system.",
+        "date": "2022-07-16T10:54:57+00:00",
+        "label": 0
+    },
+    "1706.03825": {
+        "title": "SmoothGrad: removing noise by adding noise",
+        "abstract": "Explaining the output of a deep network remains a challenge. In the case of\nan image classifier, one type of explanation is to identify pixels that\nstrongly influence the final decision. A starting point for this strategy is\nthe gradient of the class score function with respect to the input image. This\ngradient can be interpreted as a sensitivity map, and there are several\ntechniques that elaborate on this basic idea. This paper makes two\ncontributions: it introduces SmoothGrad, a simple method that can help visually\nsharpen gradient-based sensitivity maps, and it discusses lessons in the\nvisualization of these maps. We publish the code for our experiments and a\nwebsite with our results.",
+        "date": "2017-06-12T19:53:30+00:00",
+        "label": 1
+    },
+    "1103.1386": {
+        "title": "Physics and computer science: quantum computation and other approaches",
+        "abstract": "This is a position paper written as an introduction to the special volume on\nquantum algorithms I edited for the journal Mathematical Structures in Computer\nScience (Volume 20 - Special Issue 06 (Quantum Algorithms), 2010).",
+        "date": "2011-03-07T21:00:29+00:00",
+        "label": 0
+    },
+    "2210.06878": {
+        "title": "CS-Insights: A System for Analyzing Computer Science Research",
+        "abstract": "This paper presents CS-Insights, an interactive web application to analyze\ncomputer science publications from DBLP through multiple perspectives. The\ndedicated interfaces allow its users to identify trends in research activity,\nproductivity, accessibility, author's productivity, venues' statistics, topics\nof interest, and the impact of computer science research on other fields.\nCS-Insightsis publicly available, and its modular architecture can be easily\nadapted to domains other than computer science.",
+        "date": "2022-10-13T10:03:52+00:00",
+        "label": 0
+    },
+    "1309.0717": {
+        "title": "A Polynomial Translation of pi-calculus FCPs to Safe Petri Nets",
+        "abstract": "We develop a polynomial translation from finite control pi-calculus processes\nto safe low-level Petri nets. To our knowledge, this is the first such\ntranslation. It is natural in that there is a close correspondence between the\ncontrol flows, enjoys a bisimulation result, and is suitable for practical\nmodel checking.",
+        "date": "2013-09-03T15:08:39+00:00",
+        "label": 0
+    },
+    "2111.14203": {
+        "title": "How Deep Are the Fakes? Focusing on Audio Deepfake: A Survey",
+        "abstract": "Deepfake is content or material that is synthetically generated or\nmanipulated using artificial intelligence (AI) methods, to be passed off as\nreal and can include audio, video, image, and text synthesis. This survey has\nbeen conducted with a different perspective compared to existing survey papers,\nthat mostly focus on just video and image deepfakes. This survey not only\nevaluates generation and detection methods in the different deepfake\ncategories, but mainly focuses on audio deepfakes that are overlooked in most\nof the existing surveys. This paper critically analyzes and provides a unique\nsource of audio deepfake research, mostly ranging from 2016 to 2020. To the\nbest of our knowledge, this is the first survey focusing on audio deepfakes in\nEnglish. This survey provides readers with a summary of 1) different deepfake\ncategories 2) how they could be created and detected 3) the most recent trends\nin this domain and shortcomings in detection methods 4) audio deepfakes, how\nthey are created and detected in more detail which is the main focus of this\npaper. We found that Generative Adversarial Networks(GAN), Convolutional Neural\nNetworks (CNN), and Deep Neural Networks (DNN) are common ways of creating and\ndetecting deepfakes. In our evaluation of over 140 methods we found that the\nmajority of the focus is on video deepfakes and in particular in the generation\nof video deepfakes. We found that for text deepfakes there are more generation\nmethods but very few robust methods for detection, including fake news\ndetection, which has become a controversial area of research because of the\npotential of heavy overlaps with human generation of fake content. This paper\nis an abbreviated version of the full survey and reveals a clear need to\nresearch audio deepfakes and particularly detection of audio deepfakes.",
+        "date": "2021-11-28T18:28:30+00:00",
+        "label": 1
+    },
+    "9505013": {
+        "title": "Wavelet basis for the Schr\u00f6dinger equation",
+        "abstract": "The self-similar representation for the Schr\\\"{o}dinger equation is derived.",
+        "date": "1995-05-16T16:19:16+00:00",
+        "label": 0
+    },
+    "1310.7911": {
+        "title": "Compact manifolds with computable boundaries",
+        "abstract": "We investigate conditions under which a co-computably enumerable closed set\nin a computable metric space is computable and prove that in each locally\ncomputable computable metric space each co-computably enumerable compact\nmanifold with computable boundary is computable. In fact, we examine the notion\nof a semi-computable compact set and we prove a more general result: in any\ncomputable metric space each semi-computable compact manifold with computable\nboundary is computable. In particular, each semi-computable compact\n(boundaryless) manifold is computable.",
+        "date": "2013-10-29T18:29:13+00:00",
+        "label": 0
+    },
+    "2408.09300": {
+        "title": "Malacopula: adversarial automatic speaker verification attacks using a neural-based generalised Hammerstein model",
+        "abstract": "We present Malacopula, a neural-based generalised Hammerstein model designed\nto introduce adversarial perturbations to spoofed speech utterances so that\nthey better deceive automatic speaker verification (ASV) systems. Using\nnon-linear processes to modify speech utterances, Malacopula enhances the\neffectiveness of spoofing attacks. The model comprises parallel branches of\npolynomial functions followed by linear time-invariant filters. The adversarial\noptimisation procedure acts to minimise the cosine distance between speaker\nembeddings extracted from spoofed and bona fide utterances. Experiments,\nperformed using three recent ASV systems and the ASVspoof 2019 dataset, show\nthat Malacopula increases vulnerabilities by a substantial margin. However,\nspeech quality is reduced and attacks can be detected effectively under\ncontrolled conditions. The findings emphasise the need to identify new\nvulnerabilities and design defences to protect ASV systems from adversarial\nattacks in the wild.",
+        "date": "2024-08-17T21:58:11+00:00",
+        "label": 1
+    },
+    "2308.12734": {
+        "title": "Real-time Detection of AI-Generated Speech for DeepFake Voice Conversion",
+        "abstract": "There are growing implications surrounding generative AI in the speech domain\nthat enable voice cloning and real-time voice conversion from one individual to\nanother. This technology poses a significant ethical threat and could lead to\nbreaches of privacy and misrepresentation, thus there is an urgent need for\nreal-time detection of AI-generated speech for DeepFake Voice Conversion. To\naddress the above emerging issues, the DEEP-VOICE dataset is generated in this\nstudy, comprised of real human speech from eight well-known figures and their\nspeech converted to one another using Retrieval-based Voice Conversion.\nPresenting as a binary classification problem of whether the speech is real or\nAI-generated, statistical analysis of temporal audio features through t-testing\nreveals that there are significantly different distributions. Hyperparameter\noptimisation is implemented for machine learning models to identify the source\nof speech. Following the training of 208 individual machine learning models\nover 10-fold cross validation, it is found that the Extreme Gradient Boosting\nmodel can achieve an average classification accuracy of 99.3% and can classify\nspeech in real-time, at around 0.004 milliseconds given one second of speech.\nAll data generated for this study is released publicly for future research on\nAI speech detection.",
+        "date": "2023-08-24T12:26:15+00:00",
+        "label": 1
+    },
+    "2304.06632": {
+        "title": "AI-Generated Content (AIGC): A Survey",
+        "abstract": "To address the challenges of digital intelligence in the digital economy,\nartificial intelligence-generated content (AIGC) has emerged. AIGC uses\nartificial intelligence to assist or replace manual content generation by\ngenerating content based on user-inputted keywords or requirements. The\ndevelopment of large model algorithms has significantly strengthened the\ncapabilities of AIGC, which makes AIGC products a promising generative tool and\nadds convenience to our lives. As an upstream technology, AIGC has unlimited\npotential to support different downstream applications. It is important to\nanalyze AIGC's current capabilities and shortcomings to understand how it can\nbe best utilized in future applications. Therefore, this paper provides an\nextensive overview of AIGC, covering its definition, essential conditions,\ncutting-edge capabilities, and advanced features. Moreover, it discusses the\nbenefits of large-scale pre-trained models and the industrial chain of AIGC.\nFurthermore, the article explores the distinctions between auxiliary generation\nand automatic generation within AIGC, providing examples of text generation.\nThe paper also examines the potential integration of AIGC with the Metaverse.\nLastly, the article highlights existing issues and suggests some future\ndirections for application.",
+        "date": "2023-03-26T02:22:12+00:00",
+        "label": 1
+    },
+    "1610.07365": {
+        "title": "Introduction: Cognitive Issues in Natural Language Processing",
+        "abstract": "This special issue is dedicated to get a better picture of the relationships\nbetween computational linguistics and cognitive science. It specifically raises\ntwo questions: \"what is the potential contribution of computational language\nmodeling to cognitive science?\" and conversely: \"what is the influence of\ncognitive science in contemporary computational linguistics?\"",
+        "date": "2016-10-24T11:30:22+00:00",
+        "label": 0
+    },
+    "0609110": {
+        "title": "Algebraic recognizability of languages",
+        "abstract": "Recognizable languages of finite words are part of every computer science\ncursus, and they are routinely described as a cornerstone for applications and\nfor theory. We would like to briefly explore why that is, and how this\nword-related notion extends to more complex models, such as those developed for\nmodeling distributed or timed behaviors.",
+        "date": "2006-09-19T15:21:08+00:00",
+        "label": 0
+    },
+    "1404.5458": {
+        "title": "Complex Workflow Management and Integration of Distributed Computing Resources by Science Gateway Portal for Molecular Dynamics Simulations in Materials Science",
+        "abstract": "The \"IMP Science Gateway Portal\" (http://scigate.imp.kiev.ua) for complex\nworkflow management and integration of distributed computing resources (like\nclusters, service grids, desktop grids, clouds) is presented. It is created on\nthe basis of WS-PGRADE and gUSE technologies, where WS-PGRADE is designed for\nscience workflow operation and gUSE - for smooth integration of available\nresources for parallel and distributed computing in various heterogeneous\ndistributed computing infrastructures (DCI). The typical scientific workflow\nwith possible scenarios of its preparation and usage is considered. Several\ntypical science applications (scientific workflows) are considered for\nmolecular dynamics (MD) simulations of complex behavior of various\nnanostructures (nanoindentation of graphene layers, defect system relaxation in\nmetal nanocrystals, thermal stability of boron nitride nanotubes, etc.). The\nadvantages and drawbacks of the solution are shortly analyzed in the context of\nits practical applications for MD simulations in materials science, physics and\nnanotechnologies with available heterogeneous DCIs.",
+        "date": "2014-04-22T11:34:04+00:00",
+        "label": 0
+    },
+    "2311.15308": {
+        "title": "AV-Deepfake1M: A Large-Scale LLM-Driven Audio-Visual Deepfake Dataset",
+        "abstract": "The detection and localization of highly realistic deepfake audio-visual\ncontent are challenging even for the most advanced state-of-the-art methods.\nWhile most of the research efforts in this domain are focused on detecting\nhigh-quality deepfake images and videos, only a few works address the problem\nof the localization of small segments of audio-visual manipulations embedded in\nreal videos. In this research, we emulate the process of such content\ngeneration and propose the AV-Deepfake1M dataset. The dataset contains\ncontent-driven (i) video manipulations, (ii) audio manipulations, and (iii)\naudio-visual manipulations for more than 2K subjects resulting in a total of\nmore than 1M videos. The paper provides a thorough description of the proposed\ndata generation pipeline accompanied by a rigorous analysis of the quality of\nthe generated data. The comprehensive benchmark of the proposed dataset\nutilizing state-of-the-art deepfake detection and localization methods\nindicates a significant drop in performance compared to previous datasets. The\nproposed dataset will play a vital role in building the next-generation\ndeepfake localization methods. The dataset and associated code are available at\nhttps://github.com/ControlNet/AV-Deepfake1M .",
+        "date": "2023-11-26T14:17:51+00:00",
+        "label": 1
+    },
+    "2404.13914": {
+        "title": "Audio Anti-Spoofing Detection: A Survey",
+        "abstract": "The availability of smart devices leads to an exponential increase in\nmultimedia content. However, the rapid advancements in deep learning have given\nrise to sophisticated algorithms capable of manipulating or creating multimedia\nfake content, known as Deepfake. Audio Deepfakes pose a significant threat by\nproducing highly realistic voices, thus facilitating the spread of\nmisinformation. To address this issue, numerous audio anti-spoofing detection\nchallenges have been organized to foster the development of anti-spoofing\ncountermeasures. This survey paper presents a comprehensive review of every\ncomponent within the detection pipeline, including algorithm architectures,\noptimization techniques, application generalizability, evaluation metrics,\nperformance comparisons, available datasets, and open-source availability. For\neach aspect, we conduct a systematic evaluation of the recent advancements,\nalong with discussions on existing challenges. Additionally, we also explore\nemerging research topics on audio anti-spoofing, including partial spoofing\ndetection, cross-dataset evaluation, and adversarial attack defence, while\nproposing some promising research directions for future work. This survey paper\nnot only identifies the current state-of-the-art to establish strong baselines\nfor future experiments but also guides future researchers on a clear path for\nunderstanding and enhancing the audio anti-spoofing detection mechanisms.",
+        "date": "2024-04-22T06:52:12+00:00",
+        "label": 1
+    },
+    "2407.18517": {
+        "title": "SLIM: Style-Linguistics Mismatch Model for Generalized Audio Deepfake Detection",
+        "abstract": "Audio deepfake detection (ADD) is crucial to combat the misuse of speech\nsynthesized from generative AI models. Existing ADD models suffer from\ngeneralization issues, with a large performance discrepancy between in-domain\nand out-of-domain data. Moreover, the black-box nature of existing models\nlimits their use in real-world scenarios, where explanations are required for\nmodel decisions. To alleviate these issues, we introduce a new ADD model that\nexplicitly uses the StyleLInguistics Mismatch (SLIM) in fake speech to separate\nthem from real speech. SLIM first employs self-supervised pretraining on only\nreal samples to learn the style-linguistics dependency in the real class. The\nlearned features are then used in complement with standard pretrained acoustic\nfeatures (e.g., Wav2vec) to learn a classifier on the real and fake classes.\nWhen the feature encoders are frozen, SLIM outperforms benchmark methods on\nout-of-domain datasets while achieving competitive results on in-domain data.\nThe features learned by SLIM allow us to quantify the (mis)match between style\nand linguistic content in a sample, hence facilitating an explanation of the\nmodel decision.",
+        "date": "2024-07-26T05:23:41+00:00",
+        "label": 1
+    },
+    "2002.10137": {
+        "title": "Audio-driven Talking Face Video Generation with Learning-based Personalized Head Pose",
+        "abstract": "Real-world talking faces often accompany with natural head movement. However,\nmost existing talking face video generation methods only consider facial\nanimation with fixed head pose. In this paper, we address this problem by\nproposing a deep neural network model that takes an audio signal A of a source\nperson and a very short video V of a target person as input, and outputs a\nsynthesized high-quality talking face video with personalized head pose (making\nuse of the visual information in V), expression and lip synchronization (by\nconsidering both A and V). The most challenging issue in our work is that\nnatural poses often cause in-plane and out-of-plane head rotations, which makes\nsynthesized talking face video far from realistic. To address this challenge,\nwe reconstruct 3D face animation and re-render it into synthesized frames. To\nfine tune these frames into realistic ones with smooth background transition,\nwe propose a novel memory-augmented GAN module. By first training a general\nmapping based on a publicly available dataset and fine-tuning the mapping using\nthe input short video of target person, we develop an effective strategy that\nonly requires a small number of frames (about 300 frames) to learn personalized\ntalking behavior including head pose. Extensive experiments and two user\nstudies show that our method can generate high-quality (i.e., personalized head\nmovements, expressions and good lip synchronization) talking face videos, which\nare naturally looking with more distinguishing head movement effects than the\nstate-of-the-art methods.",
+        "date": "2020-02-24T10:02:10+00:00",
+        "label": 1
+    }
+}

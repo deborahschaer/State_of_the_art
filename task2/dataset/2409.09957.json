@@ -1,0 +1,122 @@
+{
+    "1909.03033": {
+        "title": "The Difficulties of Addressing Interdisciplinary Challenges at the Foundations of Data Science",
+        "abstract": "The National Science Foundation's Transdisciplinary Research in Principles of\nData Science (TRIPODS) program aims to integrate three areas central to the\nfoundations of data by uniting the statistics, mathematics, and theoretical\ncomputer science research communities. The program aims to provide a model for\nfunding cross-cutting research and facilitating interactions among the three\ndisciplines. Challenges associated with orchestrating fruitful interactions are\ndescribed.",
+        "date": "2019-09-04T06:07:26+00:00",
+        "label": 0
+    },
+    "2403.10339": {
+        "title": "Generation is better than Modification: Combating High Class Homophily Variance in Graph Anomaly Detection",
+        "abstract": "Graph-based anomaly detection is currently an important research topic in the\nfield of graph neural networks (GNNs). We find that in graph anomaly detection,\nthe homophily distribution differences between different classes are\nsignificantly greater than those in homophilic and heterophilic graphs. For the\nfirst time, we introduce a new metric called Class Homophily Variance, which\nquantitatively describes this phenomenon. To mitigate its impact, we propose a\nnovel GNN model named Homophily Edge Generation Graph Neural Network (HedGe).\nPrevious works typically focused on pruning, selecting or connecting on\noriginal relationships, and we refer to these methods as modifications.\nDifferent from these works, our method emphasizes generating new relationships\nwith low class homophily variance, using the original relationships as an\nauxiliary. HedGe samples homophily adjacency matrices from scratch using a\nself-attention mechanism, and leverages nodes that are relevant in the feature\nspace but not directly connected in the original graph. Additionally, we modify\nthe loss function to punish the generation of unnecessary heterophilic edges by\nthe model. Extensive comparison experiments demonstrate that HedGe achieved the\nbest performance across multiple benchmark datasets, including anomaly\ndetection and edgeless node classification. The proposed model also improves\nthe robustness under the novel Heterophily Attack with increased class\nhomophily variance on other graph classification tasks.",
+        "date": "2024-03-15T14:26:53+00:00",
+        "label": 1
+    },
+    "2212.05478": {
+        "title": "Mul-GAD: a semi-supervised graph anomaly detection framework via aggregating multi-view information",
+        "abstract": "Anomaly detection is defined as discovering patterns that do not conform to\nthe expected behavior. Previously, anomaly detection was mostly conducted using\ntraditional shallow learning techniques, but with little improvement. As the\nemergence of graph neural networks (GNN), graph anomaly detection has been\ngreatly developed. However, recent studies have shown that GNN-based methods\nencounter challenge, in that no graph anomaly detection algorithm can perform\ngeneralization on most datasets. To bridge the tap, we propose a multi-view\nfusion approach for graph anomaly detection (Mul-GAD). The view-level fusion\ncaptures the extent of significance between different views, while the\nfeature-level fusion makes full use of complementary information. We\ntheoretically and experimentally elaborate the effectiveness of the fusion\nstrategies. For a more comprehensive conclusion, we further investigate the\neffect of the objective function and the number of fused views on detection\nperformance. Exploiting these findings, our Mul-GAD is proposed equipped with\nfusion strategies and the well-performed objective function. Compared with\nother state-of-the-art detection methods, we achieve a better detection\nperformance and generalization in most scenarios via a series of experiments\nconducted on Pubmed, Amazon Computer, Amazon Photo, Weibo and Books. Our code\nis available at https://github.com/liuyishoua/Mul-Graph-Fusion.",
+        "date": "2022-12-11T11:34:34+00:00",
+        "label": 1
+    },
+    "1609.02907": {
+        "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+        "abstract": "We present a scalable approach for semi-supervised learning on\ngraph-structured data that is based on an efficient variant of convolutional\nneural networks which operate directly on graphs. We motivate the choice of our\nconvolutional architecture via a localized first-order approximation of\nspectral graph convolutions. Our model scales linearly in the number of graph\nedges and learns hidden layer representations that encode both local graph\nstructure and features of nodes. In a number of experiments on citation\nnetworks and on a knowledge graph dataset we demonstrate that our approach\noutperforms related methods by a significant margin.",
+        "date": "2016-09-09T19:48:41+00:00",
+        "label": 1
+    },
+    "2210.06878": {
+        "title": "CS-Insights: A System for Analyzing Computer Science Research",
+        "abstract": "This paper presents CS-Insights, an interactive web application to analyze\ncomputer science publications from DBLP through multiple perspectives. The\ndedicated interfaces allow its users to identify trends in research activity,\nproductivity, accessibility, author's productivity, venues' statistics, topics\nof interest, and the impact of computer science research on other fields.\nCS-Insightsis publicly available, and its modular architecture can be easily\nadapted to domains other than computer science.",
+        "date": "2022-10-13T10:03:52+00:00",
+        "label": 0
+    },
+    "1710.03090": {
+        "title": "Theoretical Computer Science for the Working Category Theorist",
+        "abstract": "Theoretical computer science discusses foundational issues about\ncomputations. It asks and answers questions such as \"What is a computation?\",\n\"What is computable?\", \"What is efficiently computable?\",\"What is\ninformation?\", \"What is random?\", \"What is an algorithm?\", etc. We will present\nmany of the major themes and theorems with the basic language of category\ntheory. Surprisingly, many interesting theorems and concepts of theoretical\ncomputer science are easy consequences of functoriality and composition when\nyou look at the right categories and functors connecting them.",
+        "date": "2017-10-04T19:19:00+00:00",
+        "label": 0
+    },
+    "2205.01553": {
+        "title": "Why The Trans Programmer?",
+        "abstract": "Through online anecdotal evidence and online communities, there is an\nin-group idea of trans people (specifically trans-feminine individuals)\ndisproportionately entering computer science education & fields. Existing data\nsuggests this is a plausible trend, yet no research has been done into exactly\nwhy. As computer science education (traditional schooling or self-taught\nmethods) is integral to working in computer science fields, a simple research\nsurvey was conducted to gather data on 138 trans people's experiences with\ncomputer science & computer science education. This article's purpose is to\nshed insight on the motivations for trans individuals choosing computer science\npaths, while acting as a basis and call to action for further research.",
+        "date": "2022-05-03T15:06:23+00:00",
+        "label": 0
+    },
+    "1710.10903": {
+        "title": "Graph Attention Networks",
+        "abstract": "We present graph attention networks (GATs), novel neural network\narchitectures that operate on graph-structured data, leveraging masked\nself-attentional layers to address the shortcomings of prior methods based on\ngraph convolutions or their approximations. By stacking layers in which nodes\nare able to attend over their neighborhoods' features, we enable (implicitly)\nspecifying different weights to different nodes in a neighborhood, without\nrequiring any kind of costly matrix operation (such as inversion) or depending\non knowing the graph structure upfront. In this way, we address several key\nchallenges of spectral-based graph neural networks simultaneously, and make our\nmodel readily applicable to inductive as well as transductive problems. Our GAT\nmodels have achieved or matched state-of-the-art results across four\nestablished transductive and inductive graph benchmarks: the Cora, Citeseer and\nPubmed citation network datasets, as well as a protein-protein interaction\ndataset (wherein test graphs remain unseen during training).",
+        "date": "2017-10-30T12:41:12+00:00",
+        "label": 1
+    },
+    "2402.11887": {
+        "title": "Generative Semi-supervised Graph Anomaly Detection",
+        "abstract": "This work considers a practical semi-supervised graph anomaly detection (GAD)\nscenario, where part of the nodes in a graph are known to be normal,\ncontrasting to the extensively explored unsupervised setting with a fully\nunlabeled graph. We reveal that having access to the normal nodes, even just a\nsmall percentage of normal nodes, helps enhance the detection performance of\nexisting unsupervised GAD methods when they are adapted to the semi-supervised\nsetting. However, their utilization of these normal nodes is limited. In this\npaper, we propose a novel Generative GAD approach (namely GGAD) for the\nsemi-supervised scenario to better exploit the normal nodes. The key idea is to\ngenerate pseudo anomaly nodes, referred to as 'outlier nodes', for providing\neffective negative node samples in training a discriminative one-class\nclassifier. The main challenge here lies in the lack of ground truth\ninformation about real anomaly nodes. To address this challenge, GGAD is\ndesigned to leverage two important priors about the anomaly nodes -- asymmetric\nlocal affinity and egocentric closeness -- to generate reliable outlier nodes\nthat assimilate anomaly nodes in both graph structure and feature\nrepresentations. Comprehensive experiments on six real-world GAD datasets are\nperformed to establish a benchmark for semi-supervised GAD and show that GGAD\nsubstantially outperforms state-of-the-art unsupervised and semi-supervised GAD\nmethods with varying numbers of training normal nodes. Code will be made\navailable at https://github.com/mala-lab/GGAD.",
+        "date": "2024-02-19T06:55:50+00:00",
+        "label": 1
+    },
+    "1610.07365": {
+        "title": "Introduction: Cognitive Issues in Natural Language Processing",
+        "abstract": "This special issue is dedicated to get a better picture of the relationships\nbetween computational linguistics and cognitive science. It specifically raises\ntwo questions: \"what is the potential contribution of computational language\nmodeling to cognitive science?\" and conversely: \"what is the influence of\ncognitive science in contemporary computational linguistics?\"",
+        "date": "2016-10-24T11:30:22+00:00",
+        "label": 0
+    },
+    "2308.13821": {
+        "title": "A Survey of Imbalanced Learning on Graphs: Problems, Techniques, and Future Directions",
+        "abstract": "Graphs represent interconnected structures prevalent in a myriad of\nreal-world scenarios. Effective graph analytics, such as graph learning\nmethods, enables users to gain profound insights from graph data, underpinning\nvarious tasks including node classification and link prediction. However, these\nmethods often suffer from data imbalance, a common issue in graph data where\ncertain segments possess abundant data while others are scarce, thereby leading\nto biased learning outcomes. This necessitates the emerging field of imbalanced\nlearning on graphs, which aims to correct these data distribution skews for\nmore accurate and representative learning outcomes. In this survey, we embark\non a comprehensive review of the literature on imbalanced learning on graphs.\nWe begin by providing a definitive understanding of the concept and related\nterminologies, establishing a strong foundational understanding for readers.\nFollowing this, we propose two comprehensive taxonomies: (1) the problem\ntaxonomy, which describes the forms of imbalance we consider, the associated\ntasks, and potential solutions; (2) the technique taxonomy, which details key\nstrategies for addressing these imbalances, and aids readers in their method\nselection process. Finally, we suggest prospective future directions for both\nproblems and techniques within the sphere of imbalanced learning on graphs,\nfostering further innovation in this critical area.",
+        "date": "2023-08-26T09:11:44+00:00",
+        "label": 1
+    },
+    "2210.12941": {
+        "title": "Unsupervised Graph Outlier Detection: Problem Revisit, New Insight, and Superior Method",
+        "abstract": "A large number of studies on Graph Outlier Detection (GOD) have emerged in\nrecent years due to its wide applications, in which Unsupervised Node Outlier\nDetection (UNOD) on attributed networks is an important area. UNOD focuses on\ndetecting two kinds of typical outliers in graphs: the structural outlier and\nthe contextual outlier. Most existing works conduct experiments based on\ndatasets with injected outliers. However, we find that the most widely-used\noutlier injection approach has a serious data leakage issue. By only utilizing\nsuch data leakage, a simple approach can achieve state-of-the-art performance\nin detecting outliers. In addition, we observe that existing algorithms have a\nperformance drop with the mitigated data leakage issue. The other major issue\nis on balanced detection performance between the two types of outliers, which\nhas not been considered by existing studies. In this paper, we analyze the\ncause of the data leakage issue in depth since the injection approach is a\nbuilding block to advance UNOD. Moreover, we devise a novel variance-based\nmodel to detect structural outliers, which outperforms existing algorithms\nsignificantly and is more robust at kinds of injection settings. On top of\nthis, we propose a new framework, Variance based Graph Outlier Detection\n(VGOD), which combines our variance-based model and attribute reconstruction\nmodel to detect outliers in a balanced way. Finally, we conduct extensive\nexperiments to demonstrate the effectiveness and efficiency of VGOD. The\nresults on 5 real-world datasets validate that VGOD achieves not only the best\nperformance in detecting outliers but also a balanced detection performance\nbetween structural and contextual outliers.",
+        "date": "2022-10-24T04:09:35+00:00",
+        "label": 1
+    },
+    "2310.11829": {
+        "title": "Towards Graph Foundation Models: A Survey and Beyond",
+        "abstract": "Foundation models have emerged as critical components in a variety of\nartificial intelligence applications, and showcase significant success in\nnatural language processing and several other domains. Meanwhile, the field of\ngraph machine learning is witnessing a paradigm transition from shallow methods\nto more sophisticated deep learning approaches. The capabilities of foundation\nmodels to generalize and adapt motivate graph machine learning researchers to\ndiscuss the potential of developing a new graph learning paradigm. This\nparadigm envisions models that are pre-trained on extensive graph data and can\nbe adapted for various graph tasks. Despite this burgeoning interest, there is\na noticeable lack of clear definitions and systematic analyses pertaining to\nthis new domain. To this end, this article introduces the concept of Graph\nFoundation Models (GFMs), and offers an exhaustive explanation of their key\ncharacteristics and underlying technologies. We proceed to classify the\nexisting work related to GFMs into three distinct categories, based on their\ndependence on graph neural networks and large language models. In addition to\nproviding a thorough review of the current state of GFMs, this article also\noutlooks potential avenues for future research in this rapidly evolving domain.",
+        "date": "2023-10-18T09:31:21+00:00",
+        "label": 1
+    },
+    "1401.4507": {
+        "title": "Using Quantum Computers to Learn Physics",
+        "abstract": "Since its inception at the beginning of the twentieth century, quantum\nmechanics has challenged our conceptions of how the universe ought to work;\nhowever, the equations of quantum mechanics can be too computationally\ndifficult to solve using existing computers for even modestly large systems.\nHere I will show that quantum computers can sometimes be used to address such\nproblems and that quantum computer science can assign formal complexities to\nlearning facts about nature. Hence, computer science should not only be\nregarded as an applied science; it is also of central importance to the\nfoundations of science.",
+        "date": "2014-01-18T01:46:52+00:00",
+        "label": 0
+    },
+    "2312.06441": {
+        "title": "Revisiting Graph-Based Fraud Detection in Sight of Heterophily and Spectrum",
+        "abstract": "Graph-based fraud detection (GFD) can be regarded as a challenging\nsemi-supervised node binary classification task. In recent years, Graph Neural\nNetworks (GNN) have been widely applied to GFD, characterizing the anomalous\npossibility of a node by aggregating neighbor information. However, fraud\ngraphs are inherently heterophilic, thus most of GNNs perform poorly due to\ntheir assumption of homophily. In addition, due to the existence of heterophily\nand class imbalance problem, the existing models do not fully utilize the\nprecious node label information. To address the above issues, this paper\nproposes a semi-supervised GNN-based fraud detector SEC-GFD. This detector\nincludes a hybrid filtering module and a local environmental constraint module,\nthe two modules are utilized to solve heterophily and label utilization problem\nrespectively. The first module starts from the perspective of the spectral\ndomain, and solves the heterophily problem to a certain extent. Specifically,\nit divides the spectrum into various mixed-frequency bands based on the\ncorrelation between spectrum energy distribution and heterophily. Then in order\nto make full use of the node label information, a local environmental\nconstraint module is adaptively designed. The comprehensive experimental\nresults on four real-world fraud detection datasets denote that SEC-GFD\noutperforms other competitive graph-based fraud detectors. We release our code\nat https://github.com/Sunxkissed/SEC-GFD.",
+        "date": "2023-12-11T15:18:51+00:00",
+        "label": 1
+    },
+    "9505013": {
+        "title": "Wavelet basis for the Schr\u00f6dinger equation",
+        "abstract": "The self-similar representation for the Schr\\\"{o}dinger equation is derived.",
+        "date": "1995-05-16T16:19:16+00:00",
+        "label": 0
+    },
+    "2407.08102": {
+        "title": "Dynamics of Gender Bias within Computer Science",
+        "abstract": "A new dataset (N = 7,456) analyzes women's research authorship in the\nAssociation for Computing Machinery's founding 13 Special Interest Groups or\nSIGs, a proxy for computer science. ACM SIGs expanded during 1970-2000; each\nexperienced increasing women's authorship. But diversity abounds. Several SIGs\nhad fewer than 10% women authors while SIGUCCS (university computing centers)\nexceeded 40%. Three SIGs experienced accelerating growth in women's authorship;\nmost, including a composite ACM, had decelerating growth. This research may\nencourage reform efforts, often focusing on general education or workforce\nfactors (across the entity of \"computer science\"), to examine under-studied\ndynamics within computer science that shaped changes in women's participation.",
+        "date": "2024-07-11T00:14:21+00:00",
+        "label": 0
+    },
+    "0511274": {
+        "title": "Quantum Computation: A Computer Science Perspective",
+        "abstract": "The theory of quantum computation is presented in a self contained way from a\ncomputer science perspective. The basics of classical computation and quantum\nmechanics is reviewed. The circuit model of quantum computation is presented in\ndetail. Throughout there is an emphasis on the physical as well as the abstract\naspects of computation and the interplay between them.\n  This report is presented as a Master's thesis at the department of Computer\nScience and Engineering at G{\\\"o}teborg University, G{\\\"o}teborg, Sweden.\n  The text is part of a larger work that is planned to include chapters on\nquantum algorithms, the quantum Turing machine model and abstract approaches to\nquantum computation.",
+        "date": "2005-11-30T20:36:54+00:00",
+        "label": 0
+    },
+    "2002.05658": {
+        "title": "Ten Research Challenge Areas in Data Science",
+        "abstract": "Although data science builds on knowledge from computer science, mathematics,\nstatistics, and other disciplines, data science is a unique field with many\nmysteries to unlock: challenging scientific questions and pressing questions of\nsocietal importance. This article starts with meta-questions about data science\nas a discipline and then elaborates on ten ideas for the basis of a research\nagenda for data science.",
+        "date": "2020-01-27T21:39:57+00:00",
+        "label": 0
+    },
+    "2403.01121": {
+        "title": "OpenGraph: Towards Open Graph Foundation Models",
+        "abstract": "Graph learning has become indispensable for interpreting and harnessing\nrelational data in diverse fields, ranging from recommendation systems to\nsocial network analysis. In this context, a variety of GNNs have emerged as\npromising methodologies for encoding the structural information of graphs. By\neffectively capturing the graph's underlying structure, these GNNs have shown\ngreat potential in enhancing performance in graph learning tasks, such as link\nprediction and node classification. However, despite their successes, a\nsignificant challenge persists: these advanced methods often face difficulties\nin generalizing to unseen graph data that significantly differs from the\ntraining instances. In this work, our aim is to advance the graph learning\nparadigm by developing a general graph foundation model. This model is designed\nto understand the complex topological patterns present in diverse graph data,\nenabling it to excel in zero-shot graph learning tasks across different\ndownstream datasets. To achieve this goal, we address several key technical\nchallenges in our OpenGraph model. Firstly, we propose a unified graph\ntokenizer to adapt our graph model to generalize well on unseen graph data,\neven when the underlying graph properties differ significantly from those\nencountered during training. Secondly, we develop a scalable graph transformer\nas the foundational encoder, which effectively captures node-wise dependencies\nwithin the global topological context. Thirdly, we introduce a data\naugmentation mechanism enhanced by a LLM to alleviate the limitations of data\nscarcity in real-world scenarios. Extensive experiments validate the\neffectiveness of our framework. By adapting our OpenGraph to new graph\ncharacteristics and comprehending the nuances of diverse graphs, our approach\nachieves remarkable zero-shot graph learning performance across various\nsettings and domains.",
+        "date": "2024-03-02T08:05:03+00:00",
+        "label": 1
+    }
+}
