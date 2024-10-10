@@ -1,0 +1,9 @@
+ This article discusses recent advancements in evaluating natural language systems using large language models (LLMs) and introduces various studies that explore the use of LLMs as references for summarization model training and evaluation. The first study, Fusion-Eval, demonstrates significant improvement in system-level correlation with humans on SummEval and turn-level Spearman correlation on TopicalChat compared to baseline methods.
+
+The second study investigates the implications of using LLMs as references in text summarization model training and evaluation. The researchers found that smaller models can achieve similar performance under LLM-based evaluation but cannot yet reach LLM-level performance under human evaluation. They also performed a meta-analysis revealing a discrepancy between human and LLM-based evaluations, highlighting the benefits and risks of using LLMs as references.
+
+The third study discusses the potential bias in human evaluations of machine-generated text, particularly in cases where answers contain factual errors or grammatical mistakes. The researchers propose a Multi-Elo Rating System (MERS) to independently evaluate machine-generated text across multiple dimensions, resulting in enhanced evaluation quality for LLMs.
+
+The fourth study introduces ChatEval, a multi-agent debate framework that enables a group of LLMs to synergize with intelligent counterparts for more efficient and effective evaluations. ChatEval offers a human-mimicking evaluation process for reliable assessments.
+
+Lastly, the article proposes GPTScore, an evaluation framework that utilizes generative pre-trained models to score generated texts based on natural language instructions. The approach allows customized, multi-faceted evaluation without the need for annotated samples, addressing several long-standing challenges in text evaluation.

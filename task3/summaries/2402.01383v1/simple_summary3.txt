@@ -1,0 +1,5 @@
+ In the first paper titled "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models," the authors propose an open-source Large Language Model (LLM), Prometheus, which can evaluate long-form texts based on customized score rubrics provided by users. The model achieves a Pearson correlation of 0.897 with human evaluators and outperforms ChatGPT in various benchmarks.
+
+In the second paper titled "Large Language Models are not Fair Evaluators," the authors reveal that evaluation results can be manipulated by altering the order of responses when using LLMs as evaluators. They propose a calibration framework with three strategies to mitigate this bias and release their code and human annotation for future research.
+
+In the third paper titled "Generative Judge for Evaluating Alignment," the authors introduce Auto-J, a generative judge with 13B parameters designed to address challenges in evaluating aligned models regarding generality, flexibility, and interpretability. The model outperforms competitors in various benchmarks and provides detailed analysis and case studies.

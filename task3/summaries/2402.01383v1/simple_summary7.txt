@@ -1,0 +1,7 @@
+ This paper discusses several advancements and challenges in the field of large language models (LLMs) as evaluators of natural language generation quality, with a focus on calibration, fairness, and automatic evaluation benchmarks.
+
+First, the authors introduce Prometheus, an LLM-based evaluator that achieves high correlation with human evaluators using customized score rubrics, outperforming ChatGPT and comparable to GPT-4. They also propose AutoCalibrate, a method for automatically calibrating LLM-based evaluators towards human preference by encompassing human labels implicitly and refining scoring criteria through self-refinement.
+
+Second, the authors uncover a systematic bias in using LLMs as evaluators and propose a calibration framework to mitigate this issue, including strategies such as Multiple Evidence Calibration, Balanced Position Calibration, and Human-in-the-Loop Calibration. They also release their code and human annotation for future research at https://github.com/i-Eval/FairEval.
+
+Lastly, the authors introduce PandaLM, a judge LLM trained to distinguish superior models given several LLMs, addressing subjective factors beyond objective correctness. PandaLM achieves significant improvements in evaluation accuracy and reliability compared to default hyperparameters, and all resources are released at https://github.com/WeOpenML/PandaLM.

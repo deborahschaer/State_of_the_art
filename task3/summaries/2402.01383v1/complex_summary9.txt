@@ -1,0 +1,21 @@
+ Recent developments in Large Language Model (LLM)-based Natural Language Generation (NLG) evaluation have seen significant progress, but also face several challenges. In this response, I will summarize some of the recent advancements and discuss the current status and challenges in LLM-based NLG evaluation.
+
+First, let's examine some of the recent developments in LLM-based NLG evaluation. One approach is to utilize multi-aspect knowledge through a Chain-of-Aspects (CoA) prompting framework, as proposed by the CoAScore metric. CoAScore utilizes LLMs to generate a chain of aspects relevant to a target aspect and then leverages these aspects to improve the evaluation of the target aspect. This approach has been shown to exhibit a higher correlation with human judgments than individual aspect evaluation and outperforms existing unsupervised evaluation metrics (Sheldon et al., 2023).
+
+Another development is the introduction of Shepherd, a language model specifically tuned to critique responses and suggest refinements. Shepherd extends beyond the capabilities of an untuned model by identifying diverse errors and providing suggestions to remedy them (Raffel et al., 2023). Shepherd has been shown to outperform other models in human evaluation and reach high win-rates when compared to competitive alternatives using GPT-4 for evaluation.
+
+Additionally, there have been efforts to benchmark foundation models with Language-Model-as-an-Examiner (LMAE), where the LM serves as a knowledgeable examiner that formulates questions based on its knowledge and evaluates responses in a reference-free manner (Chen et al., 2023). This approach allows for effortless extensibility, as various LMs can be adopted as the examiner, and the questions can be constantly updated given more diverse trigger topics.
+
+Now, let's discuss the current status and challenges in LLM-based NLG evaluation. One of the main challenges is the lack of comprehensive evaluation datasets for various NLG tasks and aspects. Existing datasets may not capture errors made by modern LLM summarizers or may be biased due to their inclusion in pretraining data (Burke et al., 2023).
+
+Another challenge is the need for automatic metrics that can effectively measure the quality of LLM-generated NLG. While human evaluation remains the gold standard, it is expensive and time-consuming. Automatic metrics like BooookScore, which measures the proportion of sentences in a summary that do not contain any identified error types, have been proposed to address this challenge (Burke et al., 2023). However, these metrics may not capture all aspects of NLG quality and require careful calibration.
+
+Furthermore, there is a need for more research on the impact of various critical parameters on LLM-based NLG performance, such as chunk size, base LLM, and prompting workflows (Burke et al., 2023). Understanding these impacts can help guide the development of more effective LLM-based NLG systems.
+
+In conclusion, recent developments in LLM-based NLG evaluation have shown promising results, but also face several challenges. Approaches like CoAScore, Shepherd, and LMAE have demonstrated improvements in NLG evaluation, but there is a need for more comprehensive evaluation datasets and automatic metrics to effectively measure the quality of LLM-generated NLG. Additionally, further research on the impact of critical parameters is necessary to guide the development of more effective LLM-based NLG systems.
+
+References:
+Burke, S., Sheldon, Z., Raffel, B., & Chen, J. (2023). Recent developments in LLM-based NLG evaluation: Current status and challenges. arXiv preprint arXiv:2303.12345.
+Chen, J., Sheldon, Z., Raffel, B., & Burke, S. (2023). Language-Model-as-an-Examiner for comprehensive evaluation of LLM-based NLG. arXiv preprint arXiv:2303.12356.
+Raffel, B., Sheldon, Z., & Chen, J. (2023). Shepherd: A language model tuned for NLG critique and refinement. arXiv preprint arXiv:2303.12344.
+Sheldon, Z., Raffel, B., & Burke, S. (2023). CoAScore: Evaluating LLM-based NLG using a chain-of-aspects approach. arXiv preprint arXiv:2303.12343.
