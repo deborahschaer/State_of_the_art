@@ -1,0 +1,99 @@
+Response:  Title: Recent Developments in Embedding Compression for Recommender Systems: A Survey
+
+Recommender systems (RS) have become an essential component of various applications, including e-commerce, social media, and multimedia platforms, to name a few. The primary goal of RS is to predict users' preferences or recommend items based on their historical interactions or demographic information. One of the most critical components in RS is the embedding layer, which maps categorical variables into dense representations in an abstract real-valued space. Embeddings are essential for RS as they allow compact representation and capture meaningful semantic relationships between users and items. However, the increasing size of embedding vectors poses a significant challenge due to the enormous storage requirements and computational complexity. Consequently, there is a growing interest in embedding compression techniques to address these challenges. In this survey, we discuss recent developments in embedding compression for recommender systems.
+
+Embedding compression can be broadly categorized into two main approaches: quantization and dimensionality reduction. We will discuss each approach in detail, along with their advantages, limitations, and recent developments.
+
+Quantization is a popular technique for compressing embeddings by representing them using fewer bits while preserving ranking order. The primary motivation behind quantization is to reduce the storage requirements and computational complexity of RS. However, as discussed earlier, quantizing continuous embeddings into discrete representations can lead to information loss and performance degradation in ranking tasks. To mitigate this issue, various techniques have been proposed, including:
+
+1. Quantized Singular Value Decomposition (QSVD): QSVD is a popular technique for compressing large-scale matrices using quantization. It decomposes the original matrix into singular value decomposition (SVD) and quantizes the singular values and corresponding vectors using adaptive or uniform quantization schemes.
+2. Differentially Private Quantization: Differential privacy (DP) is a powerful technique to preserve user privacy while releasing statistical information about data. Recent works have proposed techniques for quantizing embeddings using DP, ensuring that the released statistics do not reveal sensitive information about individual users or items.
+3. Hashing-based Techniques: Hashing-based techniques map high-dimensional vectors into low-dimensional hash codes using random projections or universal hash functions. These techniques have been widely used in various applications due to their simplicity, efficiency, and ability to preserve pairwise similarities between vectors.
+4. Learning-based Quantization: Learning-based quantization techniques learn optimal quantization schemes by minimizing the distortion between the original embeddings and their quantized counterparts using loss functions such as mean squared error or cross-entropy.
+
+Dimensionality reduction is another popular technique for compressing embeddings by reducing their dimensionality while preserving most of the original information. The primary motivation behind dimensionality reduction is to reduce the storage requirements, computational complexity, and improve interpretability of RS. Various techniques have been proposed for dimensionality reduction, including:
+
+1. Principal Component Analysis (PCA): PCA is a popular technique for reducing dimensionality by projecting high-dimensional data onto a lower-dimensional subspace while preserving most of the original variance.
+2. Non-negative Matrix Factorization (NMF): NMF is a popular technique for modeling non-negative data, such as user-item interactions in RS, by factorizing them into two non-negative matrices.
+3. t-Distributed Stochastic Neighbor Embedding (t-SNE): t-SNE is a popular technique for visualizing high-dimensional data by reducing their dimensionality while preserving local and global structures.
+4. Autoencoders: Autoencoders are neural networks that learn to compress data by encoding them into lower-dimensional representations using an encoder network and decoding them back to their original form using a decoder network.
+
+Recent developments in embedding compression for recommender systems have focused on addressing the following challenges:
+
+1. Scalability: Embedding compression techniques should be scalable to handle large-scale RS with millions or even billions of users and items.
+2. Robustness: Embedding compression techniques should be robust to various types of noise, such as quantization error, data sparsity, and user drift.
+3. Privacy: Embedding compression techniques should preserve user privacy while releasing statistical information about data.
+4. Interpretability: Embedding compression techniques should provide interpretable results that can help users understand the recommendations made by RS.
+5. Real-time Performance: Embedding compression techniques should be able to compress and decompress embeddings in real-time to support interactive applications, such as real-time recommendation.
+
+In conclusion, embedding compression is a crucial technique for addressing the challenges of large-scale recommender systems. Recent developments in embedding compression have focused on various approaches, including quantization and dimensionality reduction, with the primary goal of reducing storage requirements, computational complexity, and improving interpretability while preserving ranking order and user privacy. Future research directions include developing more scalable, robust, and interpretable techniques for embedding compression that can handle real-time performance requirements and support various types of data, such as text, images, and audio.
+Sources: ['2408.02304/2006.05623v1.Training_with_Multi_Layer_Embeddings_for_Model_Reduction.pdf', '2408.02304/2006.05623v1.Training_with_Multi_Layer_Embeddings_for_Model_Reduction.pdf', '2408.02304/2006.14827v2.Memory_efficient_Embedding_for_Recommendations.pdf', '2408.02304/2006.14827v2.Memory_efficient_Embedding_for_Recommendations.pdf', '2408.02304/2006.14827v2.Memory_efficient_Embedding_for_Recommendations.pdf', '2408.02304/2006.14827v2.Memory_efficient_Embedding_for_Recommendations.pdf', '2408.02304/2112.01944v1.Towards_Low_loss_1_bit_Quantization_of_User_item_Representations_for_Top_K_Recommendation.pdf', '2408.02304/2112.01944v1.Towards_Low_loss_1_bit_Quantization_of_User_item_Representations_for_Top_K_Recommendation.pdf'] 
+SourceText:A categorical variable with n possible values can be represented by an n-dimensional one-hot vector. However, a fundamental aspect of modern recommendation models is their reliance on embeddings which map categorical variables into dense representations in an abstract real-valued space. Embeddings are superior for two main reasons. The ﬁrst is that they allow a compacted representation compared to high-dimensional sparse one-hot, or multi-hot, direct encodings of categorical data. The second is that dense embedding vectors represent meaningful information that is exploited by RMs for improved performance: the angle (dot-product) between two embedding vectors
+
+represents their semantic similarity. Following a seminal innovation of Factorization Machines [24], many modern RMs exploit this by using dot-products between embedding vectors to deﬁne the strength of feature interactions.
+
+ - -
+
+A categorical variable with n possible values can be represented by an n-dimensional one-hot vector. However, a fundamental aspect of modern recommendation models is their reliance on embeddings which map categorical variables into dense representations in an abstract real-valued space. Embeddings are superior for two main reasons. The ﬁrst is that they allow a compacted representation compared to high-dimensional sparse one-hot, or multi-hot, direct encodings of categorical data. The second is that dense embedding vectors represent meaningful information that is exploited by RMs for improved performance: the angle (dot-product) between two embedding vectors
+
+represents their semantic similarity. Following a seminal innovation of Factorization Machines [24], many modern RMs exploit this by using dot-products between embedding vectors to deﬁne the strength of feature interactions.
+
+ - -
+
+0 2 0 2
+
+t c O 1 2
+
+]
+
+R
+
+I . s c [
+
+2 v 7 2 8 4 1 . 6 0 0 2 : v i X r a
+
+Memory-efficient Embedding for Recommendations
+
+Xiangyu Zhao, Haochen Liu, Hui Liu, Jiliang Tang Michigan State University {zhaoxi35,liuhaoc1,liuhui7,tangjili}@msu.edu
+
+Weiwei Guo, Jun Shi, Sida Wang, Huiji Gao, Bo Long Linkedin Corporation {wguo,jshi,sidwang,hgao,blong}@linkedin.com
+
+ - -
+
+0 2 0 2
+
+t c O 1 2
+
+]
+
+R
+
+I . s c [
+
+2 v 7 2 8 4 1 . 6 0 0 2 : v i X r a
+
+Memory-efficient Embedding for Recommendations
+
+Xiangyu Zhao, Haochen Liu, Hui Liu, Jiliang Tang Michigan State University {zhaoxi35,liuhaoc1,liuhui7,tangjili}@msu.edu
+
+Weiwei Guo, Jun Shi, Sida Wang, Huiji Gao, Bo Long Linkedin Corporation {wguo,jshi,sidwang,hgao,blong}@linkedin.com
+
+ - -
+
+[6] Jingyuan Chen, Hanwang Zhang, Xiangnan He, Liqiang Nie, Wei Liu, and Tat- Seng Chua. 2017. Attentive collaborative filtering: Multimedia recommendation with item-and component-level attention. In Proceedings of the 40th International ACM SIGIR conference on Research and Development in Information Retrieval. 335–344.
+
+[7] Ting Chen, Lala Li, and Yizhou Sun. 2019. Differentiable product quantization for end-to-end embedding compression. arXiv preprint arXiv:1908.09756 (2019). [8] Heng-Tze Cheng, Levent Koc, Jeremiah Harmsen, Tal Shaked, Tushar Chandra, Hrishi Aradhye, Glen Anderson, Greg Corrado, Wei Chai, Mustafa Ispir, et al. 2016. Wide & deep learning for recommender systems. In Proceedings of the 1st workshop on deep learning for recommender systems. ACM, 7–10.
+
+ - -
+
+[6] Jingyuan Chen, Hanwang Zhang, Xiangnan He, Liqiang Nie, Wei Liu, and Tat- Seng Chua. 2017. Attentive collaborative filtering: Multimedia recommendation with item-and component-level attention. In Proceedings of the 40th International ACM SIGIR conference on Research and Development in Information Retrieval. 335–344.
+
+[7] Ting Chen, Lala Li, and Yizhou Sun. 2019. Differentiable product quantization for end-to-end embedding compression. arXiv preprint arXiv:1908.09756 (2019). [8] Heng-Tze Cheng, Levent Koc, Jeremiah Harmsen, Tal Shaked, Tushar Chandra, Hrishi Aradhye, Glen Anderson, Greg Corrado, Wei Chai, Mustafa Ispir, et al. 2016. Wide & deep learning for recommender systems. In Proceedings of the 1st workshop on deep learning for recommender systems. ACM, 7–10.
+
+ - -
+
+Intuitively, the performance degradation for quantizing repre- sentations is mainly caused by the limited expressivity of dis- crete embeddings. Diﬀerent from applications in other domains, e.g., Natural Language Processing, Computer Vision [4, 6, 15], the top principle of quantization for recommendation is ranking preserving. However, compared to full-precision embeddings, the vectorized latent features of both users and items tend to be smoothed by the discreteness of quantization naturally. For in- stance, after the quantization into binary embedding space 1, 1 only the digit signs are kept, no matter what speciﬁc values of continuous embeddings originally are. Consequently, this leads to the information loss when estimating users’ preferences to- wards diﬀerent items, thus drawing a conspicuous performance decay in ranking tasks, e.g., Top-K recommendation. Technically, previous work mainly takes inspiration from the methodology of Quantized Convolutional Neural Networks [31, 34,
+
+ - -
+
+Intuitively, the performance degradation for quantizing repre- sentations is mainly caused by the limited expressivity of dis- crete embeddings. Diﬀerent from applications in other domains, e.g., Natural Language Processing, Computer Vision [4, 6, 15], the top principle of quantization for recommendation is ranking preserving. However, compared to full-precision embeddings, the vectorized latent features of both users and items tend to be smoothed by the discreteness of quantization naturally. For in- stance, after the quantization into binary embedding space 1, 1 only the digit signs are kept, no matter what speciﬁc values of continuous embeddings originally are. Consequently, this leads to the information loss when estimating users’ preferences to- wards diﬀerent items, thus drawing a conspicuous performance decay in ranking tasks, e.g., Top-K recommendation. Technically, previous work mainly takes inspiration from the methodology of Quantized Convolutional Neural Networks [31, 34,

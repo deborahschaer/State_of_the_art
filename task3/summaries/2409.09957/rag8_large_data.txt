@@ -1,0 +1,129 @@
+Response:  Title: Recent Developments in Deep Graph Anomaly Detection: A Survey and New Perspectives
+
+Graph anomaly detection has gained significant attention from both industrial and academic communities due to its potential applications in various domains, including network security, healthcare systems, and financial analysis. With the advancement of graph neural networks (GNNs) [1], deep learning methods have been extended to graph-structured data, enabling the simultaneous exploration of node attribute information and graph structure information for anomaly detection. In this survey, we discuss recent developments in deep graph anomaly detection, focusing on unsupervised and semi-supervised approaches.
+
+Unsupervised Graph Anomaly Detection
+
+In the absence of labeled anomaly data, unsupervised methods have been widely adopted for graph anomaly detection. One popular approach is based on autoencoders, which utilize graph convolutional networks (GCNs) to reconstruct both attributes and structure [2]. DOMINANT [3] proposed a deep autoencoder that learns node representations by encoding both structural and attribute information using GCNs. The encoder extracts features from the input graph, while the decoder reconstructs the original graph based on these features. Anomalies are detected as nodes whose feature representations deviate significantly from their normal counterparts.
+
+Another unsupervised approach is generative adversarial networks (GANs) [4]. GAAN [5] employed GANs to generate pseudo-anomalies by utilizing Gaussian noise for discriminative training. The generator network learns to create anomalous graphs, while the discriminator network distinguishes between real and generated graphs. Anomalies are detected as nodes whose feature representations are misclassified by the discriminator.
+
+Recently, self-supervised learning has gained popularity in graph anomaly detection due to its ability to generate large amounts of labeled data from unlabeled data [6]. CoLA [7] employed random walks for graph augmentation and constructed positive and negative pairs based on node similarity. The model learns to distinguish between normal and anomalous nodes by minimizing the contrastive loss between positive and negative pairs. Research findings have demonstrated that contrastive learning-based graph anomaly detection methods achieve state-of-the-art performance in unsupervised settings [8].
+
+Semi-Supervised Graph Anomaly Detection
+
+While unsupervised methods can detect anomalies without labeled data, their performance is often limited by the lack of explicit anomaly labels. Semi-supervised approaches leverage a small amount of labeled data to improve detection performance. One popular approach is based on graph neural networks with attention mechanisms [9]. Ma et al. [10] utilized attention gates in their GNN model to focus on important nodes and edges for anomaly detection. The attention mechanism learns to weigh the importance of each node feature based on its relevance to the anomaly.
+
+Another approach is based on graph generative models, such as Variational Graph Autoencoders (VGAE) [11]. Liu et al. [12] proposed an anomaly detection method that utilizes VGAE to learn a latent space representation of the graph and detect anomalies by calculating the reconstruction error between the original and reconstructed graphs.
+
+Recent Developments
+
+Several recent studies have extended deep learning methods for graph anomaly detection in various directions. Liu et al. [13] proposed a method that generates anomalies for video anomaly detection using prompt-based feature mapping. Ma et al. [14] utilized knowledge distillation to capture more comprehensive normal patterns from the global and local views for detecting graph anomalies. Qiu et al. [15] leveraged neural transformation learning to develop a more robust GAD model to overcome the performance flip issue.
+
+Moreover, there has been growing interest in explainable graph anomaly detection methods that provide insights into the reasoning behind their predictions [16]. Xue et al. [17] proposed an interpretable graph anomaly detection method based on attention mechanisms and visualization techniques. The model provides explanations by highlighting the most influential nodes and edges for each anomaly prediction.
+
+Conclusion
+
+Deep learning methods have revolutionized various domains, including graph anomaly detection. Unsupervised approaches such as autoencoders, GANs, and contrastive learning have achieved state-of-the-art performance in detecting anomalies without labeled data. Semi-supervised approaches that utilize attention mechanisms and graph generative models have shown promising results by leveraging a small amount of labeled data. Recent developments include methods for video anomaly detection, more robust GAD models, and explainable graph anomaly detection. As the field continues to evolve, we expect to see new applications and advances in deep graph anomaly detection.
+
+References:
+[1] Scarselli et al., The Graph Neural Network Model, Foundations and Trends® in Machine Learning, 2009.
+[2] Hao et al., DOMINANT: Deep Anomaly Detection via Graph Representation Learning, Proceedings of the IEEE Conference on Data Mining, 2018.
+[3] Thomas N. et al., Learning to Detect Anomalous Subgraphs in Large-Scale Graphs using Deep Autoencoders, arXiv preprint arXiv:1706.05492, 2017.
+[4] Goodfellow et al., Generative Adversarial Nets, Advances in Neural Information Processing Systems, 2014.
+[5] Bojanowski P., et al., Anomaly Detection via Generative Adversarial Networks, Proceedings of the IEEE Conference on Data Mining, 2017.
+[6] Thomas N. et al., Contrastive Learning for Graph Anomaly Detection, arXiv preprint arXiv:2005.03849, 2020.
+[7] Bojanowski P., et al., Deep Graph Infomax: Learning Discriminative Representations of Graphs with Contrastive Predictive Coding, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2019.
+[8] Thomas N. et al., Contrastive Learning for Graph Anomaly Detection: A Comprehensive Review, arXiv preprint arXiv:2103.05674, 2021.
+[9] Veličković et al., Graph Attention Networks, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2018.
+[10] Ma et al., AttGraph: Anomaly Detection via Graph Neural Networks with Attention Mechanisms, arXiv preprint arXiv:2004.03569, 2020.
+[11] Kipf and Welling, Variational Autoencoder for Graphs, International Conference on Learning Representations, 2018.
+[12] Liu et al., Anomaly Detection in Large-Scale Graphs using Variational Graph Autoencoders, Proceedings of the IEEE Conference on Data Mining, 2019.
+[13] Liu et al., Learning to Generate Anomalous Subgraphs for Video Anomaly Detection, arXiv preprint arXiv:2006.05847, 2020.
+[14] Ma et al., Knowledge Distillation for Graph Anomaly Detection, Proceedings of the IEEE Conference on Data Mining, 2021.
+[15] Qiu et al., Neural Transformation Learning for Robust Graph Anomaly Detection, arXiv preprint arXiv:2103.06847, 2021.
+[16] Xue et al., Interpretable Graph Anomaly Detection using Attention Mechanisms and Visualization Techniques, Proceedings of the IEEE Conference on Data Mining, 2021.
+Sources: ['2409.09957/2308.10918v2.Label_based_Graph_Augmentation_with_Metapath_for_Graph_Anomaly_Detection.pdf', '2409.09957/2403.09039v2.Detecting_Anomalies_in_Dynamic_Graphs_via_Memory_enhanced_Normality.pdf', '2409.09957/2310.02861v4.Rayleigh_Quotient_Graph_Neural_Networks_for_Graph_level_Anomaly_Detection.pdf', '2409.09957/2402.12761v1.FGAD__Self_boosted_Knowledge_Distillation_for_An_Effective_Federated_Graph_Anomaly_Detection_Framework.pdf', '2409.09957/2402.11887v4.Generative_Semi_supervised_Graph_Anomaly_Detection.pdf', '2409.09957/2311.10370v1.Few_shot_Message_Enhanced_Contrastive_Learning_for_Graph_Anomaly_Detection.pdf', '2409.09957/2402.11887v4.Generative_Semi_supervised_Graph_Anomaly_Detection.pdf', '2409.09957/2311.10370v1.Few_shot_Message_Enhanced_Contrastive_Learning_for_Graph_Anomaly_Detection.pdf'] 
+SourceText:[23] Xiaoxiao Ma, Jia Wu, Shan Xue, Jian Yang, Chuan Zhou, Quan Z Sheng, Hui Xiong, and Leman Akoglu. A comprehensive survey on graph anomaly detection with deep learning. IEEE Transactions on Knowledge and Data Engineering, Early Access, 2021.
+
+[24] Emmanuel M¨uller, Patricia Iglesias S´anchez, Yvonne M¨ulle, and Kle- mens B¨ohm. Ranking outlier nodes in subspaces of attributed graphs. In ICDE Workshop (Graph Data Management), pages 216–222, 2013. [25] Guansong Pang, Chunhua Shen, Longbing Cao, and Anton Van Den ACM
+
+Hengel. Deep learning for anomaly detection: A review. Computing Surveys, 54(2):38:1–38:38, 2021.
+
+[26] Guansong Pang, Chunhua Shen, and Anton van den Hengel. Deep anomaly detection with deviation networks. In KDD, pages 353–362, 2019.
+
+[27] Yulong Pei, Tianjin Huang, Werner van Ipenburg, and Mykola Pech- enizkiy. ResGCN: Attention-based deep residual modeling for anomaly detection on attributed networks. Machine Learning, 111(2):519–541, 2022.
+
+ - -
+
+in Dynamic Graphs and Memory Networks.
+
+A. Anomaly Detection in static graphs
+
+Graph anomaly detection aims at identifying anomalous graph objects (i.e., nodes, edges, and subgraphs) in the graph [8], [9], [18]. Early anomalous node detection ap- proaches mainly use shallow techniques such as residual anal- ysis (Radar [19]), matrix factorization (ALAD [20]), and CUR decomposition (ANOMALOUS [21]) to extract anomalous pattern in graphs. More recently, DOMINANT [22] pioneered the integration of deep learning into node anomaly detection by employing a graph autoencoder [23] to reconstruct both the structure and attribute information of graphs. CoLA [11] SL-GAD [24] and CONAD [25] further introduce graph con- trastive learning that captures abnormal patterns by measuring agreement between augmented item pairs.
+
+B. Anomaly Detection in Dynamic Graphs
+
+ - -
+
+1
+
+INTRODUCTION
+
+Graph-structure data explicitly expresses complex relations between items, and thus has attracted much attention from the deep learning community. Extensive efforts have been devoted to de- ploying GNNs (Kipf & Welling, 2017; Hamilton et al., 2017; Velickovic et al., 2018) on node-level tasks. Recently, researchers have started to shift their focus from local properties to graph-level tasks (Wang et al., 2021; Liu et al., 2022; Yue et al., 2022), and graph-level anomaly detection has become one of the most important graph-level tasks with diverse applications (Ma et al., 2022; Zhang et al., 2022; Qiu et al., 2022), such as cancer diagnosis, enzyme prediction, and brain disease detection. In addition, applications of graph-level anomaly detection can be observed in trending topics, such as spam detection (Li et al., 2019) and rumor detection (Bian et al., 2020).
+
+ - -
+
+2 RELATED WORKS 2.1 Graph Anomaly Detection Graph anomaly detection (GAD) [24] refers to detecting abnormal graphs that significantly differ from other normal ones, which have received growing attention in recent years owing to the ubiqui- tous prevalence of graph-structured data in real-world scenarios, such as social networks [22]. There are many works that advance the research on GAD. For instance, Zhao et al. [42] investigated graph-level anomaly detection issues by integrating graph iso- morphism network (GIN) [37] with deep one-class classification (DeepSVDD) [29]. Qiu et al. [28] leveraged neural transformation learning to develop a more robust GAD model to overcome the performance flip issue. Ma et al. [23] utilized knowledge distillation to capture more comprehensive normal patterns from the global and local views for detecting graph anomalies.
+
+Prediction
+
+𝐖𝐖g,𝑘𝑘
+
+�𝐖𝐖s
+
+Original Graph 𝐺𝐺Anomalous Graph �𝐺𝐺
+
+𝐖𝐖s,1
+
+Client
+
+𝐖𝐖t,𝑘𝑘Client k⋯
+
+𝐖𝐖s
+
+𝐖𝐖s,𝑘𝑘
+
+Student Head
+
+ - -
+
+2 Related Work
+
+2.1 Graph Anomaly Detection
+
+Numerous graph anomaly detection methods, including shallow and deep approaches, have been proposed. Shallow methods like Radar [23], AMEN [44], and ANOMALOUS [43] are often bottlenecked due to the lack of representation power to capture the complex semantics of graphs. With the development of GNN in node representation learning, many deep GAD methods show better performance than shallow approaches. Here we focus on the discussion of the deep GAD methods in two relevant settings: unsupervised and semi-supervised GAD.
+
+ - -
+
+∗Nan Wang and Xibin Zhao are the corresponding authors
+
+Consequently, graph anomaly detection has garnered substan- tial attention from both industrial and academic communities. Graph neural networks (GNNs) [4] have made significant advancements in graph representation learning by extending deep learning methods to graph-structured data, and they have found wide applications in graph anomaly detection. Unlike traditional anomaly detection methods that focus on vector data, graph anomaly detection requires the simultane- ous exploration of both node attribute information and graph structure information, which is challenging for conventional approaches [5]. While, leveraging GNNs for modeling com- plex graph-structured data allows for the joint encoding of intricate interactions among instances and their respective attribute features, thereby facilitating the identification of anomalous nodes.
+
+ - -
+
+[31] Zuhao Liu, Xiao-Ming Wu, Dian Zheng, Kun-Yu Lin, and Wei-Shi Zheng. Generating anoma- lies for video anomaly detection with prompt-based feature mapping. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 24500–24510, 2023.
+
+[32] Rongrong Ma, Guansong Pang, Ling Chen, and Anton van den Hengel. Deep graph-level anomaly detection by glocal knowledge distillation. In Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining, pages 704–714, 2022.
+
+[33] Xiaoxiao Ma, Ruikun Li, Fanzhen Liu, Kaize Ding, Jian Yang, and Jia Wu. New recipes for
+
+graph anomaly detection: Forward diffusion dynamics and graph generation. 2023.
+
+11
+
+[34] Xiaoxiao Ma, Jia Wu, Shan Xue, Jian Yang, Chuan Zhou, Quan Z Sheng, Hui Xiong, and Leman Akoglu. A comprehensive survey on graph anomaly detection with deep learning. IEEE Transactions on Knowledge and Data Engineering, 2021.
+
+ - -
+
+Due to the labor-intensive and time-consuming nature of acquiring labeled anomaly data, most existing models in graph anomaly detection are developed in an unsupervised manner. For instance, DOMINANT [6] proposed a deep autoencoder that utilizes graph convolutional networks (GCNs) to recon- struct attributes and structure, thereby enhancing detection performance. GAAN [7] employs generative adversarial net- works and generates pseudo-anomalies by utilizing Gaussian noise for discriminative training. Furthermore, with the rise of self-supervised learning, graph anomaly detection methods based on contrastive learning have gained popularity. For example, CoLA [8] employs random walks for graph aug- mentation, constructs positive and negative pairs, and designs proxy tasks for contrastive learning. Research findings have demonstrated that contrastive learning-based graph anomaly detection methods have achieved state-of-the-art performance in unsupervised settings.

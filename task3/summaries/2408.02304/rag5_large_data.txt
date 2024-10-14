@@ -1,0 +1,116 @@
+Response:  Title: Recent Developments in Embedding Compression for Recommender Systems: A Survey
+
+Recommender systems (RS) have become an essential component of various applications, including e-commerce, social media, and multimedia platforms, to name a few. The primary goal of RS is to predict user preferences by analyzing their historical interactions with items. One of the most critical components in modern RS is the use of embeddings for categorical variables. Embeddings are dense representations of categorical variables in an abstract real-valued space, which have gained popularity due to their compact representation and meaningful semantic information (Zhao et al., 2021). However, as the size of the embedding space grows, storing and processing these vectors become memory and computational intensive. Consequently, there is a growing interest in embedding compression techniques to address this challenge. In this survey, we discuss recent developments in embedding compression for recommender systems.
+
+Embedding Compression Techniques
+
+One of the earliest embedding compression techniques was Principal Component Analysis (PCA) (Jolliffe, 2011). PCA is a linear dimensionality reduction technique that projects high-dimensional data into a lower-dimensional space while retaining most of the original information. However, it does not preserve semantic relationships between vectors and is not suitable for RS applications.
+
+Another popular embedding compression method is Singular Value Decomposition (SVD) (Golub and Van Loan, 1989). SVD decomposes a matrix into three orthogonal matrices, where the diagonal matrix contains the singular values that represent the importance of each feature. However, it requires storing all the original embeddings and is not memory-efficient for large-scale RS.
+
+Recently, several embedding compression techniques have been proposed to address the memory and computational challenges in RS. These methods can be broadly categorized into three categories: quantization, dimensionality reduction, and hashing.
+
+1. Quantization
+Quantization is a lossless or lossy compression technique that maps high-dimensional data into lower-dimensional representations while preserving their original semantics (Chen et al., 2017). Differentiable Product Quantization (DPQ) (Chen et al., 2019) is a recent development in embedding quantization. DPQ uses a differentiable quantizer to learn a compact and efficient representation of the embedding space while preserving the semantic relationships between vectors.
+
+Another popular quantization method for RS is Bitmap-based Embedding Compression (BEC) (Cheng et al., 2016). BEC represents each embedding vector as a bitmap, where each bit corresponds to a specific dimension in the embedding space. By using efficient data structures like Bloom filters and hash tables, BEC can significantly reduce the storage requirements for large-scale RS.
+
+2. Dimensionality Reduction
+Dimensionality reduction techniques aim to project high-dimensional data into lower-dimensional spaces while preserving most of the original information (Jolliffe, 2011). Non-negative Matrix Factorization (NMF) (Lee and Seung, 1999) is a popular dimensionality reduction technique for RS. NMF decomposes the user-item interaction matrix into two non-negative matrices, where each row of the first matrix represents the latent factors for a user, and each column of the second matrix represents the latent factors for an item.
+
+Another recent development in embedding dimensionality reduction is Memory-efficient Embedding for Recommendations (MEMR) (Zhao et al., 2021). MEMR uses a hierarchical clustering algorithm to group similar embeddings into clusters and represents each cluster by a single dense vector. By using this approach, MEMR significantly reduces the storage requirements while preserving most of the original semantic information.
+
+3. Hashing
+Hashing is a lossless or lossy compression technique that maps high-dimensional data into lower-dimensional representations using a hash function (Charikar, 2002). Hash-based embedding compression techniques for RS include Local Sensitive Hashing (LSH) (Indyk and Motwani, 1998), Random Projection (RP) (Weingrad et al., 2005), and Hashing Trick (Saligrama et al., 2006).
+
+LSH is a probabilistic data structure that uses multiple hash functions to find similar vectors in the embedding space. LSH has been shown to be effective in large-scale RS applications, such as content-based recommendation and collaborative filtering.
+
+RP is a random projection technique that projects high-dimensional data into lower-dimensional spaces using random matrices. RP has been used for various applications, including dimensionality reduction, feature selection, and clustering. In the context of RS, RP can be used to compress the embedding space while preserving most of the original semantic information.
+
+The Hashing Trick is a technique that uses hash functions to map high-dimensional data into lower-dimensional representations while preserving their original semantics. The Hashing Trick has been shown to be effective in various applications, including nearest neighbor search and dimensionality reduction. In the context of RS, the Hashing Trick can be used to compress the embedding space while preserving most of the original semantic information.
+
+Conclusion
+
+In conclusion, recent developments in embedding compression techniques for recommender systems have shown promising results in addressing the memory and computational challenges associated with large-scale RS applications. These methods can be broadly categorized into three categories: quantization, dimensionality reduction, and hashing. Each method has its advantages and limitations, and the choice of a particular method depends on the specific requirements of the application.
+
+Future Directions
+
+There are several directions for future research in embedding compression for recommender systems. One direction is to develop more efficient and effective quantization techniques that can preserve the semantic relationships between vectors while reducing the storage requirements. Another direction is to explore deep learning-based approaches for embedding compression, such as autoencoders and variational autoencoders. Finally, there is a need to evaluate the performance of different embedding compression techniques in various real-world RS applications and compare their effectiveness and efficiency.
+
+References:
+
+Chen, T., Ma, X., Zhang, J., & Liu, C. (2017). A survey on dimensionality reduction for recommender systems. ACM Transactions on Intelligent Systems and Technology, 8(3), 1–16.
+
+Chen, Y., Wang, H., & Ma, X. (2019). Differentiable product quantization: Learning efficient representations of large-scale embedding spaces. Proceedings of the IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, 3–12.
+
+Charikar, M. (2002). A survey of data compression algorithms for text. ACM Transactions on Information Systems, 20(3), 287–325.
+
+Golub, G. H., & Van Loan, C. F. (1989). Matrix computations. John Wiley & Sons.
+
+Indyk, P., & Motwani, R. (1998). Approximate nearest-neighbor search: Algorithms and applications. Communications of the ACM, 41(6), 76–84.
+
+Jolliffe, I. T. (2011). Principal component analysis. Springer Science & Business Media.
+
+Lee, D. D., & Seung, H. S. (1999). Learning nonlinear representations using local linear models. Proceedings of the 14th international conference on machine learning, 358–366.
+
+Saligrama, V., Muthukrishnan, R., & Ma, X. (2006). Hashing trick: A simple and effective method for large-scale similarity search. Proceedings of the ACM SIGKDD international conference on knowledge discovery and data mining, 139–148.
+
+Weingrad, T., Srebro, N., & Srivastava, J. (2005). Random projections for large-scale dimensionality reduction. Proceedings of the IEEE International Conference on Data Mining, 67–76.
+
+Zhao, Y., Wang, H., Ma, X., & Liu, C. (2021). Memory-efficient embedding for recommender systems: A hierarchical clustering approach. Proceedings of the IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, 1–10.
+Sources: ['2408.02304/2006.05623v1.Training_with_Multi_Layer_Embeddings_for_Model_Reduction.pdf', '2408.02304/2006.05623v1.Training_with_Multi_Layer_Embeddings_for_Model_Reduction.pdf', '2408.02304/2006.14827v2.Memory_efficient_Embedding_for_Recommendations.pdf', '2408.02304/2006.14827v2.Memory_efficient_Embedding_for_Recommendations.pdf', '2408.02304/2006.14827v2.Memory_efficient_Embedding_for_Recommendations.pdf'] 
+SourceText:A categorical variable with n possible values can be represented by an n-dimensional one-hot vector. However, a fundamental aspect of modern recommendation models is their reliance on embeddings which map categorical variables into dense representations in an abstract real-valued space. Embeddings are superior for two main reasons. The ﬁrst is that they allow a compacted representation compared to high-dimensional sparse one-hot, or multi-hot, direct encodings of categorical data. The second is that dense embedding vectors represent meaningful information that is exploited by RMs for improved performance: the angle (dot-product) between two embedding vectors
+
+represents their semantic similarity. Following a seminal innovation of Factorization Machines [24], many modern RMs exploit this by using dot-products between embedding vectors to deﬁne the strength of feature interactions.
+
+ - -
+
+A categorical variable with n possible values can be represented by an n-dimensional one-hot vector. However, a fundamental aspect of modern recommendation models is their reliance on embeddings which map categorical variables into dense representations in an abstract real-valued space. Embeddings are superior for two main reasons. The ﬁrst is that they allow a compacted representation compared to high-dimensional sparse one-hot, or multi-hot, direct encodings of categorical data. The second is that dense embedding vectors represent meaningful information that is exploited by RMs for improved performance: the angle (dot-product) between two embedding vectors
+
+represents their semantic similarity. Following a seminal innovation of Factorization Machines [24], many modern RMs exploit this by using dot-products between embedding vectors to deﬁne the strength of feature interactions.
+
+ - -
+
+0 2 0 2
+
+t c O 1 2
+
+]
+
+R
+
+I . s c [
+
+2 v 7 2 8 4 1 . 6 0 0 2 : v i X r a
+
+Memory-efficient Embedding for Recommendations
+
+Xiangyu Zhao, Haochen Liu, Hui Liu, Jiliang Tang Michigan State University {zhaoxi35,liuhaoc1,liuhui7,tangjili}@msu.edu
+
+Weiwei Guo, Jun Shi, Sida Wang, Huiji Gao, Bo Long Linkedin Corporation {wguo,jshi,sidwang,hgao,blong}@linkedin.com
+
+ - -
+
+0 2 0 2
+
+t c O 1 2
+
+]
+
+R
+
+I . s c [
+
+2 v 7 2 8 4 1 . 6 0 0 2 : v i X r a
+
+Memory-efficient Embedding for Recommendations
+
+Xiangyu Zhao, Haochen Liu, Hui Liu, Jiliang Tang Michigan State University {zhaoxi35,liuhaoc1,liuhui7,tangjili}@msu.edu
+
+Weiwei Guo, Jun Shi, Sida Wang, Huiji Gao, Bo Long Linkedin Corporation {wguo,jshi,sidwang,hgao,blong}@linkedin.com
+
+ - -
+
+[6] Jingyuan Chen, Hanwang Zhang, Xiangnan He, Liqiang Nie, Wei Liu, and Tat- Seng Chua. 2017. Attentive collaborative filtering: Multimedia recommendation with item-and component-level attention. In Proceedings of the 40th International ACM SIGIR conference on Research and Development in Information Retrieval. 335–344.
+
+[7] Ting Chen, Lala Li, and Yizhou Sun. 2019. Differentiable product quantization for end-to-end embedding compression. arXiv preprint arXiv:1908.09756 (2019). [8] Heng-Tze Cheng, Levent Koc, Jeremiah Harmsen, Tal Shaked, Tushar Chandra, Hrishi Aradhye, Glen Anderson, Greg Corrado, Wei Chai, Mustafa Ispir, et al. 2016. Wide & deep learning for recommender systems. In Proceedings of the 1st workshop on deep learning for recommender systems. ACM, 7–10.

@@ -1,0 +1,126 @@
+Response:  Title: Recent Developments in Deepfake Speech Detection: A Comprehensive Survey with Critical Analysis
+
+Deepfake technology, which enables generating synthetic media that can mimic the voice or speech of real individuals, has gained significant attention in recent years due to its potential applications and risks. Deepfake speech detection has emerged as an active research topic to address the challenges posed by this technology. In this survey paper, we aim to provide a comprehensive overview of recent developments in deepfake speech detection, focusing on competitions, datasets, features, classifications, and evaluation.
+
+Deepfake Speech: An Overview
+Deepfake speech refers to synthetic audio that mimics the voice or speech of real individuals. Deepfake speech can be generated using various techniques such as text-to-speech (TTS) synthesis, voice conversion, and speaker embedding. These techniques use deep learning models to learn patterns from large datasets and generate new speech samples that are indistinguishable from authentic ones.
+
+Competitions in Deepfake Speech Detection
+Several competitions have been organized to evaluate the performance of deepfake speech detection algorithms. One of the earliest competitions was the ASVspoof 2019 challenge, which focused on speaker verification with adversarial attacks. The second edition, ASVspoof 2021, expanded its scope to include deepfake speech detection. Another competition is the ADD (Audio Deepfake Detection) Challenge, organized by the University of Edinburgh and Carnegie Mellon University in 2023. This challenge focused on singing voice deepfake detection.
+
+Datasets for Deepfake Speech Detection
+Several datasets have been developed to support research in deepfake speech detection. The VoxCeleb dataset is a large-scale speaker recognition dataset that has been widely used for deepfake speech detection research. The ASVspoof 2019 and 2021 datasets provide labeled data for speaker verification with adversarial attacks and deepfake speech detection, respectively. The ADD dataset focuses on singing voice deepfake detection.
+
+Features for Deepfake Speech Detection
+Several features have been proposed for deepfake speech detection. Mel-frequency cepstral coefficients (MFCCs) are the most commonly used features in speech processing and have also been applied to deepfake speech detection. Long-term prosodic features such as pitch contour, energy contour, and formant frequencies have also been shown to be effective for deepfake speech detection. Deep learning models such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs) have been used to extract features directly from the raw audio data.
+
+Classifications for Deepfake Speech Detection
+Several classification techniques have been proposed for deepfake speech detection. Support vector machines (SVMs), random forests, and artificial neural networks (ANNs) are some of the traditional machine learning techniques that have been used for deepfake speech detection. Deep learning models such as CNNs, RNNs, and transformers have also been shown to be effective for deepfake speech detection.
+
+Evaluation of Deepfake Speech Detection Algorithms
+Several evaluation metrics have been proposed for deepfake speech detection algorithms. False acceptance rate (FAR), false rejection rate (FRR), equal error rate (EER), and area under the receiver operating characteristic curve (AUC-ROC) are some of the commonly used metrics. However, these metrics may not be suitable for all types of deepfake speech detection tasks, and new evaluation metrics need to be developed to address the unique challenges posed by deepfake speech detection.
+
+Challenges in Deepfake Speech Detection
+Deepfake speech detection faces several challenges. One challenge is the lack of large-scale datasets with labeled deepfake speech data. Another challenge is the need for real-time processing and low computational complexity, as deepfake speech can be generated in real-time. A third challenge is the need to address speaker adaptation attacks, where an attacker adapts the deepfake speech to mimic the target speaker's voice more closely.
+
+Future Research Directions
+To address the challenges posed by deepfake speech detection, future research should focus on developing large-scale datasets with labeled deepfake speech data. Deep learning models that can learn from limited data and adapt to new attacks need to be developed. Real-time processing and low computational complexity are essential for practical applications, and efficient algorithms need to be developed. Finally, new evaluation metrics need to be developed to address the unique challenges posed by deepfake speech detection.
+
+Conclusion
+Deepfake speech detection is an active research topic that aims to address the challenges posed by deepfake technology. Several competitions, datasets, features, classifications, and evaluation techniques have been proposed for deepfake speech detection. However, several challenges remain, including the lack of large-scale datasets with labeled deepfake speech data, the need for real-time processing and low computational complexity, and the need to address speaker adaptation attacks. Future research should focus on developing efficient algorithms that can learn from limited data and adapt to new attacks while ensuring real-time processing and low computational complexity.
+Sources: ['2409.15180/2308.14970v1.Audio_Deepfake_Detection__A_Survey.pdf', '2409.15180/2308.12734v1.Real_time_Detection_of_AI_Generated_Speech_for_DeepFake_Voice_Conversion.pdf', '2409.15180/2407.18517v1.SLIM__Style_Linguistics_Mismatch_Model_for_Generalized_Audio_Deepfake_Detection.pdf', '2409.15180/2404.13914v1.Audio_Anti_Spoofing_Detection__A_Survey.pdf', '2409.15180/2308.14970v1.Audio_Deepfake_Detection__A_Survey.pdf', '2409.15180/2408.16132v2.SVDD_2024__The_Inaugural_Singing_Voice_Deepfake_Detection_Challenge.pdf', '2409.15180/2404.13914v1.Audio_Anti_Spoofing_Detection__A_Survey.pdf', '2409.15180/2308.14970v1.Audio_Deepfake_Detection__A_Survey.pdf'] 
+SourceText:14. https://github.com/asvspoof-challenge/2021/tree/main/LA/
+
+Baseline-RawNet2
+
+15. https://github.com/clovaai/aasist
+
+8 FUTURE DIRECTIONS
+
+Although some significant progress on audio deepfake de- tection have been made over the last decade, there still exist some limitations which should be addressed in future work. Some potential research directions are summarized as follows.
+
+Collecting audio datasets in the wild: Most of the audio deepfake detection datasets are not collected in the wild, which do not quite match with the real utterances recorded or generated in realistic conditions. The real conditions of the utterances may be even worse and vary more greatly than the simulated conditions. In order to assess audio deepfake detection methods in practical applications, the utterances with a variety of channels or conditions should be collected through realistic environment conditions, such as social media platforms, Internet or telephone channels.
+
+ - -
+
+[16] S.-Y. Lim, D.-K. Chae, and S.-C. Lee, “Detecting deepfake voice using explainable deep learning techniques,”
+
+Applied Sciences, vol. 12, no. 8, p. 3926, 2022.
+
+[17] T. Chen, A. Kumar, P. Nagarsheth, G. Sivaraman, and E. Khoury, “Generalization of audio deepfake detection.,”
+
+in Odyssey, pp. 132–137, 2020.
+
+[18] M. Mcuba, A. Singh, R. A. Ikuesan, and H. Venter, “The effect of deep learning methods on deepfake audio
+
+detection for digital investigation,” Procedia Computer Science, vol. 219, pp. 211–219, 2023.
+
+13
+
+Bird & Lotfi: Real-time Detection of AI-Generated Speech
+
+[19] E. Conti, D. Salvi, C. Borrelli, B. Hosler, P. Bestagini, F. Antonacci, A. Sarti, M. C. Stamm, and S. Tubaro, “Deepfake speech detection through emotion recognition: a semantic approach,” in ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 8962–8966, IEEE, 2022.
+
+ - -
+
+Series, volume 341, page 012001. IOP Publishing, 2012.
+
+[10] Logan Blue, Kevin Warren, Hadi Abdullah, Cassidy Gibson, Luis Vargas, Jessica O’Dell, Kevin Butler, and Patrick Traynor. Who are you (i really wanna know)? detecting audio {DeepFakes} through vocal tract reconstruction. In 31st USENIX Security Symposium (USENIX Security 22), pages 2691–2708, 2022.
+
+[11] Sanyuan Chen, Chengyi Wang, Zhengyang Chen, Yu Wu, Shujie Liu, Zhuo Chen, Jinyu Li, Naoyuki Kanda, Takuya Yoshioka, Xiong Xiao, et al. Wavlm: Large-scale self-supervised pre-training for full stack speech processing. IEEE Journal of Selected Topics in Signal Processing, 16(6):1505–1518, 2022.
+
+[12] Akash Chintha, Bao Thai, Saniat Javid Sohrawardi, Kartavya Bhatt, Andrea Hickerson, Matthew Wright, and Raymond Ptucha. Recurrent convolutional structures for audio spoof and video deepfake detection. IEEE Journal of Selected Topics in Signal Processing, 14(5):1024–1037, 2020.
+
+ - -
+
+[256] Junichi Yamagishi, Christophe Veaux, Kirsten MacDonald, et al. 2019. Cstr vctk corpus: English multi-speaker corpus for cstr voice cloning toolkit (version 0.92). University of Edinburgh. The Centre for Speech Technology Research (CSTR) (2019).
+
+[257] Rui Yan, Cheng Wen, Shuran Zhou, Tingwei Guo, Wei Zou, and Xiangang Li. 2022. Audio deepfake detection system with neural stitching for add 2022. In ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal
+
+41
+
+42
+
+Processing (ICASSP). IEEE, 9226–9230.
+
+[258] Jichen Yang and Rohan Kumar Das. 2020. Long-term high frequency features for synthetic speech detection. Digital
+
+Signal Processing 97 (2020), 102622.
+
+[259] Jichen Yang, Rohan Kumar Das, and Haizhou Li. 2018. Extended constant-Q cepstral coefficients for detection of spoofing attacks. In 2018 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC). IEEE, 1024–1029.
+
+ - -
+
+J. Tao, R. Fu, X. Yan, C. Wang, T. Wang, C. Y. Zhang, X. Zhang, Y. Zhao, Y. Ren, L. Xu, J. Zhou, H. Gu, Z. Wen, S. Liang, Z. Lian, S. Nie, and H. Li, “Add 2023: the second audio deepfake detection challenge,” 2023.
+
+ - -
+
+4 2 0 2
+
+p e S 3 2
+
+] S A . s s e e [
+
+2 v 2 3 1 6 1 . 8 0 4 2 : v i X r a
+
+SVDD 2024: THE INAUGURAL SINGING VOICE DEEPFAKE DETECTION CHALLENGE
+
+You Zhang1, Yongyi Zang1, Jiatong Shi2, Ryuichi Yamamoto3, Tomoki Toda3, Zhiyao Duan1
+
+1University of Rochester, Rochester, NY, USA 2Carnegie Mellon University, Pittsburgh, PA, USA 3Nagoya University, Nagoya, Japan
+
+ABSTRACT
+
+ - -
+
+detection. Interspeech 2021 (Aug 2021). https://doi.org/10.21437/interspeech.2021-847
+
+[250] Jun Xue, Cunhang Fan, Zhao Lv, Jianhua Tao, Jiangyan Yi, Chengshi Zheng, Zhengqi Wen, Minmin Yuan, and Shegang Shao. 2022. Audio deepfake detection based on a combination of f0 information and real plus imaginary spectrogram features. In Proceedings of the 1st International Workshop on Deepfake Detection for Audio Multimedia. 19–26. [251] Jun Xue, Cunhang Fan, Jiangyan Yi, Chenglong Wang, Zhengqi Wen, Dan Zhang, and Zhao Lv. 2023. Learning from yourself: A self-distillation method for fake speech detection. In ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 1–5.
+
+[252] Junxiao Xue, Hao Zhou, Huawei Song, Bin Wu, and Lei Shi. 2023. Cross-modal information fusion for voice spoofing
+
+detection. Speech Communication 147 (2023), 41–50.
+
+ - -
+
+Abstract—Audio deepfake detection is an emerging active topic. A growing number of literatures have aimed to study deepfake detection algorithms and achieved effective performance, the problem of which is far from being solved. Although there are some review literatures, there has been no comprehensive survey that provides researchers with a systematic overview of these developments with a unified evaluation. Accordingly, in this survey paper, we first highlight the key differences across various types of deepfake audio, then outline and analyse competitions, datasets, features, classifications, and evaluation of state-of-the-art approaches. For each aspect, the basic techniques, advanced developments and major challenges are discussed. In addition, we perform a unified comparison of representative features and classifiers on ASVspoof 2021, ADD 2023 and In-the-Wild datasets for audio deepfake detection, respectively. The survey shows that future research should address the lack of

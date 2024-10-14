@@ -1,0 +1,67 @@
+Response:  Recent developments in Large Language Model (LLM)-based Natural Language Generation (NLG) evaluation have gained significant attention due to the increasing importance of thoroughly evaluating LLMs given their advanced capabilities. Traditionally, NLP models are assessed using standardized benchmark test suites, but as LLMs surpass these capabilities, a more comprehensive understanding is required (Hendrycks et al., 2021; Gao et al., 2021; Srivastava et al., 2022; Liang et al., 2022; Li et al., 2023b). This has led to the incorporation of human evaluation for a more nuanced understanding of model performance (Wang et al., 2022a; Chiang et al., 2023; Wu et al., 2023).
+
+Recent studies have shown that well-trained LLMs can be utilized in NLG evaluation, particularly in a reference-based approach where they derive the similarity between the candidate and the reference using an LLM (Kotonya et al., 2023; Larionov et al., 2023; Lee et al., 2023a). Some prominent metrics in this class include Mover-Score (Lausanne et al., 2003), BERTScore (Zhang et al., 2019), and COEVAL (Lee et al., 2023b). These metrics measure distributional similarity rather than lexical overlap, making them appropriate for contexts that require more flexible generation.
+
+One of the most significant advantages of LLM-based evaluation is its ability to conduct evaluations in a reference-free manner (Lee et al., 2023b). Recent studies have demonstrated that large language models can rate a candidate text or perform a comparative assessment of two candidates based on a specified evaluation aspect, displaying a high correlation with human assessments in tasks such as summarization and story generation (Larionov et al., 2023; Lee et al., 2023a).
+
+However, it is important to note that the evaluations primarily focus on lexical quality aspects, such as coherence and fluency. While these aspects are crucial in NLG tasks, they do not capture the full range of evaluation criteria required for a comprehensive assessment (Lee et al., 2023b). For instance, other important criteria include relevance, factual correctness, and appropriateness to the target audience.
+
+Moreover, while LLMs can provide diverse high-quality task-specific evaluation criteria, approximately 27% of these evaluations are still deemed to be "unrealistic" (Lee et al., 2023b). This highlights the importance of human involvement in the evaluation process. In Stage 1 of the COEVAL system, for instance, it was found that LLMs can provide over 70% of the final criteria, but approximately 27% were still deemed to be unrealistic (Lee et al., 2023b).
+
+Despite these challenges, recent developments in LLM-based NLG evaluation hold great promise. In Stage 2 of the COEVAL system, most LLM evaluations were found to be acceptable, particularly for criteria such as relevance, achieving around 48% time savings compared to human evaluations without LLM assistants (Lee et al., 2023b). Furthermore, through the use of LLM evaluations, outlier human evaluations that would typically appear in conventional human evaluation processes can be reduced by 62% (Lee et al., 2023b).
+
+Moreover, recent studies have explored the potential of combining human and LLM evaluations to create a more comprehensive and accurate evaluation process. For instance, Neema Kotonya et al. (2023) proposed using small LLMs as evaluation metrics in summarization tasks, while Daniil Larionov et al. (2023) explored retrieval-augmented in-context learning for NLG evaluation. Ariel N. Lee et al. (2023a) introduced Platypus, a system that uses LLMs to quickly and cheaply refine human evaluations.
+
+Another promising direction is the development of trustworthy evaluation methods without excessive human effort. Neema Kotonya et al. (2023) argued that little giants, or small LLMs, can be effective evaluation metrics in summarization tasks. Daniil Larionov et al. (2023) proposed using retrieval-augmented in-context learning for NLG evaluation, while Ariel N. Lee et al. (2023a) introduced Platypus, a system that uses LLMs to quickly and cheaply refine human evaluations.
+
+However, it is important to note that these developments come with their own set of challenges. For instance, the use of small LLMs as evaluation metrics may introduce biases or errors due to their limited capacity (Kotonya et al., 2023). Retrieval-augmented in-context learning for NLG evaluation may require significant computational resources and may not be effective in all contexts (Larionov et al., 2023). Platypus, on the other hand, may introduce biases or errors due to the reliance on LLMs to refine human evaluations (Lee et al., 2023a).
+
+In conclusion, recent developments in LLM-based NLG evaluation hold great promise for creating more comprehensive and accurate evaluation processes. However, they also come with their own set of challenges, such as the need for human involvement, the focus on lexical quality aspects, and the potential introduction of biases or errors due to the reliance on LLMs. To address these challenges, future research should explore ways to combine human and LLM evaluations, develop trustworthy evaluation methods without excessive human effort, and expand the scope of evaluation criteria beyond lexical quality aspects. Ultimately, the goal is to create a more comprehensive and accurate evaluation process that can effectively assess the full range of NLG tasks and provide valuable insights for improving the quality of generated text.
+Sources: ['2402.01383v1/2311.18702v2.CritiqueLLM__Towards_an_Informative_Critique_Generation_Model_for_Evaluation_of_Large_Language_Model_Generation.pdf', '2402.01383v1/2311.00686v1.Little_Giants__Exploring_the_Potential_of_Small_LLMs_as_Evaluation_Metrics_in_Summarization_in_the_Eval4NLP_2023_Shared_Task.pdf', '2402.01383v1/2307.07889v3.LLM_Comparative_Assessment__Zero_shot_NLG_Evaluation_through_Pairwise_Comparisons_using_Large_Language_Models.pdf', '2402.01383v1/2307.03025v3.Style_Over_Substance__Evaluation_Biases_for_Large_Language_Models.pdf', '2402.01383v1/2310.19740v1.Collaborative_Evaluation__Exploring_the_Synergy_of_Large_Language_Models_and_Humans_for_Open_ended_Generation_Evaluation.pdf', '2402.01383v1/2310.19792v1.The_Eval4NLP_2023_Shared_Task_on_Prompting_Large_Language_Models_as_Explainable_Metrics.pdf', '2402.01383v1/2306.04181v2.Benchmarking_Foundation_Models_with_Language_Model_as_an_Examiner.pdf', '2402.01383v1/2310.19740v1.Collaborative_Evaluation__Exploring_the_Synergy_of_Large_Language_Models_and_Humans_for_Open_ended_Generation_Evaluation.pdf'] 
+SourceText:2 Related Work
+
+Evaluation is a long-standing task in NLP, which becomes more challenging with the rapid develop- ment of LLMs (Celikyilmaz et al., 2020; Chang et al., 2023). Currently, there are mainly two lines of work on LLM evaluation, including NLU-style and NLG-style evaluations. NLU-style evaluation methods utilize natural language understanding (NLU) tasks such as multi-choice QA to measure the performance of LLMs via simple objective met- rics (such as accuracy and F1 score) (Hendrycks et al., 2021; Zhong et al., 2023; Huang et al., 2023b), which may deviate from the common us- age of LLMs and may not exactly reflect the ability of LLMs in generating responses for user queries.
+
+ - -
+
+Previous research efforts have explored LLM- based evaluation metrics, yielding promising re- sults. Notable examples include the development of metrics like the GEMBA metric for translation quality assessment (Kocmi and Federmann, 2023), work on the effectiveness of LLMs as an alterna- tive to human evaluation for NLP tasks by Chiang and Lee (2023), and the INSTRUCTSCORE met- ric for summarization evaluation (Xu et al., 2023). However, a signiﬁcant gap exists in the system- atic evaluation and exploration of prompting tech- niques available for metric usage with LLMs. In fact, there is scant work in this area to date. Excep-
+
+ - -
+
+Our contributions are 1) We are the first work that comprehensively analyzes pairwise compara- tive assessment for NLG evaluation; 2) We demon- strate that comparative assessment is far more ef- fective than prompt-scoring for moderately-sized LLMs, and yields performance that is state-of-the- art for particular attributes; 3) We demonstrate that positional bias impacts comparative decisions, and introduce a method to debias LLMs which leads to performance boosts, especially when only a subset of comparisons are considered.
+
+2 Background and Related Work
+
+2.1 Reference-based Evaluation
+
+In NLG evaluation, a standard approach is the comparison of annotator-provided gold-standard references with the generated response. Estab- lished heuristics, such as the N-gram overlap met-
+
+2
+
+ - -
+
+Evaluation With the advancement of LLMs (Large Language Models), the need for their thor- ough evaluation becomes increasingly important. Traditionally, NLP models are assessed using stan- dardized benchmark test suites. Given the capa- bilities of LLMs, several studies suggest using a diverse set of NLP benchmarks for a more com- prehensive understanding (Hendrycks et al., 2021; Gao et al., 2021; Srivastava et al., 2022; Liang et al., 2022; Li et al., 2023b). As pointed out by Gudibande et al. (2023) and Zheng et al. (2023) that there is a gap between users’ perception and standardized evaluation suites, recent LLM studies often incorporate human evaluation for a more nu- anced understanding of model performance (Wang et al., 2022a; Chiang et al., 2023; Wu et al., 2023). As human evaluations can be costly, some recent works utilize state-of-the-art LLMs such as GPT-4 (OpenAI, 2023) and Claude-1 (Bai et al., 2022b) to evaluate model outputs. More recently, several works employ the Elo
+
+ - -
+
+8 Conclusion
+
+We propose an LLM-ideation-human-scrutiny pipeline to explore the synergy of LLMs and hu- mans in establishing evaluation criteria and con- ducting multi-dimensional evaluations for open- ended NLG tasks. We find that LLM’s criteria are generally comprehensive but tend to exaggerate un- necessary criteria without considering realistic con- ditions. Humans can identify errors made by LLMs during the evaluation process, such as skewed pos- itive scoring and hallucination in criteria that re- quire numerical reasoning and information seeking, among others. We hope our results and insights can motivate the development of trustworthy evaluation methods without excessive human effort.
+
+Limitations
+
+ - -
+
+Neema Kotonya, Saran Krishnasamy, Joel R. Tetreault, and Alejandro Jaimes. 2023. Little giants: Exploring the potential of small llms as evaluation metrics in summarization in the eval4nlp 2023 shared task. In Proceedings of the 4th Workshop on Evaluation and Comparison for NLP systems.
+
+Daniil Larionov, Vasiliy Viskov, George Kokush, Alexander Panchenko, and Steffen Eger. 2023. Team nllg submission for eval4nlp 2023 shared task: Retrieval-augmented in-context learning for nlg eval- uation. In Proceedings of the 4th Workshop on Eval- uation and Comparison for NLP systems.
+
+Ariel N. Lee, Cole J. Hunter, and Nataniel Ruiz. 2023a. Platypus: Quick, cheap, and powerful refinement of llms.
+
+ - -
+
+To address these issues, well-trained LMs are utilized in NLG evaluation [32, 33, 34, 35]. One mainstream of previous methods is reference-based, where they derive the similarity between the candidate and the reference using an LM. Some prominent metrics in this class include Mover- Score [36], BERTScore [14]. These metrics measure the distributional similarity rather than lexical overlap [37], making them appropriate for contexts that require more flexible generation. Recent studies [17, 18, 19, 38, 39, 40, 41, 42] have demonstrated that large language models (LLMs), such as ChatGPT [2], can conduct NLG evaluations in a reference-free manner. They can rate a candidate text (or perform a comparative assessment of two candidates) based on a specified evaluation aspect, displaying a high correlation with human assessments in tasks such as summarization and story generation [43, 44]. In these studies, the evaluations primarily focus on lexical quality aspects, such as coherence and
+
+ - -
+
+We demonstrate the usefulness and generality of COEVAL via instantiation on three open-ended NLG tasks. In Stage 1, we find that LLMs can pro- vide diverse high-quality task-specific evaluation criteria, with over 70% of the final criteria originat- ing from LLMs. However, approximately 27% are still deemed to be “unrealistic”, highlighting the im- portance of human involvement. In Stage 2, most LLM evaluations are acceptable, particularly for criteria such as relevance, achieving around 48% time savings compared to human evaluations with- out LLM assistants. Additionally, through the use of the LLM evaluations, outlier human evaluations that would typically appear in conventional human evaluation processes can be reduced by 62% while
