@@ -4,3 +4,5 @@ __pycache__
 .venv
 ./venv/*
 task3/2*
+task1/dataset/discussions.txt
+task1/dataset/mythesis.txt

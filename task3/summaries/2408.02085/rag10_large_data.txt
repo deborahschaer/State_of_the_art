@@ -1,0 +1,153 @@
+Response:  Title: Unleashing the Power of Data Tsunami: Recent Developments in Data Assessment and Selection for Instruction Tuning of Language Models
+
+Large Language Models (LLMs) have shown remarkable capabilities in generating human-aligned responses to a wide range of instructions. To enhance these models' instruction-following abilities, researchers have focused on Instruction Tuning, which aligns the model with human preferences using instruction-response pairs. However, the vast quantity of instruction data poses significant computational burdens and curation challenges. In this context, recent studies have explored various methods to make instruction tuning more efficient and effective.
+
+Instruction Dataset Curation: Filtering Out Low-Quality Data
+One approach to improving model performance through instruction tuning is by filtering out low-quality data during the fine-tuning stage. LIMA (Zhou et al., 2023) demonstrated that fine-tuning a robust pre-trained language model on 1,000 high-quality, human-curated examples yielded remarkable and competitive results. Instruction Mining (Cao et al., 2023) introduced a linear rule for selecting high-quality instruction data, eliminating the need for human annotation. Du et al. (2023) presented a model-oriented data selection (MoDS) approach that selects instruction data based on quality, coverage, and necessity. Li et al. (2023a) introduced a self-guided methodology for LLMs to autonomously discern and select cherry samples from vast open-source datasets, minimizing manual curation and potential costs.
+
+Pre-trained Weak Models as Proxy Models: Efficient Data Selection
+Our study reveals that pre-trained weak models can effectively act as proxies for strong models when utilizing the Instructive Fitness Distance (IFD) for data selection. These models do not necessitate fine-tuning on specific datasets, thereby reducing the risk of out-of-distribution issues. This innovative approach simplifies the data selection process and revolutionizes the efficiency and applicability of such methods in large language model instruction tuning.
+
+Consistency of Perplexity-based Metrics: Assessing Instruction Data
+Our finding, the consistency of perplexity-based metrics across weak and strong language models, might push forward the usage of small language models as proxy models not only for data selection but also in other areas. Moreover, our finding provides an efficient and general way to assess the instruction data of the whole dataset.
+
+Recent Developments: Making Instruction Tuning More Efficient
+Instruction tuning has gained significant attention due to its potential to improve model performance by fine-tuning on instruction data. However, the vast quantity of instruction data poses computational and time costs associated with adapting large models. To address these challenges, recent studies have explored various methods to make instruction tuning more efficient:
+
+1. Instruction Dataset Construction: Each instance in an instruction dataset consists of three elements: an instruction, an optional input, and an anticipated output. There are generally two methods for constructing instruction datasets: synthetic data generation and human-curated data collection. Synthetic data generation involves creating instruction-response pairs using existing data or templates, while human-curated data collection involves manually creating instruction-response pairs.
+
+2. Instruction Filtering: To reduce the computational burden of fine-tuning on large instruction datasets, researchers have focused on filtering out low-quality data during the dataset construction stage. LIMA (Zhou et al., 2023) demonstrated that fine-tuning a robust pre-trained language model on 1,000 high-quality, human-curated examples yielded remarkable and competitive results. Instruction Mining (Cao et al., 2023) introduced a linear rule for selecting high-quality instruction data, eliminating the need for human annotation. Du et al. (2023) presented a model-oriented data selection (MoDS) approach that selects instruction data based on quality, coverage, and necessity. Li et al. (2023a) introduced a self-guided methodology for LLMs to autonomously discern and select cherry samples from vast open-source datasets, minimizing manual curation and potential costs.
+
+3. Instruction Tuning with Pre-trained Models: Our study reveals that pre-trained weak models can effectively act as proxies for strong models when utilizing the Instructive Fitness Distance (IFD) for data selection. This approach simplifies the data selection process and reduces the risk of out-of-distribution issues, making instruction tuning more efficient and effective.
+
+4. Instruction Tuning with Transfer Learning: Transfer learning is another method to make instruction tuning more efficient by leveraging pre-trained models' knowledge to adapt to new tasks. This approach involves fine-tuning a pre-trained model on a new task using a smaller dataset, reducing the overall computational burden and time required for instruction tuning.
+
+5. Instruction Tuning with Meta-Learning: Meta-learning is an emerging method in instruction tuning that enables models to learn from a few examples of a new task and adapt to new tasks efficiently. This approach involves training a model on multiple tasks, allowing it to learn generalizable representations that can be fine-tuned for new tasks with minimal data.
+
+Criticism and Analysis: Instruction Tuning Models
+Instruction tuning models have gained significant attention due to their potential to improve model performance by fine-tuning on instruction data. However, these models also face criticism and challenges, including:
+
+1. Data Quality and Availability: The quality and availability of instruction data are critical factors in the success of instruction tuning models. Low-quality or irrelevant instruction data can negatively impact model performance, while a lack of available instruction data can limit the scope of instruction tuning applications.
+
+2. Computational Costs: Fine-tuning large language models on instruction datasets requires significant computational resources, making it an expensive and time-consuming process. This challenge limits the scalability and accessibility of instruction tuning models to researchers and organizations with limited computational budgets.
+
+3. Generalizability and Transferability: Instruction tuning models may struggle to generalize or transfer their knowledge to new tasks or domains, limiting their applicability in real-world scenarios. Addressing these challenges requires ongoing research into improving instruction dataset quality, developing more efficient data selection methods, and exploring alternative approaches to instruction tuning, such as transfer learning and meta-learning.
+
+Conclusion: Unleashing the Power of Data Tsunami
+Instruction tuning has emerged as a promising method for improving model performance by fine-tuning on instruction data. However, the vast quantity of instruction data poses significant computational and time costs associated with adapting large models. Recent studies have explored various methods to make instruction tuning more efficient and effective, including instruction dataset construction, filtering, pre-trained models, transfer learning, and meta-learning. These developments represent a crucial step towards unleashing the power of data tsunami in the field of language model research and applications. However, ongoing challenges, such as data quality and availability, computational costs, and generalizability and transferability, require continued research to address and overcome.
+Sources: ['2408.02085/2402.05123v1.A_Survey_on_Data_Selection_for_LLM_Instruction_Tuning.pdf', '2408.02085/2406.14115v1.Take_the_essence_and_discard_the_dross__A_Rethinking_on_Data_Selection_for_Fine_Tuning_Large_Language_Models.pdf', '2408.02085/2307.06290v3.Instruction_Mining__Instruction_Data_Selection_for_Tuning_Large_Language_Models.pdf', '2408.02085/2305.09246v1.Maybe_Only_0_5__Data_is_Needed__A_Preliminary_Exploration_of_Low_Training_Data_Instruction_Tuning.pdf', '2408.02085/2407.15235v1.TAGCOS__Task_agnostic_Gradient_Clustered_Coreset_Selection_for_Instruction_Tuning_Data.pdf', '2408.02085/2402.00530v2.Superfiltering__Weak_to_Strong_Data_Filtering_for_Fast_Instruction_Tuning.pdf', '2408.02085/2311.08182v1.Self_Evolved_Diverse_Data_Sampling_for_Efficient_Instruction_Tuning.pdf', '2408.02085/2312.11508v2.Rethinking_the_Instruction_Quality__LIFT_is_What_You_Need.pdf', '2408.02085/2307.06290v3.Instruction_Mining__Instruction_Data_Selection_for_Tuning_Large_Language_Models.pdf', '2408.02085/2308.10792v5.Instruction_Tuning_for_Large_Language_Models__A_Survey.pdf'] 
+SourceText:Instruction tuning is a vital step of training large language models (LLM), so how to enhance the ef- fect of instruction tuning has received increased at- tention. Existing works indicate that the quality of the dataset is more crucial than the quantity during instruction tuning of LLM. Therefore, recently a lot of studies focus on exploring the methods of select- ing high-quality subset from instruction datasets, aiming to reduce training costs and enhance the instruction-following capabilities of LLMs. This paper presents a comprehensive survey on data se- lection for LLM instruction tuning. Firstly, we in- troduce the wildly used instruction datasets. Then, we propose a new taxonomy of the data selection methods and provide a detailed introduction of re- cent advances,and the evaluation strategies and re- sults of data selection methods are also elaborated in detail. Finally, we emphasize the open chal- lenges and present new frontiers of this task.
+
+1 Introduction
+
+ - -
+
+References
+
+Alon Albalak, Yanai Elazar, Sang Michael Xie, Shayne Longpre, Nathan Lambert, Xinyi Wang, Niklas Muennighoff, Bairu Hou, Liangming Pan, Hae- won Jeong, Colin Raffel, Shiyu Chang, Tatsunori Hashimoto, and William Yang Wang. 2024. A sur- vey on data selection for language models.
+
+Yihan Cao, Yanbin Kang, Chi Wang, and Lichao Sun. 2023. Instruction mining: When data mining meets large language model finetuning.
+
+Lichang Chen, Shiyang Li, Jun Yan, Hai Wang, Kalpa Gunaratna, Vikas Yadav, Zheng Tang, Vijay Srini- vasan, Tianyi Zhou, Heng Huang, and Hongxia Jin. 2024. Alpagasus: Training a better alpaca with fewer data.
+
+Hyung Won Chung, Le Hou, Shayne Longpre, Barret Zoph, Yi Tay, William Fedus, Yunxuan Li, Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, et al. 2024. Scaling instruction-finetuned language models. Journal of Machine Learning Research, 25(70):1–53.
+
+ - -
+
+4 2 0 2
+
+l u J
+
+6 2
+
+] L C . s c [
+
+3 v 0 9 2 6 0 . 7 0 3 2 : v i X r a
+
+Published as a conference paper at COLM 2024
+
+Instruction Mining: Instruction Data Selection for Tuning Large Language Models
+
+Yihan Cao∗ LinkedIn Sunnyvale, CA yihacao@linkedin.com
+
+Yanbin Kang∗ LinkedIn Sunnyvale, CA ybkang@linkedin.com
+
+Chi Wang Microsoft Research Redmond, Washington wang.chi@microsoft.com
+
+Lichao Sun Lehigh University Bethlehem, PA lis221@lehigh.edu
+
+Abstract
+
+ - -
+
+Instruction tuning for large language models (LLMs) has gained attention from researchers due to its ability to unlock the potential of LLMs in following instructions. While instruction tuning offers advantages for facilitating the adaptation of large language models (LLMs) to downstream tasks as a ﬁne-tuning approach, training models with tens of millions or even billions of parameters on large amounts of data results in unaffordable computational costs. To address this, we focus on reducing the data used in LLM instruction tuning to decrease training costs and improve data efﬁciency, dubbed as Low Training Data Instruction Tuning (LTD Instruction Tuning). Speciﬁcally, this paper conducts a preliminary exploration into reducing the data used in LLM training and identiﬁes several observations regarding task specialization for LLM training, such as the optimization of performance for a speciﬁc task, the number of instruction types required for instruction tuning, and the amount of data
+
+ - -
+
+1
+
+Introduction
+
+Instruction tuning [Wei et al., 2022a, Ouyang et al., 2022] is the most important strategy for customizing Large Language Models (LLMs) for downstream tasks, which allows them to precisely understand human intentions and accurately generate responses in natural languages. Recently, many existing works Wang et al. [2023a] expand the amount and diversity of instructions for instruction tuning to further enhance the LLM’s capability. However, the increased quantity of the dataset also leads to significantly higher computational costs for instruction tuning. Meanwhile, Zhou et al. [2023] revealed that only 1,000 high-quality, human-created data samples could substantially improve the ability of LLMs to follow instructions, which suggest that there exists severe redundancy in current instruction datasets, and only a high-quality subset may suffice for achieving promising performance.
+
+ - -
+
+However, our study reveals that pre-trained weak models are naturally effectively capable of acting as proxies for strong models when utilizing the IFD for data selection. These models do not necessitate fine-tuning on specific datasets, thereby reducing the risk of out-of-distribution issues. This innova- tive approach not only simplifies the data selection process but also revolutionizes the efficiency and applicability of such methods in large language model instruction tuning.
+
+6.2 Sperfiltering as Dataset Assessment
+
+Our finding, the consistency of perplexity-based metrics across weak and strong language models,
+
+might push forward the usage of small language models as proxy models, not only in the area of data selection. Moreover, our finding provides an efficient and general way to assess the instruction data of the whole dataset.
+
+ - -
+
+1
+
+Introduction
+
+Large Language Models (LLMs) have demon- strated prowess in producing human-aligned re- sponse to varied instructions. A pivotal technique for enhancing the instruction-following capabilities of LLMs is Instruction Tuning, which aligns the model with human preferences using data in the form of instruction-response pairs.
+
+While massive instruction-tuning datasets exist, their vast quantity poses a significant computational burden, and their curation is itself a formidable
+
+∗∗Work done during internship at Alibaba Group.
+
+ - -
+
+2 Related Works
+
+2.1
+
+Instruction Dataset Curation
+
+To enhance the model’s performance following in- struction fine-tuning, some researchers have con- centrated on filtering out low-quality data during the fine-tuning stage. LIMA (Zhou et al., 2023) demonstrates that fine-tuning a robust pre-trained language model on 1000 high-quality, human- curated examples can yield remarkable and compet- itive results. Instruction Mining (Cao et al., 2023) introduces a linear rule for selecting high-quality instruction data, eliminating the need for human an- notation, as seen in LIMA. Du et al. (2023) present a model-oriented data selection (MoDS) approach, which selects instruction data based on a new crite- ria considering three aspects: quality, coverage and necessity. Li et al. (2023a) introduce a self-guided methodology for LLMs to autonomously discern and select cherry samples from vast open-source datasets, effectively minimizing manual curation and potential cost.
+
+ - -
+
+Large language models (LLMs) have demonstrated transformative capabilities, powering numerous applications with the strong ability in automatically generating responses according to human instructions (Ouyang et al., 2022; Peng et al., 2023; Chung et al., 2022; Scao et al., 2022). However, it is hard sometimes for language models to capture the meaning of human instructions and respond to them even if they are pretrained with large amount of data. To counter this challenge, instruction tuning emerged as a paramount method in tailoring the behaviours of LLMs, which leverages instruction-following pairwise data (i.e., instruction data) during finetuning (Wei et al., 2021; Ouyang et al., 2022; Chung et al., 2022; Wang et al., 2022a). A recent study LIMA has revealed that even a small amount of carefully selected high-quality instruction data can significantly improve model performance through instruction tuning (Zhou et al., 2023). Nevertheless, LIMA still requires human experts to
+
+ - -
+
+Section 7 reviews explorations to make instruction efficient, fine-tuning more reducing the computational and time costs associated with adapting large models.
+
+Section 8 presents the evaluation of IT models, analysis on them, along with criticism against them.
+
+2 Methodology
+
+In this section, we describe the general pipeline employed in instruction tuning.
+
+2.1
+
+Instruction Dataset Construction
+
+Each instance in an instruction dataset consists of three elements: an instruction, which is a natural language text sequence to specify the task (e.g., write a thank-you letter to XX for XX, write a blog on the topic of XX, etc); an optional input which
+
+provides supplementary information for context; and an anticipated output based on the instruction and the input. are
+
+There
+
+generally
+
+two methods
+
+constructing instruction datasets:

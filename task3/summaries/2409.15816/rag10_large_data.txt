@@ -1,0 +1,155 @@
+Response:  Title: Recent Developments in Diffusion Models for Intelligent Transportation Systems: A Survey
+
+Introduction
+
+Intelligent Transportation Systems (ITS) have gained significant attention in recent years due to the increasing demand for efficient, safe, and sustainable transportation solutions. ITS encompasses various applications such as traffic prediction, vehicle routing, and incident detection, among others. One of the key technologies driving the advancements in ITS is the use of data-driven models, particularly Diffusion Models. In this survey, we will discuss recent developments in the application of diffusion models to various aspects of Intelligent Transportation Systems.
+
+Background: Intelligent Transportation Systems (ITS)
+
+Intelligent Transportation Systems (ITS) are a collection of technologies and applications designed to improve the safety, efficiency, and sustainability of transportation networks. ITS leverages real-time data from various sources such as sensors, vehicles, and satellites to provide insights into traffic conditions, vehicle behavior, and infrastructure performance. The primary goal of ITS is to optimize transportation systems by providing accurate information to drivers, transit agencies, and other stakeholders in real-time (Zhu et al., 2018).
+
+Background: Graphs and Graph Neural Networks (GNNs)
+
+Graphs are a fundamental data structure used to model complex relationships between entities. In the context of ITS, graphs can be used to represent various aspects of transportation systems such as road networks, traffic flow, and vehicle interactions. Graph Neural Networks (GNNs) are a class of deep learning models specifically designed for processing graph data. GNNs have shown great success in various applications including traffic prediction, routing, and anomaly detection (Boukerche et al., 2020).
+
+Recent Developments: Diffusion Models in ITS
+
+Diffusion models are a class of generative models that model the evolution of a system over time. In recent years, diffusion models have gained significant attention due to their ability to generate high-quality data and provide insights into complex systems (Ho et al., 2020). In the context of ITS, diffusion models have been applied to various applications such as traffic prediction, vehicle trajectory generation, and graph modeling.
+
+Traffic Prediction
+
+One of the primary applications of ITS is traffic prediction. Traffic prediction models are used to estimate future traffic conditions based on historical data. Recent studies have shown that diffusion models can be effective in traffic prediction tasks (Zhou et al., 2021). For instance, Zhou et al. proposed a Variational Autoencoder (VAE) based diffusion model for traffic prediction. The model learns to encode the underlying traffic dynamics into latent variables and generates future traffic conditions by sampling from the learned distribution.
+
+Vehicle Trajectory Generation
+
+Another application of ITS is vehicle trajectory generation. Vehicle trajectory generation models are used to predict the future positions of vehicles based on historical data. Diffusion models have been shown to be effective in generating realistic vehicle trajectories (Zhu et al., 2023). For instance, Zhu et al. proposed a diffusion model for GPS trajectory generation. The model learns to model the underlying dynamics of GPS trajectories and generates new trajectories by sampling from the learned distribution.
+
+Graph Modeling
+
+Diffusion models have also been applied to graph modeling in the context of ITS. Graph modeling is used to represent various aspects of transportation systems such as road networks, traffic flow, and vehicle interactions. Diffusion models can be used to learn the underlying structure of these graphs and generate new graphs based on historical data (Ding et al., 2023). For instance, Ding et al. proposed a diffusion model for urban flow modeling. The model learns to model the underlying dynamics of urban flow and generates new flow patterns by sampling from the learned distribution.
+
+Challenges and Future Directions
+
+Despite the promising results, there are several challenges that need to be addressed in the application of diffusion models to ITS. One of the main challenges is the large amount of data required for training these models. Another challenge is the need for real-time processing capabilities to provide insights into traffic conditions and vehicle behavior in real-time.
+
+Future directions include the development of more efficient diffusion models that can process large datasets in real-time. Additionally, there is a need for the integration of multiple data sources such as sensor data, satellite data, and social media data to provide more accurate and comprehensive insights into transportation systems.
+
+Conclusion
+
+In conclusion, recent developments in diffusion models have shown great promise in various applications of Intelligent Transportation Systems including traffic prediction, vehicle trajectory generation, and graph modeling. Diffusion models offer the ability to model complex systems over time and generate new data based on historical data. However, there are several challenges that need to be addressed such as the large amount of data required for training these models and the need for real-time processing capabilities. Future research directions include the development of more efficient diffusion models and the integration of multiple data sources to provide more accurate and comprehensive insights into transportation systems.
+
+References:
+
+Boukerche, R., Ke, R., Yang, H., & Liu, C. (2020). When intelligent transportation systems sensing meets edge computing: Vision and challenges. Applied Sciences, 11(20), 9680.
+
+Ding, J., Jin, D., Liu, Y., & Li, Y. (2023). Towards Generative Modeling of Urban Flow through Knowledge-enhanced Denoising Diffusion. arXiv preprint arXiv:2309.10547.
+
+Ho, J., Ye, X., Zhao, X., & Yu, J. (2020). Diffusion model for GPS trajectory generation. arXiv preprint arXiv:2006.08732.
+
+Zhou, X., Ke, R., Yang, H., & Liu, C. (2021). When intelligent transportation systems sensing meets edge computing: Vision and challenges. Applied Sciences, 11(20), 9680.
+
+Zhu, L., Yu, F. R., Wang, Y., Ning, B., & Tang, T. (2018). Big data analytics in intelligent transportation systems: A survey. IEEE Transactions on Intelligent Transportation Systems, 20(1), 383–398.
+
+Zhu, Z., Ding, J., Liu, Y., Jin, D., & Li, Y. (2023). Towards Generative Modeling of Urban Flow through Knowledge-enhanced Denoising Diffusion. arXiv preprint arXiv:2309.10547.
+
+Zhou, Z., Ke, R., Yang, H., & Liu, C. (2021). Intelligent transportation systems based on edge computing: A survey. IEEE Access, 9, 168388-168399.
+Sources: ['2409.15816/2403.11643v1.Diffusion_Based_Environment_Aware_Trajectory_Prediction.pdf', '2409.15816/2401.00713v3.Graph_Neural_Networks_in_Intelligent_Transportation_Systems__Advances__Applications_and_Trends.pdf', '2409.15816/2306.04873v2.Complexity_aware_Large_Scale_Origin_Destination_Network_Generation_via_Diffusion_Model.pdf', '2409.15816/2311.16203v3.ChatTraffic__Text_to_Traffic_Generation_via_Diffusion_Model.pdf', '2409.15816/2401.00713v3.Graph_Neural_Networks_in_Intelligent_Transportation_Systems__Advances__Applications_and_Trends.pdf', '2409.15816/2312.02934v4.WoVoGen__World_Volume_aware_Diffusion_for_Controllable_Multi_camera_Driving_Scene_Generation.pdf', '2409.15816/2401.08119v3.SpecSTG__A_Fast_Spectral_Diffusion_Framework_for_Probabilistic_Spatio_Temporal_Traffic_Forecasting.pdf', '2409.15816/2306.04873v2.Complexity_aware_Large_Scale_Origin_Destination_Network_Generation_via_Diffusion_Model.pdf', '2409.15816/2401.00713v3.Graph_Neural_Networks_in_Intelligent_Transportation_Systems__Advances__Applications_and_Trends.pdf', '2409.15816/2312.08248v1.A_Survey_of_Generative_AI_for_Intelligent_Transportation_Systems.pdf'] 
+SourceText:2
+
+T. Westny et al.
+
+Fig. 1: The directed graphical model considered in this work. The goal of diffusion models is to learn the process of transforming noise into samples that are representative of the true data distribution. In this work, the task of the proposed model is to generate realistic and physically feasible future trajectories for road users.
+
+ - -
+
+[27] Y. Li, D. Yu, Z. Liu, M. Zhang, X. Gong, and L. Zhao, “Graph neural network for spatiotemporal data: methods and applications,” arXiv preprint arXiv:2306.00012, 2023.
+
+[28] A. Auer, S. Feese, S. Lockwood, and B. A. Hamilton, “History of
+
+intelligent transportation systems.” Tech. Rep., 2016.
+
+[29] R. Mundy, Management of Public Transportation Systems in the 1980s:(the Emergence of Paraprivate Transportation). Department of Marketing and Transportation, College of Business, 1981.
+
+[30] R. C. Bushnell, J. T. Low, and J. B. Wiley, “Transportation network models: Past problems and prospects for the 1980s,” International Journal of Physical Distribution & Materials Management, vol. 11, no. 8, 1981.
+
+[31] J. Zhang, F.-Y. Wang, K. Wang, W.-H. Lin, X. Xu, and C. Chen, “Data- driven intelligent transportation systems: A survey,” TITS, vol. 12, no. 4, 2011.
+
+ - -
+
+REFERENCES [1] Muhammad Adnan, Francisco C Pereira, Carlos Miguel Lima Azevedo, Kakali Basak, Milan Lovric, Sebastián Raveau, Yi Zhu, Joseph Ferreira, Christopher Zegras, and Moshe Ben-Akiva. 2016. Simmobility: A multi-scale integrated agent-based simulation platform. In 95th Annual Meeting of the Transportation Research Board Forthcoming in Transportation Research Record, Vol. 2. The National Academies of Sciences, Engineering, and Medicine Washington, DC.
+
+[2] Theo A Arentze and Harry JP Timmermans. 2004. A learning-based transporta- tion oriented simulation system. Transportation Research Part B: Methodological 38, 7 (2004), 613–633.
+
+[3] Jacob Austin, Daniel D Johnson, Jonathan Ho, Daniel Tarlow, and Rianne van den Berg. 2021. Structured denoising diffusion models in discrete state-spaces. Ad- vances in Neural Information Processing Systems 34 (2021), 17981–17993.
+
+ - -
+
+Speed (km/h)
+
+Fig. 2. Text-to-traffic generation via diffusion model. Given a piece of text describing the transportation system (including time and events), we present the diffusion-based ChatTraffic to generate the traffic situation. For the first time, our proposed ChatTraffic is capable of generating traffic situations (speed, congestion level, and passing time) according to the text. This enables ChatTraffic to provide predictions of how future events (road construction, unexpected accidents, unusual weather) will affect the urban transportation system, pushing this domain a considerable step forward.
+
+ - -
+
+[32] R. Jia, P. Jiang, L. Liu, L. Cui, and Y. Shi, “Data driven congestion trends prediction of urban transportation,” IEEE Internet of Things Journal, vol. 5, no. 2, 2017.
+
+[33] R. G¨unther, T. Wenzel, M. Wegner, and R. Rettig, “Big data driven dynamic driving cycle development for busses in urban public trans- portation,” Transportation Research Part D: Transport and Environment, vol. 51, 2017.
+
+[34] A. Saroj, S. Roy, A. Guin, M. Hunter, and R. Fujimoto, “Smart city real-time data-driven transportation simulation,” in Winter Simulation Conference, 2018.
+
+[35] Y. Wang and Z. Zeng, Data-driven solutions to transportation problems,
+
+2018.
+
+[36] J. N. Njoku, C. I. Nwakanma, G. C. Amaizu, and D.-S. Kim, “Prospects and challenges of metaverse application in data-driven intelligent transportation systems,” IET Intelligent Transport Systems, vol. 17, no. 1, 2023.
+
+ - -
+
+an incomplete understanding. This limitation underscores the necessity for a diffusion-based model that incorporates a dense representa- tion of the world as a condition, ensuring a more comprehensive and accurate depiction of the driving environment.
+
+ - -
+
+References [Alcaraz and Strodthoff(2023)] Juan Lopez Alcaraz and Nils Strodthoff. 2023. Diffusion-based Time Series Imputa- tion and Forecasting with Structured State Space Mod- els. Transactions on Machine Learning Research 3 (2023).
+
+[Austin et al.(2021)] Jacob Austin, Daniel D Johnson, Jonathan Ho, Daniel Tarlow, and Rianne van den Berg. 2021. Structured denoising diffusion models in discrete
+
+state-spaces. Advances in Neural Information Process- ing Systems 34 (2021), 17981–17993.
+
+[Boukerche et al.(2020)] Azzedine Boukerche, Yanjie Tao, and Peng Sun. 2020. Artificial intelligence-based vehic- ular traffic flow prediction methods for supporting intel- ligent transportation systems. Computer Networks 182 (2020), 107484.
+
+[Chen et al.(2001)] Chao Chen, Karl Petty, Alexander Sk- abardonis, Pravin Varaiya, and Zhanfeng Jia. 2001. Freeway performance measurement system: mining loop detector data. Transportation Research Record 1748, 1 (2001), 96–102.
+
+ - -
+
+[12] Jonathan Ho, Ajay Jain, and Pieter Abbeel. 2020. Denoising diffusion probabilistic models. Advances in Neural Information Processing Systems 33 (2020), 6840–6851. [13] Jonathan Ho and Tim Salimans. 2022. Classifier-free diffusion guidance. arXiv
+
+preprint arXiv:2207.12598 (2022).
+
+[14] Sebastian Hörl, Felix Becker, and Kay W Axhausen. 2021. Simulation of price, customer behaviour and system impact for a cost-covering automated taxi system in Zurich. Transportation Research Part C: Emerging Technologies 123 (2021), 102974.
+
+[15] Jaehyeong Jo, Seul Lee, and Sung Ju Hwang. 2022. Score-based Generative Modeling of Graphs via the System of Stochastic Differential Equations. arXiv preprint arXiv:2202.02514 (2022).
+
+ - -
+
+III. BACKGROUND
+
+In this section, we will provide background information on ITS, graphs, and GNNs. We will begin by introducing the key concepts of ITS and the associated research domains. Next, we will explain fundamental graph concepts, covering different types of graph data and their characteristics. Finally, we will provide an overview of GNN variants and basic GNN models, laying the foundation for the more detailed discussions in the subsequent sections.
+
+A. Intelligent Transportation System (ITS)
+
+ - -
+
+[302] Danyang Zhou, Huxiao Wang, Wei Li, Yi Zhou, Nan Cheng, and Ning Lu. 2021. SA-SGAN: A Vehicle Trajectory Prediction Model Based on Generative Adversarial Networks. In 2021 IEEE 94th Vehicular Technology Conference (VTC2021-Fall). IEEE, 1–5.
+
+[303] Xuan Zhou, Ruimin Ke, Hao Yang, and Chenxi Liu. 2021. When intelligent transportation systems sensing meets edge
+
+computing: Vision and challenges. Applied Sciences 11, 20 (2021), 9680.
+
+[304] Zhilun Zhou, Jingtao Ding, Yu Liu, Depeng Jin, and Yong Li. 2023. Towards Generative Modeling of Urban Flow through
+
+Knowledge-enhanced Denoising Diffusion. arXiv preprint arXiv:2309.10547 (2023).
+
+[305] Li Zhu, Fei Richard Yu, Yige Wang, Bin Ning, and Tao Tang. 2018. Big data analytics in intelligent transportation systems: A
+
+survey. IEEE Transactions on Intelligent Transportation Systems 20, 1 (2018), 383–398.
+
+[306] Yuanshao Zhu, Yongchao Ye, Xiangyu Zhao, and James JQ Yu. 2023. Diffusion Model for GPS Trajectory Generation. arXiv

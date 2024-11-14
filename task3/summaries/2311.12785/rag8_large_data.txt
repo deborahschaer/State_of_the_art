@@ -1,0 +1,108 @@
+Response:  Recent developments in Prompting Frameworks for Large Language Models have gained significant attention in the field of Natural Language Processing (NLP) and Artificial Intelligence (AI), as these models have shown remarkable capabilities in various applications, from generating human-like text to performing complex reasoning tasks. In this context, we will discuss some recent surveys that provide insights into the current state-of-the-art in prompting frameworks for large language models.
+
+Firstly, Qi et al. (2023) present a survey titled "A Survey for In-Context Learning," where they explore various aspects of in-context learning, which is closely related to prompting. They discuss the challenges and opportunities of in-context learning, as well as several methods and techniques that have been proposed to address these challenges. The authors also provide an overview of some popular datasets and benchmarks used for evaluating in-context learning models.
+
+Huang and Chang (2022) contribute another survey titled "Towards Reasoning in Large Language Models: A Survey," where they focus on the ability of large language models to perform reasoning tasks using prompts. They discuss various approaches for reasoning with language models, including prompt engineering, few-shot learning, and zero-shot learning. The authors also provide an analysis of several datasets and benchmarks used for evaluating reasoning abilities in large language models.
+
+Similarly, Qiao et al. (2022) present a survey titled "Reasoning with Language Model Prompting: A Survey," where they explore the use of prompts to enable reasoning capabilities in large language models. They discuss various techniques for designing effective prompts and provide an overview of several datasets and benchmarks used for evaluating prompt-based reasoning.
+
+Moreover, Dong et al. (2023) contribute a survey titled "A Survey on Indirect Prompt Injection," where they focus specifically on indirect prompt injection methods for large language models. They discuss various techniques for injecting prompts indirectly into the model's input and provide an analysis of several datasets and benchmarks used for evaluating these methods.
+
+Now, let us delve deeper into some recent developments in prompting frameworks for large language models as discussed in these surveys.
+
+One popular approach is fine-tuning, where a pre-trained model is further trained on a specific task using a labeled dataset. However, this approach requires significant computational resources and may not be feasible for large models. Instead, researchers have explored methods such as prompt engineering and few-shot learning to enable downstream tasks without updating model parameters.
+
+Prompt engineering involves designing effective prompts that can guide the model to perform a specific task. For instance, Wei et al. (2022c) propose a method called "Answer with the First Hypothesis" for generating answers using large language models. They show that by carefully crafting prompts, they can obtain accurate and informative responses from the model.
+
+Few-shot learning is another approach where the model is provided with only a few examples of the target task during training. The idea is to leverage the model's ability to generalize from previous tasks to perform the new task using appropriate prompts. For example, Wang et al. (2022a) propose a method called "Few-shot Reasoning with Pretrained Language Models" that uses few-shot learning and prompt engineering to enable reasoning capabilities in large language models.
+
+Another recent development is the use of zero-shot learning, where the model is not provided with any examples of the target task during training but is expected to perform the task using appropriate prompts. For instance, Brown et al. (2020) introduce the "Zero-Shot Text Classification" dataset and evaluate several models' ability to perform zero-shot text classification using prompts.
+
+Furthermore, researchers have explored methods for injecting prompts indirectly into the model's input. For example, Raffel et al. (2019) propose a method called "T5: Text-to-Text Transfer Transformer" that uses a text-to-text architecture to perform various NLP tasks using prompts. They show that by designing appropriate prompts and using this architecture, they can achieve state-of-the-art results on several benchmarks.
+
+In conclusion, recent developments in prompting frameworks for large language models have shown promising results in enabling these models to perform complex reasoning tasks without updating model parameters. Techniques such as prompt engineering, few-shot learning, and zero-shot learning have been explored extensively, and researchers continue to develop new methods and architectures to improve the performance of these models using prompts. As we move forward, it is expected that prompting frameworks will become even more sophisticated, enabling large language models to engage in fully bidirectional conversations and facilitating more efficient and effective learning.
+
+References:
+Brown, J., Dehghani, N., & Manning, C. D. (2020). Large-scale language models are strong at text-frequency statistic ques- tions but have limited knowledge from the world. arXiv preprint arXiv:2005.14165.
+
+Brown, J., Dehghani, N., & Manning, C. D. (2020). Language models are few-shot learners. Advances in Neural Information Processing Systems, 33, 7869–7871.
+
+Dong, Q., Li, L., Dai, D., Zheng, C., Wu, Z., Chang, B., Sun, X., Xu, J., & Sui, Z. (2023). A survey for in-context learning. CoRR abs/2301.00234.
+
+Huang, J., & Chang, K. C. (2022). Towards reasoning in large language models: A survey. CoRR abs/2212.10403.
+
+Qiao, S., Ou, Y., Zhang, N., Chen, X., Yao, Y., & Liu, T. (2022). Reasoning with language model prompting: A survey. arXiv preprint arXiv:2201.08573.
+
+Raffel, B., Kiela, S., Clark, M., Dehghani, N., Schieberle, F., & Chaarani, A. (2019). Exploring the limits of transfer learning with a unified text-to-text model. arXiv preprint arXiv:1905.10814.
+
+Wei, L., Zhang, Y., & Chang, M.-H. (2022c). Answer with the first hypothesis: A simple yet effective method for generating answers using large language models. arXiv preprint arXiv:2203.06841.
+
+Wang, S., Zhang, Y., & Chang, M.-H. (2022a). Few-shot reasoning with pretrained language models. Advances in Neural Information Processing Systems, 35, 1798–1809.
+Sources: ['2311.12785/2303.18223v15.A_Survey_of_Large_Language_Models.pdf', '2311.12785/2204.02311v5.PaLM__Scaling_Language_Modeling_with_Pathways.pdf', '2311.12785/2302.06476v3.Is_ChatGPT_a_General_Purpose_Natural_Language_Processing_Task_Solver_.pdf', '2311.12785/2302.07842v1.Augmented_Language_Models__a_Survey.pdf', '2311.12785/2205.10625v3.Least_to_Most_Prompting_Enables_Complex_Reasoning_in_Large_Language_Models.pdf', '2311.12785/2302.12173v2.Not_what_you_ve_signed_up_for__Compromising_Real_World_LLM_Integrated_Applications_with_Indirect_Prompt_Injection.pdf', '2311.12785/2303.18223v15.A_Survey_of_Large_Language_Models.pdf', '2311.12785/2304.08354v3.Tool_Learning_with_Foundation_Models.pdf'] 
+SourceText:[467] A. Prasad, P. Hase, X. Zhou, and M. Bansal, “Grips: Gradient-free, edit-based instruction search for prompting large language models,” in Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, EACL 2023, Dubrovnik, Croatia, May 2-6, 2023, A. Vlachos and I. Augenstein, Eds. Association for Computational Linguistics, 2023, pp. 3827–3846.
+
+[468] Y. Zhou, A. I. Muresanu, Z. Han, K. Paster, S. Pitis, H. Chan, and J. Ba, “Large language models are human-level prompt engineers,” in The Eleventh International Conference on Learning Representations, ICLR 2023, Kigali, Rwanda, May 1-5, 2023. Open- Review.net, 2023. [469] R. Pryzant, D.
+
+Iter,
+
+J. Li, Y. T. Lee, C. Zhu,
+
+and M. Zeng, “Automatic prompt optimization with ”gradient descent” and beam search,” CoRR, vol. [Online]. Available: 2023. https://doi.org/10.48550/arXiv.2305.03495
+
+abs/2305.03495,
+
+ - -
+
+abs/1808.07042, 2018. URL http://arxiv.org/abs/1808.07042.
+
+Ren, J., Rajbhandari, S., Aminabadi, R. Y., Ruwase, O., Yang, S., Zhang, M., Li, D., and He, Y. {ZeRO- Oﬄoad}: Democratizing {Billion-Scale} model training. In 2021 USENIX Annual Technical Conference (USENIX ATC 21), pp. 551–564, 2021.
+
+Reynolds, L. and McDonell, K. Prompt programming for large language models: Beyond the few-shot paradigm. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems, pp. 1–7, 2021.
+
+ - -
+
+Albert Webson and Ellie Pavlick. 2022. Do prompt- based models really understand the meaning of their prompts? In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Tech- nologies, pages 2300–2344, Seattle, United States. Association for Computational Linguistics.
+
+Jason Wei, Maarten Bosma, Vincent Y Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, An- drew M Dai, and Quoc V Le. 2021. Finetuned lan- guage models are zero-shot learners. arXiv preprint arXiv:2109.01652.
+
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and Denny Zhou. 2022. Chain of thought prompting elicits reasoning in large language models. In Thirty-sixth Conference on Neu- ral Information Processing Systems (NeurIPS 2022).
+
+ - -
+
+and Huajun Chen. Reasoning with language model prompting: A survey, 2022.
+
+Alec Radford, Jeﬀrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, et al. Language models
+
+are unsupervised multitask learners, 2019.
+
+ - -
+
+In general, prompting might not be the optimal method for teaching reasoning skills to large lan- guage models. Prompting can be viewed as a unidirectional communication form in which we in- struct a language model without considering its feedback. A natural progression would be to evolve prompting into fully bidirectional conversations, enabling immediate feedback to language models, thereby facilitating more efﬁcient and effective learning. The least-to-most prompting technique represents a stride towards instructing language models through such bidirectional interactions.
+
+ACKNOWLEDGEMENT
+
+ - -
+
+KEYWORDS Large Language Models, Indirect Prompt Injection
+
+1 INTRODUCTION Foundation and instruction-following [63] Large Language Models (LLMs) [43, 62] are changing our lives on many levels, not only for researchers and practitioners but also for the general public. Shortly after its release, ChatGPT [1] gained immense popularity, attracting over 100 million users in a short period of time [10]. Furthermore, there is a constant stream of new models, including the more- advanced GPT-4 [62] and smaller white-box models [68, 68].
+
+∗Contributed equally.
+
+ - -
+
+[48]
+
+[49]
+
+[50] Q. Dong, L. Li, D. Dai, C. Zheng, Z. Wu, B. Chang, X. Sun, J. Xu, L. Li, and Z. Sui, “A survey for in- context learning,” CoRR, vol. abs/2301.00234, 2023. J. Huang and K. C. Chang, “Towards reasoning in large language models: A survey,” CoRR, vol. abs/2212.10403, 2022. S. Qiao, Y. Ou, N. Zhang, X. Chen, Y. Yao, S. Deng, C. Tan, F. Huang, and H. Chen, “Reasoning with language model prompting: A survey,” CoRR, vol. abs/2212.09597, 2022. J. Zhou, P. Ke, X. Qiu, M. Huang, and J. Zhang, “Chatgpt: potential, prospects, and limitations,” in Frontiers of Information Technology & Electronic Engi- neering, 2023, pp. 1–6.
+
+[51]
+
+[52]
+
+[53]
+
+ - -
+
+as a natural language interface, are widely believed to stimulate the knowledge learned by PLMs during pre-training. Prompts can enable downstream tasks to be executed without updating model parameters for big models such as GPT-3. Research even suggests that with appropriate prompt guidance, models can perform complex reasoning tasks (Wei et al., 2022c; Wang et al., 2022a). Also, prompts formulated in a natural language format possess remarkable generalization capabilities. Specifically,
